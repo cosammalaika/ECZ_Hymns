@@ -17,7 +17,7 @@ class MyDrawer extends StatelessWidget {
               color: Colors.blue,
             ),
             child: Text(
-              'ECZ Hymn Book',
+              'ECZ Hymnals',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18,
@@ -56,7 +56,7 @@ class MyDrawer extends StatelessWidget {
     return ExpansionTile(
       leading: const Icon(Icons.language),
       title: const Text(
-        'Versions',
+        'Hymnals',
         style: TextStyle(
           fontSize: 12, // Adjust the font size here
         ),

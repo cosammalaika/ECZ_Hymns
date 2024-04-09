@@ -18,37 +18,30 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hymn ${widget.hymn.id}'),
-        actions: [
-          IconButton(
-            onPressed: () {
-              setState(() {
-                isFavorite = !isFavorite;
-              });
-            },
-            icon: Icon(
-              isFavorite ? Icons.favorite : Icons.favorite_border,
-            ),
-          ),
-          IconButton(
-            onPressed: () {
-              setState(() {
-                fontSize += 2;
-              });
-            },
-            icon: Icon(Icons.add),
-          ),
-          IconButton(
-            onPressed: () {
-              setState(() {
-                if (fontSize > 2) {
-                  fontSize -= 2;
-                }
-              });
-            },
-            icon: Icon(Icons.remove),
-          ),
-        ],
+        title: const Text(
+          'ECZ Hymnal',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+        // actions: [
+        //   IconButton(
+        //     onPressed: () {
+        //       setState(() {
+        //         fontSize += 2;
+        //       });
+        //     },
+        //     icon: const Icon(Icons.add),
+        //   ),
+        //   IconButton(
+        //     onPressed: () {
+        //       setState(() {
+        //         if (fontSize > 2) {
+        //           fontSize -= 2;
+        //         }
+        //       });
+        //     },
+        //     icon: const Icon(Icons.remove),
+        //   ),
+        // ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -58,9 +51,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             children: [
               Text(
                 '${widget.hymn.id} ${widget.hymn.title}',
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                style:
+                    const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
               ),
-              SizedBox(height: 16),
+              const SizedBox(height: 16),
               // Render verses
               for (var verse in widget.hymn.verses)
                 Column(
@@ -68,7 +62,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   children: [
                     for (var line in verse)
                       Text(line, style: TextStyle(fontSize: fontSize)),
-                    SizedBox(height: 15),
+                    const SizedBox(height: 15),
                   ],
                 ),
               // Render chorus
@@ -76,14 +70,21 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       'Chorus',
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic,
+                      ),
                     ),
                     for (var line in widget.hymn.chorus)
-                      Text(line, style: TextStyle(fontSize: fontSize)),
-                    SizedBox(height: 15),
+                      Text(line,
+                          style: TextStyle(
+                            fontSize: fontSize,
+                            fontStyle: FontStyle.italic,
+                          )),
+                    const SizedBox(height: 15),
                   ],
                 ),
               // Render added chorus
@@ -91,21 +92,20 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       'Added Chorus',
                       style:
                           TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
                     for (var line in widget.hymn.addedChorus)
                       Text(line, style: TextStyle(fontSize: fontSize)),
-                    SizedBox(height: 15),
+                    const SizedBox(height: 15),
                   ],
                 ),
             ],
           ),
         ),
       ),
-
     );
   }
 }

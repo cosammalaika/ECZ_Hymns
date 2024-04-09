@@ -1,36 +1,43 @@
 [{
-    "id": 1,
-    "title": "Test Hymn Chewa",
-    "author": "S. Fillmore Bennett (1836-1898)",
-    "meter": "",
-    "chorus": [
-      "In the sweet by and by,",
-      "We shall meet on that beautiful shore;",
-      "In the sweet by and by,",
-      "We shall meet on that beautiful shore."
+  "id": 1,
+  "title": "Inu Mulungu, Tikuyamikani",
+  "author": "Unknown",
+  "meter": "8.7.8.7.D.",
+  "tuneName": "Deerhurst Lux Eoi Abbot's Leigh",
+  "verses": [
+    [
+      "Inu Mulungu, tikuyamikani;",
+      "Tikubvomera ndinu Ambuyantu;",
+      "Ponse, Atate, akugwadirani,",
+      "Ndinu wamuyaya!"
     ],
-    "addedChorus": [],
-    "tuneName": "",
-    "verses": [
-      [
-        "There's a land that is fairer than day,",
-        "And by faith we can see it afar,",
-        "For the Father waits over the way",
-        "To prepare us a dwelling place there."
-      ],
-      [
-        "We shall sing on that beautiful shore",
-        "The melodious songs of the blest;",
-        "And our spirits shall sorrow no more-",
-        "Not a sigh for the blessing of rest."
-      ],
-      [
-        "To our bountiful Father above",
-        "We will offer our tribute of praise",
-        "For the glorious gift of His love",
-        "And the blessings that hallow our days."
-      ]
+    [
+      "Nanu akukuzani amithenga,",
+      "Nanu zam’Mwamba ndi zamphamvu zace,",
+      "Nanu angelo amitundu yonse akuyimbirani:"
+    ],
+    [
+      "“Mbuye Woyera! E, Woyera nokha!",
+      "Mbuye Woyera! Mbuye wa akamu!",
+      "Ponse ulemu wanu utodzaza pansi and Kumwamba.”"
+    ],
+    [
+      "Nanu Atumwi akumveka aja,",
+      "Ndi aneneri oyanjana omwe,",
+      "Ndi aunyinji anakuferani akuyamikani."
+    ],
+    [
+      "Mpingo woyera wa kwa anthu one",
+      "Ukumverani, Mfumu and Atate,"
     ]
-  }
+  ],
+  "chorus": [
+    
+  ],
+  "addedChorus": [
+    
+  ]
+}
+
   
 ]

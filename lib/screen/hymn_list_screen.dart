@@ -43,7 +43,10 @@ class _HymnListScreenState extends State<HymnListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ECZ Hymns'),
+        title: const Text(
+          'ECZ Hymnal',
+          style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.search),
@@ -57,12 +60,6 @@ class _HymnListScreenState extends State<HymnListScreen> {
               }
             },
           ),
-          // IconButton(
-          //   icon: const Icon(Icons.settings),
-          //   onPressed: () {
-          //     // Navigate to settings screen
-          //   },
-          // ),
         ],
       ),
       drawer: const MyDrawer(),
