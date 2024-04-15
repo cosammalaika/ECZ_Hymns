@@ -1,6 +1,6 @@
 [{
   "id": 1,
-  "title": "Inu Mulungu, Tikuyamikani (We Praise Thee, O God)",
+  "title": "Inu Mulungu, Tikuyamikani",
   "author": "Unknown",
   "meter": "8.7.8.7.D.",
   "tuneName": "Deerhurst Lux Eoi Abbot's Leigh",
@@ -63,7 +63,7 @@
 },
 {
   "id": 2,
-  "title": "Ndinu Wakuyera! (Holy, Holy, Holy!)",
+  "title": "Ndinu Wakuyera!",
   "author": "Unknown",
   "meter": "11.12.12.10",
   "tuneName": "Nicaea (Dykes)",
@@ -98,7 +98,7 @@
 },
 {
   "id": 3,
-  "title": "Mtima Wanga Uyamike (Praise, My Soul, the King of Heaven)",
+  "title": "Mtima Wanga Uyamike",
   "author": "Unknown",
   "meter": "8.7.8.7",
   "tuneName": "Lauda Anima (Praise My Soul)",
@@ -130,7 +130,7 @@
 },
 {
   "id": 4,
-  "title": "Tamani Ambuye (O Worship the King)",
+  "title": "Tamani Ambuye",
   "author": "Robert Grant",
   "meter": "10.10.11.11",
   "tuneName": "Lyons (Haydn)",
