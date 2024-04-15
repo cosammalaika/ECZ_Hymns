@@ -1,6 +1,6 @@
 [{
   "id": 1,
-  "title": "Inu Mulungu, Tikuyamikani",
+  "title": "Inu Mulungu, Tikuyamikani (We Praise Thee, O God)",
   "author": "Unknown",
   "meter": "8.7.8.7.D.",
   "tuneName": "Deerhurst Lux Eoi Abbot's Leigh",
@@ -28,15 +28,146 @@
     ],
     [
       "Mpingo woyera wa kwa anthu one",
-      "Ukumverani, Mfumu and Atate,"
+      "Ukumverani, Mfumu and Atate,",
+      "Mwanawoona wa ulemu wonse, Mzimu Nkhoswe yemwe."
+    ],
+    [
+      "Kristu Mfumu yaulemerero! Mwana wosatha wa Atate Ndinu!",
+      "Simunanyoza mamba ya Namwali potipulumutsa."
+    ],
+    [
+      "Infa mutagonjetsa ndi zowawa, Njira munatsegula tikalowe",
+      "Momwe mukhala Inu ndi Atate mwaulemerero."
+    ],
+    [
+      "Kumva mirandu yathu mudzabwera Mutithandize, atumiki anu;",
+      "Mwatiombola nawo mwazi wanu: mutipuluutse."
+    ],
+    [
+      "Mtiwerengere m’Mwamba ndi oyera; Mutidalitse, ndife anthu anu;",
+      "Moyo wosatha mutiptse tonse, mutilamulire."
+    ],
+    [
+      "Tsiku ndi tsiku timalemekeza: Nanu tikukuzani osaleka;",
+      "Muye, mtisunge tingacimwe lero mticitire nsisi."
+    ],
+    [
+      "Mbuye, cifundo canu citigwere Monga tikhulupira Inu nokha;",
+      "Ndakhulupira zedi mwanu, Mbuye, ndisagome konse!"
     ]
   ],
   "chorus": [
-    
   ],
   "addedChorus": [
-    
   ]
+},
+{
+  "id": 2,
+  "title": "Ndinu Wakuyera! (Holy, Holy, Holy!)",
+  "author": "Unknown",
+  "meter": "11.12.12.10",
+  "tuneName": "Nicaea (Dykes)",
+  "verses": [
+    [
+      "Ndinu wakuyera! E, wamphamvu zonse,",
+      "Nthawi yam’mamawayi tiyimba nyimboyi;",
+      "Mlengi wacifundo, tikuyamikani,",
+      "E! Mulungu Mmodzi Mwa Atatuwo."
+    ],
+    [
+      "Ndinu wakuyera! Anthu oculuka",
+      "Akuyimbirani, nakupempheranibe;",
+      "Akumwamba omwe nagwadira Inu",
+      "Wacikhalire ndi wosafa ‘i."
+    ],
+    [
+      "Ndinu wakuyera! Ife akucimwa",
+      "Zaulemerero zanu sitiona ‘i;",
+      "Mwayeradi nokha, wina saoneka",
+      "Wangwiro m’mphamvu ndi m’kuyeramo."
+    ],
+    [
+      "Ndinu wakuyera! Zakumwamba zonse",
+      "Ndi zapansi zitamabe dzina lanulo;",
+      "Mlengi wacifundo, Mphambi, Ambuyathu,",
+      "E! Mlungu Mmodzi mwa Atatuwo."
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},
+{
+  "id": 3,
+  "title": "Mtima Wanga Uyamike (Praise, My Soul, the King of Heaven)",
+  "author": "Unknown",
+  "meter": "8.7.8.7",
+  "tuneName": "Lauda Anima (Praise My Soul)",
+  "verses": [
+    [
+      "Mtima wanga uyamike Mfumu Yakumbako;",
+      "Andiombola in nanditsuka m’mtimamo."
+    ],
+    [
+      "Tiyamike Mlungu wathu kamba ka cifundoco;",
+      "Ntawi zones sasanduka Mlungu wathu yemweyo."
+    ],
+    [
+      "Nthawi zonse monga ‘Tate atisamaliratu;",
+      "Atisunga m’manja mwace, atiplumusatu."
+    ],
+    [
+      "Anthu a mitundu yonse, ndipo a Kumwambako;",
+      "Yamikani Mlungu wathu, ndiye Wakukomatu."
+    ],
+    [
+      "Anthu onse, anthu onse,",
+      "Yamikani Mlunguyo"
+    ]
+  ],
+  "chorus": ["Ife tonse, if tonse,",
+  "Tiyamike Mlunguyo"],
+  "addedChorus": []
+},
+{
+  "id": 4,
+  "title": "Tamani Ambuye (O Worship the King)",
+  "author": "Robert Grant",
+  "meter": "10.10.11.11",
+  "tuneName": "Lyons (Haydn)",
+  "verses": [
+    [
+      "Tamani Ambuye, Wamphamvu ndi Iye,",
+      "Akhala m’ulemu Kumwamba komweko",
+      "Cikopa colimba ndi kothawiranso,",
+      "Kwa anthu acewo, kotero ndi Mlungu."
+    ],
+    [
+      "Uzni zamphamvu, yimbani cisomo,",
+      "Za mwini ulemu, Ambuye wathuyo;",
+      "Poomba cimphepo mvulanso and bingu,",
+      "Padziko, pathambo, akhala ponsepo."
+    ],
+    [
+      "Zozizwa zam’dziko, zam’Mwamba zonsezi",
+      "Mulungu wamphamvu, munalenga zonse;",
+      "Muyendetsa mwezi nyenyezi ndi zuwa,",
+      "Zolengedwa zonse Zimvere Ambuye."
+    ],
+    [
+      "Sititha ifedi kukamba zokoma,",
+      "Za inu Mulungu wolera anthuwa;",
+      "Zifika ndi mphepo and mvula ndi dzuwa",
+      "Zigwera ponsepo pa anthu onsewa."
+    ],
+    [
+      "Wamphamvu yosatha, cikondi cangwiro,",
+      "Angelo akonda kutama Mulungu;",
+      "Ndiponso ifetu ananu tonsefe,",
+      "Iyimba nyimboyi yotama Ambuye."
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
 }
 
   
