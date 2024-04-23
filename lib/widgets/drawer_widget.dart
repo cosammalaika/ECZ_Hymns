@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import '../screen/about_screen.dart';
-import '../screen/favorites_screen.dart';
 import '../screen/hymn_list_screen.dart';
 
 class MyDrawer extends StatelessWidget {

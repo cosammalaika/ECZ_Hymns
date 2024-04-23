@@ -2,7 +2,6 @@ import 'package:ecz_hynms/widgets/drawer_widget.dart';
 import 'package:flutter/material.dart';
 import '../database/database_helper.dart';
 import '../database/hymn_search.dart';
-import '../database/hymn_search_delegate.dart';
 import '../models/hymn.dart';
 import 'about_screen.dart';
 import 'hymn_detail_screen.dart';
