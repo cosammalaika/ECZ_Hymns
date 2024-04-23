@@ -168,7 +168,494 @@
   ],
   "chorus": [],
   "addedChorus": []
+},{
+  "id": 5,
+  "title": "Mtidzutse, Mbuyetu",
+  "author": "Albert Midlane",
+  "meter": "8.7.8.7",
+  "tuneName": "Miles Lane (Shrubsole)",
+  "verses": [
+    [
+      "Mtidzutse, Mbuyetu, mtionekeremu;",
+      "Munene zakumvekazi, timvere ifetu."
+    ],
+    [
+      "Mtidzutse, Mbuyetu, mtipatse moyonso;",
+      "Mudzetu, Mbuye, mudzetu, tidalitseni ‘fe."
+    ],
+    [
+      "Mtidzutse, Mbuyetu, tikweze Dzinali;",
+      "Tiuzireni mpweyawo m’mitima yathuyi."
+    ],
+    [
+      "Mtidzutse, Mbuyetu, timvere maudi;",
+      "Zoona zanu tonsefe tikhulupire ‘zi."
+    ],
+    [
+      "Mtidzutse, Mbuyetu, mthirenso moyowo;",
+      "Ulemu ngwanu nokha ‘nu, dalitso nlathulo."
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},{
+  "id": 6,
+  "title": "Tadzuka Mzimu Wanga’we",
+  "author": "Unknown",
+  "meter": "8.7.8.7",
+  "tuneName": "Morning Hymn (Barthelemon)",
+  "verses": [
+    [
+      "Tadzuka mzimu wanga’we ugwire nchito zakozi;",
+      "Kukondw ututengedi, pemphero ulikwezedi."
+    ],
+    [
+      "E, nthawi ya mamawayi umtamandire Mbuyeyo,",
+      "Nuyese lero ngatitu tsiku lakumalizalo"
+    ],
+    [
+      "Unkhani zak zonsetu unene molungamadi,",
+      "Nudziwe kut Mbuyako adziwa zacinsinsizi."
+    ],
+    [
+      "Pa tsikuli, Mbuyanga ‘Nu, munditsogoze m’njiramo;",
+      "Ulemerero wanuwo undilimbitse monsetu."
+    ],
+    [
+      "Timlemekeze Mlunguyu wa madalitso onsewo;",
+      "Timlemekeze tonsefe, Atate, Mwana, Mzimunso."
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},{
+  "id": 7,
+  "title": "Mbuye, Mtipititse Tonse",
+  "author": "Unknown",
+  "meter": "8.7.8.7",
+  "tuneName": "St. Peter (Alexander Robert Reinagle)",
+  "verses": [
+    [
+      "Mbuye, mtipititse tonse ndi mdalitso lanulo,",
+      "Mwa cikondi canu, Mbuye, mutipatse nsisizo;",
+      "Mutitsitsimutse ife, pakuyenda m’dzikoli."
+    ],
+    [
+      "Tiyamika inu, Mbuye, kamba ka uthengawu,",
+      "Mphatso za cipulumutso zidzazetu mtimamu;",
+      "Kuti ife tikhalebe okhulupirikawo."
+    ],
+    [
+      "Nsiku zathu zonse, Mbuye, tipereka kwanuko,",
+      "Mutilimbikitse, Mbuye, kuti tsatope ‘I;",
+      "Mpaka tidzaone tonse, ulemelo wanuwo"
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},{
+  "id": 8,
+  "title": "Ulemu Kwa Mlungu",
+  "author": "Fanny Crosby",
+  "meter": "11.11.11.11",
+  "tuneName": "To God Be the Glory (Doane)",
+  "verses": [
+    [
+      "Ulemu kwa Mlungu, Ambuye wathu,",
+      "Akonda, ‘napatsa ‘fe mwana wace;",
+      "Napatsatu moyo kuombola ‘fe’",
+      "Pa khomo la moyo natsegulatu."
+    ],
+    
+    [
+      "Anapulumutsa ndi mwazi wace,",
+      "Amene akhulupirira mwa ‘Ye;",
+      "Ngakhale wocimwa koposa ndith,",
+      "Adzkhulukidwa mwa Yesuyo."
+    ],
+    [
+      "Anatiphunzitsa zopambanazo,",
+      "Tikondwa mwa Yesu, Ambuye wathu;",
+      "Komabe ‘dzozizwa kopambanadi,",
+      "Pamene attend ‘fe Kumwambako."
+    ]
+  ],
+  "chorus": [
+    "Tamani Mbuyeyo, dziko limvere ‘Ye,",
+    "Tamani Mbuyeyo, anthu akondwetu;",
+    "Idzani kwa ‘Tate mwa mwana wace,",
+    "M’patseni ulemu, anaconda ‘fe."
+  ],
+  "addedChorus": []
+},
+{
+  "id": 9,
+  "title": "Mbuye Wanga Ndikalingiriratue",
+  "author": "Unknown",
+  "meter": "8.7.8.7.D.",
+  "tuneName": "Ebenezer (Williams)",
+  "verses": [
+    [
+      "Mbuye, wanga, ndikalingiriratu",
+      "Za nchito zones za dzanja lanu;",
+      "Nyenyezizo ndi mabingo ogunda,",
+      "M’dziko monse muli mphamvu zanu."
+    ],
+    
+    [
+      "Mukalankhula m’mabingo ogunda",
+      "Pena kunong’onexa mumphepo;",
+      "Nkikaona nkhope yanu mumphezi,",
+      "Pena m’Uta-wa-Leza’ m’mitambo"
+    ],
+    [
+      "M’kuwla kwa ulemero wanu,",
+      "Mwatifera ndi mtima wakusweka,",
+      "Mbuye, munandikhetsera mwazi."
+    ],
+    [
+      "Mukabwera Ambuye mwa mitambo,",
+      "Kutenga ife kukhala nanu;",
+      "Mwa chimwemwe ndidzayimbitsa nyimbo",
+      "Kwa Mulungu wamkuru-kurutu."
+    ]
+  ],
+  "chorus": [
+    "Mzimu wanga uyimbira Mlungu,",
+    "Ndinu Wamkulu-kulutu;",
+    "Mzimu wanga uyimbira Mlungu,",
+    "Ndinu Wamukulu-kulutu"
+  ],
+  "addedChorus": []
+},{
+  "id": 10,
+  "title": "Mbuye Munditsogolere",
+  "author": "William Williams",
+  "meter": "8.7.8.7.D.",
+  "tuneName": "Cwm Rhondda (John Hughes)",
+  "verses": [
+    [
+      "Mbuye munditsogolere, ndine mmlendo m’dziko muno;",
+      "Ndikafoka mundikweze, mundisunge m’manja mwanu;",
+      "Mundidyetse, mundidyetse,",
+      "Sindingamve njalayo, sindingamve njalayo."
+    ],
+    [
+      "Mundimwetse madzi anu, andicize nthenda zanga;",
+      "Utsogole mtambo wanu, ndikadziwe njira yanga;",
+      "Mpulumutsi, Mpulumutsi,",
+      "Mundicinjirizetu, mundicinjirizetu."
+    ],
+    [
+      "Ndikalowa m,mtsinje muja, mndicotsere mantha onse;",
+      "Mndiolotse tsidya lija, ndikondwere nthawi zonse;",
+      "Nyimbo zanga, nyimbo zanga,",
+      "Zidzalemekeza ‘Nu, zidzalemekeza ‘Nu."
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},{
+  "id": 11,
+  "title": "Yehova, Mbusa Wangadi",
+  "author": "Scottish Psalter, 1650",
+  "meter": "8.6.8.6",
+  "tuneName": "Crimond (Jessie Seymour Irvine)",
+  "verses": [
+    [
+      "Yehova, Mbusa wangadi; zikwana zangazi",
+      "Andigonetsa bwinodi, mumsipu mwacemo."
+    ],
+    [
+      "Kumadzi akudikhawo, atsogolerako;",
+      "Pofoka moyo wangawu, aulimbitsanso."
+    ],
+    [
+      "M’njira yakulungamayi, anditsogoleramo;",
+      "Si coyenera in ‘ci, nca dzina lacelo"
+    ],
+    [
+      "Ndipyole Kodi Mdima wa mthunzi wa imfawo?",
+      "Ndiribe matha ngatitu mukala nanemo."
+    ],
+    [
+      "Cakudya coyenera ‘ne, mwandikonzera pha!",
+      "Pamaso pa adaniwo, mudyetsa mtimanga."
+    ],
+    [
+      "Nao mafuta anuwo, mwandidzozera ‘ne,",
+      "Mwadzaza chikho cangadi, cisefukirabe"
+    ],
+    [
+      "Zokoma, zakiyanjazi, zidzanditsatako;",
+      "Ndikhale m’nyumba mwanumo, kunthawi zonsezo."
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},{
+  "id": 12,
+  "title": "Tumphatumpa Moyo Wanga",
+  "author": "Unknown",
+  "meter": "8.6.8.6",
+  "tuneName": "Unknown",
+  "verses": [
+    [
+      "Tumphatumpha moyo wanga, sangalala and Mombolo;",
+      "Kuombola kwa Yehova kwatuluka m’dziko lako."
+    ],
+    [
+      "Bvinabvina moyo wanga, lulutira mtima wanga;",
+      "Na mauwo a Yehova watuluka m’dziko lako"
+    ],
+    [
+      "Yimbirira moyo wanga, mtendere wako wafika;",
+      "Mbendera ya Ciombolo waikwezetsa ndi Yesu."
+    ],
+    [
+      "Ukondwere moyo wanga, kuunika kuoneka,",
+      "Ndi mdimawo uthawtu; lulutira moyo wanga."
+    ],
+    [
+      "Usekere moyo wanga, nd Yehova akufuna;",
+      "Wakwezatu mbenderayo ya Ciombolo, sekera."
+    ]
+  ],
+  "chorus": ["Mulungu wakweaekatu, Ciombolo m’dziko lako.",
+  "Wakwezekatu Ciombolo, Wabvundikira iwedi, mzimu wanga ‘we wafunda,",
+  "Lulutiratu moyo wanga."],
+  "addedChorus": []
+},{
+  "id": 13,
+  "title": "Wosimbayo Woyamba",
+  "author": "Unknown",
+  "meter": "8.7.8.7",
+  "tuneName": "Unknown",
+  "verses": [
+    [
+      "Wosimbayo woyamba ndi m’ngelo wanena",
+      "Kwa abusa ofatsa ogona m’thengo;",
+      "Ogona m’thengo, nalonda nkhosazo,",
+      "Usiku wozizira ndi wa mdima bi."
+    ],
+    [
+      "Anzure anasogozedwa ndi nyenyezi",
+      "Anacoka ku ‘mwa kuli kutali;",
+      "Colinga cao ndico, anafuna Mfumu,",
+      "Natsatira nyenyezi uko ndi uko."
+    ],
+    [
+      "Nyenyezi inayenda mpaka ku madzulo",
+      "Niimira pamudzi wa Betelehemu;",
+      "Penipeni pamalo pomwe anabadwa",
+      "Mbuye Yesuyo ali mwana wakhanda."
+    ]
+  ],
+  "chorus": 
+  [
+    "Yimba, yimba, yimba, yimba;",
+    "Wabadwa Mfumu ya Israyel’."
+  ],
+  "addedChorus": []
+},{
+  "id": 14,
+  "title": "Cikondwero Pa Zikoli",
+  "author": "Isaac Watts",
+  "meter": "8.6.8.6 D.",
+  "tuneName": "Antioch",
+  "verses": [
+    [
+      "Cikondwero pa dzikoli, wadza Mfumu yathu;",
+      "Mitima yonse imkonzere malo,",
+      "Zolengedwa ziyimbe, zolengedwa ziyimbe,",
+      "Zolengedwa, zolengedwa ziyimbe,"
+    ],
+    [
+      "Cikondwero, alamula; anthu amyimbire;",
+      "Maphiri, naja, minda ndi madambo",
+      "Zibwezere mauwo, zibwezere mauwo;",
+      "Zibwezere, zibwezere mauwo."
+    ],
+    [
+      "Ucimowo usakule, minga isalase;",
+      "Wabwera Yesu ndi mdalitso wace,",
+      "Nacotsa temberero, nacotsa tembelelo,",
+      "Nacotsa, nacotsa temberero."
+    ],
+    [
+      "Alamula mwa cisomo, naonetsa dziko;",
+      "Ulemu ndipo cilungamo cace,",
+      "Cikondi codabwitsa, cikondi codabwitsa;",
+      "Cikondi, cikondi codabwisa"
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},{
+  "id": 15,
+  "title": "Oona Mumtima",
+  "author": "John F. Wade",
+  "meter": "Irregular",
+  "tuneName": "Adeste Fideles",
+  "verses": [
+    [
+      "Oona mumtima, ‘dzani mukondwera,",
+      "Tiyeni, tiyeni ku Betelehemu",
+      "Modyera ng’ombe muli mfumu yathu."
+      
+    ],
+    [
+      "Mulungu wamkulu wakuyerayera,",
+      "Kubadwa mwamkazi sanakana ‘i;",
+      "Mwana wa ‘Tate, sanalengedwadi,"
+    ],
+    [
+      "Angelo kwezani nyimbo zanu zones",
+      "M’mwambamo mumveke zoymikazo;",
+      "Lemekezani Mulungu Wakumwamba."
+    ],
+    [
+      "M’dzikomo Ambuye munabadwire ife,",
+      "Ulemu Wosatha muyeneradi.",
+      "Mau a ‘Tate munalowa m’thupi."
+    ]
+  ],
+  "chorus": ["Tiyeni timgwadire, tiyeni timgwadire,",
+  "Tiyeni timgwadrie, Kristuyo."],
+  "addedChorus": []
+},
+{
+  "id": 16,
+  "title": "Usikuwo Woyerawo",
+  "author": "Joseph Mohr",
+  "meter": "Irregular",
+  "tuneName": "Stille Nacht",
+  "verses": [
+    [
+      "Usikuwo woyerawo! Mwana adamlerayo,",
+      "Akakhale Mfumuyo; anabadwa m’kholamo,",
+      "Mfumu ya mafumu ndi ya anthuwo."
+    ],
+    [
+      "Mwanayo wa Mulunguyo andikonda inetu,",
+      "Na’tayira cumaco nadzagona m’udzimo.",
+      "Ndiyamika Mbuye wanga Yesuyo."
+    ],
+    [
+      "Usikuwo woyerawo! Wadzatu mtenderewo;",
+      "Ife tonse anthuwo atitenga Mlunguyo,",
+      "Mlemekeze ‘Tate, Mwana, Mzimunso."
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},
+{
+  "id": 17,
+  "title": "Mudzi wa Betelehemu",
+  "author": "Phillips Brooks",
+  "meter": "8.6.8.6.",
+  "tuneName": "St. Louis",
+  "verses": [
+    [
+      "Mudzi wa Betelehemu, uli mu tulo phe!",
+      "Pamwamba pako nyenyezi zikupitirira;",
+      "Koma mu mseu mwako muwala kuunika,",
+      "Ciyembekezo conse mwa iwe cadzazidwa."
+    ],
+    [
+      "Kristu wobadwa m’Mariya, za m’Mwamba nasankha;",
+      "M’mene ofoka agona, angelo alonda,",
+      "Nyenyezi ya kum’mawa, bukitsa mbiriyo!",
+      "Yimba zomthokoza Mfumu, mtendere padziko."
+    ],
+    [
+      "Kacetecete mphatsoyo ya perekedwa phe,",
+      "Mommo Mulungu apereka madalitso ace;",
+      "Khutu silingamvetu kubwera kwaceko,",
+      "Mwa omlandira mofatsa Kristu alowamo."
+    ],
+    [
+      "Mwana wa Betelehemu, tsikani pa ife,",
+      "Cotsani chimo lathuli, mwa ife mubadwe;",
+      "Atiuza angelo Uthenga Wabwino,",
+      "Bweranitu, khalani mu, Mbuye Imanuel!"
+    ]
+  ],
+  "chorus": [],
+  "addedChorus": []
+},
+{
+  "id": 19,
+  "title": "Taonani, M'kholamo",
+  "author": "Unknown",
+  "meter": "7.7.7.7.7.7.",
+  "tuneName": "Tune: See, in Yonder Manger Low",
+  "verses": [
+    [
+      "Taonani, m’kholamo mwabadwira Mfumuyo;",
+      "Yakulonjezedwadi, Nsembe yathu ndiyeyu."
+      
+    ],
+    [
+      "Adagona m’ndyeromo wacokera m’Mwambayo,",
+      "Adasiya mpandowo Yesu Kristu Mfumuyo."
+    ],
+    [
+      "Falitsani mbiriyi, inudi abusa ‘Nu;",
+      "Nkhosa zanu zonsezo mwaisy’ranji m’phirimo?"
+    ],
+    [
+      "Pocezera m’dambomo, tinaona ‘ngelotu",
+      "Oyimbira mauwo a mtendere pansipa."
+    ],
+    [
+      "Mwana wakuyera ‘Nu, munakonda ifedi;",
+      "Munasiya kwanuko ndi kufika pansipa."
+    ],
+    [
+      "Mtimphunzitse bwinou, Mwana wakuyera ‘Nu,",
+      "Tifanane nanudi m’makhalidwe anuwo."
+    ]
+  ],
+  "chorus": ["Kondwerani nonsenu, pomvetsedwa mbiriyi",
+  "Kakumveka m’mzindamo: ‘Wabadwira m’Betelehemu.'"],
+  "addedChorus": []
+},
+{
+  "id": 20,
+  "title": "Kale Anthu M'kholamo",
+  "author": "Unknown",
+  "meter": "11.10.11.10",
+  "tuneName": "Tune: \"Hark! The Herald Angels Sing\"",
+  "verses": [
+    [
+      "Kale anthu m’kholamo ‘napembedza Mwanayo."
+    ],
+    [
+      "Wosauka Iyedi anagwira nchitozi"
+    ],
+    [
+      "Ndani kodi Muthuyo woyesedwa m’bwinjamo?"
+    ],
+    [
+      "Analira ndaniy pomwalira benzilo?"
+    ],
+    [
+      "M’munda muja ndaniyo mwazi wace dontho do?"
+    ],
+    [
+      "Iye ndani pamtanda “anafere ‘daniwo?"
+    ],
+    [
+      "Mkuca wace ndaniyo ‘naturuka m’mandamo?"
+    ],
+    [
+      "Ndani pa cimpandoco alamula ponsepo?"
+    ]
+  ],
+  "chorus": ["Ndiye Mbuye, Mfumu yanga, Ndiye Mbuye wa Kumwamba",
+  "Amgwadire anthuwo, timtamande Mfumuyo"],
+  "addedChorus": []
 }
-
-  
 ]

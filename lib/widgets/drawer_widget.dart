@@ -9,86 +9,88 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: ListView(
-        padding: EdgeInsets.zero,
-        children: [
-          const DrawerHeader(
-            decoration: BoxDecoration(
-              color: Colors.blue,
-            ),
-            child: Text(
-              'ECZ Hymnals',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 18,
+      child: Container(
+        color: const Color(0xFFeff3f9), // Background color
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                color: Color(0xFF072D44),
+              ),
+              child: Text(
+                'Hymnals',
+                style: TextStyle(
+                  color: Color(0xFFeff3f9),
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
-          ),
-          _buildVersionExpansionTile(context),
-          _buildListTile(
-            context,
-            leadingIcon: Icons.favorite,
-            title: 'Favorite',
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => FavoritesScreen()),
-              );
-            },
-          ),
-          _buildListTile(
-            context,
-            leadingIcon: Icons.info,
-            title: 'About',
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => AboutScreen()),
-              );
-            },
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildVersionExpansionTile(BuildContext context) {
-    return ExpansionTile(
-      leading: const Icon(Icons.language),
-      title: const Text(
-        'Hymnals',
-        style: TextStyle(
-          fontSize: 12, // Adjust the font size here
+            _buildDrawerItem(
+              context,
+              'English',
+              'hymns',
+              const Color(0xFF123456),
+            ),
+            _buildDrawerItem(
+              context,
+              'Kaonde "Nyimbo Ya Kutota Lesa"',
+              'kaonde',
+              const Color(0xFFD3494E),
+            ),
+            _buildDrawerItem(
+              context,
+              'Lunda "Tumina"',
+              'lunda',
+              const Color(0xFF7BB274),
+            ),
+            _buildDrawerItem(
+              context,
+              'Luvale "Myaso Yakulemesa Kalunga"',
+              'luvale',
+              const Color(0xFFF0944D),
+            ),
+            _buildDrawerItem(
+              context,
+              'Bemba "Inyimbo sha bwinakristu"',
+              'bemba',
+              const Color(0xFF658CBB),
+            ),
+            _buildDrawerItem(
+              context,
+              'Chewa "Nyimbo Za Mulungu"',
+              'chewa',
+              const Color(0xFF9b533f),
+            ),
+            
+          ],
         ),
       ),
-      children: [
-        _buildDrawerItem(context, 'English', 'hymns'),
-        _buildDrawerItem(context, 'Kaonde "Nyimbo Ya Kutota Lesa"', 'kaonde'),
-        _buildDrawerItem(context, 'Lunda "Tumina"', 'lunda'),
-        _buildDrawerItem(
-            context, 'Luvale "Myaso Yakulemesa Kalunga"', 'luvale'),
-        _buildDrawerItem(context, 'Bemba "Inyimbo sha bwinakristu"', 'bemba'),
-        _buildDrawerItem(context, 'Chewa "Nyimbo Za Mulungu"', 'chewa'),
-      ],
     );
   }
 
-  Widget _buildDrawerItem(BuildContext context, String title, String fileName) {
+  Widget _buildDrawerItem(
+      BuildContext context, String title, String fileName, Color iconColor) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 0.0),
-      child: _buildListTile(
-        context,
-        leadingIcon: Icons.book,
-        title: title,
-        onTap: () {
-          Navigator.pop(context); // Close the drawer
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => HymnListScreen(fileName: fileName),
-            ),
-          );
-        },
+      child: Container(
+        color: const Color(0xFFeff3f9), // Background color
+        child: _buildListTile(
+          context,
+          leadingIcon: Icons.book,
+          title: title,
+          iconColor: iconColor,
+          onTap: () {
+            Navigator.pop(context); 
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => HymnListScreen(fileName: fileName),
+              ),
+            );
+          },
+        ),
       ),
     );
   }
@@ -97,14 +99,19 @@ class MyDrawer extends StatelessWidget {
     BuildContext context, {
     required IconData leadingIcon,
     required String title,
+    required Color iconColor,
     required VoidCallback onTap,
   }) {
     return ListTile(
-      leading: Icon(leadingIcon),
+      leading: Icon(
+        leadingIcon,
+        color: iconColor,
+      ),
       title: Text(
         title,
         style: const TextStyle(
-          fontSize: 12, // Adjust the font size here
+          fontSize: 12,
+          color: Color(0xFF072D44),
         ),
       ),
       onTap: onTap,

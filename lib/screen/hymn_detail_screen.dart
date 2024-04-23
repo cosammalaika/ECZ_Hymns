@@ -18,9 +18,21 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Builder(
+          builder: (context) => IconButton(
+            onPressed: () => Navigator.of(context).pop(),
+            icon: const Icon(
+              Icons.arrow_back_ios,
+              color: Color(0xFF072d44),
+            ),
+          ),
+        ),
         title: const Text(
           'ECZ Hymnal',
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF072d44),
+          ),
         ),
         // actions: [
         //   IconButton(
@@ -51,8 +63,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             children: [
               Text(
                 '${widget.hymn.id} ${widget.hymn.title}',
-                style:
-                    const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                style: const TextStyle(
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFF072d44)),
               ),
               const SizedBox(height: 16),
               // Render verses
@@ -61,7 +75,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     for (var line in verse)
-                      Text(line, style: TextStyle(fontSize: fontSize)),
+                      Text(
+                        line,
+                        style: TextStyle(
+                          fontSize: fontSize,
+                          color: const Color(0xFF072d44),
+                        ),
+                      ),
                     const SizedBox(height: 15),
                   ],
                 ),
@@ -73,17 +93,17 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                     const Text(
                       'Chorus',
                       style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                      ),
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          color: Color(0xFF072d44)),
                     ),
                     for (var line in widget.hymn.chorus)
                       Text(line,
                           style: TextStyle(
-                            fontSize: fontSize,
-                            fontStyle: FontStyle.italic,
-                          )),
+                              fontSize: fontSize,
+                              fontStyle: FontStyle.italic,
+                              color: const Color(0xFF072d44))),
                     const SizedBox(height: 15),
                   ],
                 ),
@@ -94,11 +114,16 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   children: [
                     const Text(
                       'Added Chorus',
-                      style:
-                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xFF072d44)),
                     ),
                     for (var line in widget.hymn.addedChorus)
-                      Text(line, style: TextStyle(fontSize: fontSize)),
+                      Text(line,
+                          style: TextStyle(
+                              fontSize: fontSize,
+                              color: const Color(0xFF072d44))),
                     const SizedBox(height: 15),
                   ],
                 ),
