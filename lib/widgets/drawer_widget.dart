@@ -14,7 +14,7 @@ class MyDrawer extends StatelessWidget {
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Color(0xFF072D44),
+                color: Color(0xFF000046),
               ),
               child: Text(
                 'Hymnals',
@@ -61,7 +61,6 @@ class MyDrawer extends StatelessWidget {
               'chewa',
               const Color(0xFF9b533f),
             ),
-            
           ],
         ),
       ),
@@ -80,7 +79,7 @@ class MyDrawer extends StatelessWidget {
           title: title,
           iconColor: iconColor,
           onTap: () {
-            Navigator.pop(context); 
+            Navigator.pop(context);
             Navigator.push(
               context,
               MaterialPageRoute(
@@ -109,7 +108,7 @@ class MyDrawer extends StatelessWidget {
         title,
         style: const TextStyle(
           fontSize: 12,
-          color: Color(0xFF072D44),
+          color: Color(0xFF000046),
         ),
       ),
       onTap: onTap,

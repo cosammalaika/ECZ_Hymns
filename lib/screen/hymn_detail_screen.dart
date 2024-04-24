@@ -4,9 +4,10 @@ import '../models/hymn.dart';
 class HymnDetailScreen extends StatefulWidget {
   final Hymn hymn;
 
-  HymnDetailScreen({required this.hymn});
+  const HymnDetailScreen({super.key, required this.hymn});
 
   @override
+  // ignore: library_private_types_in_public_api
   _HymnDetailScreenState createState() => _HymnDetailScreenState();
 }
 
@@ -23,7 +24,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             onPressed: () => Navigator.of(context).pop(),
             icon: const Icon(
               Icons.arrow_back_ios,
-              color: Color(0xFF072d44),
+              color: Color(0xFF000046),
             ),
           ),
         ),
@@ -31,7 +32,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           'ECZ Hymnal',
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Color(0xFF072d44),
+            color: Color(0xFF000046),
           ),
         ),
         // actions: [
@@ -66,7 +67,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 style: const TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFF072d44)),
+                    color: Color(0xFF000046)),
               ),
               const SizedBox(height: 16),
               // Render verses
@@ -79,7 +80,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                         line,
                         style: TextStyle(
                           fontSize: fontSize,
-                          color: const Color(0xFF072d44),
+                          color: const Color(0xFF000046),
                         ),
                       ),
                     const SizedBox(height: 15),
@@ -96,14 +97,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                           fontStyle: FontStyle.italic,
-                          color: Color(0xFF072d44)),
+                          color: Color(0xFF000046)),
                     ),
                     for (var line in widget.hymn.chorus)
                       Text(line,
                           style: TextStyle(
                               fontSize: fontSize,
                               fontStyle: FontStyle.italic,
-                              color: const Color(0xFF072d44))),
+                              color: const Color(0xFF000046))),
                     const SizedBox(height: 15),
                   ],
                 ),
@@ -117,13 +118,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
-                          color: Color(0xFF072d44)),
+                          color: Color(0xFF000046)),
                     ),
                     for (var line in widget.hymn.addedChorus)
                       Text(line,
                           style: TextStyle(
                               fontSize: fontSize,
-                              color: const Color(0xFF072d44))),
+                              color: const Color(0xFF000046))),
                     const SizedBox(height: 15),
                   ],
                 ),

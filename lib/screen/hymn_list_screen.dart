@@ -9,18 +9,16 @@ import 'hymn_detail_screen.dart';
 class HymnListScreen extends StatefulWidget {
   final String fileName;
 
-  HymnListScreen({required this.fileName});
+  const HymnListScreen({super.key, required this.fileName});
 
   @override
+  // ignore: library_private_types_in_public_api
   _HymnListScreenState createState() => _HymnListScreenState();
 }
 
 class _HymnListScreenState extends State<HymnListScreen> {
   List<Hymn> _allHymns = [];
   List<Hymn> _displayedHymns = [];
-  void _reloadHymnList() {
-    _loadHymns(widget.fileName);
-  }
 
   @override
   void initState() {
@@ -58,11 +56,11 @@ class _HymnListScreenState extends State<HymnListScreen> {
             ),
           ),
         ),
-        backgroundColor: const Color(0xFF072D44),
+        backgroundColor: const Color(0xFF000046),
         title: const Text(
-          'ECZ Hymnal',
+          'Hymns Forgotten',
           style: TextStyle(
-            fontSize: 28,
+            fontSize: 25,
             fontWeight: FontWeight.bold,
             color: Color(0xFFeff3f9),
           ),
@@ -100,7 +98,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
                   children: [
                     const Icon(
                       Icons.search,
-                      color: Color(0xFF072D44),
+                      color: Color(0xFF000046),
                     ),
                     const SizedBox(width: 10),
                     Expanded(
@@ -126,14 +124,14 @@ class _HymnListScreenState extends State<HymnListScreen> {
                         Icon(
                           Icons.computer,
                           size: 50,
-                          color: Color(0xFF072D44),
+                          color: Color(0xFF000046),
                         ),
                         SizedBox(height: 10),
                         Text(
                           "Coming soon",
                           style: TextStyle(
                             fontSize: 18,
-                            color: Color(0xFF072D44),
+                            color: Color(0xFF000046),
                           ),
                         ),
                       ],

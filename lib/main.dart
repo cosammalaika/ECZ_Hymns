@@ -3,19 +3,21 @@ import 'package:flutter/material.dart';
 import 'screen/hymn_list_screen.dart';
 
 void main() {
-  runApp(HymnBookApp());
+  runApp(const HymnBookApp());
 }
 
 class HymnBookApp extends StatelessWidget {
+  const HymnBookApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'ECZ Hymns',
+      title: 'Hymns Forgotten',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HymnListScreen(
+      home: const HymnListScreen(
         fileName: 'hymns',
       ),
       
