@@ -39,6 +39,7 @@ dependencies:
   provider: ^6.1.2
   share: ^2.0.4
   flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: 2.3.11
 
 dev_dependencies:
   flutter_test:
@@ -58,10 +59,21 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/hymns.json
-    - assets/kaonde.json
-    - assets/luvale.json
-    - assets/bemba.json
-    - assets/chewa.json
-    - assets/lunda.json
-  
+    - assets/json/hymns.json
+    - assets/json/kaonde.json
+    - assets/json/luvale.json
+    - assets/json/bemba.json
+    - assets/json/chewa.json
+    - assets/json/lunda.json
+
+flutter_native_splash:
+  color: "#000046"
+  image: assets/images/hymnSplash.png
+  image_dark: assets/images/hymnSplash.png
+
+  android_12:
+    color: "#000046"
+    image: assets/images/hymnSplash.png
+    image_dark: assets/images/hymnSplash.png
+
+  web: false

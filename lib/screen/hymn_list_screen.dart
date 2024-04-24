@@ -42,7 +42,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
 
   @override
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {  
     return Scaffold(
       appBar: AppBar(
         leading: Builder(
@@ -57,13 +57,25 @@ class _HymnListScreenState extends State<HymnListScreen> {
           ),
         ),
         backgroundColor: const Color(0xFF000046),
-        title: const Text(
-          'Hymns Forgotten',
-          style: TextStyle(
-            fontSize: 25,
-            fontWeight: FontWeight.bold,
-            color: Color(0xFFeff3f9),
-          ),
+        title: const Row(
+          children: [
+            Text(
+              'Hymns',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.bold,
+                color: Color(0xFFeff3f9),
+              ),
+            ),
+            Text(
+              ' Forgotten',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.w200,
+                color: Color(0xFFeff3f9),
+              ),
+            ),
+          ],
         ),
         actions: [
           IconButton(
@@ -108,6 +120,10 @@ class _HymnListScreenState extends State<HymnListScreen> {
                           border: InputBorder.none,
                         ),
                         onChanged: _searchHymns,
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w300,
+                          color: Color(0xFF000046),
+                        ),
                       ),
                     ),
                   ],
@@ -145,7 +161,14 @@ class _HymnListScreenState extends State<HymnListScreen> {
                       itemBuilder: (context, index) {
                         final hymn = _displayedHymns[index];
                         return ListTile(
-                          title: Text('${hymn.id}. ${hymn.title}'),
+                          title: Text(
+                            '${hymn.id}. ${hymn.title}',
+                            style: const TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                              color: Color(0xFF000046),
+                            ),
+                          ),
                           onTap: () async {
                             final resetDisplayedHymns = await Navigator.push(
                               context,

@@ -6,7 +6,8 @@ import '../models/hymn.dart';
 class DatabaseHelper {
   Future<List<Hymn>> getHymnsFromJson(String fileName) async {
     // Load JSON data from the assets folder based on the provided fileName
-    String jsonString = await rootBundle.loadString('assets/$fileName.json');
+    String jsonString =
+        await rootBundle.loadString('assets/json/$fileName.json');
 
     // Parse JSON data into List of Hymn objects
     List<dynamic> jsonList = json.decode(jsonString);

@@ -13,7 +13,7 @@ class HymnDetailScreen extends StatefulWidget {
 
 class _HymnDetailScreenState extends State<HymnDetailScreen> {
   bool isFavorite = false;
-  double fontSize = 18;
+  double fontSize = 16;
 
   @override
   Widget build(BuildContext context) {
@@ -28,12 +28,25 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             ),
           ),
         ),
-        title: const Text(
-          'ECZ Hymnal',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Color(0xFF000046),
-          ),
+        title: const Row(
+          children: [
+            Text(
+              'Hymns',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.bold,
+                color: Color(0xFF000046),
+              ),
+            ),
+            Text(
+              ' Forgotten',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.w200,
+                color: Color(0xFF000046),
+              ),
+            ),
+          ],
         ),
         // actions: [
         //   IconButton(
@@ -80,6 +93,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                         line,
                         style: TextStyle(
                           fontSize: fontSize,
+                          fontWeight: FontWeight.w300,
                           color: const Color(0xFF000046),
                         ),
                       ),
@@ -100,11 +114,15 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                           color: Color(0xFF000046)),
                     ),
                     for (var line in widget.hymn.chorus)
-                      Text(line,
-                          style: TextStyle(
-                              fontSize: fontSize,
-                              fontStyle: FontStyle.italic,
-                              color: const Color(0xFF000046))),
+                      Text(
+                        line,
+                        style: TextStyle(
+                          fontSize: fontSize,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w300,
+                          color: const Color(0xFF000046),
+                        ),
+                      ),
                     const SizedBox(height: 15),
                   ],
                 ),
