@@ -59,20 +59,16 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/json/hymns.json
-    - assets/json/kaonde.json
-    - assets/json/luvale.json
-    - assets/json/bemba.json
-    - assets/json/chewa.json
-    - assets/json/lunda.json
+    - assets/json/
+    - assets/icons/
 
 flutter_native_splash:
-  color: "#000046"
+  color: "#004d73"
   image: assets/images/hymnSplash.png
   image_dark: assets/images/hymnSplash.png
 
   android_12:
-    color: "#000046"
+    color: "#004d73"
     image: assets/images/hymnSplash.png
     image_dark: assets/images/hymnSplash.png
 

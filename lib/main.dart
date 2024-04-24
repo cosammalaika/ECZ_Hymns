@@ -13,7 +13,7 @@ class HymnBookApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Hymns Forgotten',
+      title: 'Hymns Alive',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

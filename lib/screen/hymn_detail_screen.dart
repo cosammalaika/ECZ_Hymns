@@ -24,10 +24,11 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             onPressed: () => Navigator.of(context).pop(),
             icon: const Icon(
               Icons.arrow_back_ios,
-              color: Color(0xFF000046),
+              color: Color(0xFFFFFFFF),
             ),
           ),
         ),
+        backgroundColor: const Color(0xFF004d73),
         title: const Row(
           children: [
             Text(
@@ -35,15 +36,15 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF000046),
+                color: Color(0xFFFFFFFF),
               ),
             ),
             Text(
-              ' Forgotten',
+              ' Alive',
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.w200,
-                color: Color(0xFF000046),
+                color: Color(0xFFFFFFFF),
               ),
             ),
           ],
@@ -55,7 +56,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         //         fontSize += 2;
         //       });
         //     },
-        //     icon: const Icon(Icons.add),
+        //     icon: SizedBox(
+        //       height: 20,
+        //       child: Image.asset(
+        //         'assets/icons/zoom-in.png',
+        //         color: const Color(0xFFFFFFFF),
+        //       ),
+        //     ),
         //   ),
         //   IconButton(
         //     onPressed: () {
@@ -65,7 +72,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         //         }
         //       });
         //     },
-        //     icon: const Icon(Icons.remove),
+        //     icon: SizedBox(
+        //       height: 20,
+        //       child: Image.asset(
+        //         'assets/icons/zoom-out.png',
+        //         color: const Color(0xFFFFFFFF),
+        //       ),
+        //     ),
         //   ),
         // ],
       ),

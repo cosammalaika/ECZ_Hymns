@@ -8,18 +8,18 @@ class MyDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: Container(
-        color: const Color(0xFFeff3f9), // Background color
+        color: const Color(0xFFe6edf1), // Background color
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Color(0xFF000046),
+                color: Color(0xFF004d73),
               ),
               child: Text(
                 'Hymnals',
                 style: TextStyle(
-                  color: Color(0xFFeff3f9),
+                  color: Color(0xFFe6edf1),
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),
@@ -72,7 +72,7 @@ class MyDrawer extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 0.0),
       child: Container(
-        color: const Color(0xFFeff3f9), // Background color
+        color: const Color(0xFFe6edf1), // Background color
         child: _buildListTile(
           context,
           leadingIcon: Icons.book,
