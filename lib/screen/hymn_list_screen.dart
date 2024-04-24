@@ -42,7 +42,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
 
   @override
   @override
-  Widget build(BuildContext context) {  
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         leading: Builder(
@@ -121,7 +121,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
                         ),
                         onChanged: _searchHymns,
                         style: const TextStyle(
-                          fontWeight: FontWeight.w300,
+                          fontWeight: FontWeight.w400,
                           color: Color(0xFF000046),
                         ),
                       ),
@@ -165,7 +165,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
                             '${hymn.id}. ${hymn.title}',
                             style: const TextStyle(
                               fontSize: 14,
-                              fontWeight: FontWeight.w300,
+                              fontWeight: FontWeight.w400,
                               color: Color(0xFF000046),
                             ),
                           ),
