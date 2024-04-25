@@ -51,10 +51,9 @@ class _HymnListScreenState extends State<HymnListScreen> {
               Scaffold.of(context).openDrawer();
             },
             icon: SizedBox(
-              height: 22,
+              height: 25,
               child: Image.asset(
-                'assets/icons/book.png',
-                color: const Color(0xFFFFFFFF),
+                'assets/icons/books.png',
               ),
             ),
           ),
@@ -82,9 +81,11 @@ class _HymnListScreenState extends State<HymnListScreen> {
         ),
         actions: [
           IconButton(
-            icon: const Icon(
-              Icons.info_outline_rounded,
-              color: Color(0xFFFFFFFF),
+            icon: SizedBox(
+              height: 25,
+              child: Image.asset(
+                'assets/icons/info.png',
+              ),
             ),
             onPressed: () {
               Navigator.push(
@@ -127,8 +128,8 @@ class _HymnListScreenState extends State<HymnListScreen> {
                         ),
                         onChanged: _searchHymns,
                         style: const TextStyle(
-                          fontSize: 12,
-                          fontWeight: FontWeight.w400,
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
                           color: Color(0xFF000046),
                         ),
                       ),
@@ -201,9 +202,11 @@ class _HymnListScreenState extends State<HymnListScreen> {
                                 );
 
                                 if (resetDisplayedHymns == true) {
-                                  setState(() {
-                                    _displayedHymns = _allHymns;
-                                  });
+                                  setState(
+                                    () {
+                                      _displayedHymns = _allHymns;
+                                    },
+                                  );
                                 }
                               },
                             ),

@@ -139,26 +139,6 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                     const SizedBox(height: 15),
                   ],
                 ),
-              // Render added chorus
-              if (widget.hymn.addedChorus.isNotEmpty)
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text(
-                      'Added Chorus',
-                      style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: Color(0xFF000046)),
-                    ),
-                    for (var line in widget.hymn.addedChorus)
-                      Text(line,
-                          style: TextStyle(
-                              fontSize: fontSize,
-                              color: const Color(0xFF000046))),
-                    const SizedBox(height: 15),
-                  ],
-                ),
             ],
           ),
         ),

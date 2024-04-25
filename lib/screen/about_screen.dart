@@ -44,7 +44,7 @@ class AboutScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
-            'ECZ Hymn App was developed by C&J Creative Solutions',
+            'Hymn Alive App was developed by C&J Creative Solutions',
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 18),
           ),

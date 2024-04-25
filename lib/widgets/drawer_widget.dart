@@ -29,37 +29,37 @@ class MyDrawer extends StatelessWidget {
               context,
               'English',
               'hymns',
-              const Color(0xFF123456),
+              'assets/icons/book (2).png',
             ),
             _buildDrawerItem(
               context,
               'Kaonde "Nyimbo Ya Kutota Lesa"',
               'kaonde',
-              const Color(0xFFD3494E),
+              'assets/icons/book (1).png',
             ),
             _buildDrawerItem(
               context,
               'Lunda "Tumina"',
               'lunda',
-              const Color(0xFF7BB274),
+              'assets/icons/book (3).png',
             ),
             _buildDrawerItem(
               context,
               'Luvale "Myaso Yakulemesa Kalunga"',
               'luvale',
-              const Color(0xFFF0944D),
+              'assets/icons/book (4).png',
             ),
             _buildDrawerItem(
               context,
               'Bemba "Inyimbo sha bwinakristu"',
               'bemba',
-              const Color(0xFF658CBB),
+              'assets/icons/book (5).png',
             ),
             _buildDrawerItem(
               context,
               'Chewa "Nyimbo Za Mulungu"',
               'chewa',
-              const Color(0xFF9b533f),
+              'assets/icons/book (6).png',
             ),
           ],
         ),
@@ -68,16 +68,20 @@ class MyDrawer extends StatelessWidget {
   }
 
   Widget _buildDrawerItem(
-      BuildContext context, String title, String fileName, Color iconColor) {
+      BuildContext context, String title, String fileName, String iconAsset) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 0.0),
       child: Container(
         color: const Color(0xFFe6edf1), // Background color
         child: _buildListTile(
           context,
-          leadingIcon: Icons.book,
+          leadingIcon: SizedBox(
+            height: 25,
+            child: Image.asset(
+              iconAsset,
+            ),
+          ),
           title: title,
-          iconColor: iconColor,
           onTap: () {
             Navigator.pop(context);
             Navigator.push(
@@ -94,16 +98,12 @@ class MyDrawer extends StatelessWidget {
 
   Widget _buildListTile(
     BuildContext context, {
-    required IconData leadingIcon,
+    required Widget leadingIcon,
     required String title,
-    required Color iconColor,
     required VoidCallback onTap,
   }) {
     return ListTile(
-      leading: Icon(
-        leadingIcon,
-        color: iconColor,
-      ),
+      leading: leadingIcon,
       title: Text(
         title,
         style: const TextStyle(

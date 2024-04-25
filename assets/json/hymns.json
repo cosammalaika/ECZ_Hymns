@@ -2,8 +2,6 @@
     {
       "id": 1,
       "title": "A pilgrim was I and awand'ring",
-      "author": "John W. Peterson (1921-2006)",
-      "meter": "",
       "chorus": [
         "Surely goodness and mercy shall follow me",
         "All the days, all the days of my life;",
@@ -14,8 +12,6 @@
         "Surely goodness and mercy shall follow me",
         "All the days, all the days of my life."
       ],
-      "addedChorus": [],
-      "tuneName": "",
       "verses": [
         [
           "A pilgrim was I and a-wand'ring",
