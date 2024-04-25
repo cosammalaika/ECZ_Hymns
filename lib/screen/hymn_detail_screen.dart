@@ -49,38 +49,38 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             ),
           ],
         ),
-        // actions: [
-        //   IconButton(
-        //     onPressed: () {
-        //       setState(() {
-        //         fontSize += 2;
-        //       });
-        //     },
-        //     icon: SizedBox(
-        //       height: 20,
-        //       child: Image.asset(
-        //         'assets/icons/zoom-in.png',
-        //         color: const Color(0xFFFFFFFF),
-        //       ),
-        //     ),
-        //   ),
-        //   IconButton(
-        //     onPressed: () {
-        //       setState(() {
-        //         if (fontSize > 2) {
-        //           fontSize -= 2;
-        //         }
-        //       });
-        //     },
-        //     icon: SizedBox(
-        //       height: 20,
-        //       child: Image.asset(
-        //         'assets/icons/zoom-out.png',
-        //         color: const Color(0xFFFFFFFF),
-        //       ),
-        //     ),
-        //   ),
-        // ],
+        actions: [
+          IconButton(
+            onPressed: () {
+              setState(() {
+                fontSize += 2;
+              });
+            },
+            icon: SizedBox(
+              height: 20,
+              child: Image.asset(
+                'assets/icons/zoom-in.png',
+                color: const Color(0xFFFFFFFF),
+              ),
+            ),
+          ),
+          IconButton(
+            onPressed: () {
+              setState(() {
+                if (fontSize > 2) {
+                  fontSize -= 2;
+                }
+              });
+            },
+            icon: SizedBox(
+              height: 20,
+              child: Image.asset(
+                'assets/icons/zoom-out.png',
+                color: const Color(0xFFFFFFFF),
+              ),
+            ),
+          ),
+        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -91,9 +91,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               Text(
                 '${widget.hymn.id} ${widget.hymn.title}',
                 style: const TextStyle(
-                    fontSize: 28,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFF000046)),
+                  fontSize: 28,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0xFF000046),
+                ),
               ),
               const SizedBox(height: 16),
               // Render verses
