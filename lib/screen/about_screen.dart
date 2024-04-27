@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import 'package:share/share.dart';
+import 'package:share_plus/share_plus.dart';
 
 // ignore: use_key_in_widget_constructors
 class AboutScreen extends StatelessWidget {
@@ -48,7 +48,7 @@ class AboutScreen extends StatelessWidget {
               ),
             ),
             onPressed: () {
-              print("Shared");
+              Share.share('com.creative_solutions.hymnalive');
             },
           ),
         ],
@@ -126,7 +126,7 @@ class AppInfo extends StatelessWidget {
               TextSpan(
                 children: [
                   TextSpan(
-                    text: 'Hymn ',
+                    text: 'Hymns ',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF004d73),
@@ -134,7 +134,7 @@ class AppInfo extends StatelessWidget {
                   ),
                   TextSpan(
                     text:
-                        'Alive, is your digital companion for spiritual upliftment through hymns and worship songs. Developed by C&J Creative Solution, this app brings a collection of timeless hymns to life in a modern, accessible format. Whether you\'re seeking solace, inspiration, or simply wish to enhance your worship experience, Hymn Alive provides a seamless platform to explore, engage, and immerse yourself in the rich tradition of hymnody',
+                        'Alive, is a digital companion for spiritual upliftment through hymns and worship songs. This app brings a collection of timeless hymns to life in a modern, accessible format. Whether you\'re seeking solace, inspiration, or simply wish to enhance your worship experience, Hymns Alive provides a seamless platform to explore, engage, and immerse yourself in the rich tradition of hymnody',
                     style: TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.w200,
