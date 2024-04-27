@@ -53,7 +53,12 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           IconButton(
             onPressed: () {
               setState(() {
-                fontSize += 2;
+                if (fontSize < 20) {
+                  fontSize += 2;
+                  if (fontSize > 22) {
+                    fontSize = 22;
+                  }
+                }
               });
             },
             icon: SizedBox(
@@ -67,8 +72,11 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           IconButton(
             onPressed: () {
               setState(() {
-                if (fontSize > 2) {
+                if (fontSize > 14) {
                   fontSize -= 2;
+                  if (fontSize < 14) {
+                    fontSize = 14;
+                  }
                 }
               });
             },

@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'package:ecz_hynms/widgets/drawer_widget.dart';
 import 'package:flutter/material.dart';
 import '../database/database_helper.dart';
@@ -6,13 +7,23 @@ import '../models/hymn.dart';
 import 'about_screen.dart';
 import 'hymn_detail_screen.dart';
 
+class TextOnlyInputFormatter extends TextInputFormatter {
+  @override
+  TextEditingValue formatEditUpdate(
+      TextEditingValue oldValue, TextEditingValue newValue) {
+    final newText = newValue.text.replaceAll(RegExp(r'[^\x00-\x7F]+'), '');
+    return newText == newValue.text
+        ? newValue
+        : newValue.copyWith(text: newText);
+  }
+}
+
 class HymnListScreen extends StatefulWidget {
   final String fileName;
 
-  const HymnListScreen({super.key, required this.fileName});
+  const HymnListScreen({Key? key, required this.fileName}) : super(key: key);
 
   @override
-  // ignore: library_private_types_in_public_api
   _HymnListScreenState createState() => _HymnListScreenState();
 }
 
@@ -36,11 +47,14 @@ class _HymnListScreenState extends State<HymnListScreen> {
 
   void _searchHymns(String searchTerm) {
     setState(() {
-      _displayedHymns = HymnSearch.searchByTitle(_allHymns, searchTerm);
+      _displayedHymns = _allHymns.where((hymn) {
+        // Check if the search term matches either the ID or title of the hymn
+        return hymn.id.toString().contains(searchTerm) ||
+            hymn.title.toLowerCase().contains(searchTerm.toLowerCase());
+      }).toList();
     });
   }
 
-  @override
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -122,6 +136,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
                     const SizedBox(width: 8),
                     Expanded(
                       child: TextField(
+                        inputFormatters: [TextOnlyInputFormatter()],
                         decoration: const InputDecoration(
                           hintText: 'Search ...',
                           border: InputBorder.none,

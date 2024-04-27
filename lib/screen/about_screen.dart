@@ -48,7 +48,7 @@ class AboutScreen extends StatelessWidget {
               ),
             ),
             onPressed: () {
-              Share.share('com.creative_solutions.hymnalive');
+              Share.share('Tap into the serenity of hymns! Get Hymns Alive on the Google Play Store now. Experience the peace and joy in every note. 🎶 #HymnsAlive #DownloadNow');
             },
           ),
         ],
