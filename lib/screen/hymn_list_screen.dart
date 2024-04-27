@@ -23,6 +23,7 @@ class HymnListScreen extends StatefulWidget {
   const HymnListScreen({Key? key, required this.fileName}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _HymnListScreenState createState() => _HymnListScreenState();
 }
 
