@@ -115,7 +115,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                         line,
                         style: TextStyle(
                           fontSize: fontSize,
-                          fontWeight: FontWeight.w300,
+                          fontWeight: FontWeight.w400,
                           color: const Color(0xFF000046),
                         ),
                       ),
@@ -141,7 +141,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                         style: TextStyle(
                           fontSize: fontSize,
                           fontStyle: FontStyle.italic,
-                          fontWeight: FontWeight.w300,
+                          fontWeight: FontWeight.w400,
                           color: const Color(0xFF000046),
                         ),
                       ),

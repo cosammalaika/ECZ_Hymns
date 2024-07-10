@@ -27,7 +27,7 @@ class MyDrawer extends StatelessWidget {
             ),
             _buildDrawerItem(
               context,
-              'English',
+              'English "Hymns Alive"',
               'hymns',
               'assets/icons/book (2).png',
             ),
