@@ -16,8 +16,11 @@ class Hymn {
     return Hymn(
       id: json['id'],
       title: json['title'],
-      verses: List<List<String>>.from(json['verses'].map((v) => List<String>.from(v))),
-      chorus: List<String>.from(json['chorus']),
+      verses: List<List<String>>.from(
+          json['verses'].map((v) => List<String>.from(v))),
+      chorus: json['chorus'] != null
+          ? List<String>.from(json['chorus'].map((c) => c.toString()))
+          : [], // Convert each element to String
     );
   }
 }
