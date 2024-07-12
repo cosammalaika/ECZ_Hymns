@@ -2773,6 +2773,1280 @@
     ]
   },
   {
+    "id": 66,
+    "title": "MONA UMWANA WA MPANGA",
+    "subtitle": "Hene Mwana wa Mberere",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      ["Mona Umwana wampanga", "Alesenda ulubembu lwesu lonse."],
+      ["Asendelyo mubili wakwe", "Tasosele nelyo kamo pa lupanda."],
+      ["Pa lupanda lolekesha", "No kumona ifyo wenya tuculule."],
+      ["Umfwikisha umusowa", "Untu wene atuculile few bantu."],
+      ["Mu mulopa wakwe wine", "Emo ulubembu lwesu lulesambwa."]
+    ],
+    "chorus": ["Mwana wa mpanga", "Watusendela ulubembu lwesu lonse."]
+  },
+  {
+    "id": 67,
+    "title": "PALYA PA LUPANDA MWE YESU AMFWILE",
+    "subtitle": "Para pa campinjika",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Palya pa lupanda mwe Yesu amfwile",
+        "Pa mutwe pali ngala, ngala ya myunga",
+        "Alilile ‘Eloi mwe Lesa mwe,",
+        "Lama sabakatani cinshi mwanshila."
+      ],
+      [
+        "Ku ninga e ku ninga Yesu abuka",
+        "Alicinfya imfwa mwe lelo mutende",
+        "Ndesekala Shikulu abuka mwe",
+        "Sekeleni bonse mwe Yesu wa bumi."
+      ],
+      [
+        "Pa kunina ku mulu Yesu atile,",
+        "Loleleni Mupashi mulelomba pe",
+        "M’pashi wa mushilo wise pali ‘mwe",
+        "Kumwafwa imwe bonse kuti mukose"
+      ],
+      [
+        "Soseni ku fubusa na ku ba lupwa",
+        "Na ku mitundu yonse ikasekela,",
+        "Mwitina ncito iyi ya mucinshi",
+        "Nshita yenu ikesa ilyo m’katemwa."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 68,
+    "title": "KATULA WANDI WATUNGULULWA",
+    "subtitle": "Mporoski warongozgeka",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      ["Katula wandi watungululwa", "Kwati ni mpanga, bubi bwandi."],
+      ["Alipepele mu Getsemane", "Bushiku bonse, bubi bwandi."],
+      ["Katula wandi alitanikwe", "Asumya m’lopa, bubi bwandi."],
+      ["Alimfwilile pa capindama", "Alishikilwe, bubi bwandi."],
+      ["Alibushuwe mulya mu nshinshi", "Acimfya imfwa, bubi bwandi."],
+      ["Alimine kuya ku mulu", "Kumpapatila, bubi bwandi."],
+      ["Katula umo mu calo conse", "Wakumpususha, bubi bwandi."]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 69,
+    "title": "KRISTU NASHUKUKE LELO",
+    "subtitle": "Jesus Christ Is risen today",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Kristu nashukuke lelo,",
+        "Acindikwe Shikulu!",
+        "E kasuba ka mushilo:",
+        "Acindikwe Shikulu!",
+        "Santulweni ulwimbo,",
+        "Acindikwe Shikulu!",
+        "Mwe ba panshi na ba m’muli,",
+        "Acindikwe Shikulu!"
+      ],
+      [
+        "Nomba tumwimbile nyimbo,",
+        "Kristu Mfumu ya mu mulu;",
+        "Aculile pa bubi,",
+        "Alubula ifwe babi."
+      ],
+      [
+        "Imfwa yakwa ya bukali",
+        "Yafutila bonse Kale;",
+        "E wa mweo, wa maka",
+        "Aletula no kubaka."
+      ],
+      [
+        "Tucindeke Lesa Mkulu",
+        "Lumbeni mwe ba mu mulu;",
+        "Ba cikuku, ba luse,",
+        "Tata, Mwana, no Mupashi."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 70,
+    "title": "YESU ALIYAIMA",
+    "subtitle": "Jesus lives",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Yesu aliyaima;",
+        "Imfwa teti itutinye,",
+        "Ine nimba njishiba",
+        "Ku mfwa Yesa akanjita.",
+        "Aleluya!"
+      ],
+      [
+        "Yesu aliyaima;",
+        "Pa cipuna aikala;",
+        "Nalakonko ko aba,",
+        "Pama nankwe ku kwikala.",
+        "Aleluya!"
+      ],
+      [
+        "Yesu aliyaima;",
+        "Na wene alimfwilile,",
+        "Nakulamubombela,",
+        "No kumulumbanya pepe.",
+        "Aleluya!"
+      ],
+      [
+        "Yesu aliyaima;",
+        "Pantu luse lwafulisha,",
+        "Umweo ne mfwa naya,",
+        "Teti fitupasukanye.",
+        "Aleluya!"
+      ],
+      [
+        "Yesu aliyaima;",
+        "Teti ntine nelyo kamo,",
+        "Imfwa nomba e mwinshi",
+        "Wa kwingilila ku mweo.",
+        "Aleluya!"
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 72,
+    "title": "MWE BANA INSANSA",
+    "subtitle": null,
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Mwe bana insansa",
+        "Bulanda nabupwisha,",
+        "Mutanikwe wesu",
+        "Nasangwe mumi Lelo."
+      ],
+      [
+        "Fya mfifi fyalipwa",
+        "Twaenda mu lubuto,",
+        "Kristu naanshe mfwe",
+        "Buseko bwesu bwafulisha."
+      ]
+    ],
+    "chorus": [
+      "Kristu uwafwile",
+      "Nga tatutubwike bwa fye",
+      "Busumino besu,",
+      "Cine Kristu aliima."
+    ]
+  },
+  {
+    "id": 73,
+    "title": "MU NSHISHI ALELE",
+    "subtitle": "Low in the grave He lay",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Mu nshinshi allele,",
+        "Yesu katula,",
+        "‘Kulindilo kuca,",
+        "‘fumu yandi,"
+      ],
+      [
+        "Kwa fye balindile",
+        "Yesu Katula,",
+        "Kwa fye bafungile",
+        "‘Mfumu yandi."
+      ],
+      [
+        "‘Mfwa tayamwikete,",
+        "Yesu katula;",
+        "Wene ayanshishe,",
+        "‘Mfumu yandi."
+      ]
+    ],
+    "chorus": [
+      "Mu nshinshi alima,",
+      "Ayanshisha balwani bonse",
+      "Alima katula kututulako,",
+      "Nomba pa cipuna",
+      "Aba na Lesa;",
+      "Alima, alima",
+      "Aleluya, alima."
+    ]
+  },
+  {
+    "id": 74,
+    "title": "OWE! UKWIMA KULIPO",
+    "subtitle": "Jesus is risen",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Owe! Ukwima kulipo,",
+        "Ne nseko, mutende;",
+        "Owe! Ilibwe tapali,",
+        "Ininga ili fye."
+      ],
+      [
+        "He, he! Insalu sha mufwe",
+        "Nashifungwa bwino",
+        "He, he! Ininga ili fye,",
+        "Yesu e talipo."
+      ],
+      [
+        "Yangu! Aenda panonse,",
+        "Nomba talecula;",
+        "Yangu! Ululumbi lwakwe,",
+        "Konse lwalumbuka."
+      ],
+      [
+        "Mona! Kulipo Ukwima,",
+        "Ne shiwi ne nyimbo;",
+        "Mona! Kwaleta ubupe,",
+        "Ukwansha kwa Mfumu."
+      ]
+    ],
+    "chorus": [
+      "Yesu emine, ‘fyasosa,",
+      "Emine mu mfwa ye lindi,",
+      "Sekela ,imbila ukwima,",
+      "Yesu emine Mupusushi."
+    ]
+  },
+  {
+    "id": 75,
+    "title": "YESU WENE AKATEKA",
+    "subtitle": "Jesus shall reign where'er the sun",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Yesu wene akateka",
+        "Konsha kasuba katula;",
+        "‘Bufumu teti bukapwe.",
+        "‘Myaka isuke ikapwe."
+      ],
+      [
+        "Bakalamupepa bonse,",
+        "Bakalamulumbanya pa;",
+        "‘Shina lyakwe lyatemwikaw,",
+        "Ubushiku na kasuba."
+      ],
+      [
+        "Abantu ba ndimi shonse",
+        "Bamutemwe, bamwimbile;",
+        "Abana na bakalmba",
+        "Bakalalombo bupalo."
+      ],
+      [
+        "Abatekwa bakashuka,",
+        "Bafungwa bakafungulwa,",
+        "Abanaka bakatusah,",
+        "Aba nsala bakekuta."
+      ],
+      [
+        "Mulete bonse, mwe bantu,",
+        "Mucinshi luse ku Mfumu,",
+        "Bangeli beke no kwimba",
+        "Pamo na ba muno calo."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 76,
+    "title": "TUCELELE IMFUMU",
+    "subtitle": "Hail to the Lord's Anointed",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Tucelele imfumu",
+        "‘Mwana wa kwa Lesa;",
+        "Yafumine ku mulu,",
+        "Pa calo kuteka.",
+        "Aisa ono busha,",
+        "Kukakula nkole,",
+        "‘Kufumye fyabipisha,",
+        "‘Kutela mu cine."
+      ],
+      [
+        "Akesa fya nge mfula",
+        "Iloka pa calo,",
+        "Buseko no kutemwa",
+        "E fikamenamo,",
+        "‘Kutangilie ntashi",
+        "Mutende uleya;",
+        "No bololoke bwine",
+        "Pa numa bwakonka."
+      ],
+      [
+        "Shikamuwile mfumu",
+        "Shikaleto bupe",
+        "Ndupwa shikatotela",
+        "Shikamwimbila pe",
+        "Pantu akalateka",
+        "Mu fyalo ne fyalo;",
+        "Konse ukwe fipele",
+        "Fingapupukila."
+      ],
+      [
+        "Bonse bakamupepe",
+        "Nshiku ne nshiku pe,",
+        "Bufumu bukakula,",
+        "Te kuti bukapwe,",
+        "Awe tacakaaluke",
+        "Cipingo cakwe ci;",
+        "Likalabelela",
+        "Ishina lya luse."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 77,
+    "title": "YESU PE FYE MWABAPO",
+    "subtitle": "O Jesus ever present",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Yesu pe fye mwabapo,",
+        "Kakumba musuma;",
+        "‘Shina lyenu lyabila,",
+        "Mu mitima yesu."
+      ],
+      [
+        "Twalitemwa na kale,",
+        "Twalitontonkanya;",
+        "Na muno bukalamba",
+        "Twalilitemwisha."
+      ],
+      [
+        "‘Lingi ku bonaushi,",
+        "Nga twafikileko,",
+        "Amubula ‘ba ne few,",
+        "Mwe katula wesu"
+      ],
+      [
+        "Ilingi na mu mfifi,",
+        "Nga twaliwilemo,",
+        "Lelo mwalitwimiishe,",
+        "E mwatupiseshe."
+      ],
+      [
+        "Mwe kakumba musuma,",
+        "Twamucetekela",
+        "Ni mwe ba mulatulisha",
+        "Mutwimya nga twawa."
+      ],
+      [
+        "‘Shiwi lyenu lwa maka",
+        "Mu mfwa tukalyumfwa,",
+        "Mukatufishe bonse",
+        "Kwi cinka kumyenu."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 78,
+    "title": "YESU PE FYE MWABAPO",
+    "subtitle": "O, Jesus ever present",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Apwe penga lya kwa Lesa likomfwikwa mu cala,",
+        "Apo bukaca bwa lubuto tu tu,",
+        "Apo abasalwa bakaya longana pe shilya",
+        "Apwekete na mashina, nkabeko."
+      ],
+      [
+        "Ubushiku bwa kutinya apwa bafwa bakema,",
+        "No kumono bukankala bwa kwa Kristu;",
+        "Apo abasalwa bakaya longana kwa Lesa,",
+        "Apwakete na mashina nkabeko."
+      ],
+      [
+        "Aleni tulebombela Shikullwifwe nshiku pe,",
+        "Tuye landa ku bantu ifya mweo,",
+        "Nge milimo yapwa, ne few twaya mu calo cilia,",
+        "Apwakete na mashina nkabeko."
+      ]
+    ],
+    "chorus": [
+      "Apwakete na mashina,",
+      "Apwakete na mashina,",
+      "Apwakete na mashina,",
+      "Apwakete na mashina nkabeko"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "MUFWIKE NGALA KRISTU MFUMU!",
+    "subtitle": "Crown Him! Crown Him!",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Mufwike ngala Kristu Mfumu!",
+        "‘Mikulo yinse ilumbanye;",
+        "Lulumbyu, mucinshi kwi shina,",
+        "Nomba ne nshiku pe."
+      ],
+      [
+        "Fwe tukamucite Mfumu;",
+        "Mu calo cilia ca lulumbi!",
+        "Akabe Mfumu yesu pe,",
+        "Tukamulumbanya."
+      ],
+      [
+        "Muceleleni mwe bangeli,",
+        "Mu masese ne nyimbo shonse,",
+        "‘Bena fyalo baleyawile",
+        "Mfumu ya sha Mfumu."
+      ],
+      [
+        "Ni kacimfya acimfyo bubi;",
+        "Mupashi ateko mutima.",
+        "Mwi shina lyakwe tukanshya pe;",
+        "‘Mfumu ya pen a pe."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 80,
+    "title": "UWAFWIKILWE IMYUNGA",
+    "subtitle": "The head that once was crowned with thorns",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Uwafwikilwe imyunga",
+        "Nomba alumbukwa,",
+        "Citebo cakwe cisuma",
+        "Ci;emusamika,"
+      ],
+      [
+        "'Cifolo cakwe ku mulu",
+        "Cili cakwe ceka,",
+        "'Mfumu ya sha Mfumu shonse,",
+        "'Lubuto ulwa pe."
+      ],
+      [
+        "'Buseko bwa ba mu mulu,",
+        "Na ba panshi pamo,",
+        "'Luse lwakwe baishiba,",
+        "Ishina batemwa."
+      ],
+      [
+        "Lupanda lwakwe lwa nsoni,",
+        "'Cikuku caluko,",
+        "Lwabaletelo mutende",
+        "Ne nseko sha mweo."
+      ],
+      [
+        "Baculile Mfumu panshi,",
+        "Mu mulu bateka,",
+        "Ebo capelwo kwishiba",
+        "'Kutemwa kwakwe pe."
+      ],
+      [
+        "'Lupanda kuli fwe bumi,",
+        "Ni mfwa kuli Yesu,",
+        "'Bucetekelobwa bantu,",
+        "'Landwelyabo lya pe."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 81,
+    "title": "LINTU YESU ASHALIKYA",
+    "subtitle": "Our blest Redeemer",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "'Lintu Yesu ashalikya",
+        "'Bananganga bakwe,",
+        "kasansamusha apele",
+        "'Kuba ne fwe."
+      ],
+      [
+        "Aishile tusangula",
+        "'Kuba ba cikuku;",
+        "Afwaya-fwaye mitima",
+        "Mwa kwikala."
+      ],
+      [
+        "Ishiwi lyakwe twaumfwa,",
+        "Liletepelesha,",
+        "Lyaleshe fibi, lyatwebe",
+        "Fya kwa Lesa."
+      ],
+      [
+        "'Cikuku cintu twakwata,",
+        "'Kwansha kwesu konse,",
+        "Ne fisuma fyamitima,",
+        "Fili fyakwe"
+      ],
+      [
+        "Mwe, Mupashi wa bupe,",
+        "Ifwe natuwila,",
+        "Mwikale muli 'fwe benu,",
+        "Mu mitima."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 82,
+    "title": "MWISE, MUPASHI BULESA",
+    "subtitle": "'Spirit divine, attend our prayers",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Mwise, Mupashi bu Lesa,",
+        "Iseni na maka;",
+        "Mube ne fwe mu ngande yi,",
+        "Fwe bantu banaka."
+      ],
+      [
+        "Mwise, Lubuto lwa, 'mulu,",
+        "Tumone 'fye cine;",
+        "Twende mu nshila ya mweo,",
+        "Umwaendo Mwine."
+      ],
+      [
+        "Mwise, Mulilo waoca,",
+        "Fipye fibi fyesu;",
+        "Tube capelwe cashila",
+        "Kwi shina lya Yesu."
+      ],
+      [
+        "Mwise, mwe Mume wabomfya,",
+        "Kuli 'fwe bauma,",
+        "Mumeshe no kufulisha",
+        "Fitwalo fisuma."
+      ],
+      [
+        "Mwise, mwe Nkunda yatemwa,",
+        "No luse lwenu 'lu;",
+        "Bafwane 'benu ba panshi,",
+        "Nge fyo ba ku mulu."
+      ],
+      [
+        "Mwise, mwe Mwela wakuka,",
+        "Tube bapimpisha;",
+        "Na bana bonse ba bantu,",
+        "Babe abomfwisha."
+      ],
+      [
+        "Mwise, Mupashi wa mweo,",
+        "Wa cikuku conse;",
+        "Yesu alangwe ku bantu,",
+        "Babe 'bakwe bonse."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 83,
+    "title": "MWE MUPU BULESA",
+    "subtitle": "\"Breathe on me breath of God\"",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Mwe Mupu bulesa,",
+        "Iseni mupite,",
+        "Ntemwe pe fyo mwatemwa;",
+        "Munjimye, nkacite."
+      ],
+      [
+        "Mwe Mupu bulesa,",
+        "Puteni pali ne,",
+        "Nkacule ne mwe, washipa,",
+        "Washila, wa cine."
+      ],
+      [
+        "Mwe Mupu bulesa,",
+        "Mwise no kwingila;",
+        "Imbe no mweo wacisha,",
+        "'Mulilo washila."
+      ],
+      [
+        "Mwe Mupu bulesa,",
+        "Nga mwaputa ine,",
+        "Nkaba no mweo ushipwa,",
+        "kwa Lesa wa cine."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 84,
+    "title": "MWE MUPASHI WA KWA LESA",
+    "subtitle": "\"O Spirit of the living God\"",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Mwe Mupashi wa kwa Lesa,",
+        "Mu bwingi bwa bupe bwenu,",
+        "Konshe kwa bantu baenda",
+        "Mwikile palya baluba."
+      ],
+      [
+        "Peleni ndimi sha maka",
+        "Sha kusose shiwi lyenu,",
+        "No bupalu bwa ku mulu,",
+        "Konsho kwe landwe lyumfwikwa."
+      ],
+      [
+        "'Mfifi 'sangukyoubuto,",
+        "No bulwi bubyo mutende,",
+        "'Bafilwa mubapya maka,",
+        "No luse lwansho bukali."
+      ],
+      [
+        "Mwe Mupashi, balungikwe",
+        "'Bantu bonse kuli Lesa;",
+        "Umweo mubapemene,",
+        "'Kuti basumine bonse."
+      ],
+      [
+        "Ulupanda lubacimfye,",
+        "Kabese babatishiwe,",
+        "'shina lyakwe lilumbulwe;",
+        "Abantu balitotele."
+      ],
+      [
+        "Lesa Shifwe alefwaya,",
+        "\"Bantu bonse bapusuke;",
+        "'Kutemwa kwakwe kucitwe",
+        "'Kuti Yesu abe Mfumu."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 85,
+    "title": "UMUPASHI WA LUSE",
+    "subtitle": "\"Holy Spirit dwell with me\"",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Umupashi wa luse,",
+        "Ndefwaisho luse 'ne;",
+        "Na mashiwi ya kwafwa",
+        "Muli ne yamoneke;",
+        "No kushipa, ne congwe",
+        "Kansose fya kwa Kristu."
+      ],
+      [
+        "Umupashi wa cine,",
+        "Ndefwaishe cine 'ne,",
+        "Mbe na mano yafula,",
+        "Ya kumulumbanisha:",
+        "Ne micitile yandi",
+        "'Kuti imubombele."
+      ],
+      [
+        "Umupashi Mufuke",
+        "Leka mbe mufuke 'ne;",
+        "Kanjisalyo mutima",
+        "Ilyo esa katunka;",
+        "No kwisula panuma,",
+        "Kuti mubalikemo."
+      ],
+      [
+        "Umupashi Tondolo,",
+        "Tondolo kanjikale;",
+        "'Fintu cani cakula;",
+        "Ku mushili catula;",
+        "Ngo lubuto kacelo",
+        "Ulumfumyo impepo."
+      ],
+      [
+        "Mwe Mupashi wa maka,",
+        "Aya yene ndefwaya;",
+        "'Kuti nkonse nshiku pe;",
+        "Te mu maka yandi fye;",
+        "Ubucetekelo 'bu",
+        "Bukamfisha ku mulu."
+      ],
+      [
+        "Umupashi wabuta,",
+        "Ine Kamupashanye,",
+        "Mumpatule ku fibi,",
+        "Nsale fisuma Fyeka;",
+        "Mungafwe kuti mpele",
+        "Fyandi fyonse kuli 'mwe."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 86,
+    "title": "MWISE, TULI SHAMPOFU",
+    "subtitle": "\"Come to our poor nature's night\"",
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "verses": [
+      [
+        "Mwise, tuli shampofu,",
+        "Tupelwe ulubuto,",
+        "Umupashi wa mulu,",
+        "Kasansamusha."
+      ],
+      [
+        "Tuli babi, tusambwe;",
+        "Twalwala, mutuposhe;",
+        "Twaluba, tulondolwe;",
+        "Kasansamusha."
+      ],
+      [
+        "Twashiwa ababusu,",
+        "Tupelwe fya ku mulu,",
+        "'Luse, nseko, cikuku,",
+        "Kasansamusha."
+      ],
+      [
+        "Umutende ngo mume,",
+        "Wise utunashe fwe,",
+        "Fya kwa kristu tuangwe",
+        "Kasansamusha."
+      ],
+      [
+        "Mutupepele bonse,",
+        "Lumbuleni kwa Shifwe",
+        "'Kukabilisha kwine,",
+        "Kasansamusha."
+      ],
+      [
+        "Twishibe bwino Tata,",
+        "Tumfwishe mu mitima,",
+        "Ifyo twasangululwa,",
+        "Kasansamusha."
+      ],
+      [
+        "Tuletwe kuli Lesa",
+        "Mi nshila yawamishi,",
+        "Ku mulu tukasendwa,",
+        "Kasansamusha."
+      ]
+    ],
+    "chorus": []
+  },
+  {
+    "id": 87,
+    "title": "YESU M'TUME M'PASHI",
+    "verses": [
+      ["Yesu m'tume M'pashi,", "Esefunda bantu bonse."],
+      ["Ifwe tulelila;", "Muleba ne fwe no luse"],
+      ["Mwakak Israel;", "Bakeni ne fwe fwe benu."],
+      ["Yesu m'tumyo m'lilo;", "Ifibi fyonse ufyoce"],
+      ["kacema wa bantu,", "Cemeni ne bumba lyenu"],
+      ["Mwana Lesa M'sumu,", "Ni mwe Mfumu ku mutima."],
+      ["Tulemutotela,", "Tulecindika no kwanga."]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 88,
+    "title": "CILONGANINO CABA",
+    "verses": [
+      [
+        "Cilonganino caba",
+        "Pali Yesu Kristu,",
+        "Cane cilengo cipya",
+        "Ca shiwi na menshi",
+        "Aishile cifwaya,",
+        "Ukuba nabwinga,",
+        "Cashitwa no mulopa,",
+        "Alicifwilile."
+      ],
+      [
+        "Baitwa bena fyalo",
+        "Ku kufyalwa cipya,",
+        "'Bucetekelo bumo",
+        "Ne mfumu imo fye;",
+        "Citashe shina limo",
+        "Cilyo cimo cilya,",
+        "Ubusubuli bumo",
+        "Ebo cakwatisha."
+      ],
+      [
+        "Mu ncito no bulanda,",
+        "Pamo na mu bulwi;",
+        "Cilindilo mutende",
+        "Uwa ciyayaya;",
+        "'Lintu ifya lulumbi",
+        "Fikesa moneka,",
+        "Elyo cilonganino",
+        "Kuti calatusha."
+      ],
+      [
+        "Calumdana panonse",
+        "Na Lesa patatu,",
+        "Cilomfwana na balya",
+        "Abaletusho 'ko,",
+        "Mwe banga, mwe bashila!",
+        "Mwe Mfumu tupeni",
+        "Pamo nabwa bafuke",
+        "Tukekale nemwe."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 89,
+    "title": "MWE LESA WA KU BETELE",
+    "verses": [
+      [
+        "Mwe Lesa wa ku Betele",
+        "Mwe batulisha pe,",
+        "Ni mwe mwaletungulula",
+        "Bantu benu kale."
+      ],
+      [
+        "Tulefukama Kuli 'mwe,",
+        "No kumupapata,",
+        "Mwe Lesa wa kwa Abramu",
+        "Mube Lesa wesu."
+      ],
+      [
+        "Mu nshiku shenu sha mweo,",
+        "Tutungululeni,",
+        "Mwakulatupele filyo",
+        "Tufwukwe kuli 'mwe."
+      ],
+      [
+        "Mutubake twapapata",
+        "Shisuke ndo shipwe,",
+        "Kabinge mulya mwa Shifwe,",
+        "Tukabelelela."
+      ],
+      [
+        "Ubu bupalo twalomba",
+        "Ebo twafwaisha,",
+        "Efyo mukaba, mwe Lesa",
+        "Wesu wa pe na pe."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 90,
+    "title": "CIFULO TWATEMWA",
+    "verses": [
+      [
+        "Cifulo twatemwa,",
+        "Ica bucindamo,",
+        "'Nseko emo shaba",
+        "Shacila sha calo."
+      ],
+      [
+        "Ing'anda twatemwa,",
+        "Umwa kulongana,",
+        "Umo nemwe mwaba,",
+        "Emo tukumana."
+      ],
+      [
+        "'Mashiwi twatemwa,",
+        "Ya mweo, mutende,",
+        "Yatusansamusha,",
+        "Yatusekesha pe."
+      ],
+      [
+        "Ukwimba twatemwa,",
+        "Pa bupe bukulu,",
+        "Lelo twafuluka",
+        "Ukwimba ku mulu."
+      ],
+      [
+        "Yesu twamutemwa,",
+        "Tupelwe cikuku,",
+        "Ca kumutemwisha",
+        "Kuno na ku mulu."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 91,
+    "title": "BATATA, BATATA TULI PANO",
+    "verses": [
+      ["Batata, batata tuli pano", "Apo tulelumbanya Imwe."],
+      ["Twalomba, twalomba mucipale", "Ici cilonganino caafya."],
+      ["Natumfwa, natumfwa ukulila", "Kwa bantu 'babulo kwishiba."],
+      ["Balenda, balenda na mu nshila", "Shintu shaya ku bnaushi."],
+      ["Mukoshe, mukoshe 'bantu benu", "Kuti babe ni nkombe shenu."],
+      ["Mutume, mutume ba kusosa,", "Bashime landwe lisuma."],
+      ["'Bufumu, 'Bufumu bwenu bwise", "No lubilo mu calo conse."]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 92,
+    "title": "LESA MU NGANDE YI",
+    "verses": [
+      [
+        "Lesa mu ngandeyi,",
+        "Tata wa maka",
+        "Pa makasa yenu twalongana,",
+        "Ifwe twatotela",
+        "Lesa wamushilo",
+        "Pa bufuke, luse bwenu,",
+        "Tulumbe, mu nyimbo",
+        "Pa bupususho bu",
+        "Lesa mu ngandeyi."
+      ],
+      [
+        "Kristu mu ngandeyi",
+        "Ifwe mwi shiwi,",
+        "Fwe ba nsansa twasubila",
+        "Ku bubi tutulwe.",
+        "Bulanda, cikonko",
+        "Fyaba lubuto, ninsansa,",
+        "Tulumbe, mu nyimbo",
+        "Fikakilo fyaya",
+        "Kristu mu ngande yi."
+      ],
+      [
+        "Ng'anda iyi yenu,",
+        "Mwe wa Shila mwe",
+        "Mitima yesu e ng'anda,",
+        "Ikalenimo pe!",
+        "Milimo icitwe,",
+        "Ukufwaya kwenu kwise.",
+        "Tulumbe , mu nyimbo",
+        "Na kwi pele-pele",
+        "Tumubombele pe."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 93,
+    "title": "KACELO PE 'LUSE LUPYA",
+    "verses": [
+      [
+        "'Kacelo pe 'luse lupya",
+        "Lutushibusha, lutwimya,",
+        "Lutupususha mu mfifi,",
+        "Lutubwekesha ku bumi."
+      ],
+      [
+        "Uluse lupya nshiku pe,",
+        "Luba mupepi na ifwe;",
+        "Lututula, lutwelela,",
+        "Lufundishe fya kwa Lesa."
+      ],
+      [
+        "Tulumbanye Mfumu yesu",
+        "Mu ncito shenu she lelo",
+        "Emo twikanye fyabipa,",
+        "Tupalame kuli Lesa."
+      ],
+      [
+        "Mutwenshe mu luse lwenu",
+        "Mutufishe na ku mulu,",
+        "Mutwafwe kuti twikale",
+        "Mu luse lwenu nshiku pe."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 94,
+    "title": "YESU E PO MUBE",
+    "verses": [
+      ["Yesu e po mube,", "Maka ya mweo,", "Ukupepa kube", "Ukwa mushilo."],
+      ["Puteni Mupashi", "Ube na bonse;", "Bulande fumyeni", "Mu m'tima onse"],
+      ["Efyo tukendesha", "Pa lwendo ulu,", "Tukalalolelo", "Kuca mu mulu."]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 95,
+    "title": "MWI SHINA LYA KWA YESU",
+    "verses": [
+      [
+        "Mwi shina lya kwa Yesu, Mwe Tata,",
+        "Natulongana, tulepapata;",
+        "Mube no luse, tuli bapumbwa,",
+        "Namumfwe nyimbo sha kumulumba."
+      ],
+      [
+        "Mwe batusakamana nshike pe,",
+        "Ku luse lwenu mupe fya bupe;",
+        "Mwe batucita pe 'fye bukata,",
+        "Ku minwe yenu muletwikata."
+      ],
+      [
+        "Na ifwe twaba bafye, twaluba,",
+        "Ububi bwine bwaisabuba",
+        "Tuli fye no bulanda, mwe Tata,"
+      ],
+      [
+        "Mwi shina lya kwa Yesu 'mwapaka,",
+        "Mu luse lwenu lwine lwa ntaka,",
+        "Mu m'lopo waitilwe pali fwe,",
+        "Twiswileniko nomba mwe Shifwe."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 96,
+    "title": "MWE LESA WANDI, MUBE NA INE",
+    "verses": [
+      [
+        "Mwe Lesa wandi, mube na ine;",
+        "Yaise mfifi; mwise mwe Cine;",
+        "Takwaba kwafwa uko nkashine,",
+        "Wa kwafwa ni mwe, mube na ine."
+      ],
+      [
+        "Lulepwa bwangu lwendo lwesu 'lo;",
+        "'Fwa panshi fiya nge fya mu tulo;",
+        "Fyonse fyaluka, fintu namwenw;",
+        "Mwe bashaluka, mube na ine."
+      ],
+      [
+        "Mwali no luse kale kuli ne;",
+        "Ne lyo ne mubi nakaninine",
+        "Mwakano kunsha;cikuku cine:",
+        "Na ku ntashi fi mube na ine,"
+      ],
+      [
+        "Ndefwaya Imwe, ndemukabila;",
+        "Ku bubi maka yenu yandwil;",
+        "Mumbaka, mwenshe, ku luse lwine;",
+        "Nomba bwaila, mube na ine."
+      ],
+      [
+        "Mwaba na ine te kuti ntine,",
+        "Na fyo ficusha te'ti fifine;",
+        "ne mfwa na maka ya bubi bwine",
+        "Nkacimfya, pantu mwaba na ine."
+      ],
+      [
+        "Lekeni mone ifyo mwafwile,",
+        "Na kumfwa yandi mumbalikile;",
+        "Bwaco bwa m'mulu, e bunsamine;",
+        "Ku mfwa, ku mweo, mube na ine."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 97,
+    "title": "BWA LELO BWAPWA, MWE KABUMBA",
+    "verses": [
+      [
+        "Bwalelo lelo bwapwa, mwe kabumba:",
+        "Kwishiwi lwenu bwaila;",
+        "Ku kuca kwena twamulumba,",
+        "Tutashe pa kusaila."
+      ],
+      [
+        "Ibumba lyenu lilolela",
+        "Pa kuye calo ku kuca,",
+        "Mu fyalo e limubombela,",
+        "Lilola fye talitusha."
+      ],
+      [
+        "Ilyo ku calo na ku bemba,",
+        "Lucelo lwaya ku ntashi,",
+        "Lyaime shiwi-elya bemba,",
+        "Lya bamupepa pe panshi."
+      ],
+      [
+        "Kasuba e katuwila,",
+        "Kabusha bantu kwi samba;",
+        "Baima na bo, bamwamgila,",
+        "'Milimo yenu batamba."
+      ],
+      [
+        "Mwe Lesa mwaba Mfumu ine,",
+        "'Bufumu bwenu tabupwa;",
+        "Bukula pe mu basubile",
+        "Ku sha nko shone ne ndupwa."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 97,
+    "title": "BWA LELO BWAPWA, MWE KABUMBA",
+    "verses": [
+      [
+        "Bwalelo lelo bwapwa, mwe kabumba:",
+        "Kwishiwi lwenu bwaila;",
+        "Ku kuca kwena twamulumba,",
+        "Tutashe pa kusaila."
+      ],
+      [
+        "Ibumba lyenu lilolela",
+        "Pa kuye calo ku kuca,",
+        "Mu fyalo e limubombela,",
+        "Lilola fye talitusha."
+      ],
+      [
+        "Ilyo ku calo na ku bemba,",
+        "Lucelo lwaya ku ntashi,",
+        "Lyaime shiwi-elya bemba,",
+        "Lya bamupepa pe panshi."
+      ],
+      [
+        "Kasuba e katuwila,",
+        "Kabusha bantu kwi samba;",
+        "Baima na bo, bamwamgila,",
+        "'Milimo yenu batamba."
+      ],
+      [
+        "Mwe Lesa mwaba Mfumu ine,",
+        "'Bufumu bwenu tabupwa;",
+        "Bukula pe mu basubile",
+        "Ku sha nko shone ne ndupwa."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
+    "id": 99,
+    "title": "NI MWE KASUBA KA MWEO",
+    "verses": [
+      [
+        "Ni mwe kasuba ka mweo,",
+        "Tebushiku nga mulipo;",
+        "Ikumbi limo liisa",
+        "Ku menso ku kumufisa."
+      ],
+      [
+        "'Lintu nalala mu tulo,",
+        "No kushibata amenso,",
+        "Amatontonkanyo yaba",
+        "Ya kuli 'mwe, Mupusushi."
+      ],
+      [
+        "Mube na ine 'kacelo",
+        "Tapali 'mwe te kwikala,",
+        "Mube na ine bwaile,",
+        "Tapali 'mwe natine mfwa."
+      ],
+      [
+        "Nga umocwa bana benu,",
+        "Naulungana ilelo,",
+        "MweMfumu mulombe nomba,",
+        "Wene mu fibi elala."
+      ],
+      [
+        "Abalwele mubalinde,",
+        "Na mapalo ya kuli 'mwe;",
+        "'Bakulosho bushiku bu",
+        "Balale bwino mu tulo."
+      ],
+      [
+        "Mukatupaya 'kacelo,",
+        "Tatulaenda mu  calo,",
+        "Tukasuke tukafike",
+        "Ku mulu, mu luse lwenu."
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
+  },
+  {
     "id": 100,
     "title": "Mutufumye No Bupalo",
     "author": "Unknown",
@@ -4315,6 +5589,55 @@
     ],
     "chorus": [],
     "addedChorus": []
+  },
+  {
+    "id": 141,
+    "title": "YA KWA YESU IMBILA",
+    "verses": [
+      [
+        "Ya kwa Yesu imibila",
+        "Atula!",
+        "Ku nko shonse ni mbila",
+        "Atula!",
+        "Soseni ci ca cine",
+        "Ku babifya bacula;",
+        "E lifunde lya Mwine,",
+        "Atula!"
+      ],
+      [
+        "Mulebila pabuta,",
+        "Atula!",
+        "Mulekusho kukuta",
+        "Atula!",
+        "Mwe ba bemba. mulange,",
+        "'Calo conse cisamwe :",
+        "Atula!"
+      ],
+      [
+        "Na pa kulwa mubile,",
+        "Atula!",
+        "'Wa pe e o wafwile,",
+        "Atula!",
+        "Mwimbe na po pafita,",
+        "No mutima wafula,",
+        "Ne mfwa nayo yapita,",
+        "Atula!"
+      ],
+      [
+        "Yaya fye na pa mwela,",
+        "Atula!",
+        "Na ba nko basekela",
+        "Atula!",
+        "'pusukilo bukulu!",
+        "E co twimbe nshiko pe,",
+        "Atula!"
+      ]
+    ],
+    "chorus": [],
+    "author": null,
+    "meter": null,
+    "tuneName": null,
+    "subtitle": null
   },
   {
     "id": 142,
@@ -6696,12 +8019,6 @@
         "Icacisha, Yesu alintemwa."
       ],
       [
-        "Ndesekelela, alintemwa,",
-        "Yesu, Yesu, alintemwa,",
-        "Ndesekelela, alintemwa,",
-        "Yesu alintemwa."
-      ],
-      [
         "2. Nga namulaba no kwendauka",
         "Alentemwa pe nangula nduba;",
         "Ndebwelela bwangu kwa Katula.",
@@ -6731,6 +8048,12 @@
         "Nombo mulwani afulumuka,",
         "'Co namweba, Yesu alintamwa."
       ]
+    ],
+    "chorus": [
+      "Ndesekelela, alintemwa,",
+      "Yesu, Yesu, alintemwa,",
+      "Ndesekelela, alintemwa,",
+      "Yesu alintemwa."
     ]
   },
   {

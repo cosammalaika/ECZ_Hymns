@@ -105,7 +105,7 @@ class AppInfo extends StatelessWidget {
         ),
         const SizedBox(height: 5),
         const Text(
-          'Version: 1.0.0',
+          'Version: 1.2.0',
           style: TextStyle(
             fontSize: 14,
             fontWeight: FontWeight.w200,

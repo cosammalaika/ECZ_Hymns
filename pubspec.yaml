@@ -3,7 +3,7 @@ description: "A new Flutter project."
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-version: 1.2.0+16  # Update version code to 3
+version: 1.2.0+18  # Update version code to 3
 
 environment:
   sdk: '>=3.2.5 <4.0.0'
@@ -22,6 +22,8 @@ dependencies:
   package_info: ^2.0.2
   shared_preferences: ^2.2.3
   flutter_tts: ^4.0.2
+  yaml: ^3.1.2
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   flutter_test:
