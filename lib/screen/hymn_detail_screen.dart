@@ -97,7 +97,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                '${widget.hymn.id} ${widget.hymn.title}',
+                '${widget.hymn.id}. ${widget.hymn.title}',
                 style: const TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
@@ -105,24 +105,23 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 ),
               ),
               const SizedBox(height: 16),
-              // Render verses
-              for (var verse in widget.hymn.verses)
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    for (var line in verse)
-                      Text(
-                        line,
-                        style: TextStyle(
-                          fontSize: fontSize,
-                          fontWeight: FontWeight.w400,
-                          color: const Color(0xFF000046),
-                        ),
+              // Render first verse
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  for (var line in widget.hymn.verses[0])
+                    Text(
+                      line,
+                      style: TextStyle(
+                        fontSize: fontSize,
+                        fontWeight: FontWeight.w400,
+                        color: const Color(0xFF000046),
                       ),
-                    const SizedBox(height: 15),
-                  ],
-                ),
-              // Render chorus
+                    ),
+                  const SizedBox(height: 15),
+                ],
+              ),
+              // Render chorus after first verse
               if (widget.hymn.chorus.isNotEmpty)
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -140,7 +139,24 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                         line,
                         style: TextStyle(
                           fontSize: fontSize,
+                          fontWeight: FontWeight.bold,
                           fontStyle: FontStyle.italic,
+                          color: const Color(0xFF000046),
+                        ),
+                      ),
+                    const SizedBox(height: 15),
+                  ],
+                ),
+              // Render remaining verses
+              for (var i = 1; i < widget.hymn.verses.length; i++)
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (var line in widget.hymn.verses[i])
+                      Text(
+                        line,
+                        style: TextStyle(
+                          fontSize: fontSize,
                           fontWeight: FontWeight.w400,
                           color: const Color(0xFF000046),
                         ),

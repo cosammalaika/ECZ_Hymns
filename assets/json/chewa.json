@@ -1,661 +1,1048 @@
-[{
-  "id": 1,
-  "title": "Inu Mulungu, Tikuyamikani",
-  "author": "Unknown",
-  "meter": "8.7.8.7.D.",
-  "tuneName": "Deerhurst Lux Eoi Abbot's Leigh",
-  "verses": [
-    [
-      "Inu Mulungu, tikuyamikani;",
-      "Tikubvomera ndinu Ambuyantu;",
-      "Ponse, Atate, akugwadirani,",
-      "Ndinu wamuyaya!"
+[
+  {
+    "id": 1,
+    "title": "NDINU WAKUYERA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "NDINU wakuyera! Wamphamvu zonse.",
+        "Nthaŵi ya m’mamaŵayi tiimba nyimboyi.",
+        "Mlengi wachifundo, tikuyamikani,",
+        "E! Mlungu Mmodzi mwa Atatuwo."
+      ],
+      [
+        "Ndinu Wakuyera! Anthu ochuluka",
+        "Akuimbirani, nakupempharanibe;",
+        "Akumwamba omwe nagwadira Inu,",
+        "Wachikhalire ndi wosafa ’yi."
+      ],
+      [
+        "Ndinu wakuyera!",
+        "Ife akuchimwa",
+        "Zaulemerero zanu sitiona’yi;",
+        "Mwayera nokha, wina saoneka",
+        "Wangwiro m’mphamvu ndi m’kuyeramo."
+      ],
+      [
+        "Ndinu wakuyera! Zakumwamba zonse",
+        "Ndi zapansi zitamabe dzina lanulo;",
+        "Mlengi wachifundo,",
+        "Mphambi,",
+        "Ambuyathu,",
+        "E! Mlungu Mmodzi mwa Atatuwo."
+      ]
     ],
-    [
-      "Nanu akukuzani amithenga,",
-      "Nanu zam’Mwamba ndi zamphamvu zace,",
-      "Nanu angelo amitundu yonse akuyimbirani:"
+    "chorus": []
+  },
+  {
+    "id": 2,
+    "title": "INU Mulungu",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "INU Mulungu, tikuyamikani;",
+        "Tivomereza ndinu Ambuyathu;",
+        "Ponse, atate, akugwadirani,"
+      ],
+      [
+        "Nanu akukuzani amithenga,",
+        "Nanu zam’mwamba ndi zamphamvu zake,",
+        "Nanu angelo a mitundu yonse",
+        "Akuimbirani:"
+      ],
+      [
+        "\"Mbuye Woyera! E, Woyera nokha!",
+        "Mbuye Woyera! Mbuye wa makamu!",
+        "Ponse ulemu wanu ndi wodzaza;",
+        "Pansi ndi Kumwamba.\""
+      ],
+      [
+        "Inu atumwi akumweka aja,",
+        "Ndi aneneri oyanjana omwe;",
+        "Ndi aunyinji anakuferani;",
+        "Akuyamikani."
+      ],
+      [
+        "Mpingo Woyera! wa kwa anthu onse;",
+        "Ukumverani, Mfumu ndi Atate,",
+        "Mwana woona wa ulemu wonse,",
+        "Mzimu, Nkhoswe yemwe."
+      ],
+      [
+        "Khristu Mfumuyo yaulemerero!",
+        "Mwana wosatha wa Atate ndinu!",
+        "Simunanyoza mimba ya Namwali;",
+        "Potipulumutsa."
+      ],
+      [
+        "Imfa mutagonjetsa ndi zoŵaŵa.",
+        "Njira munatsegula tikaloŵe;",
+        "Momwe mukhala Inu ndi Atate;",
+        "Mu ulemerero."
+      ],
+      [
+        "Kumva milandu yathu mudzabwera;",
+        "Mutithandize, atumiki anu;",
+        "Mwatiwombola nawo mwazi wanu;",
+        "Mutipulumutse."
+      ],
+      [
+        "M'tiŵerengere M’Mwamba ndi oyera;",
+        "Mutidalitse, ndi'fe anthu anu;",
+        "Moyo wosatha, mutipatse tonse;",
+        "Mutilamulire."
+      ],
+      [
+        "Tsiku ndi Tsiku timalemekeza;",
+        "Nanu tikukuzani osaleka;",
+        "Mbuye, m'tisunge tingachimwe lero;",
+        "M'tichitire nsisi."
+      ],
+      [
+        "Mbuye, chifundo chanu chitigwere;",
+        "Monga tikhulupi'ra inu nokha;",
+        "Takhulupi'ra zedi mwa'Nu, Mbuye;",
+        "Tisagome konse!"
+      ]
     ],
-    [
-      "“Mbuye Woyera! E, Woyera nokha!",
-      "Mbuye Woyera! Mbuye wa akamu!",
-      "Ponse ulemu wanu utodzaza pansi and Kumwamba.”"
+    "chorus": []
+  },
+  {
+    "id": 3,
+    "title": "ATATE wa Kumwambako",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "ATATE wa Kumwambako,",
+        "Munawombola ife, ndi",
+        "Chikondi chanu chijacho;",
+        "Tiyamikira Inutu."
+      ],
+      [
+        "Ambuye Yesu Inutu,",
+        "Munabadwira anthu ’fe;",
+        "Munatifera tonse ’fe;",
+        "Tiyamikira Inutu."
+      ],
+      [
+        "Mzimu Woyera m’mtimamo",
+        "Tiyeretsedwe ndi Inutu;",
+        "Munatisunga bwinoli,",
+        "Tiyamikira Inutu."
+      ],
+      [
+        "Atate, Mwana, Mzimunso,",
+        "Ndinu Atatu, Mmodzitu",
+        "Ochimwa tikupemphani:",
+        "Mutikhululukire’fe"
+      ]
     ],
-    [
-      "Nanu Atumwi akumveka aja,",
-      "Ndi aneneri oyanjana omwe,",
-      "Ndi aunyinji anakuferani akuyamikani."
+    "chorus": []
+  },
+  {
+    "id": 4,
+    "title": "LEMEKEZA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "LEMEKEZA Mulungu ’Tate,",
+        "Lemekeza Mulungu Mwana,",
+        "Lemekeza Mulungu Mzimu,",
+        "Mulungu Mmodzi ndi wamkulu,",
+        "Lemekeza, lemekeza",
+        "Mulungu wathu yemweyo."
+      ],
+      [
+        "Mlemekeze, anakonda",
+        "Natitsuka m’mtima mwathu;",
+        "Anatiwombola ife",
+        "Tikakhale ndi chifumu.",
+        "Lemekeza, lemekeza",
+        "Yesu Mbuye Nsembeyo."
+      ],
+      [
+        "Lemekeza Mfumu yathu,",
+        "Mfumu ya mipingo yonse,",
+        "Ipambana anthu onse",
+        "Akumwamba ndi apansi.",
+        "Lemekeza, lemekeza",
+        "Mfumu ya mafumuyo."
+      ]
     ],
-    [
-      "Mpingo woyera wa kwa anthu one",
-      "Ukumverani, Mfumu and Atate,",
-      "Mwanawoona wa ulemu wonse, Mzimu Nkhoswe yemwe."
+    "chorus": []
+  },
+  {
+    "id": 5,
+    "title": "NDI Aleluya",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "NDI Aleluya imbirani,",
+        "\"Tate wathu wa Kumwamba,",
+        "Analenga zonse;",
+        "Chifundo chake chachikulu,",
+        "Nzeru, mphamvu ndi ufumu,",
+        "Tiyamike tonse."
+      ],
+      [
+        "Ndi Aleluya imbirani,",
+        "Yesu Khrisitu Mpulumutsi,",
+        "Anachoka kwawo;",
+        "Nakhala munthu pansi pano,",
+        "Nasawuka, natifera,",
+        "Natisiira mawu."
+      ],
+      [
+        "Ndi Aleluya imbirani,",
+        "Mzimu wake wakuyera,",
+        "Amakhala nafe:",
+        "Atilangiza za Mulungu,",
+        "Nayeretsanso mitima,",
+        "Ya Akhrisitu ife."
+      ],
+      [
+        "Mulungu wathu tiyamika,",
+        "\"Tate, Mwana,",
+        "Mzimu yemwe,",
+        "Aleluya Inu;",
+        "Woyera Inu, ndi wamphamvu,",
+        "Muyenera anthu onse,",
+        "Agwadire Inu.\""
+      ]
     ],
-    [
-      "Kristu Mfumu yaulemerero! Mwana wosatha wa Atate Ndinu!",
-      "Simunanyoza mamba ya Namwali potipulumutsa."
+    "chorus": []
+  },
+  {
+    "id": 6,
+    "title": "MITAMBO inu",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MITAMBO inu yakumwambako",
+        "Yogunda mvula m’mlengalengamo,",
+        "Mawu akulu muzinenadi:",
+        "\"Aleluya!\""
+      ],
+      [
+        "Paphiri paja papakulupo,",
+        "Pamwala ponse pakuŵala mbuu!",
+        "Mumvomereze mawu omwewo:",
+        "\"Aleluya!\""
+      ],
+      [
+        "Mphepo yaikulu yakuwombayo,",
+        "Chisanu chija chozizirachi,",
+        "Ndi kabvumbulu muzinenadi;",
+        "\"Aleluya!\""
+      ],
+      [
+        "Mitengo yaitalitali ’nu,",
+        "Yachiimire mumaimabe,",
+        "Muvomereze ndi kunenabe:",
+        "\"Aleluya!\""
+      ],
+      [
+        "Zam’madzi zonse zakuopsyazo,",
+        "Nyanja, mathithi ndi mitsinjeyo,",
+        "Chigumula chakulindimacho;",
+        "\"Aleluya!\""
+      ],
+      [
+        "Zamoyo zili m’thengo zonsezo,",
+        "Zodzuma, zina zobangulazo,",
+        "Zimene ndi kulira konseko:",
+        "\"Aleluya!\""
+      ],
+      [
+        "Inu mumvere anyamatawo,",
+        "Okondedwa kuseŵerako,",
+        "Mumtima mubvomere monsemo:",
+        "\"Aleluya!\""
+      ],
+      [
+        "Ndi anamwali obvekedwa mbuu!",
+        "Ndi ana osakula msinkhu ’nu",
+        "Ana a Mulungu muvomeretu:",
+        "\"Aleluya!\""
+      ],
+      [
+        "Akulu nonse ndi mafumu ’nu",
+        "Magulu nonse apadziko 'pa,",
+        "Mum'lemekeze Mbuye yemweyo:",
+        "\"Aleluya!\""
+      ]
     ],
-    [
-      "Infa mutagonjetsa ndi zowawa, Njira munatsegula tikalowe",
-      "Momwe mukhala Inu ndi Atate mwaulemerero."
+    "chorus": []
+  },
+  {
+    "id": 7,
+    "title": "TAMANI",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "TAMANI Ambuye,",
+        "Wamphamvu ndi Iye;",
+        "Akhala m’ulemu,",
+        "Kumwamba komweko.",
+        "Chikopa cholimba,",
+        "Ndi kothaŵiranso;",
+        "Kwa anthu akewo,",
+        "Kotero ndi Mlungu."
+      ],
+      [
+        "Uzani zamphamvu,",
+        "Imbani chisomo;",
+        "Za Mwini ulemu,",
+        "Ambuye wathuyo.",
+        "Poomba chimphepo",
+        "Mvulanso ndi bingu;",
+        "Padziko, pathambo,",
+        "Akhala ponsepo."
+      ],
+      [
+        "Zozizwa zam’dziko,",
+        "Za M’mwamba zonsezi;",
+        "Mulungu wamphamvu,",
+        "Munalenga zonse;",
+        "Muyendetsa mwezi,",
+        "Nyenyezi ndi dzuŵa;",
+        "Zolengedwa zonse,",
+        "Zimvera Ambuye."
+      ],
+      [
+        "Sitiha ifedi,",
+        "Kukamba zokoma;",
+        "Za Inu Mulungu,",
+        "Wolera anthuwa.",
+        "Zifika ndi mphepo,",
+        "Ndi mvula ndi dzuŵa;",
+        "Zigwera ponsepo,",
+        "Pa anthu onsewa."
+      ],
+      [
+        "Wamphamvu yosatha,",
+        "Chikondichangwiro;",
+        "Angelo akonda,",
+        "Kutama Mulungu.",
+        "Ndiponso ifetu,",
+        "Ana 'nu tonse 'fe;",
+        "Tiimba nyimboyi,",
+        "Yotama Ambuye."
+      ]
     ],
-    [
-      "Kumva mirandu yathu mudzabwera Mutithandize, atumiki anu;",
-      "Mwatiombola nawo mwazi wanu: mutipuluutse."
+    "chorus": []
+  },
+  {
+    "id": 8,
+    "title": "TSOPANO",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "TSOPANO linoli,",
+        "Tiimbe nyimbo zathu;",
+        "Tiimbe nyimbozi,",
+        "Titame Mlungu wathu.",
+        "Masiku onsewo, Anatisungadi,",
+        "Anatipatsanso, Zabwino zonsezi."
+      ],
+      [
+        "Mulungu yemweyo",
+        "Akhale m’fupi mwathu;",
+        "Mtendere wakewo,",
+        "Ukhale m’mtima mwathu.",
+        "Tim'tsate Iyedi, Ndi nsoni zakezo;",
+        "Panjira yakeyi, Masiku onsewo."
+      ],
+      [
+        "Tilemekezetu, Atate wa Kumwamba;",
+        "Ndi Yesu Mbuyathu, Ndi Mzimu Wakuyera;",
+        "Mulungu Mmodziyu, Wanthaŵi zonsezo;",
+        "Tim'lemekezetu, Masiku onsewo."
+      ]
     ],
-    [
-      "Mtiwerengere m’Mwamba ndi oyera; Mutidalitse, ndife anthu anu;",
-      "Moyo wosatha mutiptse tonse, mutilamulire."
+    "chorus": []
+  },
+  {
+    "id": 9,
+    "title": "NDI mitima yokondwera",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      ["NDI mitima yokondwera,", "Mbuye wathu tiyamika."],
+      ["E, chifundo chake chonse,", "Ndi chosatha nthaŵi zonse."],
+      ["Dzina lake tibukitsa,", "Mlungu ndiye yekhayekha."],
+      ["Mphamvu yake inalenga,", "Dziko lonse ndi kumwamba."],
+      ["Anatsogolera kale,", "M’chipululu anthu ake."],
+      ["Ndi chifundo atipenya,", "Ife anthu osawuka."],
+      ["Amaŵeta nyama zonse,", "Zingasoŵe kanthu konse."],
+      ["Tiimbire Mlungu wathu,", "Waulemu ndi wamkulu."],
+      ["Tithaŵire kwa Mulungu,", "Ndiko tikapeze moyo."]
     ],
-    [
-      "Tsiku ndi tsiku timalemekeza: Nanu tikukuzani osaleka;",
-      "Muye, mtisunge tingacimwe lero mticitire nsisi."
+    "chorus": []
+  },
+  {
+    "id": 10,
+    "title": "NDITAMATU",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "NDITAMATU Ambuyangayu,",
+        "Moyo wanga wonse ndidzam'tamatu;",
+        "Ndiponso m'dziko lakumwambako.",
+        "Masiku anga onse ndidzam'lemekeza Iye,",
+        "Sindizaleka konsekonse mmene ndili moyotu;",
+        "Pa dziko pano pena m’Mwambamo."
+      ],
+      [
+        "Ndiye wokondwa, E, munthuyo,",
+        "Wokhulupirira Mlungu yekhadi;",
+        "Wolenga dziko, nyanja, zonsezi.",
+        "Choona chake chonse chingokhalatu chosatha,",
+        "Apulumutsa onse namadyetsa anthu akewo;",
+        "Wokonda ndiye Mlungu wathuyo."
+      ],
+      [
+        "Mlungu kuwona athiratu,",
+        "Inde m’maso awo osapenyawo;",
+        "Natuma akumvera mpumulo.",
+        "Amathandiza inde aulendo awo ofokatu,",
+        "Akazi amasiye, maka ndi ana'wo onsewo;",
+        "Olira otonthoza mtimadi."
+      ],
+      [
+        "NDITAMATU Ambuyangayu,",
+        "Moyo wanga wonse ndidzam'tamatu;",
+        "Ndiponso m’dziko la Kumwambako.",
+        "Masiku anga onse ndidzam'lemekeza Iye,",
+        "Sindidzaleka konsekonse mmene ndili moyotu;",
+        "Padziko pano pena m’Mwambamo."
+      ]
     ],
-    [
-      "Mbuye, cifundo canu citigwere Monga tikhulupira Inu nokha;",
-      "Ndakhulupira zedi mwanu, Mbuye, ndisagome konse!"
+    "chorus": []
+  },
+  {
+    "id": 11,
+    "title": "PAPHIRI",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "PAPHIRI ndi padambo,",
+        "Ponsepo pali Mlungu;",
+        "Poyenda ife m’njira,",
+        "MpoYima pali Mlungu.",
+        "Kokwera Maganizo,",
+        "Komwe kuli Mlungu;",
+        "Kumwamba ndi pansipo,",
+        "Ponsepo pali Mlungu."
+      ],
+      [
+        "Ndi maso Ambuyathu,",
+        "Apenyetsetsa ife;",
+        "Amadalitsa onse,",
+        "Okhulupi'ra Iye.",
+        "Amamva timbalame,",
+        "Naveka dziko lonse;",
+        "Sataya tizirombo,",
+        "Asunga zina zonse."
+      ],
+      [
+        "Okwaŵa pansi inu,",
+        "Oyenda m’madzi inu;",
+        "Oyesa dziko n'kwanu,",
+        "A m’mlengalenga inu.",
+        "Nonsenu ntchito zake,",
+        "Muwona tsiku n’tsiku;",
+        "Saleka kusamala,",
+        "Ndikudalitsa inu."
+      ],
+      [
+        "Nditama mphamvu yake,",
+        "Ya Mlungu yondizinga;",
+        "N’kafoka andilimbitsa,",
+        "N’kadwala andichiza.",
+        "Pakundisiya bwenzi,",
+        "Mulungu ali paja;",
+        "N’kaloŵa imfa ine,",
+        "Alipo Mlungu wanga."
+      ]
+    ],
+    "chorus": [
+      "Mulungu ali nane!",
+      "Ali nane, ali nane,",
+      "Ali nane, ali nane, Aa!",
+      "Mulungu ali nane!"
     ]
-  ],
-  "chorus": [
-  ],
-  "addedChorus": [
-  ]
-},
-{
-  "id": 2,
-  "title": "Ndinu Wakuyera!",
-  "author": "Unknown",
-  "meter": "11.12.12.10",
-  "tuneName": "Nicaea (Dykes)",
-  "verses": [
-    [
-      "Ndinu wakuyera! E, wamphamvu zonse,",
-      "Nthawi yam’mamawayi tiyimba nyimboyi;",
-      "Mlengi wacifundo, tikuyamikani,",
-      "E! Mulungu Mmodzi Mwa Atatuwo."
+  },
+  {
+    "id": 12,
+    "title": "MTIMA wanga uyamike",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MTIMA wanga uyamike,",
+        "Mfumu ya Kumwambako,",
+        "Anandiwombola ine;",
+        "Nanditsuka m’mtimamo."
+      ],
+      [
+        "Tiyamike Mulungu wathu,",
+        "Kaamba ka chifundocho;",
+        "Nthaŵi zonse sasinthika,",
+        "Mlungu wathu yemweyo."
+      ],
+      [
+        "Nthaŵi zonse monga Tate,",
+        "Atisamaliratu;",
+        "Atisunga m’manja mwake,",
+        "Atipulumutsatu."
+      ],
+      [
+        "Anthu a mitundu yonse,",
+        "Ndiponso a Kumwamba;",
+        "Yamikani Mungu wathu,",
+        "Ndiye wakukomatu."
+      ],
+      ["Anthu onse, anthu onse,", "Yamikani Mlunguyo."]
     ],
-    [
-      "Ndinu wakuyera! Anthu oculuka",
-      "Akuyimbirani, nakupempheranibe;",
-      "Akumwamba omwe nagwadira Inu",
-      "Wacikhalire ndi wosafa ‘i."
+    "chorus": ["Ife tonse, ife tonse,", "Tiyamike Mlunguyo."]
+  },
+  {
+    "id": 13,
+    "title": "YEHOVA ndiye Mbusa wanga",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "YEHOVA ndiye Mbusa wanga,",
+        "Sin’ngasoŵe konse;",
+        "Andigonetsa pali busa",
+        "La misipu yonse."
+      ],
+      [
+        "Kumadzi kuli njiratu,",
+        "Andiyendetsa bwino,",
+        "Nalimbikitsa moyo wanga,",
+        "Ndi chifundo chino."
+      ],
+      [
+        "Pabande lolunjika,",
+        "Andilondolera njira,",
+        "Chifukwacho cha dzina lake,",
+        "Anandisungira."
+      ],
+      [
+        "Chigwa choopsacho cha imfa,",
+        "Ndikachiloŵera;",
+        "Ndilibe mantha, muli ndi'ne,",
+        "Ndodo ndiigwira."
+      ],
+      [
+        "Pamaso pa adaniwo,",
+        "Mwayala gome langa;",
+        "E, mutu mwaudzoza,",
+        "Chisefuka chikho changa."
+      ],
+      [
+        "Zabwino ndi zokoma,",
+        "Zinditsata chitsatire;",
+        "E, m’nyumba ya Yehova,",
+        "Ndidzakhala chikhalire."
+      ]
     ],
-    [
-      "Ndinu wakuyera! Ife akucimwa",
-      "Zaulemerero zanu sitiona ‘i;",
-      "Mwayeradi nokha, wina saoneka",
-      "Wangwiro m’mphamvu ndi m’kuyeramo."
-    ],
-    [
-      "Ndinu wakuyera! Zakumwamba zonse",
-      "Ndi zapansi zitamabe dzina lanulo;",
-      "Mlengi wacifundo, Mphambi, Ambuyathu,",
-      "E! Mlungu Mmodzi mwa Atatuwo."
+    "chorus": [
+      "Ndiye Mbusa wanga,",
+      "Ndiye Mbusa wanga!",
+      "Yehova ndiye Mbusa wanga,",
+      "Sin’ngasoŵe konse"
     ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},
-{
-  "id": 3,
-  "title": "Mtima Wanga Uyamike",
+  },
+  {
+    "id": 14,
+    "title": "MTIMA wanga lemekeza",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MTIMA wanga lemekeza,",
+        "Mlungu wako ndi chimwemwe;",
+        "Nthaŵi zonse ndi m'tamanda,",
+        "Ndimwimbira nyimbo zanga."
+      ],
+      [
+        "Ndi wamwayi munthu uja,",
+        "Am'thandiza Mbuye wake;",
+        "Akachita mantha iye,",
+        "Am'chotsera nkhaŵa yake;",
+        "Ndipo likam'gwera tsoka,",
+        "Amakhulupi'ra kokha."
+      ],
+      [
+        "Mbuye ndiye wachifundo,",
+        "Achiritsa akudwala;",
+        "Anyamula akufoka,",
+        "Naŵadyetsatu anjala.",
+        "Wakusunga mlendo ndiye,",
+        "Nathandiza amasiye."
+      ],
+      [
+        "Ndiye Mbuye wa ambuye,",
+        "Mphamvu yake ndi yokwana;",
+        "Adzakhala chikhalire,",
+        "Mfumu yathu yopambana.",
+        "Aleluya! Kondwerani!",
+        "Mlungu wathu yamikani."
+      ]
+    ],
+    "chorus": ["Moyo, mphamvu, nzeru zonse,", "Zidzam'lekeza konse."]
+  },
+  {
+    "id": 15,
+    "title": "MULUNGU ndiye Mbusa wanga",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MULUNGU ndiye Mbusa wanga,",
+        "Sindisoŵa konse;",
+        "Amandiŵeta nandidyetsa,",
+        "Nandipatsa zonse."
+      ],
+      [
+        "M’mitsinje yamtendere mtima,",
+        "Wanga aumwetsa;",
+        "Mapazi omwe m’njira,",
+        "Yolungama nayendetsa."
+      ],
+      [
+        "Za mdima, imfa, nkhondo ndi zoipa sindiopa;",
+        "Ndikakhumudwa ndi kutopa,",
+        "Andipulumutsa."
+      ],
+      [
+        "Podwala ine, povutidwa,",
+        "Andisamalira;",
+        "Pondisautsa ’dani anga",
+        "Nandithangatira."
+      ],
+      [
+        "Chisomo ndi zokoma zake,",
+        "Sizileka konse;",
+        "Ndi m’nyumba ya Mulungu,",
+        "Ndidzakhala nsiku zonse."
+      ]
+    ],
+    "chorus": [
+      "Ndiye Mbusa wanga,",
+      "Ndiye Mbusa wanga!",
+      "Mulungu ndiye Mbusa wanga,",
+      "Sindisoŵa konse"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "MULUNGU akhale nawo",
+    "author": "Unknown",
+    "meter": "8.7.8.7",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MULUNGU akhale nawo,",
+        "Ulemerero ndi dalitso;",
+        "Ndiye Atate, Mwana,",
+        "Mzimu Woyera,",
+        "Mlungu mmodzi."
+      ],
+      [
+        "Tsopano, poyamba paja,",
+        "Masiku onse alinkudza;",
+        "Mphamvu, ulemerero,",
+        "Dalitso, chipambano."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+
+  {
+    "id": 18,
+    "title": "CHIKONDI cha Mulungu wathu",
+    "author": "Unknown",
+    "meter": "8.7.8.7",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "CHIKONDI cha Mulungu wathu,",
+        "Kutumiza Mwana wakeyo,",
+        "Kutifera ife tonse'fe,",
+        "Kutipulumutsa."
+      ],
+      [
+        "Mtima wanu usavutike,",
+        "Khulupilirani Mulungu;",
+        "Khulupilirani Inenso,",
+        "Mudzapulumuka."
+      ]
+    ],
+    "chorus": [
+      "Kweza, kweza maso,",
+      "Kwa Atate.",
+      "Udzalandira moyo,",
+      "Wosathawo."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 18,
+    "title": "CHIKONDI cha Mulungu wathu",
+    "author": "Unknown",
+    "meter": "8.7.8.7",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "CHIKONDI cha Mulungu wathu,",
+        "Kutumiza Mwana wakeyo,",
+        "Kutifera ife tonse'fe,",
+        "Kutipulumutsa."
+      ],
+      ["Kweza, kweza maso,", "Kwa Atate.", "Udzalandira moyo,", "Wosathawo."],
+      [
+        "Mtima wanu usavutike,",
+        "Khulupilirani Mulungu;",
+        "Khulupilirani Inenso,",
+        "Mudzapulumuka."
+      ]
+    ],
+    "chorus": [
+      "Kweza, kweza maso,",
+      "Kwa Atate.",
+      "Udzalandira moyo,",
+      "Wosathawo."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 20,
+    "title": "MU ZONSE Abale Yamikani",
+    "author": "Unknown",
+    "meter": "8.7.8.7",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MU ZONSE abale yamikani,",
+        "Mulungu ndi wamkulu,",
+        "Adziwa kupatsa anthu ake,",
+        "Zomwe iwo akuzisowa."
+      ],
+      [
+        "Akhrisitu pamavuto tiyeni timulemekeze,",
+        "Pamtendere tiyeni timulemekeze.",
+        "Maso ake ali pa anthu,",
+        "Okhala m'dziko lapansi."
+      ],
+      [
+        "Mu zonse abale yamikani,",
+        "Mulungu ndi wamkulu,",
+        "Adziwa kuveka anthu ake,",
+        "Ngakhale nyama zakuthengo."
+      ],
+      [
+        "Mu zonse abale yamikani,",
+        "Mulungu ndi wamkulu,",
+        "Adziwa kupatsa mphatso zake,",
+        "Ngakhalenso kwa tiŵanato."
+      ]
+    ],
+    "chorus": [
+      "Akhrisitu pamavuto tiyeni timulemekeze,",
+      "Pamtendere tiyeni timulemekeze."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 21,
+    "title": "TIIMBE Nyimbo Zotamanda",
+    "author": "Unknown",
+    "meter": "8.7.8.7",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "TIIMBE nyimbo zotamanda",
+        "Mulungu wathu wabwino,",
+        "Pakuti akondana nawo",
+        "Anthu okhala padziko;"
+      ],
+      [
+        "Tero natuma Mwana wake,",
+        "Wakukondedwa kalelo,",
+        "Kutiphunzitsa ife tonse",
+        "Za chikondano chakecho."
+      ],
+      [
+        "Mulungu ndiye wachifundo,",
+        "Nadzalandira onsewa",
+        "Akuulula mphulupulu",
+        "Ndi kukondana ndi Yesu"
+      ],
+      [
+        "Tilondelonde njira yake",
+        "Yopapatiza yaing’ono;",
+        "Adzatilondolera ndiye",
+        "Kutifikitsa m’Mwambamo."
+      ],
+      [
+        "Pakuwoloka mtsinje wa imfa",
+        "Dzanja Mbuyathu agwira;",
+        "Tikadagwira ntchito zake",
+        "Atipatsatu korona;"
+      ],
+      [
+        "Komwe kulibe masauko,",
+        "Pena misozi maliro;",
+        "Mulungu tidzamtamandira,",
+        "Inde kosalekezanso."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 22,
+    "title": "TITAME Mlungu Wakumwamba",
+    "author": "Unknown",
+    "meter": "8.7.8.7",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "TITAME Mlungu Wakumwamba,",
+        "Timwimbire nyimbo,",
+        "Kukoma kwake kwatipatsa",
+        "Zonse tili nazo."
+      ],
+      [
+        "(Timwimbire nyimbo,",
+        "Timwimbire nyimbo!",
+        "Kukoma kwake kwatipatsa",
+        "Zonse tili nazo)"
+      ],
+      [
+        "Poyamba paja analenga",
+        "Zonse dziko muno,",
+        "Tsopano lomwe azisunga",
+        "Zonse zili moyo."
+      ],
+      [
+        "Tinasokera ngati nkhosa,",
+        "Moyo tinataya,",
+        "Tinakondwera ndi zoipa",
+        "Zonse tinatsata."
+      ],
+      [
+        "Komweko titasaukira,",
+        "Titafuna kufa,",
+        "Atate anatilondola",
+        "Naitana ife."
+      ],
+      [
+        "Tiyeni tizipita kwathu,",
+        "Tisasokerenso,",
+        "Tilape m’mtima kuti",
+        "tikakhale ndi Mulungu."
+      ]
+    ],
+    "chorus": [
+      "Timwimbire nyimbo, Timwimbire nyimbo!",
+      "Kukoma kwake kwatipatsa Zonse tili nazo"
+    ],
+    "addedChorus": []
+  },{
+    "id": 23,
+    "title": "ANGELO amayimba",
+    "author": "Unknown",
+    "meter": "8.6.8.6",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "ANGELO amayimba,",
+        "Nyimbo zawo,",
+        "M'mwambamo.",
+        "Kulemekeza Mlungu,",
+        "Waulemelero."
+      ],
+      
+      [
+        "Ifenso timayimba,",
+        "Nyimbo zathu, pansipa;",
+        "Kulemekeza Mlungu,",
+        "Waulemelero."
+      ]
+    ],
+    "chorus":[
+      "(B) Poyimba atero,",
+      "(O) Aleluya,",
+      "(B) Mulungu wathu,",
+      "(O) Aleluya,",
+      "(B) Wopambanayo,",
+      "(O) Aleluya Aleluya,",
+      "Kwa Mulungu",
+      "Wa M'mwamba."
+    ],
+    "addedChorus": []
+  }
+  ,{
+    "id": 23,
+    "title": "NDIKULEMEKEZA",
+    "author": "Unknown",
+    "meter": "8.7.8.7",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "NDIKULEMEKEZA",
+        "Ambuye Mpulumutsi wanga;",
+        "Moyo ndi mtima wanga",
+        "ndilikukondwa mwa Mulungu."
+      ],
+      [
+        "Ndiye anayang’ana",
+        "umphaŵi wa mdzakazi wake;",
+        "Onse adzandiyesa ine wodala nsiku zonse."
+      ],
+      [
+        "Ndiye wamphamvu zonse anandichitira zazikulu;",
+        "Dzina la Ambuyanga lili loyera kopambana."
+      ],
+      [
+        "Ndiye amachitira chifundo anthu a mibadwo,",
+        "E! a mibadwo yonse yakumuopa ndi kummvera."
+      ],
+      [
+        "Iye amazichita zamphamvu nawo mkono wake;",
+        "Iye nabalalitsa omwe anyada nadzitama"
+      ],
+      [
+        "Iye natsitsa kunsi mafumu ku mipando yawo.",
+        "Iye nakweza konko omwe afatsa nasauka."
+      ],
+      [
+        "Ife amakhutitsa anjala ndi zabwino zake,",
+        "Ndi olemera onse naŵaingits’ opanda kanthu."
+      ],
+      [
+        "Monga anapangana ponena kwa makolo athu,",
+        "Ali kuthandizadi lero anake a Yakobo,"
+      ],
+      [
+        "Poti akumbukira atate wathu Abrahamu;",
+        "Inde chifundo chokha akuchitira ana ake."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },{
+    "id": 24,
+    "title": "LEMEKEZANI Yehova",
+    "author": "Unknown",
+    "meter": "8.7.8.7",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "LEMEKEZANI Yehova,",
+        "Antchito akenu;",
+        "M'mabwalo a nyumba yake,",
+        "Muimiliramo."
+      ],
+      [
+        "Lemekezani Yehova,",
+        "Pakuti ngwabwino;",
+        "Muyimbire zom'tamanda,",
+        "Mukondweretsa 'Ye."
+      ],
+      [
+        "Lemekezani Yehova,",
+        "Osankhidwa ake;",
+        "Musapembedze mafano,",
+        "Koma Mlungu yekha."
+      ],
+      [
+        "Lemekezani Yehova,",
+        "M'patseni ulemu.",
+        "Mumuyimbire Yehova",
+        "Kunthawi zonsezo."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  }
+, {
+  "id": 25,
+  "title": "AMBUYE ngwodalitsika",
   "author": "Unknown",
   "meter": "8.7.8.7",
-  "tuneName": "Lauda Anima (Praise My Soul)",
-  "verses": [
-    [
-      "Mtima wanga uyamike Mfumu Yakumbako;",
-      "Andiombola in nanditsuka m’mtimamo."
-    ],
-    [
-      "Tiyamike Mlungu wathu kamba ka cifundoco;",
-      "Ntawi zones sasanduka Mlungu wathu yemweyo."
-    ],
-    [
-      "Nthawi zonse monga ‘Tate atisamaliratu;",
-      "Atisunga m’manja mwace, atiplumusatu."
-    ],
-    [
-      "Anthu a mitundu yonse, ndipo a Kumwambako;",
-      "Yamikani Mlungu wathu, ndiye Wakukomatu."
-    ],
-    [
-      "Anthu onse, anthu onse,",
-      "Yamikani Mlunguyo"
-    ]
-  ],
-  "chorus": ["Ife tonse, if tonse,",
-  "Tiyamike Mlunguyo"],
-  "addedChorus": []
-},
-{
-  "id": 4,
-  "title": "Tamani Ambuye",
-  "author": "Robert Grant",
-  "meter": "10.10.11.11",
-  "tuneName": "Lyons (Haydn)",
-  "verses": [
-    [
-      "Tamani Ambuye, Wamphamvu ndi Iye,",
-      "Akhala m’ulemu Kumwamba komweko",
-      "Cikopa colimba ndi kothawiranso,",
-      "Kwa anthu acewo, kotero ndi Mlungu."
-    ],
-    [
-      "Uzni zamphamvu, yimbani cisomo,",
-      "Za mwini ulemu, Ambuye wathuyo;",
-      "Poomba cimphepo mvulanso and bingu,",
-      "Padziko, pathambo, akhala ponsepo."
-    ],
-    [
-      "Zozizwa zam’dziko, zam’Mwamba zonsezi",
-      "Mulungu wamphamvu, munalenga zonse;",
-      "Muyendetsa mwezi nyenyezi ndi zuwa,",
-      "Zolengedwa zonse Zimvere Ambuye."
-    ],
-    [
-      "Sititha ifedi kukamba zokoma,",
-      "Za inu Mulungu wolera anthuwa;",
-      "Zifika ndi mphepo and mvula ndi dzuwa",
-      "Zigwera ponsepo pa anthu onsewa."
-    ],
-    [
-      "Wamphamvu yosatha, cikondi cangwiro,",
-      "Angelo akonda kutama Mulungu;",
-      "Ndiponso ifetu ananu tonsefe,",
-      "Iyimba nyimboyi yotama Ambuye."
-    ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},{
-  "id": 5,
-  "title": "Mtidzutse, Mbuyetu",
-  "author": "Albert Midlane",
-  "meter": "8.7.8.7",
-  "tuneName": "Miles Lane (Shrubsole)",
-  "verses": [
-    [
-      "Mtidzutse, Mbuyetu, mtionekeremu;",
-      "Munene zakumvekazi, timvere ifetu."
-    ],
-    [
-      "Mtidzutse, Mbuyetu, mtipatse moyonso;",
-      "Mudzetu, Mbuye, mudzetu, tidalitseni ‘fe."
-    ],
-    [
-      "Mtidzutse, Mbuyetu, tikweze Dzinali;",
-      "Tiuzireni mpweyawo m’mitima yathuyi."
-    ],
-    [
-      "Mtidzutse, Mbuyetu, timvere maudi;",
-      "Zoona zanu tonsefe tikhulupire ‘zi."
-    ],
-    [
-      "Mtidzutse, Mbuyetu, mthirenso moyowo;",
-      "Ulemu ngwanu nokha ‘nu, dalitso nlathulo."
-    ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},{
-  "id": 6,
-  "title": "Tadzuka Mzimu Wanga’we",
-  "author": "Unknown",
-  "meter": "8.7.8.7",
-  "tuneName": "Morning Hymn (Barthelemon)",
-  "verses": [
-    [
-      "Tadzuka mzimu wanga’we ugwire nchito zakozi;",
-      "Kukondw ututengedi, pemphero ulikwezedi."
-    ],
-    [
-      "E, nthawi ya mamawayi umtamandire Mbuyeyo,",
-      "Nuyese lero ngatitu tsiku lakumalizalo"
-    ],
-    [
-      "Unkhani zak zonsetu unene molungamadi,",
-      "Nudziwe kut Mbuyako adziwa zacinsinsizi."
-    ],
-    [
-      "Pa tsikuli, Mbuyanga ‘Nu, munditsogoze m’njiramo;",
-      "Ulemerero wanuwo undilimbitse monsetu."
-    ],
-    [
-      "Timlemekeze Mlunguyu wa madalitso onsewo;",
-      "Timlemekeze tonsefe, Atate, Mwana, Mzimunso."
-    ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},{
-  "id": 7,
-  "title": "Mbuye, Mtipititse Tonse",
-  "author": "Unknown",
-  "meter": "8.7.8.7",
-  "tuneName": "St. Peter (Alexander Robert Reinagle)",
-  "verses": [
-    [
-      "Mbuye, mtipititse tonse ndi mdalitso lanulo,",
-      "Mwa cikondi canu, Mbuye, mutipatse nsisizo;",
-      "Mutitsitsimutse ife, pakuyenda m’dzikoli."
-    ],
-    [
-      "Tiyamika inu, Mbuye, kamba ka uthengawu,",
-      "Mphatso za cipulumutso zidzazetu mtimamu;",
-      "Kuti ife tikhalebe okhulupirikawo."
-    ],
-    [
-      "Nsiku zathu zonse, Mbuye, tipereka kwanuko,",
-      "Mutilimbikitse, Mbuye, kuti tsatope ‘I;",
-      "Mpaka tidzaone tonse, ulemelo wanuwo"
-    ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},{
-  "id": 8,
-  "title": "Ulemu Kwa Mlungu",
-  "author": "Fanny Crosby",
-  "meter": "11.11.11.11",
-  "tuneName": "To God Be the Glory (Doane)",
-  "verses": [
-    [
-      "Ulemu kwa Mlungu, Ambuye wathu,",
-      "Akonda, ‘napatsa ‘fe mwana wace;",
-      "Napatsatu moyo kuombola ‘fe’",
-      "Pa khomo la moyo natsegulatu."
-    ],
-    
-    [
-      "Anapulumutsa ndi mwazi wace,",
-      "Amene akhulupirira mwa ‘Ye;",
-      "Ngakhale wocimwa koposa ndith,",
-      "Adzkhulukidwa mwa Yesuyo."
-    ],
-    [
-      "Anatiphunzitsa zopambanazo,",
-      "Tikondwa mwa Yesu, Ambuye wathu;",
-      "Komabe ‘dzozizwa kopambanadi,",
-      "Pamene attend ‘fe Kumwambako."
-    ]
-  ],
-  "chorus": [
-    "Tamani Mbuyeyo, dziko limvere ‘Ye,",
-    "Tamani Mbuyeyo, anthu akondwetu;",
-    "Idzani kwa ‘Tate mwa mwana wace,",
-    "M’patseni ulemu, anaconda ‘fe."
-  ],
-  "addedChorus": []
-},
-{
-  "id": 9,
-  "title": "Mbuye Wanga Ndikalingiriratue",
-  "author": "Unknown",
-  "meter": "8.7.8.7.D.",
-  "tuneName": "Ebenezer (Williams)",
-  "verses": [
-    [
-      "Mbuye, wanga, ndikalingiriratu",
-      "Za nchito zones za dzanja lanu;",
-      "Nyenyezizo ndi mabingo ogunda,",
-      "M’dziko monse muli mphamvu zanu."
-    ],
-    
-    [
-      "Mukalankhula m’mabingo ogunda",
-      "Pena kunong’onexa mumphepo;",
-      "Nkikaona nkhope yanu mumphezi,",
-      "Pena m’Uta-wa-Leza’ m’mitambo"
-    ],
-    [
-      "M’kuwla kwa ulemero wanu,",
-      "Mwatifera ndi mtima wakusweka,",
-      "Mbuye, munandikhetsera mwazi."
-    ],
-    [
-      "Mukabwera Ambuye mwa mitambo,",
-      "Kutenga ife kukhala nanu;",
-      "Mwa chimwemwe ndidzayimbitsa nyimbo",
-      "Kwa Mulungu wamkuru-kurutu."
-    ]
-  ],
-  "chorus": [
-    "Mzimu wanga uyimbira Mlungu,",
-    "Ndinu Wamkulu-kulutu;",
-    "Mzimu wanga uyimbira Mlungu,",
-    "Ndinu Wamukulu-kulutu"
-  ],
-  "addedChorus": []
-},{
-  "id": 10,
-  "title": "Mbuye Munditsogolere",
-  "author": "William Williams",
-  "meter": "8.7.8.7.D.",
-  "tuneName": "Cwm Rhondda (John Hughes)",
-  "verses": [
-    [
-      "Mbuye munditsogolere, ndine mmlendo m’dziko muno;",
-      "Ndikafoka mundikweze, mundisunge m’manja mwanu;",
-      "Mundidyetse, mundidyetse,",
-      "Sindingamve njalayo, sindingamve njalayo."
-    ],
-    [
-      "Mundimwetse madzi anu, andicize nthenda zanga;",
-      "Utsogole mtambo wanu, ndikadziwe njira yanga;",
-      "Mpulumutsi, Mpulumutsi,",
-      "Mundicinjirizetu, mundicinjirizetu."
-    ],
-    [
-      "Ndikalowa m,mtsinje muja, mndicotsere mantha onse;",
-      "Mndiolotse tsidya lija, ndikondwere nthawi zonse;",
-      "Nyimbo zanga, nyimbo zanga,",
-      "Zidzalemekeza ‘Nu, zidzalemekeza ‘Nu."
-    ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},{
-  "id": 11,
-  "title": "Yehova, Mbusa Wangadi",
-  "author": "Scottish Psalter, 1650",
-  "meter": "8.6.8.6",
-  "tuneName": "Crimond (Jessie Seymour Irvine)",
-  "verses": [
-    [
-      "Yehova, Mbusa wangadi; zikwana zangazi",
-      "Andigonetsa bwinodi, mumsipu mwacemo."
-    ],
-    [
-      "Kumadzi akudikhawo, atsogolerako;",
-      "Pofoka moyo wangawu, aulimbitsanso."
-    ],
-    [
-      "M’njira yakulungamayi, anditsogoleramo;",
-      "Si coyenera in ‘ci, nca dzina lacelo"
-    ],
-    [
-      "Ndipyole Kodi Mdima wa mthunzi wa imfawo?",
-      "Ndiribe matha ngatitu mukala nanemo."
-    ],
-    [
-      "Cakudya coyenera ‘ne, mwandikonzera pha!",
-      "Pamaso pa adaniwo, mudyetsa mtimanga."
-    ],
-    [
-      "Nao mafuta anuwo, mwandidzozera ‘ne,",
-      "Mwadzaza chikho cangadi, cisefukirabe"
-    ],
-    [
-      "Zokoma, zakiyanjazi, zidzanditsatako;",
-      "Ndikhale m’nyumba mwanumo, kunthawi zonsezo."
-    ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},{
-  "id": 12,
-  "title": "Tumphatumpa Moyo Wanga",
-  "author": "Unknown",
-  "meter": "8.6.8.6",
   "tuneName": "Unknown",
   "verses": [
     [
-      "Tumphatumpha moyo wanga, sangalala and Mombolo;",
-      "Kuombola kwa Yehova kwatuluka m’dziko lako."
+      "AMBUYE ngwodalitsika,",
+      "Mulungu wa Israyeli ndiye,",
+      "Poti anayang’ana naŵawombola anthu ake,"
     ],
     [
-      "Bvinabvina moyo wanga, lulutira mtima wanga;",
-      "Na mauwo a Yehova watuluka m’dziko lako"
+      "Napulumutsa tonse mwapfuko la Davide mwana wake;",
+      "Monga analankhula mwa aneneri ake,",
+      "Adzatipulumutsa kudzanja la onse akutida,"
     ],
     [
-      "Yimbirira moyo wanga, mtendere wako wafika;",
-      "Mbendera ya Ciombolo waikwezetsa ndi Yesu."
+      "Ndipo adzachitira akulu chifundo ndi chisoni.",
+      "Ndiye akumbukira pangani loyera lake lija,",
+      "Ndi chilumbiro chake cha kwa atate Abrahamu,"
     ],
     [
-      "Ukondwere moyo wanga, kuunika kuoneka,",
-      "Ndi mdimawo uthawtu; lulutira moyo wanga."
+      "Choti timtumikire osaŵaopa ’dani athu,",
+      "Ndi kuyeranso mtima mwa chilungamo nsiku zonse.",
+      "Mwana, adzakuyesa mneneritu wa Wamkulukulu,"
     ],
     [
-      "Usekere moyo wanga, nd Yehova akufuna;",
-      "Wakwezatu mbenderayo ya Ciombolo, sekera."
-    ]
-  ],
-  "chorus": ["Mulungu wakweaekatu, Ciombolo m’dziko lako.",
-  "Wakwezekatu Ciombolo, Wabvundikira iwedi, mzimu wanga ‘we wafunda,",
-  "Lulutiratu moyo wanga."],
-  "addedChorus": []
-},{
-  "id": 13,
-  "title": "Wosimbayo Woyamba",
-  "author": "Unknown",
-  "meter": "8.7.8.7",
-  "tuneName": "Unknown",
-  "verses": [
-    [
-      "Wosimbayo woyamba ndi m’ngelo wanena",
-      "Kwa abusa ofatsa ogona m’thengo;",
-      "Ogona m’thengo, nalonda nkhosazo,",
-      "Usiku wozizira ndi wa mdima bi."
+      "Ndiwe udzakonzera njira ya Mbuye Wakumwamba.",
+      "Udzadziŵitsa anthu za Mpulumutsi wawo yemwe",
+      "Aŵakhululukira"
     ],
     [
-      "Anzure anasogozedwa ndi nyenyezi",
-      "Anacoka ku ‘mwa kuli kutali;",
-      "Colinga cao ndico, anafuna Mfumu,",
-      "Natsatira nyenyezi uko ndi uko."
+      "Nafafaniza tchimo lawo,",
+      "Poti Mulungu wathu ali ndi mtima wachifundo.",
+      "Ndiye kumwamba komwe",
+      "Ationetsa mbanda kucha,"
     ],
     [
-      "Nyenyezi inayenda mpaka ku madzulo",
-      "Niimira pamudzi wa Betelehemu;",
-      "Penipeni pamalo pomwe anabadwa",
-      "Mbuye Yesuyo ali mwana wakhanda."
-    ]
-  ],
-  "chorus": 
-  [
-    "Yimba, yimba, yimba, yimba;",
-    "Wabadwa Mfumu ya Israyel’."
-  ],
-  "addedChorus": []
-},{
-  "id": 14,
-  "title": "Cikondwero Pa Zikoli",
-  "author": "Isaac Watts",
-  "meter": "8.6.8.6 D.",
-  "tuneName": "Antioch",
-  "verses": [
-    [
-      "Cikondwero pa dzikoli, wadza Mfumu yathu;",
-      "Mitima yonse imkonzere malo,",
-      "Zolengedwa ziyimbe, zolengedwa ziyimbe,",
-      "Zolengedwa, zolengedwa ziyimbe,"
-    ],
-    [
-      "Cikondwero, alamula; anthu amyimbire;",
-      "Maphiri, naja, minda ndi madambo",
-      "Zibwezere mauwo, zibwezere mauwo;",
-      "Zibwezere, zibwezere mauwo."
-    ],
-    [
-      "Ucimowo usakule, minga isalase;",
-      "Wabwera Yesu ndi mdalitso wace,",
-      "Nacotsa temberero, nacotsa tembelelo,",
-      "Nacotsa, nacotsa temberero."
-    ],
-    [
-      "Alamula mwa cisomo, naonetsa dziko;",
-      "Ulemu ndipo cilungamo cace,",
-      "Cikondi codabwitsa, cikondi codabwitsa;",
-      "Cikondi, cikondi codabwisa"
+      "Poŵalitsira omwe ali mumdima ndi muimfa,",
+      "Ndi potilunjikitsa tonse munjira yamtendere."
     ]
   ],
   "chorus": [],
-  "addedChorus": []
-},{
-  "id": 15,
-  "title": "Oona Mumtima",
-  "author": "John F. Wade",
-  "meter": "Irregular",
-  "tuneName": "Adeste Fideles",
-  "verses": [
-    [
-      "Oona mumtima, ‘dzani mukondwera,",
-      "Tiyeni, tiyeni ku Betelehemu",
-      "Modyera ng’ombe muli mfumu yathu."
-      
-    ],
-    [
-      "Mulungu wamkulu wakuyerayera,",
-      "Kubadwa mwamkazi sanakana ‘i;",
-      "Mwana wa ‘Tate, sanalengedwadi,"
-    ],
-    [
-      "Angelo kwezani nyimbo zanu zones",
-      "M’mwambamo mumveke zoymikazo;",
-      "Lemekezani Mulungu Wakumwamba."
-    ],
-    [
-      "M’dzikomo Ambuye munabadwire ife,",
-      "Ulemu Wosatha muyeneradi.",
-      "Mau a ‘Tate munalowa m’thupi."
-    ]
-  ],
-  "chorus": ["Tiyeni timgwadire, tiyeni timgwadire,",
-  "Tiyeni timgwadrie, Kristuyo."],
-  "addedChorus": []
-},
-{
-  "id": 16,
-  "title": "Usikuwo Woyerawo",
-  "author": "Joseph Mohr",
-  "meter": "Irregular",
-  "tuneName": "Stille Nacht",
-  "verses": [
-    [
-      "Usikuwo woyerawo! Mwana adamlerayo,",
-      "Akakhale Mfumuyo; anabadwa m’kholamo,",
-      "Mfumu ya mafumu ndi ya anthuwo."
-    ],
-    [
-      "Mwanayo wa Mulunguyo andikonda inetu,",
-      "Na’tayira cumaco nadzagona m’udzimo.",
-      "Ndiyamika Mbuye wanga Yesuyo."
-    ],
-    [
-      "Usikuwo woyerawo! Wadzatu mtenderewo;",
-      "Ife tonse anthuwo atitenga Mlunguyo,",
-      "Mlemekeze ‘Tate, Mwana, Mzimunso."
-    ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},
-{
-  "id": 17,
-  "title": "Mudzi wa Betelehemu",
-  "author": "Phillips Brooks",
-  "meter": "8.6.8.6.",
-  "tuneName": "St. Louis",
-  "verses": [
-    [
-      "Mudzi wa Betelehemu, uli mu tulo phe!",
-      "Pamwamba pako nyenyezi zikupitirira;",
-      "Koma mu mseu mwako muwala kuunika,",
-      "Ciyembekezo conse mwa iwe cadzazidwa."
-    ],
-    [
-      "Kristu wobadwa m’Mariya, za m’Mwamba nasankha;",
-      "M’mene ofoka agona, angelo alonda,",
-      "Nyenyezi ya kum’mawa, bukitsa mbiriyo!",
-      "Yimba zomthokoza Mfumu, mtendere padziko."
-    ],
-    [
-      "Kacetecete mphatsoyo ya perekedwa phe,",
-      "Mommo Mulungu apereka madalitso ace;",
-      "Khutu silingamvetu kubwera kwaceko,",
-      "Mwa omlandira mofatsa Kristu alowamo."
-    ],
-    [
-      "Mwana wa Betelehemu, tsikani pa ife,",
-      "Cotsani chimo lathuli, mwa ife mubadwe;",
-      "Atiuza angelo Uthenga Wabwino,",
-      "Bweranitu, khalani mu, Mbuye Imanuel!"
-    ]
-  ],
-  "chorus": [],
-  "addedChorus": []
-},
-{
-  "id": 19,
-  "title": "Taonani, M'kholamo",
-  "author": "Unknown",
-  "meter": "7.7.7.7.7.7.",
-  "tuneName": "Tune: See, in Yonder Manger Low",
-  "verses": [
-    [
-      "Taonani, m’kholamo mwabadwira Mfumuyo;",
-      "Yakulonjezedwadi, Nsembe yathu ndiyeyu."
-      
-    ],
-    [
-      "Adagona m’ndyeromo wacokera m’Mwambayo,",
-      "Adasiya mpandowo Yesu Kristu Mfumuyo."
-    ],
-    [
-      "Falitsani mbiriyi, inudi abusa ‘Nu;",
-      "Nkhosa zanu zonsezo mwaisy’ranji m’phirimo?"
-    ],
-    [
-      "Pocezera m’dambomo, tinaona ‘ngelotu",
-      "Oyimbira mauwo a mtendere pansipa."
-    ],
-    [
-      "Mwana wakuyera ‘Nu, munakonda ifedi;",
-      "Munasiya kwanuko ndi kufika pansipa."
-    ],
-    [
-      "Mtimphunzitse bwinou, Mwana wakuyera ‘Nu,",
-      "Tifanane nanudi m’makhalidwe anuwo."
-    ]
-  ],
-  "chorus": ["Kondwerani nonsenu, pomvetsedwa mbiriyi",
-  "Kakumveka m’mzindamo: ‘Wabadwira m’Betelehemu.'"],
-  "addedChorus": []
-},
-{
-  "id": 20,
-  "title": "Kale Anthu M'kholamo",
-  "author": "Unknown",
-  "meter": "11.10.11.10",
-  "tuneName": "Tune: \"Hark! The Herald Angels Sing\"",
-  "verses": [
-    [
-      "Kale anthu m’kholamo ‘napembedza Mwanayo."
-    ],
-    [
-      "Wosauka Iyedi anagwira nchitozi"
-    ],
-    [
-      "Ndani kodi Muthuyo woyesedwa m’bwinjamo?"
-    ],
-    [
-      "Analira ndaniy pomwalira benzilo?"
-    ],
-    [
-      "M’munda muja ndaniyo mwazi wace dontho do?"
-    ],
-    [
-      "Iye ndani pamtanda “anafere ‘daniwo?"
-    ],
-    [
-      "Mkuca wace ndaniyo ‘naturuka m’mandamo?"
-    ],
-    [
-      "Ndani pa cimpandoco alamula ponsepo?"
-    ]
-  ],
-  "chorus": ["Ndiye Mbuye, Mfumu yanga, Ndiye Mbuye wa Kumwamba",
-  "Amgwadire anthuwo, timtamande Mfumuyo"],
   "addedChorus": []
 }
+    
 ]

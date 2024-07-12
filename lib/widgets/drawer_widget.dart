@@ -61,6 +61,12 @@ class MyDrawer extends StatelessWidget {
               'chewa',
               'assets/icons/book (6).png',
             ),
+            _buildDrawerItem(
+              context,
+              'Lozi "Kelesite Mwa Lipina"',
+              'lozi',
+              'assets/icons/book (3).png',
+            ),
           ],
         ),
       ),
