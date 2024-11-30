@@ -50,7 +50,7 @@ android {
         applicationId "com.creative_solutions.hymnalive"
         minSdkVersion 21
         targetSdkVersion 34 // Directly setting targetSdkVersion to 34
-        versionCode  25
+        versionCode  26
         versionName "1.4.0" 
     }
 

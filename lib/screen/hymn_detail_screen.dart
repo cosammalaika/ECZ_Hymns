@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'dart:io';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
@@ -13,6 +15,7 @@ class HymnDetailScreen extends StatefulWidget {
   const HymnDetailScreen({super.key, required this.hymn});
 
   @override
+  // ignore: library_private_types_in_public_api
   _HymnDetailScreenState createState() => _HymnDetailScreenState();
 }
 
@@ -34,6 +37,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       File imgFile = File('$directory/hymn.png');
       await imgFile.writeAsBytes(pngBytes);
 
+      // ignore: deprecated_member_use
       await Share.shareFiles([imgFile.path],
           text: 'Let this hymn inspire you: ${widget.hymn.title}.');
     } catch (e) {

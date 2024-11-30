@@ -134,7 +134,8 @@
       "Mi baeti bat a t’o ya kwa kanya,",
       "Jesu ha a to lena."
     ]
-  },{
+  },
+  {
     "id": 5,
     "title": "KWA MUNZI KI KWA HULE NJI?",
     "author": "Unknown",
@@ -167,7 +168,8 @@
       ]
     ],
     "chorus": []
-  },{
+  },
+  {
     "id": 6,
     "title": "BALUMELI A MU TONE",
     "author": "Unknown",
@@ -199,7 +201,8 @@
       "Wa taha! Jesu Wa ta! Wa taha; U ta ka kanya!",
       "Jesu Wa ta A t’o busa. Wa taha! Ee Wa taha."
     ]
-  },{
+  },
+  {
     "id": 7,
     "title": "HA A KA TAHA",
     "author": "Unknown",
@@ -223,7 +226,8 @@
       "Ku swana linaleli, ku benya hahulu;",
       "Mwa mushukwe wa Jesu, Ba u benyise."
     ]
-  },{
+  },
+  {
     "id": 8,
     "title": "MUTA MABIZO A BIZWA",
     "author": "Unknown",
@@ -253,7 +257,8 @@
       "Muta mabizo a bizwa, muta mabizo a bizwa,",
       "Muta mabizo a bizwa, muta mabizo a bizw’a bizwa ni ta ba ten’."
     ]
-  },{
+  },
+  {
     "id": 9,
     "title": "MULIZE PALA",
     "author": "Unknown",
@@ -281,13 +286,943 @@
         "Zibo bun’ata kumata-mata, Jesu wa taha hape!"
       ]
     ],
+    "chorus": ["Wa ta hape, wa ta hape, Jesu wa taha hape!"]
+  },
+  {
+    "id": 10,
+    "title": "LU TA KOPANA KWA NUKA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "SHALL WE GATHER AT THE RIVER",
+    "verses": [
+      [
+        "Lu ta kopana kwa nuka, ko ku kanya kokunde;",
+        "Kwa mezi a mande luli, A buba kwa lubona?"
+      ],
+      [
+        "Fa likamba la nuka ye, Ki fa bubela mezi;",
+        "Lu ta lapela kamita, lizazi kamukana."
+      ],
+      [
+        "Lu si ka fita kwa nuka, A lu lule mitiyo;",
+        "Ka musa lu ta kululwa, lu fiwa siapalo."
+      ],
+      [
+        "Cwale lwa fita kwa nuka, musipili wa fela;",
+        "Cwanon’u ‘pilu za taba, ka lipina za tabo."
+      ]
+    ],
     "chorus": [
-      "Wa ta hape, wa ta hape, Jesu wa taha hape!"
+      "Lu ta kopana kwa nuka, Ee, ki kwa nuka ye nde hahulu:",
+      "Lukopanele kwa nuka, Ye buba kwa lubona."
     ]
+  },
+  {
+    "id": 11,
+    "title": "NITA KU LATELELA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "I WILL FOLLOW THEE",
+    "verses": [
+      [
+        "Ni ta latelela Jesu, kai ni kai ko ni inzi:",
+        "Kai ni kai ko’ Ya ni ta ya, Eni, ni ta londota."
+      ],
+      [
+        "Ni ha nzila ili maswe, ye sina bulondotwi;",
+        "U kile wa i zamaya, Ni ta ku latelela."
+      ],
+      [
+        "Ni ka fumana manyando, Ni ku likwa hahulu;",
+        "Ni wena U n’o likilwe, Ni ta ku latelela."
+      ],
+      [
+        "Ni ha ni li mwa manyando, ni li ya fulalezwi;",
+        "Wena U n’o li munyandi, Ni ta ku latelela."
+      ],
+      [
+        "Ni ha ni ya mwa mandinda, A bata, a tungile;",
+        "Wena U n’o a silile, Ni sa ku latelela."
+      ]
+    ],
+    "chorus": [
+      "Ni ta latelela Jesu, U ni shwezi kaniti;",
+      "Ni ha ba ku fulalela, Ni ta ku latelela."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "KU NA NI SILIBA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "THERE IS A FOUNTAIN",
+    "verses": [
+      [
+        "Bona siliba sa mali, A zwile ku Jesu;",
+        "Lisinyi ze nwela mwa ten’, Li tapa milatu."
+      ],
+      [
+        "‘Sholi la taba ku bona, sona siliba se;",
+        "Ni ‘na ya swana ni yena, Ni tapise libi."
+      ],
+      [
+        "Mawe, Jesu, mali a hao, H’a na ku fokola;",
+        "Mane batu ba Mulimu, ba y’o liululwa."
+      ],
+      [
+        "Ka sepo ni boni mali, A zwa mwa man’iba;",
+        "Ni ambola za lilato, Mane muta ni shwa."
+      ]
+    ],
+    "chorus": [
+      "Li tapa milatu, li tapa milatu;",
+      "Lisinyi ze nwela mwa ten’, li tapa milatu."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "MULENA JESU, NILAKAZA KU FOLA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "LORD JESUS, I LONG TO BE PERFECTLY WHOLE",
+    "verses": [
+      [
+        "Jesu, ni lakaza kuli ni fole; Ni bata kuli u to ina ni ‘na;",
+        "Zwisa maswaniso, leleka sila, U ni tapise ni be yo musweu."
+      ],
+      [
+        "Kwa halimu ko ‘inzi, ni talime, Ni tuse ha ni ipea ku wena;",
+        "Ni ipa ili ‘na, ni lika za ka, U ni tapise ni be yo musweu."
+      ],
+      [
+        "Jesu na ku kupa ka ku lapela, Ni ‘ne fa mahutu a takisizwe;",
+        "Ka sepo ni bona mali a buba; U ni tapise ni be yo musweu."
+      ],
+      [
+        "Jesu, na ku litela ka sibiti; Cwale to ni bupele pilu ye nca;",
+        "Ba ba ku bata ha U si ka li, nya; U ni tapise ni be yo musweu."
+      ]
+    ],
+    "chorus": ["Busweu twaa, ee, busweu twaa,", "U ni tapise ni be yo musweu."]
+  },
+  {
+    "id": 14,
+    "title": "UTWA MALI A WA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "HEAR THE PENNIES DROPPING",
+    "verses": [
+      ["Utwa mali a wa! Teeleza a wa;", "Ki mali a Jesu, A yak u yena."],
+      [
+        "Njele, njele cwalo, a zwa kwa bana;",
+        "I li mpo ya Jesu, ye zwa ku luna."
+      ],
+      ["Ni ha lu li bana, lu fana cwalo;", "Muta lu hulile, Lu ta ku fanga."],
+      ["Niha lu shebile, lu ka mu lata;", "U nga mpo ya luna, ka ku wabelwa."]
+    ],
+    "chorus": [
+      "Njele, Njele, Njele, Njele, Utwa a nz’a wa!",
+      "Ki mali a Jesu A ya ku yena."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "JESU WA NI LATA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "JESUS LOVES ME",
+    "verses": [
+      [
+        "Wa ni lata, na ziba, ku bulela Bibele;",
+        "Banana ki ba Jesu, ba fokola, yena nyaa."
+      ],
+      [
+        "Wa ni lata, Na shwile, ku kwalula munyako;",
+        "U ta tapisa libi, Kuli ni te ni kene."
+      ],
+      [
+        "Wa ni lata hahulu, Ha ni li mwa maswabi;",
+        "H’a inzi fa lubona, Jesu Wa ni talima."
+      ],
+      [
+        "Wa ni lata, U ina fa kaufi-kaufi ni na;",
+        "Haiba ni mu lata, Ni ta ya kwa halimu."
+      ]
+    ],
+    "chorus": [
+      "Ee, Wa ni lata, Ee, Wa ni lata;",
+      "Ee, Wa ni lata, Ku bulela Linzwi."
+    ]
+  },
+  {
+    "id": 16,
+    "title": "MAHUTU-NYANA, MAMELA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "LITTLE FEET, BE CAREFUL",
+    "verses": [
+      [
+        "Ni tapile mazoho, mawe, a masweu,",
+        "Ni kalimile Jesu, Ku mu sebeleza."
+      ],
+      [
+        "Lizebe za ka, utwa, lizazi kaufela,",
+        "Ka likezo za musa, z’o kona ku eza."
+      ],
+      [
+        "Meto a ka a lisa, mazoho, mahutu,",
+        "Ku a sabisa bubi, ka ‘baka la Jesu."
+      ]
+    ],
+    "chorus": ["Mahutu, mamela, Zamaya hande,", "Ni ta sebeleza Jesu a nosi."]
+  },
+  {
+    "id": 17,
+    "title": "LU TABISWA KI ‘LATO LE LI WABELISA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "‘TIS LOVE THAT MAKES US HAPPY",
+    "verses": [
+      [
+        "Lwa taba ka lilato, la lu wabelisa;",
+        "Li lu fa mukekecima, kwa batu ba ban’wi."
+      ],
+      [
+        "Fa fasi ki manyando, matuku ni lifu;",
+        "Ka ku taba lu ka lika, ku kwenula mutu."
+      ],
+      [
+        "Ha bupilo bu fela, Mi lu se lu bizwa;",
+        "Lu ta yo opela pina, ya musa wa Jesu."
+      ]
+    ],
+    "chorus": [
+      "Mulimu U lata banana, kabe lu ba sina yena;",
+      "Lwa taba ka lilato, la lu wabelisa;",
+      "Li lu fa mukekecima kwa batu ba ban’wi."
+    ]
+  },
+  {
+    "id": 18,
+    "title": "BAHALI BA JESU, A MU YE KWA NDWA!",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "ONWARD CHRISTIAN SOLDIERS!",
+    "verses": [
+      [
+        "Bahali ba Jesu! A mu ye kwa ndwa,",
+        "Ni sifapano sa Jesu kwa pili;",
+        "Kelesite Jesu, wa etelela,",
+        "Zwela pili mwa ndwa, bona ndembela."
+      ],
+      [
+        "Ha lu bat’o koma, sila sa saba,",
+        "Ki fo he buhali, a lu hape ndwa!",
+        "Mukosi wa lila, mabita ‘njanja,",
+        "Banna, mu tiise pina ya mina."
+      ],
+      [
+        "Ba ya inge mwa ndwa, batu ba Jesu,",
+        "Banna lu nga nzila ya balumeli;",
+        "Lu sa kauhani, lunto ilin’wi,",
+        "Sepo ni tumelo ni mwa lilato."
+      ],
+      [
+        "Mabona a ile, Ee ni mibuso,",
+        "Keleke ya Jesu i sa siyezi;",
+        "Libita ha li na ku ipwenkisa",
+        "Sepiso ya Jesu, Ha i fokoli."
+      ],
+      [
+        "A mu tahe batu! Lu t’o kopana,",
+        "Lu bine hamoho pina ya tulo;",
+        "Kanya ni likuta li be ku Jesu,",
+        "Ki pina ya batu ni man’eloi."
+      ]
+    ],
+    "chorus": [
+      "Bahali ba Jesu, A mu ye kwa ndwa,",
+      "Ni sifapano sa Jesu fa pili."
+    ]
+  },
+  {
+    "id": 19,
+    "title": "MOYO WA KA TOKOMELA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "MY SOUL BE ON THY GUARD",
+    "verses": [
+      [
+        "Moyo, tokomela! Lila ki bolule;",
+        "Limpi za sibi za ata, li t’o ku kelusa."
+      ],
+      [
+        "Lwana lu lapele! Si lobazi tebe;",
+        "U ipe maata kamita, Jesu U ta tusa."
+      ],
+      [
+        "Si li u komile, si lobazi tebe;",
+        "Ku sa na ni musebezi, mane u yo fenya."
+      ]
+    ]
+  },
+  {
+    "id": 20,
+    "title": "ZUHA, MOYO WA KA!",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "AWAKE, MY SOUL",
+    "verses": [
+      ["Zuha, moyo wa ka, zuha!", "U sunde ka maata;"],
+      ["Siyano ki tundameno,", "Ku bata bupilo."],
+      ["Ki linzwi la mupulusi,", "Li nze li ku biza;"],
+      ["Ki yena ya fa mupuzo", "Ku wena ya tokwa."],
+      ["Lipaki ze n’ata-n’ata", "Za ku talimela;"],
+      ["U siye nzila ya kale.", "Mi u zwele pili."],
+      ["Mupulusi ya lateha", "Lu kala siyano;"],
+      ["Mi ha lu se lu komile", "Lu ta lula kapo."]
+    ]
+  },
+  {
+    "id": 21,
+    "title": "NA TA KWA SIFAPANO",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "I AM COMING TO THE CROSS",
+    "verses": [
+      [
+        "Na ta kwa sifapano, ni nze nili sibofu;",
+        "Tutu ki matakala, ha ni luwa bupilo."
+      ],
+      [
+        "Na ku sepa, Mulena, Ngunyana ye tabilwe;",
+        "Na kubama fa fasi, ni pilise Mulena."
+      ],
+      [
+        "Ni ku lilezi kale, sibi si ni busize;",
+        "Mulena U li ku ‘na, “ni ta takula libi”."
+      ],
+      [
+        "Ni ku fa lika zaka, nako ni za lifasi;",
+        "Bupilo ni mubili, ki za Jesu kamita."
+      ],
+      [
+        "Ni sepa lisepiso, Ni se ni utwa mali;",
+        "Ni wela mwa maluli, Ni takiswa ni Jesu."
+      ],
+      [
+        "Jesu wa ta ! na taba! Ni se ni petehile;",
+        "Ni se ni folisizwe, kanya, kanya ku Jesu."
+      ]
+    ]
+  },
+  {
+    "id": 22,
+    "title": "MULENA NI UTWA MBUYOTI",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "LORD I HEAR OF SHOWERS OF BLESSINGS",
+    "verses": [
+      [
+        "Mulena ni utwa mbuyoti, yo nz’o fana feela,",
+        "Malotoli a katulusa, a ni kolobise,"
+      ],
+      ["Ni ku ‘na, ni ku ‘na, a to ni kolobisa."],
+      [
+        "Si fiteleli, mupulusi, ni ha ni li maswe;",
+        "Mwendi wena U ka ni siya, kono ni fe musa,"
+      ],
+      ["Ni ku ‘na, ni ku ‘na, kono U ni fe musa."],
+      [
+        "Ne ni lobezi mwa bumaswe? Ni ku swabisize?",
+        "Pilu ya ngwa ki za lifasi? Ni swalele Jesu."
+      ],
+      ["Ni ku ‘na, ni ku ‘na, U ni swalele Jesu."],
+      [
+        "U si ni fiteleli, moya! Wena ya bonisa;",
+        "Paka ni za musa wa Jesu, Ni zibise kozo."
+      ],
+      ["Ni ku ‘na, ni ku ‘na, U ni zibise kozo."]
+    ]
+  },
+  {
+    "id": 23,
+    "title": "NI UKAME WENA MOYA YA KENILE",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "H'OVER OVER ME, HOLY SPIRIT",
+    "verses": [
+      [
+        "Taha, moya ya kenile, U ni tapise pilu;",
+        "U ni taze ka buwena, taha, ni taze cwale."
+      ],
+      [
+        "Ni taze, ni taze, Jesu, ni taze cwale;",
+        "U ni taze ka buwena, taha, ni taze cwale."
+      ],
+      [
+        "U ka ni talisa, moyo, ni ha ni sa ku luti;",
+        "Ni ku nyandile hahulu, taha ni taze cwale."
+      ],
+      [
+        "Ni fokozi, ni bumaswe, na inama ku wena;",
+        "Wena, moya wa kamita, taha, ni taze cwale."
+      ],
+      [
+        "Ni tapise, ni silise, U ni tapise pilu;",
+        "Wa pulusa, wa buluka, mi wa ni taza cwale"
+      ]
+    ]
+  },
+  {
+    "id": 24,
+    "title": "NA KU TOKWA KA NAKO KAUFELA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "I NEED THEE EVERY HOUR",
+    "verses": [
+      ["Jesu, na ku tokwa, Mulen’a ka;", "A ku na linzwi le li ku swana."],
+      ["Na ku tokwa Mulena, nako kaufela;", "Ba ni ‘na mupulusi, na ta, Jesu."],
+      ["Jesu, na ku tokwa, ina ku ‘na;", "Miliko ya fela ha U ina."],
+      ["Jesu na ku tokwa, mwa manyando;", "A ku te kapili, na timela."],
+      ["Jesu na ku tokwa, U ni lute;", "Lisepiso za hao, U n’o ni fa."],
+      ["Jesu na ku tokwa, ya kenile;", "U ni eze wa hao, Mwan’a Mulimu."]
+    ]
+  },
+  {
+    "id": 25,
+    "title": "NA IPEYA KAUFELA KU JESU",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "ALL TO JESUS I SURRENDER",
+    "verses": [
+      [
+        "Na ipeya kaufela, ni li felela Jesu;",
+        "Ni ta lata, ni ta sepa, Ni ta pila ni Jesu."
+      ],
+      ["Na ipeya, ee, Na ipeya, ee;", "Kaufela, mupulusi, na ipeya ee."],
+      [
+        "Na ipeya kaufela, Na inama ku wena;",
+        "Na fulalela lifasi, cwale ni amuhele."
+      ],
+      [
+        "Na ipeya kaufela, Na lata kuba wa hao;",
+        "Moya a tahe, ni zibe, kuli Jesu ki wa ka."
+      ],
+      [
+        "Na ipeya kaufela, mi ni utwa mulilo;",
+        "Ni nyakalalo ye tezi! Kanya, kanya ku Jesu!"
+      ]
+    ]
+  },
+  {
+    "id": 26,
+    "title": "HONA MO NI INEZI",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "JUST AS I AM",
+    "verses": [
+      [
+        "Ni fela, ha nina kupo, ha i si mali a Jesu,",
+        "Ni kuli U ni bizize, Mwan’a Mulimu, na taha."
+      ],
+      [
+        "Ni fela ha ni liteli, Ku itapisa milatu,",
+        "Ki wena ya ni tapisa, mwan’a Mulimu, na taha."
+      ],
+      [
+        "Ni fela, na katazeha, ka baka la ‘pilaelo",
+        "Ndwa mwa pilu ni ku saba, Mwan’a Mullimu, na taha."
+      ],
+      [
+        "Ni fela, ni li sibofu, pono, maluo, kufola,",
+        "Ni fiwa ki wena zeo, Mwan’a Mulimu, na taha."
+      ],
+      [
+        "Ni fela, U n’amuhele, ni tapise, ni swalele;",
+        "Mi ni kolwa sepo ya hao, Mwan’a Mulimu, na taha."
+      ],
+      [
+        "Ni fela, lilato la hao, li folisize bumaswe;",
+        "Mi ni lata ku ba wa hao, Mwan’a Mulimu na taha."
+      ]
+    ]
+  },
+  {
+    "id": 27,
+    "title": "LU ZUSE HAPE",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "REVIVE US AGAIN",
+    "verses": [
+      [
+        "Lwa lumba, Ndate, ka ku lu fa mwana,",
+        "Jesu ya shwile A ya kwa halimu."
+      ],
+      [
+        "Aleluya! U lumbiwe, Aleluya: Amen!",
+        "Aleluya! U lumbiwe, lu zuse hape."
+      ],
+      ["Lwa lumba, Ndate, ka baka la Moya,", "O lu bonisize Mulena Jesu."],
+      [
+        "Kanya , ku lumbwa, li be ku ngunyana,",
+        "Ya n’a shimbile milatu ya luna."
+      ],
+      ["Kanya, ku lumbwa, li be ku Mulimu,", "Ya s’a lu kutiselize mwa nzila."],
+      ["Lu zuze hape, u lu fe lilato;", "U tumbule mulilo mwa pilu."]
+    ]
+  },
+  {
+    "id": 28,
+    "title": "U NGE NAKO YA KU BA YA LUKILE",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "TAKE TIME TO BE HOLY",
+    "verses": [
+      [
+        "U nge nako ya ku ambota Jesu,",
+        "U ine ku yena, itute Linzwi;",
+        "Twaelela batu ba balumezi,",
+        "Usa libali ku bata mbuyoti."
+      ],
+      [
+        "U nge nako, wena lifasi la ya,",
+        "U nge nako kwa mukunda ni Jesu;",
+        "Ha u mu talima u ta mu swana,",
+        "Batu ba bone siswaniso sa hae."
+      ],
+      [
+        "U nge nako kuli A etelele,",
+        "U sike wa mata Jesu fa pili;",
+        "Kapa u mwa tabo kapa maswabi,",
+        "A ku sepe Jesu ni linzwi la hae."
+      ],
+      [
+        "U nge nako, wena, a ku we pilu,",
+        "Muhupulo ni ‘kezo A li buse;",
+        "U zamaiswe ki moya wa Jesu,",
+        "U yo lukela ku Mu sebeleza."
+      ]
+    ]
+  },
+  {
+    "id": 29,
+    "title": "INA NI ‘NA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "ABIDE WITH ME",
+    "verses": [
+      [
+        "Ina ni ‘na, lififi la taha, kwa unsufala, t’o ine ni na,",
+        "Ha batusi ba se ba palezwi, Jesu, Mutusi, t’o ine ni ‘na."
+      ],
+      [
+        "Bupilo bu pakisa ku fela, bulena bwa lifasi bwa fela;",
+        "Ni bona petuho ni ku bola, ya sa fetuhi, t’o ine ni ‘na."
+      ],
+      [
+        "Ha ni kupi linzwi le li fita, na ku kupa u t’o ina ni ‘na",
+        "U sike wa ba inge ya fita, kono Mulena, t’o ine ni ‘na."
+      ],
+      [
+        "Na ku tokwa nako kamukana, maata a Jesu a fenya sila;",
+        "Ki ufi ya ku swana, Mulena? Ni ha ku li malu, ina ni na."
+      ],
+      [
+        "Ha ni sabi ha U ‘nzi kaufi, matuku, mioko, ha li sa baba;",
+        "Lifu ni libita muinzi kai? Ni sa wabelwa ha U ‘nzi ni na."
+      ]
+    ]
+  },
+  {
+    "id": 30,
+    "title": "LIZAZI LA LIKELA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "DAY IS DYING IN THE WEST",
+    "verses": [
+      [
+        "Lizazi la likela, lifasi la pumula;",
+        "Lapela ha busihu bu tukisa maboni kwa halimu."
+      ],
+      [
+        "Kena, Kena, Kena, Mun’a batu!",
+        "Halimu ni lifasi li nze li lumba wena, ya pahami."
+      ],
+      [
+        "Mulena wa bupilo, mwa tas’a lihalimu,",
+        "Lu pute lu ku bate, lu bee mwa mazoho, u kaufi."
+      ],
+      [
+        "Lififi ha litaha, Jesu lu babalele;",
+        "Mwa kanya ni mwa bunde, bwa linaleli ze nde, lwa lapela."
+      ],
+      [
+        "Kamuta lu sa boni naleli ni lizazi;",
+        "Jesu, lu iponele kakusasana tota, feza bunsu."
+      ]
+    ]
+  },
+  {
+    "id": 31,
+    "title": "LIZAZI LA MOYA WA KA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "SUN OF MY SOUL",
+    "verses": [
+      [
+        "Lizazi la moya wa ka, mupulusi ya lateha;",
+        "Inge ku ka tokwa lilu, le li ni pata ku wena."
+      ],
+      [
+        "Ni kwa ku lobala kwa ka, ibe ni n’o ku hupula;",
+        "Kuli ni pumule hande , fa sifuba sa mun’aka."
+      ],
+      [
+        "Musihali kaufela, ina nina ni no pila;",
+        "Ina ni ‘na ni busihu, ha u li siyo na saba."
+      ],
+      [
+        "Ha ni zuha u ni tuse, ni si ka ya mwa lifasi;",
+        "Mane ka lilato la hao, ni y’o fita kwa halimu."
+      ]
+    ]
+  },
+  {
+    "id": 32,
+    "title": "MULENA KI LICWE LA LUNA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "THE LORD’S OUR ROCK",
+    "verses": [
+      [
+        "Jesu ki licwe la luna, ki sisabelo se sinde;",
+        "Lwa silelezwa kamita, ki sisabelo se sinde."
+      ],
+      [
+        "Ki licwe, li na ni maata, muluti fa mushabati,",
+        "Ki ndambo ya bazamai, ki sisabelo se sinde."
+      ],
+      [
+        "Ki muluti ka lizazi, ki sisabelo se sinde;",
+        "Mi busihu wa lu lisa, ki sisabelo se sinde."
+      ],
+      [
+        "Ku na ni lin’ungwa hape, ki sisabelo se sinde;",
+        "Ku Jesu ya lu pulusa, ki sisabelo se sinde."
+      ],
+      [
+        "O licwe le li kenile, ki sisabelo se sinde;",
+        "Mutusi, ina kaufi, ki sisabelo se sinde."
+      ]
+    ]
+  },
+  {
+    "id": 33,
+    "title": "WA NI ETELELA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "HE LEADETH ME",
+    "verses": [
+      [
+        "Jesu wa ni etelele, ki manzwi a ku silisa!",
+        "Kaufela ze ni eza, lizoho la hae li ku ‘na."
+      ],
+      [
+        "Jesu, wa ni etelela, ka lizoho la hae luli;",
+        "Ni ta ba mulateleli, yena wa ni etelela."
+      ],
+      [
+        "Mwa lififi le li li wi, ni mwa sibaka se sinde;",
+        "Ni mwa mezi a ku nyanda, lizoho la hae li ku ‘na."
+      ],
+      [
+        "Na ku swala mwa lizoho, ni sa tongi ni ku swaba;",
+        "Ni kolwa ka ze ni bona, kakuli wa ni etelela."
+      ],
+      [
+        "Ha ni feza musebezi, ha ni ka koma ka wena;",
+        "Ha ni na ku saba lifu, u ni silisa Jordani."
+      ]
+    ]
+  },
+  {
+    "id": 34,
+    "title": "MUTA KOZO I TALA NZILA YA KA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "WHEN PEACE LIKE A RIVER",
+    "verses": [
+      [
+        "Muta kozo i tala nzila ya ka, mu ta ni nzi mwa manyando;",
+        "Kai ni kai, u ize ni n’o li, “ki hande, ki hande mwa moyo.”"
+      ],
+      ["Ki hande …. Mwa moyo….. ki hande, ki hande mwa moyo."],
+      [
+        "Ni ha satani a ta ni miliko, sepo ya ka ki ye tuna;",
+        "Jesu u boni ku palelwa kwa ka, mi u na shwezi moyo waka."
+      ],
+      [
+        "Muhupulo o munde ki o cwale, libi za ka kaufela;",
+        "Li fa sifapano, ha ni sa li nga, tumisa Jesu, moyo wa ka."
+      ],
+      [
+        "Mulena aku akufe kutaha, lihalimu li ka putwa;",
+        "Pata i ta lila, Jesu u ta ta, ku cwalo, ki hande mwa mayo."
+      ]
+    ]
+  },
+  {
+    "id": 35,
+    "title": "HA KI BULIKANI KWA BUTUNA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "WHAT A FELLOWSHIP, WHAT A JOY DEVINE",
+    "verses": [
+      [
+        "Ha ki bulikani kwa butuna, ku yendamena fa mazoho;",
+        "Ha ki limbuyoti kwa butuna, ku yendamena fa mazoho."
+      ],
+      [
+        "Ha ki bunde ku ba mwa nzila ye, ku yendamena fa mazoho;",
+        "Mawe, nzila ya iponahaza, ku yendamena fa mazoho."
+      ],
+      [
+        "Kana ni ka saba sika man’i? ku yendamena fa mazoho;",
+        "Ni na ni kozo ni Mulena’ ka, Ku yendamena fa mazoho."
+      ]
+    ],
+    "chorus": [
+      "Ye …nda…me…na, Ni piliswa mwa likozi;",
+      "Ye …nda…me…na, Ni yendamene fa mazoho."
+    ]
+  },
+  {
+    "id": 36,
+    "title": "TUMELO YA KA I TALIMEZI KU WENA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "MY FAITH LOOKS UP TO THEE",
+    "verses": [
+      [
+        "Ku Jesu na sepa, wena ya ni shwezi, mupulusi!",
+        "Utwa na lapela, zwisa sibi sa ka,",
+        "Ka zazi ni zazi, ni be wa hao."
+      ],
+      [
+        "A ku ni fe musa, maata ni bupilo, u ni zuse;",
+        "Jesu ya ni shwezi, ni be ni lilato,",
+        "Le li sa fetuhi le li cisa."
+      ],
+      [
+        "Ha ni ziyeleha, mwa hal’a maswabi, u be ndambo;",
+        "U li bunsu bu se, u takule mioko,",
+        "Ni sike na keluha ku wena."
+      ]
+    ]
+  },
+  {
+    "id": 37,
+    "title": "NI BE FA KAUFI KU MULIMU",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "NEAR MY GOD, TO THEE",
+    "verses": [
+      [
+        "Ni be fa kaufi ku Mulimu! Ni ha ni ka ba fa sifapano.",
+        "Ni ta bina pina, ni be fa kaufi, ni be fa kaufi ku Mulimu."
+      ],
+      [
+        "Ni muyambaeli mwa busihu, ni li mwa lififi, na pumula;",
+        "Mwa litolo zaka, ni be fa kaufi, ni be fa kaufi ku Mulimu."
+      ],
+      [
+        "Ibe nzila ye nde kwa halimu. Z’o lumela kuna, libe tuso;",
+        "Mang’eloi ali, ni be fa kaufi, ni be fa kaufi ku Mulimu."
+      ],
+      [
+        "Haiba na tona, ni ta lumba, mwa maswabi aka nit a bina,",
+        "Mwa bumai bwa ka, ni be fa kaufi, ni be fa kaufi ku Mulimu."
+      ],
+      [
+        "Ha ni ka fufela kwa halimu, lizazi ni kweli za libalwa;",
+        "Ni ta bina pina, ni be fa kaufi, ni be fa kaufi ku Mulimu."
+      ]
+    ]
+  },
+  {
+    "id": 38,
+    "title": "YEMA FA LICWE",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "STAND ON THE ROCK",
+    "verses": [
+      [
+        "Tiiseza ku Mulimu wa hao, mwa mififili ya lifasi;",
+        "Licwe li fa maata ni bupilo, kwa ku lwana ni sibi."
+      ],
+      [
+        "U tiyele ku luka kwa niti, ka pilu ni sepo ye sa sabi;",
+        "Ki licwe feela le li ka tula, bumaswe bwa lifasi."
+      ],
+      [
+        "Tiyela niti ita ku tusa, ni ha i liyeha i ta taha;",
+        "Ki licwe feela leli fa kozo, manyando h’a felile."
+      ]
+    ],
+    "chorus": [
+      "A lu yemen’i, lu tiyele fa licwe, ili fa halimw’a Jesu,",
+      "Haiba lu tula, lu ta yo yema, ni batu ba ba kenile."
+    ]
+  },
+  {
+    "id": 39,
+    "title": "SEPO YA KA I TOMILWE KU JESU",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "MY HOPE IS BUILT ON NOTHING LESS",
+    "verses": [
+      [
+        "Sepo yaka i tomilwe ku Jesu ni mali a Hae;",
+        "Ha ni sepi ku yo mun’wi, na yendamena ku Jesu."
+      ],
+      [
+        "Ha lififi li mu pata, ni sepile musa wa Hae;",
+        "Mwa ling’ungwa le li tuna, ni tiyela ku Mulena."
+      ],
+      [
+        "Sepiso ni mali a hae, li ni tusa mwa miliko;",
+        "Batusi ha ba palelwa, ki Jesu Yo ni sepile."
+      ],
+      [
+        "Muta pala i liziwa, ni fumaniwe ku yena;",
+        "Ni apezi bunde bwa hae, ni yeme pila lubona."
+      ]
+    ],
+    "chorus": [
+      "Na yema ku Jesu, licwe, baban’wi ki mushabati; baban’wi ki mushabati."
+    ]
+  },
+  {
+    "id": 40,
+    "title": "SEPA NI KU UTWA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "TRUST AND OBEY",
+    "verses": [
+      [
+        "Ha lu ya ni Jesu, mwa liseli la hae,",
+        "U lu kanyiseza mwa nzila, ha lu mu mamela,",
+        "U ina ni luna, ni batu ba bat a Mu sepa."
+      ],
+      [
+        "Ha kun a maswabi, kappa pilaelo,",
+        "Lumenyo lwa Hae lwa i shenja, Ha ku na ni sabo,",
+        "Ha ku na sililo, se si ka ba ten’ ha lu sepa."
+      ],
+      [
+        "Ha lu nga mutiyo, luna ni maswabi,",
+        "Yena u ta lu fa mupuzo, ha lu sinyehelwi,",
+        "Ha lu na ku nyema, haiba lu Mu sepa, utwa."
+      ],
+      [
+        "Kono ha lu koni, lilato la Jesu,",
+        "Konji ha lu ka itoboha, sishemo sa Jesu,",
+        "Ni tabo ya fana, ki za bona baba Mu sepa."
+      ],
+      [
+        "Ka kopano ye nde, lu ine ni Yena,",
+        "Lu ta Mu zamaya kwa tuko, lu ta mu mamela.",
+        "Kwa lu luma lwa ya, lu sa sabi, konji ku sepa."
+      ]
+    ],
+    "chorus": [
+      "Sepa, utwa, ha kuna nzila, nya,",
+      "Ye tabisa ku Jesu, Konji ku mamela."
+    ]
+  },
+  {
+    "id": 41,
+    "title": "MULIMU A Y’O BA NI MINA",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "GOD BE WITH YOU",
+    "verses": [
+      [
+        "Mulimu A y’o ba ni mina, a mi bonise mwa nzila;",
+        "A mi sileleze, Yena, Mulimu a y’o ba ni mina."
+      ],
+      [
+        "Mulimu A y’o ba ni mina, ni mwa manyando a mina;",
+        "A mi tuse ka lilato, Mulimu A y’o ba ni mina."
+      ],
+      [
+        "Mulimu A y’o ba ni mina, A mi bonise muhau,",
+        "A zwise ku shwa ku mina, Mulimu a y’o ba ni mina."
+      ]
+    ],
+    "chorus": [
+      "Muta lu … kopana, fa pili a Mulena;",
+      "Muta lu … kopana, mulimu a y’o ba ni mina."
+    ]
+  },
+  {
+    "id": 42,
+    "title": "HA KU LAEZANWI",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "WILL NEVER SAY GOOD-BYE",
+    "verses": [
+      [
+        "Ku kopana ni balikani fafasi lwa taba’",
+        "Kono lwa ishonda muta lu li “Mu siyale fo.”"
+      ],
+      [
+        "Balatiwa ha ba laeza lu na ni ku sepa,",
+        "Kakuli lu ta y’o inanga ni bona kamita."
+      ],
+      [
+        "Kwa halimu ha ku bulelwi kuli “siyala fo,”",
+        "Konji ku opela lipina za kozo ni tabo."
+      ]
+    ],
+    "chorus": [
+      "Kwa lihalimu, batili, Ha ku laezanwi,",
+      "Mwa naha yeo ya tabo, Ha ku laezanwi."
+    ]
+  },
+  {
+    "id": 43,
+    "title": "A KU LOBALE KU JESU",
+    "author": "Unknown",
+    "meter": "Irregular",
+    "tuneName": "ASLEEP IN JESUS",
+    "verses": [
+      [
+        "Lobala hande ku Jesu,",
+        "Ya zuha h’a na ku lila;",
+        "Pumulo ya buiketo,",
+        "Ye sa sinyiwi ki sila."
+      ],
+      [
+        "Lobala hande ku Jesu;",
+        "Ku ba mulobali cwalo;",
+        "Ku ba ni sepo yende-nde",
+        "Ya ku tohonolofazwa."
+      ],
+      [
+        "Lobala ku Jesu, mawe!",
+        "Ku zuha ki tononolo;",
+        "Nako yeo i ta taha,",
+        "Ye supa maata a Jesu."
+      ],
+      [
+        "Lobala, wa zuha cwale,",
+        "Pala i tuha i lila;",
+        "Loba mawenge a lifu,",
+        "U zuhele ku sa bola"
+      ]
+    ],
+    "chorus": []
   }
-  
-  
-  
-  
-  
 ]
