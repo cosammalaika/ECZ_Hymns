@@ -1,233 +1,5518 @@
 [
-    {
-      "id": 1,
-      "title": "ANWE bilengwa byonsetu",
-      "author": "Unknown",
-      "meter": "8.7.8.7.D.",
-      "tuneName": "Unknown",
-      "verses": [
-        [
-          "ANWE bilengwa byonsetu,",
-          "Mwitutoteshepo Lesa,",
-          "Aleluya, Aleluya.",
-          "Anwe juba mwasamisha, Ne anwe gondo mwakema,",
-          "Mumutote, mumutote,",
-          "Aleluya, Aleluya, Aleluya."
-        ],
-        [
-          "Anwe mwela mupupisha,",
-          "Anwe makumbi mwiulu,",
-          "Mumutote, Aleluya.",
-          "Anwe ntanda musekele, Anwe minyanya mutote,",
-          "Mumutote, mumutote,",
-          "Aleluya, Aleluya, Aleluya."
-        ],
-        [
-          "Ne baNesa manimimbile,",
-          "Mumutote, Aleluya.",
-          "Ne anweba ba bulanda, Mumutwike'bo Yehoba.",
-          "Mumutote, mumutote,",
-          "Aleluya, Aleluya, Aleluya."
-        ],
-        [
-          "Byonse bitote Mulenga,",
-          "Ne kumwalanena panshi,",
-          "Mumutote, Aleluya.",
-          "Mutote Tata ne Mwana, Ne Mupashi, Lesa umo,",
-          "Mumutote, mumutote,",
-          "Aleluya, Aleluya, Aleluya."
-        ]
+  {
+    "id": 1,
+    "title": "ANWE bilengwa byonsetu",
+    "author": "Unknown",
+    "meter": "8.7.8.7.D.",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "ANWE bilengwa byonsetu,",
+        "Mwitutoteshepo Lesa,",
+        "Aleluya, Aleluya.",
+        "Anwe juba mwasamisha, Ne anwe gondo mwakema,",
+        "Mumutote, mumutote,",
+        "Aleluya, Aleluya, Aleluya."
       ],
-      "chorus": [],
-      "addedChorus": []
-    },
-    {
-      "id": 2,
-      "title": "ATOTWE Nambo wabulume",
-      "author": "Unknown",
-      "meter": "8.7.8.7.D.",
-      "tuneName": "Unknown",
-      "verses": [
-        [
-          "ATOTWE Nkambo wabulume,",
-          "Mfumu wa byonse;",
-          "Ami mwine namutote mambo wa-mpulusha;",
-          "Anwe bonse, mwiye mu kumutota",
-          "Na jiwi ja lusekelo."
-        ],
-        [
-          "Atotwe Nkambo, wibikazha byonse bulongo;",
-          "Ye wimushinjila bibi, ne kwimu-lamwina.",
-          "Ke mwayukanyi? Byonse bimu-fwainwa",
-          "Bemumwena'byo kwi Aye."
-        ],
-        [
-          "Atotwe Nkambo, ulumbulula byenu byonse;",
-          "Kine mumona bibusa byanji moba onse.",
-          "Langulukai byakonsha kuba Aye,",
-          "Wimubila lusa lonse."
-        ],
-        [
-          "Atotwe Nkambo! Namunemekeshetu kine,",
-          "Byonse bipema, nenuwa, mumu totesh' Aye.",
-          "Banji bonse, bamwimbile bulongo",
-          "Na nyimbo ya kumutota."
-        ]
+      [
+        "Anwe mwela mupupisha,",
+        "Anwe makumbi mwiulu,",
+        "Mumutote, Aleluya.",
+        "Anwe ntanda musekele, Anwe minyanya mutote,",
+        "Mumutote, mumutote,",
+        "Aleluya, Aleluya, Aleluya."
       ],
-      "chorus": [],
-      "addedChorus": []
-    },
-    {
-      "id": 3,
-      "title": "BANTU bonse pano panshi",
-      "author": "Unknown",
-      "meter": "8.7.8.7.D.",
-      "tuneName": "Unknown",
-      "verses": [
-        [
-          "BANTU bonse pano panshi",
-          "Bamwimbile Nkambo yetu,",
-          "Bamwingijile na moyo,",
-          "Bapwile na kumutota."
-        ],
-        [
-          "Nkambo, ye Lesa wa kine,",
-          "Ye wibalengele bonse;",
-          "Yetu mikoko ya kwanji,",
-          "Ye witulama atweba."
-        ],
-        [
-          "Nanchi tutwele mwazhila,",
-          "Sa tumutota na nyimbo;",
-          "Jizhina janji jitotwe,",
-          "Jitumbalale konsetu."
-        ],
-        [
-          "Tufwenye na lusekelo",
-          "Konka kuji Aye mwine;",
-          "Tumunemeke Mukuzhi,",
-          "Kyo kitufwainw'atweba."
-        ],
-        [
-          "Mambo Nkambo ye wawama,",
-          "Lusa wanji lo lwa myaka:",
-          "Byambo byanji byo bya kine,",
-          "Bikekalanga pe ne pe."
-        ]
+      [
+        "Ne baNesa manimimbile,",
+        "Mumutote, Aleluya.",
+        "Ne anweba ba bulanda, Mumutwike'bo Yehoba.",
+        "Mumutote, mumutote,",
+        "Aleluya, Aleluya, Aleluya."
       ],
-      "chorus": [],
-      "addedChorus": []
-    },
-    {
-      "id": 4,
-      "title": "BYO bwakya ke lukelo",
-      "author": "Unknown",
-      "meter": "8.7.8.7.D.",
-      "tuneName": "Unknown",
-      "verses": [
-        [
-          "BYO bwakya ke lukelo",
-          "Nasekela namba, Yesu atotwe pe.",
-          "Mu bimye byonsetu",
-          "Nafwenya kwi Aye,",
-          "Yesu atotwe pe."
-        ],
-        [
-          "Nemwimbile Anweba,",
-          "Lesa ye natemwa,",
-          "Yesu atotwe pe.",
-          "Lwimbo wami uno",
-          "Ye wa moba onse",
-          "Yesu atotwe pe."
-        ],
-        [
-          "Byo numvwa lusengo",
-          "Wa kungita kulomba, Yesu atotwe pe.",
-          "Umvwai bakwetu",
-          "Jiwi ja lusengo,",
-          "Yesu atotwe pe."
-        ],
-        [
-          "Kechi nkakoka kwimba",
-          "Lwimbo ne bakwetu,",
-          "Yesu atotwe pe.",
-          "Ye wa lusekelo",
-          "Lwa moba onsetu,",
-          "Yesu atotwe pe."
-        ],
-        [
-          "Byo namona bya malwa",
-          "Kino kyansekesha,",
-          "Yesu atotwe pe.",
-          "Sa nji na bulanda",
-          "Jino jankosesha, Yesu atotwe pe."
-        ],
-        [
-          "Byo ndanguluka bibi",
-          "Jino jindamwina, Yesu atotwe pe.",
-          "Ba mfishi bachina",
-          "Pa kwijumvwa jino,",
-          "Yesu atotwe pe."
-        ],
-        [
-          "Byo ndalatu bufuku",
-          "Ne tulo kwiya ne",
-          "Yesu atotwe pe.",
-          "Bwaluka ke mute",
-          "Inge twimba uno",
-          "Yesu atotwe pe."
-        ],
-        [
-          "Uno Iwimbo wa myaka",
-          "Wa kutota Nkambo,",
-          "Yesu atotwe pe.",
-          "Mu myaka yonsetu",
-          "Ye tukembangatu",
-          "Yesu atotwe pe."
-        ]
+      [
+        "Byonse bitote Mulenga,",
+        "Ne kumwalanena panshi,",
+        "Mumutote, Aleluya.",
+        "Mutote Tata ne Mwana, Ne Mupashi, Lesa umo,",
+        "Mumutote, mumutote,",
+        "Aleluya, Aleluya, Aleluya."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 2,
+    "title": "ATOTWE Nambo wabulume",
+    "author": "Unknown",
+    "meter": "8.7.8.7.D.",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "ATOTWE Nkambo wabulume,",
+        "Mfumu wa byonse;",
+        "Ami mwine namutote mambo wa-mpulusha;",
+        "Anwe bonse, mwiye mu kumutota",
+        "Na jiwi ja lusekelo."
       ],
-      "chorus": [],
-      "addedChorus": []
-    },
-    {
-        "id": 5,
-        "title": "JITOTWE ja Yesu Kilishitu",
-        "author": "Unknown",
-        "meter": "8.7.8.7.D.",
-        "tuneName": "Unknown",
-        "verses": [
-          [
-            "JITOTWE ja Yesu Kilishitu,",
-            "Jitotwe ku bonse,",
-            "Letai munchinya wa bufumu",
-            "Ne kumuvwika Aye."
-           
-          ],
-          [
-            "Ne ba mu mikoka yonse",
-            "Ya pano pa ntanda,",
-            "Munemekai ne kumutota",
-            "Mumuvwike yenkaye."
-          ],
-          [
-            "Ne mabumba a mwiulu",
-            "Nenu mupopwelai;",
-            "Mwimbenga nabo Iwimbo wa myaka",
-            "Ne kumuvwika Aye."
-          ],
-          [
-            "Anweba basalululwa",
-            "Bo akula Yesu,",
-            "Mutoteshai wimupulusha,",
-            "Mumuvwike bya Mfumu."
-          ]
-        ],
-        "chorus": [
-             "Muvwikai byonse bya bufumu,",
-            "Ekale Mfumu wa bonse."
-        ],
-        "addedChorus": []
-      }
+      [
+        "Atotwe Nkambo, wibikazha byonse bulongo;",
+        "Ye wimushinjila bibi, ne kwimu-lamwina.",
+        "Ke mwayukanyi? Byonse bimu-fwainwa",
+        "Bemumwena'byo kwi Aye."
+      ],
+      [
+        "Atotwe Nkambo, ulumbulula byenu byonse;",
+        "Kine mumona bibusa byanji moba onse.",
+        "Langulukai byakonsha kuba Aye,",
+        "Wimubila lusa lonse."
+      ],
+      [
+        "Atotwe Nkambo! Namunemekeshetu kine,",
+        "Byonse bipema, nenuwa, mumu totesh' Aye.",
+        "Banji bonse, bamwimbile bulongo",
+        "Na nyimbo ya kumutota."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 3,
+    "title": "BANTU bonse pano panshi",
+    "author": "Unknown",
+    "meter": "8.7.8.7.D.",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "BANTU bonse pano panshi",
+        "Bamwimbile Nkambo yetu,",
+        "Bamwingijile na moyo,",
+        "Bapwile na kumutota."
+      ],
+      [
+        "Nkambo, ye Lesa wa kine,",
+        "Ye wibalengele bonse;",
+        "Yetu mikoko ya kwanji,",
+        "Ye witulama atweba."
+      ],
+      [
+        "Nanchi tutwele mwazhila,",
+        "Sa tumutota na nyimbo;",
+        "Jizhina janji jitotwe,",
+        "Jitumbalale konsetu."
+      ],
+      [
+        "Tufwenye na lusekelo",
+        "Konka kuji Aye mwine;",
+        "Tumunemeke Mukuzhi,",
+        "Kyo kitufwainw'atweba."
+      ],
+      [
+        "Mambo Nkambo ye wawama,",
+        "Lusa wanji lo lwa myaka:",
+        "Byambo byanji byo bya kine,",
+        "Bikekalanga pe ne pe."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 4,
+    "title": "BYO bwakya ke lukelo",
+    "author": "Unknown",
+    "meter": "8.7.8.7.D.",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "BYO bwakya ke lukelo",
+        "Nasekela namba, Yesu atotwe pe.",
+        "Mu bimye byonsetu",
+        "Nafwenya kwi Aye,",
+        "Yesu atotwe pe."
+      ],
+      [
+        "Nemwimbile Anweba,",
+        "Lesa ye natemwa,",
+        "Yesu atotwe pe.",
+        "Lwimbo wami uno",
+        "Ye wa moba onse",
+        "Yesu atotwe pe."
+      ],
+      [
+        "Byo numvwa lusengo",
+        "Wa kungita kulomba, Yesu atotwe pe.",
+        "Umvwai bakwetu",
+        "Jiwi ja lusengo,",
+        "Yesu atotwe pe."
+      ],
+      [
+        "Kechi nkakoka kwimba",
+        "Lwimbo ne bakwetu,",
+        "Yesu atotwe pe.",
+        "Ye wa lusekelo",
+        "Lwa moba onsetu,",
+        "Yesu atotwe pe."
+      ],
+      [
+        "Byo namona bya malwa",
+        "Kino kyansekesha,",
+        "Yesu atotwe pe.",
+        "Sa nji na bulanda",
+        "Jino jankosesha, Yesu atotwe pe."
+      ],
+      [
+        "Byo ndanguluka bibi",
+        "Jino jindamwina, Yesu atotwe pe.",
+        "Ba mfishi bachina",
+        "Pa kwijumvwa jino,",
+        "Yesu atotwe pe."
+      ],
+      [
+        "Byo ndalatu bufuku",
+        "Ne tulo kwiya ne",
+        "Yesu atotwe pe.",
+        "Bwaluka ke mute",
+        "Inge twimba uno",
+        "Yesu atotwe pe."
+      ],
+      [
+        "Uno Iwimbo wa myaka",
+        "Wa kutota Nkambo,",
+        "Yesu atotwe pe.",
+        "Mu myaka yonsetu",
+        "Ye tukembangatu",
+        "Yesu atotwe pe."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 5,
+    "title": "JITOTWE ja Yesu Kilishitu",
+    "author": "Unknown",
+    "meter": "8.7.8.7.D.",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "JITOTWE ja Yesu Kilishitu,",
+        "Jitotwe ku bonse,",
+        "Letai munchinya wa bufumu",
+        "Ne kumuvwika Aye."
+      ],
+      [
+        "Ne ba mu mikoka yonse",
+        "Ya pano pa ntanda,",
+        "Munemekai ne kumutota",
+        "Mumuvwike yenkaye."
+      ],
+      [
+        "Ne mabumba a mwiulu",
+        "Nenu mupopwelai;",
+        "Mwimbenga nabo Iwimbo wa myaka",
+        "Ne kumuvwika Aye."
+      ],
+      [
+        "Anweba basalululwa",
+        "Bo akula Yesu,",
+        "Mutoteshai wimupulusha,",
+        "Mumuvwike bya Mfumu."
+      ]
+    ],
+    "chorus": ["Muvwikai byonse bya bufumu,", "Ekale Mfumu wa bonse."],
+    "addedChorus": []
+  },
+  {
+    "id": 6,
+    "title": "JIWI Nasansula",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "JIWI nasansula,",
+        "Mukutota kilishitu,",
+        "Bonse Bamutote kine,",
+        "Ye Nkambo wa Byonse,",
+        "Ye wibilengele,",
+        "Tumupopwele yenkaye."
+      ],
+      [
+        "Mubiji wa bumvu,",
+        "Mwine watambwile,",
+        "Amba nkebafwile bonse,",
+        "Wamwene bya malwa,",
+        "Ne kwichila mashi,",
+        "Mukwibakula ba mambo."
+      ],
+      [
+        "Washinjile lufu,",
+        "Ne balwanyi nabo,",
+        "Wibashinda bonse kine,",
+        "Bakamulambila,",
+        "Ne kumupopwela,",
+        "Amba ye mfumu wa Byonse."
+      ],
+      [
+        "Wibalama bonse,",
+        "Ba pano pa ntanda,",
+        "Ne kwibobila bibusa,",
+        "Bonse bamukeba,",
+        "Bakamona bumi,",
+        "Ne kumutotanga myaka."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 7,
+    "title": "JUMVWANYIKE Konsetu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "JUMVWANYIKE konsetu, Yesu ye mfumu,",
+        "Mumutote bonsetu ne kumutemwa;",
+        "Anwe ba njimi yonse, Mumutote yenkaye."
+      ],
+      [
+        "JUMVWANYIKE konsetu, ne ku musela,",
+        "Konka kufuma juba na lusekelo;",
+        "Bomvwe ne be a chaina, ne bansamya bonsetu."
+      ],
+      [
+        "JUMVWANYIKE konsetu, ne bena sala,",
+        "Ko bakaswa mu mfishi bakasuluke;",
+        "Ne monse mu Africa batumbijike Yesu."
+      ],
+      [
+        "JUMVWANYIKE konsetu, kubisha mute,",
+        "Ne ku makuji onse a kukalunga;",
+        "Bembe bena mavunda ne baji ku mashika."
+      ],
+      [
+        "JUMVWANYIKE konsetu, Yesu ye mfumu,",
+        "Pano pa ntanda ponse atumbijikwe;",
+        "Ba mutote bonsetu myaka yonse kikupu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 8,
+    "title": "KUTA Muchima Yense",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "KUTA muchima yense,",
+        "Kutota Lesa wobe,",
+        "Byanji bonse bya lusa,",
+        "Byayayaya, bya kine."
+      ],
+      [
+        "Janji ja Lesa Mwine,",
+        "Kukumbanya konsetu,",
+        "Byanji byonse bya lusa,",
+        "Byayayaya, bya kine."
+      ],
+      [
+        "Aye witulengele,",
+        "Ne byonsetu bya pano,",
+        "Byanji byonse lusa,",
+        "Byayayaya, bya kine."
+      ],
+      [
+        "Bomi bonse ujisha,",
+        "Bintu byonse wibapa,",
+        "Byanji byonse bya lusa,",
+        "Byayayaya, bya kine."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 9,
+    "title": "LESA Walengele Ntanda",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "LESA walengele ntanda-tutote,",
+        "Ne kalunga ka mema pamo-tutote;",
+        "Byo aikele ne kusekela-tutote,",
+        "Amo Lesa mo ebilengele Byonse,"
+      ],
+      [
+        "Nkambo Lesa wambile-tutote,",
+        "Kwi malaika wanji mutanshi-tutote;",
+        "Waambile’mba: ndenge ne muntu-tutote,",
+        "Mu kipasha kyaniji kya myaka yonse."
+      ],
+      [
+        "LESA walengele Adama-tutote,",
+        "Ne Evwa bo bantu batanshi-tutote;",
+        "Nanchi walengele bya mweo-tutote,",
+        "Wibibika mu bujimi mu Edena."
+      ],
+      [
+        "Wazhila, wazhila Yehoba-tutote,",
+        "Wamwesha bya bulume bwanji-tutote;",
+        "Witupele mwananji Yesu-tutote,",
+        "Witukula ku mambo etu onse."
+      ]
+    ],
+    "chorus": [
+      "Ke lusekelo kuji Lesa,",
+      "Pa kwikilenga kino kyalo,",
+      "Tutote Lesa Mwine wa myaka yonse."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 10,
+    "title": "LESA Wami",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "LESA wami, byo mmona byo mwalenga,",
+        "Ne kwibikumya, byo byawamisha;",
+        "Ne minyanya ne mvula utatauka,",
+        "Byo byo bimwesha bulume bwenu."
+      ],
+      [
+        "Byo ngenda mungye ne kumona bichi,",
+        "Ne kumvwa lwiimbo wa banonyi’mo;",
+        "Po namona ne ntanda yabaya."
+      ],
+      [
+        "Byo ndanguluka’mba lesa wapana,",
+        "Mwananji Yesu witufwijile;",
+        "Pa musalabu witumanamine,",
+        "Ne bubi bwetu wasenda bonse."
+      ],
+      [
+        "Pakeya Yesu na bamlaika,",
+        "Po nkasekela pa kuya nanji;",
+        "Monka mwiulu mo nkamulambila,",
+        "Ne kumutota, mambo ye mwine."
+      ]
+    ],
+    "chorus": [
+      "Mupulushi, nemwimbile anwe,",
+      "Yenu mwine, yenu mwine,",
+      "Mupulushi, nemwimbile anwe,",
+      "Yenu mwine, yenu mwine."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 11,
+    "title": "MAJIMI Twiajima",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MAJIMI twiajima ne kukusa nkunwa,",
+        "Pakiba Lesa yenkaye utekezha monka,",
+        "Ye unokesha mvula, mute usamisha,",
+        "Ne nkunwa ke imene mu lusa lwa Lesa."
+      ],
+      [
+        "Byonse byo tumona bifuma kwi Lesa,",
+        "Nanchi tutote mambo a lolwa lusa lwanji."
+      ],
+      [
+        "Ye yenka wibilenga byonsetu bimweka,",
+        "Ne bipangwa ne bishutu ne Byonse byo tuja,",
+        "Ye yenka wibajisha ba pano pa ntanda,",
+        "Kine tumupopwele yenkaye wawama."
+      ],
+      [
+        "Tata twimutotela Byonse byo mwitupa,",
+        "Ne mana, ne bulume, ne mema, ne byo tuja;",
+        "Pano twimuletela byetu bya kupana,",
+        "Mwibitambule lelo, ne muchima pamo."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 12,
+    "title": "Mutotai! Yesu Mukuzhi Wetu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Mutotai! Yesu mukuzhi wetu,",
+        "Imbilai lusa lwanji lonse.",
+        "Mutotai! Baluwe baji mwiulu,",
+        "Nemekai jizhina ja Yesu.",
+        "Ye kafunga, twana uketulama,",
+        "Witupapa ne kajo witupa."
+      ],
 
-  ]
+      [
+        "Mutotai! Yesu mukuzhi wetu",
+        "Ye wafwila mambo etu onse;",
+        "Jibwe jetu ja kufyamamo atweba,",
+        "Mutotai, ye witukujile.",
+        "Twimbile aye witumanamijile,",
+        "Lusa lwanji lukatampe lwine."
+      ],
+      [
+        "Mutotai! Yesu mukuzhi wetu;",
+        "Ba kwiulu bapopwela bonse,",
+        "Yesu mfumu yenka ukekala myaka;",
+        "Tumwitabe ekale kew etu.",
+        "Kilishitu wiya, aye ye wa bulobo,",
+        "Ukashinda bamushikwa bonse."
+      ]
+    ],
+    "chorus": [
+      "Mutotai! Twimbe a bulobo bwanji,",
+      "Mutotai! Na nyimbo yawama."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 13,
+    "title": "Mwana Mukoko'wa!",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Mwana mukoko'wa! Mupai bufumu;",
+        "Umvwai Lwimbo wa mwiulu wakila yonsetu.",
+        "Mumwimbile Yesu, aye wimufwijile,",
+        "Mupopwelai ke mfumu wa myaka yonsetu."
+      ],
+      [
+        "Mfumu wa mweo pe washinda kilende,",
+        "Wasanguka ne mu lufu mu kupulusha bantu.",
+        "Tumutumbijike, pano ke wa bumi,",
+        "Lufu lwanji lo lwitupa mweo wa pe na pe."
+      ],
+      [
+        "Mfumu wa mutende ye mfumu wa konse,",
+        "Upwisha nkondo pano panshi amba bamutote;",
+        "Ne bufumu wanji kechi bukapwa ne,",
+        "Ba mwiulu bamutota ku maulu anji."
+      ],
+      [
+        "Mfumu wa bulume witumanamine,",
+        "Bito bya mu makasa anji byavwikwa lukumo,",
+        "Ne ba malaika bevweta pa menso,",
+        "Pa kukumya lumanamo lwa mwana wa Lesa."
+      ],
+      [
+        "Mfumu wa mwiulu Lesa yenka umo,",
+        "Ne mupashi watumwa panshi kufuma mwiulu,",
+        "Mutotwe mukuzhi, mwafwijile ami,",
+        "Lutotelo ne lukumo lo lwenu kikupu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 14,
+    "title": "Mwina Mwiulu Ne Ntanda",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Mwina mwiulu ne ntanda,",
+        "Mwina kalunga twimutota,",
+        "Tube bi ka bya kusanchila,",
+        "Bupe bwenu."
+      ],
+      [
+        "Byonse bimweka, ne juba,",
+        "Ne bipangwa bimusapula,",
+        "Ne nsomo ya kajo imwesha,",
+        "Bupe bwenu."
+      ],
+      [
+        "Twimutotela mutende,",
+        "Ne butuntulu moba onse,",
+        "Ne bibusa bitubujisha,",
+        "Bupe bwenu."
+      ],
+      [
+        "Yenu mupanatu byonse,",
+        "Mweo ne mana ne butemwe;",
+        "Twikale nabo moba onse,",
+        "Bupe bwenu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 15,
+    "title": "Njimi Inge Naji Nayo",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Njimi inge naji nayo,",
+        "Yavujisha bingi,",
+        "Ya kumutotako nkambo,",
+        "Ye mukuzhi wami."
+      ],
+      [
+        "Nkambo yami byo mwantemwa,",
+        "Nkwashai nemutote,",
+        "Ne kwibitela konsetu,",
+        "Bya butemwe bwenu."
+      ],
+      [
+        "Jizhina jenu ja Yesu,",
+        "Jo jipanga moyo,",
+        "Jo jumvwanyika bulongo,",
+        "Jo jitukosesha."
+      ],
+      [
+        "Bafu pa kwijumvwa jenu,",
+        "Mweo batambula,",
+        "Ba bulanda basekela,",
+        "Babi bapuluka."
+      ],
+      [
+        "Mwakonsha kwibashinjila,",
+        "Bubi bwabo bonsa;",
+        "Mukasulula bakaswa,",
+        "Pa kwimwitabila."
+      ],
+      [
+        "Mashi enu ayukisha,",
+        "Kutokesha mambo,",
+        "Nangwamuntu wabipisha,",
+        "Naye ukatoka."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 16,
+    "title": "Tota Mfumu Wa Mwiulu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Tota mfumu wa mwiulu,",
+        "Obe muchima wami,",
+        "By’akukula, by’akubuka, by’akwikazha muyampe.",
+        "Utoteshe, utoteshe, mfumu wa myaka yonse."
+      ],
+      [
+        "Twibutote Bupe bwanji, bwamwene bashakulu,",
+        "Ne lelo uji pamotu, Kasanga atemwa lusa,",
+        "Tumutote, tumutote, wa kishinka pa bonse."
+      ],
+      [
+        "Moba onse witulama, witushinjila bibi,",
+        "Mu maboko anji Mwine mo twikela mutende,",
+        "Bamutote konse kwakumbana butemwe bwanji."
+      ],
+      [
+        "Twanekena no buluba, bulakata na mwela,",
+        "Bantu bo baalauka, Lesa ke waluka ne,",
+        "Tumutote, Tumutote, mwine wa mwiulu pe."
+      ],
+      [
+        "Anwe mumumona meso mwitutoteshepo’ye,",
+        "Anwe bilengwa bonsetu, bya Mwiulu ne panshi,",
+        "Tumutote, bonse nenu, Lesa wetu wa lusa."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 17,
+    "title": "Totai Jizhina Ja Yehoba",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Totai jizhina ja Yehoba Lesa wetu,",
+        "Mwambishenga konse konse bya kumutotesha ku bonse,",
+        "Mwibabule bonsetu bya butemwe bwanji.",
+        "Poso bonse bomvwishe bya lusa lwanji."
+      ],
+
+      [
+        "Toteshai ne mwananji wibafwila Babi,",
+        "Ye wasangukile kine, wabwelele Kwiulu kwanji,",
+        "Ye ukeya jibiji pa kulonda banji,",
+        "Ukekazha bufumu byo alayile."
+      ],
+      [
+        "Mu jonkaja juba ja bulume ne lukumo,",
+        "Ntanda ikalumbuluka ke ya wamisha ne ya buya;",
+        "Mambo mfumu ukeya na bazhila banji,",
+        "Mu kubwezha Byonse monka mo byajinga."
+      ],
+      [
+        "Bya mwiulu ne bya panshi bikasangalala,",
+        "Ne majimwa a Yesu jitotwa milomo;",
+        "Tumutote, Tumutote konse kwa bakwe Lesa.",
+        "Tumutote, Tumutote mwine wa myaka yonse."
+      ]
+    ],
+    "chorus": [
+      "Mambo butemwe bwanji,",
+      "No bwayayaya kine,",
+      "Ne bya lusa lwanji mwine,",
+      "Byo byavujisha ne bya myaka."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 18,
+    "title": "Toteshai Yehoba Lelo Ja Nseko",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Toteshai Yehoba lelo ja nseko,",
+        "Muntu wabwela kuji lesa,",
+        "Shanji umutundaila lubilo,",
+        "Kusekelela mwana wabwela."
+      ],
+
+      [
+        "Toteshai Yehoba lelo ja nseko,",
+        "Waji mungye lelo wabwela.",
+        "Kine wapuluka wamona mweo,",
+        "Wasemwa jibiji ke mupya."
+      ],
+      [
+        "Toteshi Yehoba lelo ja nseko,",
+        "Mwiulu monse lusekelo,",
+        "Sapwila na nseko konse ko muya",
+        "Wasemwa muntu jibiji."
+      ],
+      [
+        "Nkambo twimutota kafulamoba,",
+        "Mwakula ba ntanda ne ntanda,",
+        "Anweba Yehoba mfumu wa bonse",
+        "Lelo mwiulu bemba bijimba."
+      ]
+    ],
+    "chorus": [
+      "Lusekelo ku bamalaika,",
+      "Lukumo kuji mwine lesa,",
+      "Mwamona bapuluka byo bavula",
+      "Bemba ya kumutota mukuzhi."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 19,
+    "title": "Tumutote Lesa Tata",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Tumutote Lesa Tata",
+        "Tumutote ne Mwana",
+        "Tumutote ne Mupashi",
+        "Bonsetu ke Lesa umo",
+        "Aleluya, Aleluya",
+        "Totai myaka yonse"
+      ],
+      [
+        "Ne kwi aye witutemwa",
+        "Ne kwitukasulula",
+        "Aye yenka witukula",
+        "Ne kwitwabanya bufumu",
+        "Aleluya, Aleluya",
+        "Kwi aye witufwila"
+      ],
+      [
+        "Kwi mfumu wa mwiulu",
+        "Ne wa ba mu bipwilo",
+        "Ne wa ba mikoka yonse",
+        "Omvwanyike Lwimbo wetu",
+        "Aleluya, Aleluya",
+        "Kwi mfumu wa lukumo"
+      ],
+      [
+        "Kwikale lutakaiko",
+        "Byo bemba ba mwiulu",
+        "Kwikale buneme bonse",
+        "Byo bimba bilengwa Byonse",
+        "Aleluya, Aleluya",
+        "Wa bamfumu ye mwine."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 20,
+    "title": "Tumutote Mwine Lesa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Tumutote Mwine Lesa",
+        "Kwafuma Bibusa Byonse",
+        "Byo tutambula atweba",
+        "Bonse ba pano pa ntanda"
+      ],
+      [
+        "Batote bonse ba pano",
+        "Ne bonse baji mwiulu",
+        "Bamutote Lesa Tata",
+        "Ne Mwananji ne Mupashi"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 21,
+    "title": "Tumuvwike Ye Mfumu Wetu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Tumuvwike ye mfumu wetu",
+        "Tumtote myaka pe na pe.",
+        "Tunemeke jizhina janji",
+        "Moba etu onse!"
+      ],
+
+      [
+        "Popwelai ne ba mwiulu,",
+        "Fwenyai kwipi na lwimbo wenu;",
+        "Ne bonse ba pano pa ntanda bamwimbile pamo."
+      ],
+      [
+        "Ye washinda bubi ne lufu,",
+        "Ne byonsetu witushinjila.",
+        "Tutambule mupashi wanji, etutangijile."
+      ]
+    ],
+    "chorus": [
+      "Tumuvwike, tumuvwike,",
+      "Mwiulu tukamuvwik’ aye.",
+      "Vwikai Yesu mfumu,",
+      "Tumutotesh’ aye."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 22,
+    "title": "Tusekele Bonse, Yesu By'aji Mfumu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Tusekele bonse, Yesu by’aji mfumu",
+        "Bantu Bamutote, ne kumupopwela",
+        "Tusekele ne kusangalala bonse",
+        "Aleluya"
+      ],
+      [
+        "Mukuzhi ye mfumu, mfumu wa butemwe",
+        "Byo apwishishe kwitufuchila mambo",
+        "Waikele ku kilujo kya kwa Lesa",
+        "Aleluya"
+      ],
+      [
+        "Bufumu bo bwanji, ne lusa lonsetu",
+        "Lwa pa Byonse bya mwiulu ne bya panshi",
+        "Wapewa kii wa lufu ne wa kalunga",
+        "Aleluya"
+      ],
+      [
+        "Pano waikala kasa atengela",
+        "Poso balwanyi bonse bashindwa",
+        "Bantu bonse bakamulambila panshi",
+        "Aleluya"
+      ],
+      [
+        "Yesu ye ukeya na kuchiba mambo",
+        "Ukebatwala mwiulu bana banji",
+        "Tukebomvwa ba malaika bemba’mba",
+        "Aleluya."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 23,
+    "title": "Twapika Sante Kwi Lesa Wetu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      ["Twapika sante kwi lesa wetu,", "Watumine mwananji, wafuma mwiulu"],
+      ["Twapika sante kwi mupashi wenu", "Wamwekeshe yesu, witutangijile."],
+      [
+        "Twapika sante kwi yesu kilishitu,",
+        "Mambo etu wazhima mu michima yetu."
+      ],
+      ["Lukumo lonse kwi mwine lesa,", "Wasakile atweba, witukujile."],
+      ["Mwiyambule lelo michimma yetu,", "Na mujilo wa lesa wafuma mwiulu."],
+      ["Twapika sante kwi nkambo yetu,", "Ukabwela jibiji kwitutwala mwiulu."]
+    ],
+    "chorus": [
+      "Aleluya lukumo lwenu,",
+      "Aleluya amena,",
+      "Aleluya lukumo lwenu,",
+      "Mwitusangule."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 24,
+    "title": "Twimutotanwe Lesa Wa Danyela",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Twimutotanwe lesa wa danyela,",
+        "Pa kwitulama mu bimye byonse,",
+        "Mwalamine danyela ku mabokwe,",
+        "Ne ba msheke mu mujilo."
+      ],
+
+      [
+        "Mwitupele mwanenu yesu kilishitu",
+        "Kino kyo kitulengela moyo,",
+        "Kino kyo kitulengela michima",
+        "Ne mibiji yetu mwikalemo."
+      ],
+      [
+        "Anwe batata ne anwe bamama,",
+        "Iyai kuno tupwile pamo,",
+        "Tulete michima kwi mukuzhi,",
+        "Ye wayuka kwitulamwina."
+      ]
+    ],
+    "chorus": [
+      "Ki ka kyo tusakwimupa lesa,",
+      "Pa kwitulama mu bimye byonse,",
+      "Nanchi tusakwimupa michima,",
+      "Ne mibiji yetu mwikalemo."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 25,
+    "title": "Watoka Yenka Yesu Wawama",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      ["Aye witutokesha", "Na mashi"],
+      ["Witufwenyesha kwipi", "Na Lesa"],
+      ["Tukekala ne Yesu", "Mwiulu"],
+      ["Nkambo mwiye bukiji", "Amena"]
+    ],
+    "chorus": [
+      "Sante, Sante mfumu,",
+      "Nemekai mfumu;",
+      "Sante, Sante mfumu,",
+      "Wawama"
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 26,
+    "title": "Wazhila, Wazhila, Wa Bulume Bonse",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Wazhila, wazhila, wa bulume bonse",
+        "Lukelo Lwimbo wetu ye ukomvwanyika",
+        "Wazhila, wazhila, wa lusa ne lusa",
+        "Lesa wa myaka ne wa bibusa"
+      ],
+      [
+        "Wazhila wazhila benu bapopwela",
+        "Bengijila ne kwimunemaka anweba",
+        "Nabo ba mwiulu bonse bapopwela",
+        "Myaka ne myaka moba onsetu"
+      ],
+      [
+        "Wazhila wazhila twimutote kine",
+        "Nangwa twabula kufwainwa kwimumona",
+        "Mwazhila anweba, ka kuji mu kwabo",
+        "Yenka watoka wabula bubi"
+      ],
+      [
+        "Wazhila wazhila wa bulume bonse",
+        "Byonse byo mwalengele bikemupopwela",
+        "Nabyo bya mwiulu ne bya pano panshi",
+        "Lesa wa myaka ne wa bibusa."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 27,
+    "title": "Ye Mfumu Wetu, Tumupopwele",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Ye mfumu wetu, tumupopwele",
+        "Twimbile lelo bya lusa lwanji",
+        "Wa myaka ne miaka ne wa lukumo",
+        "Wa mana onsetu ne wa bulobo"
+      ],
+      [
+        "Talai Bupe bwavula bingi",
+        "Bwakumbana bonse ne ba kwalepa",
+        "Mu moba onsetu a myeo yetu",
+        "Tubenakumona bupe wa Lesa"
+      ],
+      [
+        "Kanwa kashindwa kutela Byonse",
+        "Byanji bya lusa bya myaka yonse",
+        "Bimweka ku juba ne mu mikola",
+        "Mu majimi monse ne mu matala"
+      ],
+      [
+        "Pene pene pamo, po paji lusa",
+        "Po afwijile yenkaye kilishitu",
+        "Pa lusa pa lusa, po pa kalvali",
+        "Lo tumutotela mfumu wa myaka"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 28,
+    "title": "Yehova Wa Myaka, Wa Mana Onse Mwifya Mu Kyeya Kibulwa Kuatlwa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Yehova wa myaka, wa mana onse mwifya mu kyeya kibulwa kutalwa",
+        "Mwatotwa ku bonse kafula moba",
+        "Kilobo, kashinde, twimutoteshe"
+      ],
+      [
+        "Mwingila bitende, kulekako ne",
+        "Mwabula kuyanda nangwa kisuse",
+        "Mwitukijishatu byo mwazhijisha",
+        "Pakuba mwayula Bupe ne luse"
+      ],
+      [
+        "Anweba mwi bumi wa bantu bonse",
+        "Mupemeshe bakulu ne banyike",
+        "Bamena, bafumba ne mabula",
+        "Pakuba anweba ke mwaluka"
+      ],
+      [
+        "Anweba shanji lukumo, shanji kyeya",
+        "Ba mwiulu bakamwa pa kwimutota",
+        "Netuwa twasaka kwimutotesha",
+        "Kyeya kyenu kyo kitutabakanya"
+      ],
+      [
+        "Yehova wa miaka, wa mana onse",
+        "Mwifya mu kyeya kibulwa kutalwa",
+        "Mwatotwa ku bonse kafulamoba",
+        "Kilobo, kashinde, twimutotesha"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 29,
+    "title": "Yesu Ukekala Mfumu Mwine",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Yesu ukekala mfumu mwine",
+        "Konse Ko jimweka juba",
+        "Bufumu bwanji bukakumbana konsetu",
+        "Ke wa myaka ne myakatu"
+      ],
+      [
+        "Ukalombelwanga moba onse bakamutotanga bonse,",
+        "Jizhina janji jikatumbalala konse",
+        "Bonse bakamunemeka"
+      ],
+      [
+        "Ba mu mikoka yonse ya pano",
+        "Belwimbila lusa lwanji",
+        "Ne mawi a banyike akamutotanga",
+        "Ne kukatumbijik’aye"
+      ],
+      [
+        "Muji bibusa byavula bingi",
+        "Monse mu bufumu bwanji",
+        "Banji bashikwa, bekala ne lusekelo",
+        "Bamwena Byonse mwi aye"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 30,
+    "title": "Zhindamai",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      ["Zhindamai, zhindamai, ne kunemeka", "Betupe bukiji bulume bwanji"],
+      [
+        "Zhindamai, zhindamai",
+        "Ku kipona kya buneme",
+        "Zhindamai tumvwe mambo a Lesa"
+      ]
+    ],
+    "chorus": ["Iyai ne kuzhinda", "Yesu uji kuno", "Iyai bonse ubenakwimwita"],
+    "addedChorus": []
+  },
+  {
+    "id": 31,
+    "title": "Anwe Bantu Bonse Ba Pano Panshi",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Anwe bantu bonse ba pano panshi",
+        "Mutote mukuzhi wetu Yesu",
+        "Ye witupulusha, tumutote"
+      ],
+      [
+        "Bafunga mikoko bajinga mungye",
+        "Bamwene mwiulu Ba malaika",
+        "Amba, wasemwa mfumu wetu Yesu",
+        "Ye witupulusha, tumutote"
+      ],
+      [
+        "Mwanyanyachile ne kabangabanga",
+        "Kafumishe ba mana ku musela",
+        "Bamutaine mfumu wetu Yesu",
+        "Ye witupulusha tumutote"
+      ],
+      [
+        "Bamuletejile milambo yabo",
+        "Ya binunkabiya ne nsumuluna",
+        "Ne ngolode ya mfumu wetu Yesu",
+        "Ye witupulusha, tumutote"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 32,
+    "title": "AYE Nkambo yetu Yesu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Pa kubula mwanya",
+        "Mu kijilamo banyama",
+        "Walajile monka",
+        "Kwiulu tubangabanga",
+        "Twamumwene mwana",
+        "Aye Nkambo yetu yesu",
+        "Sa alala pa nsono"
+      ],
+      [
+        "Bang’ombe baimbilenga",
+        "Mwana walabile",
+        "Aye Nkambo yetu Yesu",
+        "Ka ajijile ne",
+        "Nemitemwa Nkambo Yesu",
+        "Mummone mwiulu",
+        "Sa mwikalanga kwipi",
+        "Bufuku bonsetu"
+      ],
+      [
+        "Nkambo Lesa mwikalenga",
+        "Kwipi ne Amiya",
+        "Sa mutemwa kimye kyonse",
+        "Nkambo nemulomba",
+        "Mwibapeshe bana bonse",
+        "Ne bibusa byenu",
+        "Twikale bafwaimwatu",
+        "Kwikala mwiulu"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 33,
+    "title": "BAKAFUNGA byo balamanga mikoko yabo",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      ["Malaika bwa Lesa wibamwekejile"],
+      [
+        "Wibakainye kuchina amba, musekele",
+        "Nemuletela byawama bya kubantu bonse"
+      ],
+      [
+        "Mu betelema ja lelo mukuzhi wasemwa",
+        "Yenka wa kwibapulusha bantu Banji bonse"
+      ],
+      [
+        "Kano kayukilo kenu, mukamona mwana",
+        "Saka alala wapombwa mujila bang’ombe"
+      ],
+      [
+        "Ponkapo Ba malaika bavujisha bingi",
+        "Bamwekele ne kutota Lesa wa mwiulu"
+      ],
+      [
+        "Bonse baimbilenga amba lukumo kwi Lesa",
+        "Mutende ku bantu bonse ba pano pa ntanda"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 34,
+    "title": "BAKAFUNGA mikoko bo batanshi kumvwa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Jiwi ja ba malaika monka mungye",
+        "Sa balama jitanga ja mikoko yabo",
+        "Bumo bufuku bwaubishe mashika"
+      ],
+
+      [
+        "Pa kutala mwiulu ke kabangabanga",
+        "Kanyanyata kwalepesha ku musela",
+        "Sa kasama pa ntanda, ponsetu patoka",
+        "Bufuku ne mute kabula kuzhima"
+      ],
+      [
+        "Ne ba mana basatu bafumine kwabo",
+        "Sa bendela mu kyokya kyeya kyatoka",
+        "Sa bata ne muchima kumona mfumu",
+        "Ne kulondela kabangabanga monse"
+      ],
+      [
+        "Ne kabangabanga’Ka kaya ku muzhika",
+        "Ne kufika ku muzhi wa betelema",
+        "Ko kalekele kwenda ne kwimana ponka",
+        "Palala Yesu mwana Lesa wasemwa"
+      ],
+      [
+        "Ne ba mana basatu batwelele monka",
+        "Ne kufukamina mfumu wabo yesu",
+        "Ne kulambula Konka byonse bya bufumu",
+        "Ngolode, nsumuluna, binunkabiya"
+      ],
+      [
+        "Ne atweba bonsetu na muchima umo",
+        "Tumutoteshe Nkambo yetu na nyimbo",
+        "Ye yenka wa lengele ntanda ne jiulu",
+        "Ne kukula atweba na mashi anji"
+      ]
+    ],
+    "chorus": ["Noel, Noel, Noel, Noel", "Kwasemwa mfumu wa isalela"],
+    "addedChorus": []
+  },
+  {
+    "id": 35,
+    "title": "BAKWETU twimbishaipo",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Lwimbo’no wa lusekelo",
+        "Mwana ye twatemwa walala mu",
+        "Banyama’mo",
+        "Mwana wanengelatu ye balela kwi",
+        "Inanji",
+        "Aye ye mutanshi, ne wapelako"
+      ],
+      [
+        "Obewa Yesu mwanyike, nakusaka",
+        "Kimye kyonse",
+        "Undabishe menso, obewa wakila",
+        "Bonse",
+        "Na lusa lobe lelo, Yobe mfumu wa",
+        "Bamfumu",
+        "Nami nkulondele! Nkulondele pe"
+      ],
+      [
+        "Butemwe bwa Tata buno, ne lusa",
+        "Lwa mwana luno",
+        "Twaji twafwa nao pa mambo a",
+        "bubi bwetu",
+        "Pakuba mwitumwene lusekelo lwa mwiulu",
+        "Ke pa lusekelo inge twajiko"
+      ],
+      [
+        "Lusekelo lwepi nanchi, kana",
+        "Monkamwa mwiulu?",
+        "Mwa bamalaika mo bembila Lwimbo",
+        "Mupya",
+        "Muvumina ngengele mu kipango",
+        "Kya bufumu",
+        "Ke pa lusekelo inge twajiko"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 36,
+    "title": "BUFUKU bwazhindama",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Kwatoka kwazhila",
+        "Konkakwa kuji bamaliya",
+        "Ne yesu mwananji wazhila",
+        "Sa alala mu tulo",
+        "Sa alal mu tulo"
+      ],
+      [
+        "Bufuku bwazhindama",
+        "Lukumo iwa lesa",
+        "Lwibasamine bakafunga",
+        "Baumvwine bamalaika",
+        "Sa bemba aleluya",
+        "Mupulushi wasemwa"
+      ],
+      [
+        "Bufuku bwazhindama",
+        "Butemwe bwa lesa",
+        "Bwamweka bwa lesa",
+        "Bwamwe bwa monka mu mwanji",
+        "Byo asemenwe pano panshi mupulushi wa lusa",
+        "Yesu mwana wa lesa"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 37,
+    "title": "BYO mwaishile mu kungedel’amiwa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Mwilushile lukumo lwenu",
+        "Byonkabyo Kechi mwamwene mwa",
+        "Kufikila",
+        "Byo mwasemenwe ke muntu"
+      ],
+
+      [
+        "Nangwa benu ba mwiulu baimbile",
+        "Wa kumutubijika Lesa",
+        "Anwe bene mwaswile kwipelula kine",
+        "Ne kusemwa pano panshi"
+      ],
+      [
+        "Banyama nabo ne bangonyi bonsetu",
+        "Baji ne pabo pa kulala",
+        "Pakuba anweba mwalajile panshitu",
+        "Mungyetu mu Ngalilea"
+      ],
+      [
+        "Mwaishile Nkambo na mambo a bubi",
+        "A kwibakasulula benu",
+        "Nanchi bemubile mwenga ne kwimusula",
+        "Ne kwimupopa pa kichi"
+      ],
+
+      [
+        "Bamalaika byo bakemba mwiulu",
+        "Byo mukabwela pano panshi",
+        "Nkomvwe jiwi jenu ja kungita amiwa",
+        "Amba, wiye Konka kwami"
+      ],
+      [
+        "Ponkapo nkasekela kine",
+        "Byo mukangita konka kwenu",
+        "Ku mulunda wasemwa mwibape ya musela",
+        "Benyama ba Yesu mwana"
+      ]
+    ],
+    "chorus": [
+      "Nkambo mwiye mutwele mwami",
+      "Nemumwena mwa kufikila",
+      "Yesu twelai mu muchima wami",
+      "Mwikalemo moba onse"
+    ],
+    "addedChorus": [
+      "Nkambo mwiye mutwele mwami",
+      "Nemumwena mwa kufikila",
+      "Byo mwamfwijile mu kumpulusha",
+      "Twelai Nkambo monka mwami"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "IYAI bantu bonse ba pano pa ntanda",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "IYAI bantu bonse ba pano pa ntanda,",
+        "Iyai kumvwako mambo a mwiulu,",
+        "Less watuma kwetu baluwe banji,",
+        "Talai, baamba’mba, mutende, mutende."
+      ],
+      [
+        "Talai bantu bonse kuji Mwana Lesa,",
+        "Waaluka ke muntu mu kwitupulusha;",
+        "Wafumine mwiulu, ne bumi bwa myaka",
+        "Witupaka atweba twamwitabil’aye."
+      ],
+      [
+        "Imbai bantu bonse, imbai kwi Lesa,",
+        "Mutoteshai bingi, aye witutemwa;",
+        "Imbai Aleluya ne muchima yense,",
+        "Kwi Yesu kilishitu mwine, mupulushi wetu"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 39,
+    "title": "IYAI bena Lesa, anwe batekanya",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "IYAI bena Lesa, anwe batekanya,",
+        "Tuye ku Betelema na lusekelo;",
+        "Mfumu wasemwa yenka Yesu Kilishitu;"
+      ],
+
+      [
+        "Anwe ba mwiulu nenu mwimbilai",
+        "Nyimbo yenu ikumbane monse, monse,",
+        "Lesa amone kutota kwafwainwa;"
+      ],
+      [
+        "Nkambo twamutota byo aswile kwiya",
+        "Amba nkebafwile ne kwibapulusha;",
+        "Jizhina janji jikale janemesha."
+      ]
+    ],
+    "chorus": [
+      "Tuye tumupopwele",
+      "Tuye tumupopwele",
+      "Tuye tumupopwele",
+      "Kilishitu Nkambo."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 40,
+    "title": "KALA mu lukena mwa davida",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "KALA mu lukena mwa davida",
+        "Mwasemenwe mukuz ishi wetu,",
+        "Watujilwe mujila bangombe",
+        "Pa kubula mwa kufikila.",
+        "Kya kine kya kukumya,",
+        "Byo asemenwe monka."
+      ],
+      [
+        "Waishile kufuma mwiulu,",
+        "Ye Lesa, ye Nkambo ya bonse;",
+        "Waikajile pano pa ntanda",
+        "Na balanda ne bakajilwa;",
+        "Ye mupulushi wabo",
+        "Bonse bamwitabila."
+      ],
+      [
+        "Ne mu bwanyike bwanji bonsetu",
+        "Wajingatu walumbuluka,",
+        "Wakokelenga ne kunemeka",
+        "Yenkaye wakusemene;",
+        "Banyike ba kwa kilishitu,",
+        "Mupashai mu byonse."
+      ],
+      [
+        "Ne aye tukamumona meso,",
+        "Mambo onka a lusa lwanji,",
+        "Pakuba ye Nkambo ya mwiulu",
+        "Yenkawa waji muno munshi",
+        "Ye witutangijila",
+        "Mu jishinda ja Lesa."
+      ],
+      [
+        "Mupulushi byo tukamumona",
+        "Ukekala nalo lukumo;",
+        "Ye mfumu wa myaka ne wa myaka",
+        "Ye bakapopwelanga bonse,",
+        "Yenkaye wawamisha",
+        "Waswile kwitufwila."
+      ],
+      [
+        "Ukabwela , kine ukabwela,",
+        "Mu kulama atweba bonse",
+        "Bonka bamutemwishatu kine",
+        "Ne kwibalama byambo byanji.",
+        "Tukamusekelela",
+        "Naye uketutwala."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 41,
+    "title": "KWASEMWA mwana lelo",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "KWASEMWA mwana lelo,",
+        "Mwana watumbalala;",
+        "Wafwainwa bya bufumu, Wafwainwa",
+        "Muchinya,"
+      ],
+
+      ["Sa bafunga mikoko bakafunga bufuku", "Baumvine malaika wibabula kino."],
+      [
+        "Malaika waamba , Amba kuchina ne,",
+        "Sekelai bakafunga, ki ka kyo muchina?"
+      ],
+      [
+        "Umvwai, nemibula jiwi ja lusekelo,",
+        "Lwaiya ku bantu bonse pa kusemwa mwana."
+      ],
+      [
+        "Kwamwekele jibumba jasamisha mwiulu,",
+        "Ba lusa Bo atuma mwine wa mwiulu."
+      ],
+      [
+        "Batota Lesa wetu ye mfumu wa mwiulu",
+        "‘Mba lukumo ne buneme bikale mwiulu."
+      ],
+      [
+        "Malaika by’ambile byo bibamwekejile",
+        "Bataine mwana Yesu, ne inanji maliya."
+      ]
+    ],
+    "chorus": [
+      "Noel, Noel, Noel, bonse",
+      "Twimbe’mba Noel",
+      "Mambo mfumu wa bamfumu",
+      "Wasemwa ja lelo."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 42,
+    "title": "KWITUSEMENWA mwana",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "KWITUSEMENWA mwana,",
+        "Mfumu wa byonsetu,",
+        "Waishile pa ntanda",
+        "Na kwibafwila bantu bonse",
+        "Ba pano pa ntanda."
+      ],
+      [
+        "Mo asemekejilwe",
+        "Mujila banyama,",
+        "Banyama sa bayuka'mba",
+        "Wibakila bantu bonse",
+        "Ba pano pa ntanda."
+      ],
+      [
+        "Heloda wachiine'mba",
+        "Mfumu waYudea;",
+        "Witwipayile tonse",
+        "Twatulume twajinga monsetu",
+        "Mu Betelema."
+      ],
+      [
+        "Mwana Maliya waishile",
+        "Mu kwitutemwa,",
+        "Etutwale mwiulu",
+        "Na lusekelo luji mu muntu",
+        "Wamutemwisha."
+      ],
+      [
+        "Ye ntatwilo ne mpelo,",
+        "kinkumbi kivume,",
+        "Sa tumwimbila bonse",
+        "Na lusekelo,mambo witufwijile",
+        "bonsetu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 43,
+    "title": "LELO kwitusemenwa mwana",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "LELO kwitusemenwa mwana,",
+        "Shanji Lesa mwine.",
+        "Yenka walengele byonsetu,",
+        "Inanji Maliya."
+      ],
+      [
+        "Mwananji Nkambo ye batemwa",
+        "Washimwine ngauzhi,",
+        "Ne banyama bamupopwela,",
+        "Amba,Nkambo yetu."
+      ],
+      [
+        "Heloda mfumu pa kwijumvwa",
+        "Jiwi ja ba mana,",
+        "Witwipayishe twana tonse",
+        "Twa myaka ibiji."
+      ],
+      [
+        "Bakwetu tupopwele Lesa,",
+        "Tata ne Mupashi,",
+        "Ne mwana wa ku ntendekelo,",
+        "Wasemwa pa ntanda."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 44,
+    "title": "MABANGA bena kilishitu bemba",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MABANGA bena kilishitu bemba",
+        "Pa kumvwa bamalaika’mba,",
+        "Mabanga bena kilishitu bemba",
+        "Pa kumvwa bamalaika’mba,",
+        "Umvwai jiwi ja lusekelo",
+        "Mfumu wetu wasemwa lelo."
+      ],
+      [
+        "Bulanda bwetu nanchi bwa ka",
+        "Mukuzhi by’etusangajika?",
+        "Pa kwitupokolola ku bubi",
+        "Mambo a kwitukasulula."
+      ],
+      [
+        "Pa kupanga bubi na bupe",
+        "Upingishamo bumi bwa pe;",
+        "Bembishe ba mwiulu ne bantu",
+        "By’asemwa lelo mfumu wetu."
+      ],
+      [
+        "Mfishi yaaluka ke kyeya",
+        "Kyo bembila bamalaika .",
+        "Lukumo kwi Lesa ne mutende",
+        "Ku bantu lelo ne kikupu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 45,
+    "title": "MONKA mu betelema",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MONKA mu betelema",
+        "Mwasemenwe mwana,",
+        "Byawamisha byonsetu",
+        "Byajinga mwi aye,",
+        "Eyo, Eyo,",
+        "Byajinga mwi aye."
+      ],
+      [
+        "Ye yenka ye wayuka",
+        "Byonse byo tumona,",
+        "Bulanda, lusekelo,",
+        "Wayuka ne kumvwa,",
+        "Eyo, Eyo,",
+        "Wayuka ne kumvwa."
+      ],
+      [
+        "Anwe kafunga wetu",
+        "Tukemulondela",
+        "Konse Ko mwitutwala",
+        "Yenu mwitujisha,",
+        "Eyo, Eyo,",
+        "Yenu mwitujisha."
+      ],
+      [
+        "Nangwa bulanda bwine",
+        "Ke bwitwabanya ne,",
+        "Tukemwingijilanga",
+        "Eyo, Eyo,",
+        "Twimupa michima."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 46,
+    "title": "MWANA mucheche wasemwa panshi",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      ["MWANA mucheche wasemwa panshi;", "Waishile kwitupulusha bonse."],
+      ["Kechi wamwene mwa kwikala ne,", "Wayanjile pa musalabu wanji."],
+      ["Waishile kwitukwasha bonse;", "Wasaka kwitupa mutende lelo."]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 47,
+    "title": "MWANA wasemwa, mwana maliya",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MWANA wasemwa, mwana maliya,",
+        "Bamusulatu, nanchi Nkambo;",
+        "Witutambwila milengulwila,",
+        "Wasenda bubi bwetu bonse."
+      ],
+      [
+        "Baawilenga Amba ukeya,",
+        "Bamalaika bamwene;",
+        "Mwana wazhila ye mupulushi,",
+        "Wipelwile pano pa ntanda."
+      ],
+      [
+        "Lutakaiko lwamufwainwa,",
+        "Wibashinda balwanyi bonse;",
+        "Pano kashinde monka mwiulu,",
+        "Bantu banji basekela pe."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 48,
+    "title": "MWAUMVWA bonse",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      ["MWAUMVWA bonse,", "Mwaumvwa bonse,", "Yesu wasemwa."],
+
+      ["Mu nzubo ya bwenyi,", "Mu nzubo ya bwenyi,", "Yesu wasemwa."],
+      ["Bangombe bamiba,", "Baombe baimba,", "Yesu wasemwa"],
+      ["Bakafunga bonse,", "Bakafunga bonse,", "Bamupopwejile."],
+      ["Maliya ne tosefwa,", "Maliya ne tosefwa,", "Banyemeshe yesu."],
+      ["Heloda wafwa,", "Heloda wafwa,", "Yesu wabwela."]
+    ],
+    "chorus": [
+      "Imbai bonse aleluya,",
+      "Aleluya, aleluya,",
+      "Mu betelema yesu wasemwa."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 49,
+    "title": "MWIYE anweba Emanuele",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MWIYE anweba Emanuele",
+        "Ne kupokolola Isalela",
+        "Ku mfungwa ya buzha bwa panshi",
+        "Mwiye anweba mwana wa Lesa."
+      ],
+
+      [
+        "Mwiye anweba mwine bulobo",
+        "Mwapele kala mikoka yenu",
+        "Mizhilo yenu ku mutumba",
+        "Sa bemwakamwa ne kunemeka."
+      ],
+      [
+        "Mwiye anweba mwana wa Yesu",
+        "Mukule benu kuji satana",
+        "Ne kwibafumya ku kalunga",
+        "Ne kwibashinjishatu kilende."
+      ],
+      [
+        "Mwiye anweba kyeya kya kukya",
+        "Kwiya kwenu kwitusangajike.",
+        "Fumyai mfishi ya bufuku",
+        "Ne kupanga bimvule bya lufu."
+      ],
+      [
+        "Mwiye anweba kii wa Davida",
+        "Mwitufungulwile kya mwiulu,",
+        "Mwitutangijile kwi Lesa",
+        "Ne kwitushinkila ja ku lufu."
+      ]
+    ],
+    "chorus": ["Sekelai, Emanuela", "Ukemwishila anwe Isalela"],
+    "addedChorus": []
+  },
+  {
+    "id": 50,
+    "title": "OBEWA kamuzhi betelema",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "OBEWA kamuzhi betelema",
+        "Mobe byo mwazhindama,",
+        "Tubangabanga tupitangana",
+        "Peulu sa walala.",
+        "Ke Pakuba mu mashinda obe onsetu",
+        "Kyeya kyasamisha,",
+        "Ye baketekele myaka yonse",
+        "Lelo wakusemenwa."
+      ],
+      [
+        "Anweba byeya muji mwiulu,",
+        "Tayai ino mbila,",
+        "Amba mutende ku bantu bonse.",
+        "Lutotelo kwi Lesa;",
+        "Mambo Yesu kilishitu wasemwa",
+        "Kwi maliya,",
+        "Ne bamalaika",
+        "Bamutala mwiulu na kukumya,",
+        "Bantu sa balala."
+      ],
+      [
+        "Kishinshi kwa kubula kumvwisha",
+        "Bupe bwitupainwa;",
+        "Ne Lesa witupa bya mwiulu",
+        "Byonkabyo mu michima;",
+        "Kechi bamumvwa sa apana bibusa ne,",
+        "Pakuba ne Yesu",
+        "Waswa kutwelatu mu michima",
+        "Ya bonse bamusaka."
+      ],
+      [
+        "Obewa mwana wa betelema,",
+        "Twikijile atweba;",
+        "Pangamo bubi bwetu , utwele,",
+        "Usemekelwe mwetu.",
+        "Tumvwa bamalaika bakusekelela,",
+        "Betubula biya,",
+        "Wiye kuno , ukelwe kikupu,",
+        "Nkambo Emanuela."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 51,
+    "title": "PA kusemwa Yesu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "PA kusemwa Yesu",
+        "Kwamwekele Butemwe bwa Lesa",
+        "Butemwe bungitu,",
+        "Bwashimwine bamalaika."
+      ],
+      [
+        "Tupopwele Lesa,",
+        "Lesa mu bumuntu wa Butemwe:",
+        "Tupopwele Yesu,",
+        "Bino na nganyi kayukilo?"
+      ],
+      [
+        "Butemwe Bo bonka,",
+        "Ko kayukilo kenu ne kami,",
+        "Bwa kutemwa Lesa,",
+        "Ne bwa kutemwa bantu bonse."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 52,
+    "title": "UMVWAI Lwimbo wawama",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "UMVWAI Lwimbo wawama",
+        "Ye bemba ba mwiulu,",
+        "Amba lukumo lwikale",
+        "Kuji mfumu wasemwa,",
+        "Mutende ne lusa lonse",
+        "Lwikale ku bantu bonse;",
+        "Lesa wapwana nabo",
+        "Babi bonse bamuswa;",
+        "Lesa wapwana nabo",
+        "Bonse bamwitabila."
+      ],
+      [
+        "Anweba mikoka yonse",
+        "Sekelai Nkambo,",
+        "Mumusambakanye Lwimbo",
+        "Na wabo ba mwiulu,",
+        "Mwimbe nabo ba mwiulu,",
+        "Wa kutota mfumu wetu,",
+        "Wasemenwe lelo jedna",
+        "Monka mu betelema ;",
+        "Umvwai byo bembisha",
+        "Lwimbo wa kumutota"
+      ],
+      [
+        "Totai ye wa mutende,",
+        "Totai ye wa lusa;",
+        "Wituletejile bumi",
+        "Ne kwitupokolola;",
+        "Waswile kusha lukumo,",
+        "Ne kwi twendela atweba,",
+        "Wasemenwe ke muntu’mba",
+        "Nkebafwile bonsetu,",
+        "Wasemenwe ke muntu",
+        "Mu kupulush’atweba."
+      ],
+      [
+        "Iyai mukuzhi wetu",
+        "Mwikale mwi atweba,",
+        "Mwitulwile mupulushi,",
+        "Mwitushinjile bubi,",
+        "Tukalumbuluke kine,",
+        "Twikale ba kwimutota;",
+        "Mumwenemo lukumo",
+        "Lwimufwainw’anweba,",
+        "Mumwenemo lukumo",
+        "Anwe mfumu wa bonse."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 53,
+    "title": "UMVWISHAI anweba, Yesu witusemenwa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "UMVWISHAI anweba, Yesu witusemenwa,",
+        "Aye ye mwana Lesa ye batengela myaka."
+      ],
+      [
+        "Walala mwa banyama, yenka walenga Ntanda,",
+        "Yenka waji na Lesa ne na bamalaika."
+      ],
+      [
+        "Anweba bakafunga, tubulai kwapya ka?",
+        "Ki ka kyo mwalekela mikoko pa Mitumba?"
+      ],
+      [
+        "Sa tulaba bufuku Kwamwekele kyeya,",
+        "Ba mwiulu sa bemba, Mupulushi wasemwa."
+      ],
+      [
+        "Obewa mwana Lesa, Kine witutwmwisha,",
+        "Lusekelo wilusha mambo A kwitufwila."
+      ]
+    ],
+    "chorus": [
+      "Juba ja lusekelo, jo ja lupulukilo,",
+      "Bijikai konsetu, wasemwa Yesu kilishitu."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 54,
+    "title": "YESU Wasemenwe kwi shanji",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "YESU Wasemenwe kwi shanji",
+        "Pano panshi sa pakyangye;",
+        "Ye mutanshi ne wapelako,",
+        "Byonse byafuma mwi aye;",
+        "Ne bijipo ne Byajingapo ku nyuma",
+        "Ne byonse bikamweka,",
+        "Myaka yonse kikuputu."
+      ],
+      [
+        "Jiwi janji jalenga byonse,",
+        "Wakambizhe, ke bimweke;",
+        "Ntanda ne jiulu ne mema,",
+        "Bintu byonse byo tumona,",
+        "Byonsetu bimunyika, ngondo ne juba,",
+        "Banyama ne bichitu,",
+        "Myaka yonse kikuputu."
+      ],
+      [
+        "I ye ye baimbile kala,",
+        "Ye batelele bangauzhi,",
+        "Mu binembelo byabo byonse,",
+        "Amba ye ukeya Panshi;",
+        "Pano waiya ye batengejilenga;",
+        "Ba panshi bamutote,",
+        "Myaka yonse kikuputu."
+      ],
+      [
+        "Bakulu ne banyike bembe",
+        "Nyimbo ya kutota Nkambo;",
+        "Tumwale ne banabakazhi",
+        "Bamutote ne twanyike,",
+        "Tulombwana ne tushimbi bonse pamo,",
+        "Bembe ya kumutota,",
+        "Myaka yonse kikuputu."
+      ],
+      [
+        "Anwe ba mwiulu mutote,",
+        "Ne anwe bamalaika,",
+        "Ba lusa mumulambile,",
+        "Lesa ne mfumu wa bonse",
+        "Kechi azhindame nangwa umotu ne,",
+        "Bembe bonsetu pamo",
+        "Myaka yonse kikuputu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 55,
+    "title": "YETU bamfumu basatu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "YETU bamfumu basatu",
+        "Twafuma kwalepeshatu",
+        "Sa tupita monka mungyetu",
+        "Sa tulonda kyeya."
+      ],
+
+      [
+        "Namuletele ngolode,",
+        "Mambo ye mfumu wa bonse,",
+        "Ye mfumu wetu wa pe,",
+        "Namuvwike bya bufumu."
+      ],
+      [
+        "Naleta binunkabiya",
+        "Bya kuyukisha’mba Lesa;",
+        "Tumulombe ne kutota,",
+        "Ye mfumu wa mwiulu."
+      ],
+      [
+        "Naleta ne nsumuluna",
+        "Ya kutongola bulanda,",
+        "Mfumu wetu twamujijila",
+        "Uji mu kilende."
+      ],
+      [
+        "Pano wavwikwa lukumo,",
+        "Mfumu, Lesa, kitapisho;",
+        "Ba mwiulu bemba Lwimbo",
+        "Wa kumutota Nkambo."
+      ]
+    ],
+    "chorus": [
+      "Obe kyeya kya kukumyatu,",
+      "Kyeya kya mwine Lesa,",
+      "Witutangijile kwalajila",
+      "Mwana wasemwa,"
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 56,
+    "title": "Bambule mambo a Yesu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Bambule mambo a Yesu",
+        "Ngumvwishe byambo Byonse",
+        "Bambule mambo anema",
+        "Akil’akwabo onse"
+      ],
+      [
+        "Mambo a bamalaika",
+        "Byo bakusekelele",
+        "Ne kumwimbila na nyimbo",
+        "Byo asemenwe pano panshi"
+      ],
+
+      [
+        "Bambule by’amwene nzala",
+        "Moba makumi ana",
+        "Byo bamwesekele kine",
+        "Konka kuji satana"
+      ],
+      [
+        "Bambule ne a mingilo",
+        "Yonse yo aingila",
+        "Ne bantu byo bamusula",
+        "Ne kumumwesha malwa ene"
+      ],
+      [
+        "Bambule a musalabu",
+        "Ko bamupachikile",
+        "Bambule ne a kilende",
+        "Ne kusanguka kwanji"
+      ],
+      [
+        "Kine ano o a lusa",
+        "Lwakijisha lonsetu",
+        "Lo lwitutayila mweo",
+        "Amba nkebakule bonsetu"
+      ]
+    ],
+    "chorus": [
+      "Bambule mambo a Yesu",
+      "Ngumvwishe byambo Byonse",
+      "Bambule mambo anema",
+      "Akil’akwabo onse"
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 57,
+    "title": "Buneme ne lukumo",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Buneme ne lukumo",
+        "Kwi anweba mfumu.",
+        "Ye Lwimbo wa kutota ,",
+        "Lwimbo wa banyike."
+      ],
+      [
+        "MFUMU wa Isalela",
+        "Mwana wa Davida,",
+        "Wiya mu Jizhina janji",
+        "Ja yewa watokwa."
+      ],
+      [
+        "Bamalaika bonse",
+        "Batota mwiulu,",
+        "Bilengwa bya pano panshi",
+        "Nabyo bimutota."
+      ],
+      [
+        "Bena yelusalema",
+        "Baimbile kala,",
+        "Ne atweba ne ja lelo",
+        "Twimwibila pamo."
+      ],
+      [
+        "Kasa mukangye kufwa",
+        "Bemutotelenga.",
+        "Lelo byomwatumbijikwa",
+        "Pano twimutota."
+      ],
+      [
+        "Mwaswile nyimbo yabo,",
+        "Umvwai ne yetu;",
+        "Mwatemwa Byonse byawama.",
+        "Mwi mfumu wawama."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 57,
+    "title": "Buneme ne lukumo",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Buneme ne lukumo",
+        "Kwi anweba mfumu.",
+        "Ye Lwimbo wa kutota ,",
+        "Lwimbo wa banyike."
+      ],
+      [
+        "MFUMU wa Isalela",
+        "Mwana wa Davida,",
+        "Wiya mu Jizhina janji",
+        "Ja yewa watokwa."
+      ],
+      [
+        "Bamalaika bonse",
+        "Batota mwiulu,",
+        "Bilengwa bya pano panshi",
+        "Nabyo bimutota."
+      ],
+      [
+        "Bena yelusalema",
+        "Baimbile kala,",
+        "Ne atweba ne ja lelo",
+        "Twimwibila pamo."
+      ],
+      [
+        "Kasa mukangye kufwa",
+        "Bemutotelenga.",
+        "Lelo byomwatumbijikwa",
+        "Pano twimutota."
+      ],
+      [
+        "Mwaswile nyimbo yabo,",
+        "Umvwai ne yetu;",
+        "Mwatemwa Byonse byawama.",
+        "Mwi mfumu wawama."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 58,
+    "title": "Endainga na buneme",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "ENDAINGA na buneme",
+        "Kasa bemutakaika,",
+        "Kasa bamba’mba Hosana,",
+        "Endainga mupulushi."
+      ],
+      [
+        "Endainga na buneme",
+        "Monka mu jishinda jenu,",
+        "Mo baajila bisonga",
+        "Ne kwanshikila bivwalo."
+      ],
+      [
+        "Endainga na buneme",
+        "Sa mwipelwila ku lufu;",
+        "Kilishitu pano ke mushinde",
+        "Ne lufu ne bubi pamo."
+      ],
+      [
+        "Endainga na buneme",
+        "Ba mwiulu sa bakumya",
+        "Pa kulanguluka lufu",
+        "Lonka lwenu lo mukafwa."
+      ],
+      [
+        "Endainga na buneme",
+        "Ke mupwishe bulwi bwenu;",
+        "Bashenu’ba pa jitanda",
+        "Babenakwimutengela."
+      ],
+      [
+        "Endainga na buneme",
+        "Sa mwipelwila ku lufu;",
+        "Mukayande pa mubiji",
+        "Ne kuvwikwa bya bufumu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 59,
+    "title": "Juba ja",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "JUBAJA byo batotele mwiulu,",
+        "Ba pano panshi sa boba bibi,",
+        "Yesu Wasemenwe amba ngikale",
+        "Wa kupulusha banji mu lufu."
+      ],
+      [
+        "Kine wantemwa, byo amfwijile",
+        "Wapwishishe mambo ami onse;",
+        "Juba jikwabo ukeya jibiji,",
+        "Jo jikawama, ja lusekelo."
+      ],
+      [
+        "Juba jimo bantu bamusujile,",
+        "Nekumupopa ponka pa kichi,",
+        "Wamanamine byo bamwipayile;",
+        "Yenkaye Yesu, mukuzhi wami."
+      ],
+      [
+        "Juba jimo washele bunke bwanji",
+        "Mu kilende mo bamutujile;",
+        "Bamalaika bamulaminenga,",
+        "Yenkaye upulusha ba mambo."
+      ],
+      [
+        "Juba jimo lufu lwamukankelwe,",
+        "Wilushinjile, ye mwine mweo,",
+        "Yesu wasanguka ne kukanjila,",
+        "Uji mwiulu, ye Nkambo yami."
+      ],
+      [
+        "Juba jimo mbunge ikavumisha,",
+        "Byo akeya pa kulond’atweba,",
+        "Jo ja kukumya, byo tukamumona,",
+        "Ye wa lukumo, ye mupulushi."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 60,
+    "title": "Mwaumvwa mambo a yewa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MWAUMVWA mambo a yewa",
+        "Mwana wa betelema",
+        "Bamalaika ne ba mana bapwila",
+        "Ku mwimuna.",
+        "Ne byo afunjisha banganga mu",
+        "Nzubo ya Lesa?",
+        "Nasekela kwimubula ne lelo ye ujiko."
+      ],
+      [
+        "Ne lelo…..ye ujiko….",
+        "Ne lelo……ye ujiko….",
+        "Usaka baeleka, wenda wibapulusha",
+        "Twasanta! Yenka ujiko"
+      ],
+      [
+        "Mwaumvwa ne byo anyanta pa mema",
+        "Ne kipupu",
+        "Kuya kuji bana banji pa mema a Ngalilea,",
+        "Ne kipupu byo kyaumvwa jiwi",
+        "Ne kuzhindama?",
+        "Nasekela kwimubula ne lelo ye ujiko."
+      ],
+      [
+        "Mwaumvwa byo alombele Lesa",
+        "Mu Ngesemani,",
+        "Ne byo afwile lufu lubi konka ku",
+        "Kalvali,",
+        "Wibikwa miba ku mutwe ne bivwalo",
+        "Byavwala?",
+        "Amu monse witukula ne lelo ye ujiko."
+      ],
+      [
+        "Wafwainwa kupopwela aye Nkambo",
+        "Wa bantu,",
+        "Aye yenka ye tupopa ye Nkambo",
+        "Mwina bantu,",
+        "Atotwe ne kutotwa! IIunga wa bisela",
+        "Ne mumyaka yonsetu, Yesu kilishitu",
+        "Ukatotwa."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 61,
+    "title": "Nganyi awa wasemwa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "NGANYI awa wasemwa",
+        "Mu nzubo ya banyama?",
+        "Ye Nkambo, kyo kya kukumya,",
+        "Ye Nkambo, wa mu lukumo.",
+        "Twamulambila panshi",
+        "Ekale mfumu mwine."
+      ],
+      ["Nganyi ye bapopwela", "Bakafunga baiya?"],
+      ["Nganyi wamonwa bingi", "Wafwa nzala mungyetu?"],
+      ["Nganyi ye baletela", "Bajila ne bakolwa?"],
+      ["Nganyi mu Ngesemani", "Ulombela mu mfishi?"],
+      ["Nganyi ubena kufwa", "Sa apopwa ku kichi?"],
+      ["Nganyi’wa wasanguka", "Wiya mu kupulusha?"],
+      ["Nganyi uji mwiulu", "Wibilama byonsetu?"]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 62,
+    "title": "Byo ntala ko amfwijile Yesu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "BYO ntala ko amfwijile Yesu",
+        "Yenka aye mfumu wa lukumo;",
+        "Naswa kuleka bya kwami byonse",
+        "Ne kumutemwa aye yenka."
+      ],
+      [
+        "Nkambo, ukanye ami kwitota,",
+        "Poso mu lufu lwa Yesu kilishitu.",
+        "Nataya byonse byo natemenwe.",
+        "Mashi anji angichikile."
+      ],
+      [
+        "Talai anweba ku mutwe wanji,",
+        "Ne ku makasa ne ku maulu!",
+        "Mashi a kipwaino apita;",
+        "Kine witukula atweba."
+      ],
+      [
+        "Lusa lwanji lo lwakila lonse,",
+        "Waishile kwitumanamina,",
+        "Witutambwe fwebo, Yesu mwene,"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 57,
+    "title": "Buneme ne lukumo",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "Buneme ne lukumo",
+        "Kwi anweba mfumu.",
+        "Ye Lwimbo wa kutota ,",
+        "Lwimbo wa banyike."
+      ],
+      [
+        "MFUMU wa Isalela",
+        "Mwana wa Davida,",
+        "Wiya mu Jizhina janji",
+        "Ja yewa watokwa."
+      ],
+      [
+        "Bamalaika bonse",
+        "Batota mwiulu,",
+        "Bilengwa bya pano panshi",
+        "Nabyo bimutota."
+      ],
+      [
+        "Bena yelusalema",
+        "Baimbile kala,",
+        "Ne atweba ne ja lelo",
+        "Twimwibila pamo."
+      ],
+      [
+        "Kasa mukangye kufwa",
+        "Bemutotelenga.",
+        "Lelo byomwatumbijikwa",
+        "Pano twimutota."
+      ],
+      [
+        "Mwaswile nyimbo yabo,",
+        "Umvwai ne yetu;",
+        "Mwatemwa Byonse byawama.",
+        "Mwi mfumu wawama."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 58,
+    "title": "Endainga na buneme",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "ENDAINGA na buneme",
+        "Kasa bemutakaika,",
+        "Kasa bamba’mba Hosana,",
+        "Endainga mupulushi."
+      ],
+      [
+        "Endainga na buneme",
+        "Monka mu jishinda jenu,",
+        "Mo baajila bisonga",
+        "Ne kwanshikila bivwalo."
+      ],
+      [
+        "Endainga na buneme",
+        "Sa mwipelwila ku lufu;",
+        "Kilishitu pano ke mushinde",
+        "Ne lufu ne bubi pamo."
+      ],
+      [
+        "Endainga na buneme",
+        "Ba mwiulu sa bakumya",
+        "Pa kulanguluka lufu",
+        "Lonka lwenu lo mukafwa."
+      ],
+      [
+        "Endainga na buneme",
+        "Ke mupwishe bulwi bwenu;",
+        "Bashenu’ba pa jitanda",
+        "Babenakwimutengela."
+      ],
+      [
+        "Endainga na buneme",
+        "Sa mwipelwila ku lufu;",
+        "Mukayande pa mubiji",
+        "Ne kuvwikwa bya bufumu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 59,
+    "title": "Juba ja",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "JUBAJA byo batotele mwiulu,",
+        "Ba pano panshi sa boba bibi,",
+        "Yesu Wasemenwe amba ngikale",
+        "Wa kupulusha banji mu lufu."
+      ],
+
+      [
+        "Juba jimo bantu bamusujile,",
+        "Nekumupopa ponka pa kichi,",
+        "Wamanamine byo bamwipayile;",
+        "Yenkaye Yesu, mukuzhi wami."
+      ],
+      [
+        "Juba jimo washele bunke bwanji",
+        "Mu kilende mo bamutujile;",
+        "Bamalaika bamulaminenga,",
+        "Yenkaye upulusha ba mambo."
+      ],
+      [
+        "Juba jimo lufu lwamukankelwe,",
+        "Wilushinjile, ye mwine mweo,",
+        "Yesu wasanguka ne kukanjila,",
+        "Uji mwiulu, ye Nkambo yami."
+      ],
+      [
+        "Juba jimo mbunge ikavumisha,",
+        "Byo akeya pa kulond’atweba,",
+        "Jo ja kukumya, byo tukamumona,",
+        "Ye wa lukumo, ye mupulushi."
+      ]
+    ],
+    "chorus": [
+      "Kine wantemwa, byo amfwijile",
+      "Wapwishishe mambo ami onse;",
+      "Juba jikwabo ukeya jibiji,",
+      "Jo jikawama, ja lusekelo."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 60,
+    "title": "Mwaumvwa mambo a yewa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "MWAUMVWA mambo a yewa",
+        "Mwana wa betelema",
+        "Bamalaika ne ba mana bapwila",
+        "Ku mwimuna.",
+        "Ne byo afunjisha banganga mu",
+        "Nzubo ya Lesa?",
+        "Nasekela kwimubula ne lelo ye ujiko."
+      ],
+
+      [
+        "Mwaumvwa ne byo anyanta pa mema",
+        "Ne kipupu",
+        "Kuya kuji bana banji pa mema a Ngalilea,",
+        "Ne kipupu byo kyaumvwa jiwi",
+        "Ne kuzhindama?",
+        "Nasekela kwimubula ne lelo ye ujiko."
+      ],
+      [
+        "Mwaumvwa byo alombele Lesa",
+        "Mu Ngesemani,",
+        "Ne byo afwile lufu lubi konka ku",
+        "Kalvali,",
+        "Wibikwa miba ku mutwe ne bivwalo",
+        "Byavwala?",
+        "Amu monse witukula ne lelo ye ujiko."
+      ],
+      [
+        "Wafwainwa kupopwela aye Nkambo",
+        "Wa bantu,",
+        "Aye yenka ye tupopa ye Nkambo",
+        "Mwina bantu,",
+        "Atotwe ne kutotwa! IIunga wa bisela",
+        "Ne mumyaka yonsetu, Yesu kilishitu",
+        "Ukatotwa."
+      ]
+    ],
+    "chorus": [
+      "Ne lelo…..ye ujiko….",
+      "Ne lelo……ye ujiko….",
+      "Usaka baeleka, wenda wibapulusha",
+      "Twasanta! Yenka ujiko"
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 61,
+    "title": "Nganyi awa wasemwa",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      ["NGANYI awa wasemwa", "Mu nzubo ya banyama?"],
+      ["Nganyi ye bapopwela", "Bakafunga baiya?"],
+      ["Nganyi wamonwa bingi", "Wafwa nzala mungyetu?"],
+      ["Nganyi ye baletela", "Bajila ne bakolwa?"],
+      ["Nganyi mu Ngesemani", "Ulombela mu mfishi?"],
+      ["Nganyi ubena kufwa", "Sa apopwa ku kichi?"],
+      ["Nganyi’wa wasanguka", "Wiya mu kupulusha?"],
+      ["Nganyi uji mwiulu", "Wibilama byonsetu?"]
+    ],
+    "chorus": [
+      "Ye Nkambo, kyo kya kukumya,",
+      "Ye Nkambo, wa mu lukumo.",
+      "Twamulambila panshi",
+      "Ekale mfumu mwine."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 62,
+    "title": "Byo ntala ko amfwijile Yesu",
+    "author": "Unknown",
+    "meter": "Unknown",
+    "tuneName": "Unknown",
+    "verses": [
+      [
+        "BYO ntala ko amfwijile Yesu",
+        "Yenka aye mfumu wa lukumo;",
+        "Naswa kuleka bya kwami byonse",
+        "Ne kumutemwa aye yenka."
+      ],
+      [
+        "Nkambo, ukanye ami kwitota,",
+        "Poso mu lufu lwa Yesu kilishitu.",
+        "Nataya byonse byo natemenwe.",
+        "Mashi anji angichikile."
+      ],
+      [
+        "Talai anweba ku mutwe wanji,",
+        "Ne ku makasa ne ku maulu!",
+        "Mashi a kipwaino apita;",
+        "Kine witukula atweba."
+      ],
+      [
+        "Lusa lwanji lo lwakila lonse,",
+        "Waishile kwitumanamina,",
+        "Witutambwe fwebo, Yesu mwene,"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 63,
+    "title": "KU kalvali yesu kilishitu",
+    "subtitle": "Mwana lesa wamfwijile",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "Ku kalvali yesu kilishitu",
+        "Mwana lesa wamfwijile,",
+        "Wayanjile mambo ami",
+        "Mu kumfumisha ku bubi"
+      ],
+      [
+        "Waikajile mu mfishi",
+        "Mukachi ka bantu bonse,",
+        "Bonka bambujimbulwile,",
+        "Ne kumushikwa kingitu."
+      ],
+      [
+        "Mabwe onse asunkene,",
+        "Ne bashanji bamushile,",
+        "Wayanjile mambo ami",
+        "Yenka wazhila wa lesa."
+      ],
+      [
+        "Kimye kyo asangukile",
+        "Wafumine mu kilende,",
+        "Pano ye wabula kufwa,",
+        "Ye kalama wa pe na pe."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 64,
+    "title": "KWANJI mutumba kwalepa",
+    "subtitle": "Pangye ya makambi",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "Kwafwijile Nkambo Yesu",
+        "Mu kwitupulusha.",
+        "Kine witutemwishishe",
+        "Tumutemwe atwe,"
+      ],
+      [
+        "Kechi twayuka atweba",
+        "Malwa o amwene,",
+        "Pakuba twaitaba’mba,",
+        "Witumanamine."
+      ],
+      [
+        "Wafwile’mba mambo onse",
+        "Akebalekelwe,",
+        "Bakekale ba bulongo,",
+        "Batwele mwiulu."
+      ],
+      [
+        "Aye yenka wafwainwa",
+        "Kwibakula bantu,",
+        "Ne kwitushinkwila’atweba",
+        "Kibelo kya mwiulu."
+      ]
+    ],
+    "chorus": [
+      "Kine witutemwishishe",
+      "Tumutemwe atwe,",
+      "Tuketekele mwi aye,",
+      "Tumulondelenga."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 65,
+    "title": "MASHI a banyama bonse",
+    "subtitle": "Bo batapishishenga",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["Ke ayuka kwitubingisha,", "Nangwa kwitutokesha."],
+      [
+        "Aye Nkambo Yesu kilishitu",
+        "Ye kitapisho kyetu,",
+        "Watwajile bibi byonsetu",
+        "Byo afwijile bonse."
+      ],
+      [
+        "Pano nalapila kine,",
+        "Namwitabila Yesu,",
+        "Nesolola namba ne mubi,",
+        "Pano namona bumi."
+      ],
+      [
+        "Byo ndanguluka Yesu",
+        "Ne malwa o amwene",
+        "Byo amfwijile mu kunkula,",
+        "Namutotesha bingi."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 66,
+    "title": "MASHI a mukuzhi ko aji",
+    "subtitle": "A kupwisha mambo a bantu",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "Babi bonsetu bakowamo",
+        "Bakekala batoka.",
+        "Bonse bakatokato,",
+        "Bakekala batokato,",
+        "Babi bonsetu bakowamo bakatokeshatu to."
+      ],
+      [
+        "Kapondo wafwile ne yesu wasekelele pa kowamo,",
+        "Ne amiwa nangwa nabipa",
+        "Kyawama kukowamo."
+      ],
+      [
+        "Byo nebimwene byawamisha",
+        "Mu mashi a yesu mukuzhi,",
+        "Nkakelwa kwibabula bantu,",
+        "Namba wimufwijile,"
+      ],
+      [
+        "Nyimbo yo tukemba mwiulu",
+        "Ya bulobo bwa mupulushi,",
+        "Ikakijisha mu kuwama,",
+        "Ya kumutotesh’aye"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 67,
+    "title": "MASHI anema ko aji a kwa emanuele",
+    "subtitle": "A kufyamamo ba mambo atoka to byo aji",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "MASHI anema ko aji a kwa emanuele,",
+        "A kufyamamo ba mambo atoka to byo aji."
+      ],
+      [
+        "Atokato……….atokato………",
+        "Atoka to byo aji",
+        "Akufyamamo ba mambo,",
+        "Atoka to byo aji."
+      ],
+      [
+        "Pa musalabu kapondo",
+        "Waambile amba,",
+        "Amiwa ne wa bubi bwi,",
+        "Kine muntokeshe."
+      ],
+      [
+        "Mwana mukoko wa lesa",
+        "Mashi etukula",
+        "Amba bonse baitabila",
+        "Ku bubi bafumeko"
+      ],
+      [
+        "Byo namwene mashi enu",
+        "Byo aichikile ,",
+        "Aspwijile butemwe bwenu",
+        "Bwa myaka ne miaka."
+      ],
+      [
+        "Monka mu kilende lujimi",
+        "Byo akazhindama,",
+        "Lwimbo wawama wakila",
+        "Ye nkamwimbil’aye."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+
+  {
+    "id": 68,
+    "title": "MONA Mwana wa mukoko",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["MONA Mwana wa mukoko,", "Wasenda ne bubi wetu", "Atwe bonse."],
+
+      ["Wibusenda mu mubiji", "Ponka pa musalabu po", "Afwijile."],
+      ["Talai pa musalabu", "Ke waambile nangwa kimo", "Pa kuyanda."],
+      ["Umvwai ne kwita kwanji", "Byo aichile’mba ‘kwapwa’", "Pa kalvali."],
+      ["Mu mashi anji aye Mwine", "Bubi bwetu bebovwa", "Bwetu bonse."]
+    ],
+    "chorus": [
+      "(Mona Mwana)",
+      "Mona Mwana wa mukoko,",
+      "(Aye)",
+      "Wasenda ne bubi bwetu",
+      "Atwe bonse."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 69,
+    "title": "NKAMBO ya muchima wami",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "Nkambo ya muchima wami",
+        "Nkwashai kuvuluka",
+        "Byo mwamfwijile mukuzhi",
+        "Konka ku kalvali."
+      ],
+
+      [
+        "Mmweshaiko,nkambo, munchinya",
+        "Wa mibambanoma",
+        "Ye bemuvwikile bantu",
+        "Konka ku kalvali."
+      ],
+      [
+        "Nayuka kusaka kwenu",
+        "Ko mwankeb’amiwa,",
+        "Lusa lwine lwamwekele",
+        "Konka ku kalvali."
+      ],
+      [
+        "Kilende kyenu mukuzhi,",
+        "Mo mwalupukile,",
+        "Nayuka ngovu ya lesa",
+        "Imulupwilemo"
+      ],
+      [
+        "Nalomba namba nshikule",
+        "Musalabu wami,",
+        "Nekane amiwa, nkambo,",
+        "Ne kwimulondela"
+      ]
+    ],
+    "chorus": [
+      "Nakeya kuvulamako",
+      "Malwa a ku ngesemani,",
+      "Ne byo mwamfwijile nkambo",
+      "Konka ku kalvali."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 70,
+    "title": "NKEKALE ku kalvali",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "NKEKALE ku kalvali",
+        "Kwafwijile yesu,",
+        "Kwaichikile mashi,",
+        "O etutokesha."
+      ],
+
+      [
+        "Byo najinga mu bubi,",
+        "Nachiinenga lesa,",
+        "Nayile ku kalvali,",
+        "Ne lusa namwene."
+      ],
+      [
+        "Munkwasheko amiwa",
+        "Kwenda moba onse",
+        "Konka’kwa ku kalvali,",
+        "Kasa ndanguluka"
+      ],
+      [
+        "Byo akeya mukuzhi",
+        "Mu lukumo lwanji,",
+        "Akantane amiwa",
+        "Sa namutengela."
+      ]
+    ],
+    "chorus": [
+      "Kalvali, kalvali",
+      "Nkatotanga myaka,",
+      "Ne byo nkafika konka",
+      "Ku muzhi wa lesa."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 71,
+    "title": "NTANGI wa lufu lwa kwa Yesu",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "NTANGI wa lufu lwa kwa Yesu",
+        "Jizhina janji yudasa.",
+        "Banganga bantagijile mfumu",
+        "Kuya kwi pilato."
+      ],
+
+      [
+        "Pilato waipangwizhe bantu",
+        "Ngube byepi ne Yesu,",
+        "Uno ye batela’mba ye mfumu",
+        "Wa bena Isalela?"
+      ],
+      [
+        "Banganga bakolomwene bantu",
+        "Kulomba balabasa;",
+        "Babijikishe’mba mupopai",
+        "Yesu pa musalabu."
+      ],
+      [
+        "Ponkapo bamupopele Yesu",
+        "Ne pilato wanemba,",
+        "Amba uno Yesu , ye mfumu",
+        "Wa bena Isalela."
+      ],
+      [
+        "Pa kuswa byobyo aye Yesu",
+        "Witutemwisha bingi,",
+        "Pa musalabu wituyanjile,",
+        "Wajinga Mwana Lesa."
+      ]
+    ],
+    "chorus": [
+      "Bulanda byo bamukwachile Yesu",
+      "Byo bamutwajile ku bayudea",
+      "Ku pumwa ne kushipilwa mate",
+      "Atweba twakulwa."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 72,
+    "title": "PAKUTAJISHA musalabu",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "PAKUTAJISHA musalabu",
+        "Kwafwijile mfumu wami;",
+        "Bunonshi wami nanchi bwa ka?",
+        "Ne kwitota pano kwapwa."
+      ],
+      [
+        "Kechi ngalukile kungi ne",
+        "Kana ku lufu lwa kwa Yesu;",
+        "Byo byatu Byonse byo natemwa",
+        "Pa kwibyesakanya na mashi."
+      ],
+      [
+        "Ku maulu ne ku maboko",
+        "Ne ku mutwe namona mashi;",
+        "Mwamwenepo malwa ne lusa",
+        "Biji pamo na bya kwa Yesu."
+      ],
+      [
+        "Bunonshi bonse Byakepesha",
+        "Pa kwibupana konka kwi aye.",
+        "Butemwe bwanji bwavujisha;",
+        "Nafwainwa kumupa mweo."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 73,
+    "title": "WATELWA’MBA, wa malwa",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "WATELWA’MBA, wa malwa",
+        "Mwana waishijile",
+        "Kupulusha ba mambo,",
+        "Aleluya! Mupulushi!"
+      ],
+      [
+        "Wamwene bumvu bwingi,",
+        "Byo etupingakene,",
+        "Wambingisha na mashi,",
+        "Aleluya!  Mupulushi!"
+      ],
+      [
+        "Atweba twabipisha,",
+        "Yenka aye wawama,",
+        "Witupwishisha onse,",
+        "Aleluya! Mupulushi!"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 74,
+    "title": "JO ja lusekelo",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "JO ja lusekelo,",
+        "Muleke bulanda ne bubi:",
+        "Yesu wamfwijile",
+        "Wasanguka jonka ja lelo."
+      ],
+
+      [
+        "Pa kufwa amiwa",
+        "Nkakokolokapo kakimye;",
+        "Poso nkomvwa mbunge",
+        "Ya kubusha bafu bonsetu."
+      ],
+      [
+        "Kechi nkachina ne",
+        "Pa kufika ku lufu lwami;",
+        "Yesu by’asanguka",
+        "Witupwishisha moyo wetu."
+      ]
+    ],
+    "chorus": [
+      "Inge Yesu kilishitu",
+      "Kechi wasangukile ne,",
+      "Lwitabilo lwetu",
+      "Inge lwajinga lwatu",
+      "Pakuba ja lelo",
+      "Wasanguka , wasanguka."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 75,
+    "title": "KILISHITU Nkambo wasanguka",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "KILISHITU Nkambo wasanguka,",
+        "Pano mfishi yapwijijila;",
+        "Kilishitu wavwala bya bufumu,",
+        "Wapangishamo satana.",
+        "Monse mwiulu ke kikupu,",
+        "Aleluya! Aleluya!"
+      ],
+      [
+        "Kilishitu Nkambo wasanguka,",
+        "Mashi a kwa Mwana-mukoko",
+        "Ashinda nzhita ya satana,",
+        "Wapwishishe bulwi bonse,",
+        "Wamwenamo lukumo lwine,",
+        "Aleluya! Aleluya!"
+      ],
+      [
+        "Kilishitu Nkambo wasanguka,",
+        "Musekele muji mwiulu,",
+        "Ne anwe byeya musamishe,",
+        "Ne bena kilishitu mutote",
+        "Ne kutumbijika mukuzhi,",
+        "Aleluya! Aleluya!"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 76,
+    "title": "KILISHITU Wabuka lelo",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "KILISHITU Wabuka lelo,",
+        "Bembe ya kumutota;",
+        "Ba mwiulu ne panshi",
+        "Sekelaitu bonse."
+      ],
+      [
+        "Yesu wapanga mfishi,",
+        "Ye uketusamina;",
+        "Butemwe bwaingila;",
+        "Bulwi bwapwa; washinda."
+      ],
+      [
+        "Bamalonda ne jibwe",
+        "Byo byatu; walupuka;",
+        "Lufu lwamukankalwa,",
+        "Witutwela mwiulu."
+      ],
+      [
+        "Mfumu wetu wabuka,",
+        "Lufu lwamona bumvu;",
+        "Wafwile Mupulushi,",
+        "Washinda ne kilende."
+      ]
+    ],
+    "chorus": [
+      "Tukanjile mwiulu",
+      "Sa tulondela Yesu,",
+      "Tukasanguka nanji,",
+      "Ne kwabanya bufumu."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 77,
+    "title": "KILISHITU wabuka lelo",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "KILISHITU wabuka lelo,",
+        "Aleluya,",
+        "Juba ja lusekelo, Aleluya,",
+        "Mu kupulusha bantu, Aleluya,"
+      ],
+      [
+        "Tumutote na nyimbo, Aleluya,",
+        "Kilishitu mfumu wa mwiulu, Aleluya,",
+        "Washinjile kilende, Aleluya,",
+        "Mu kukula ba mambo, Aleluya."
+      ],
+      [
+        "Lumanamo lwa Yesu, Aleluya,",
+        "Lwitupulush’atweba, Aleluya,",
+        "Pano ye mfumu mwiulu, Aleluya,",
+        "Mo bembila ba lusa, Aleluya."
+      ],
+      [
+        "Tumutoteshe Lesa, Aleluya,",
+        "Ba nyimbo yavujisha, Aleluya,",
+        "Mumutote ba mwiulu, Aleluya,",
+        "Tata, mwana, mupashi, Aleluya."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 78,
+    "title": "KILISHITU wasanguka lelo",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "KILISHITU wasanguka lelo,",
+        "Aleluya!",
+        "Bantu bengi baamba’mba, Aleluya!",
+        "Ba mwiulu bemba’mba Aleluya!",
+        "Ne ba pano panshi betabe’mba, Aleluya!"
+      ],
+      [
+        "Jibwe jaalumukako, Aleluya!",
+        "Kine Yesu wasanguka, Aleluya!",
+        "Wapichile ku lufu, Aleluya!",
+        "Wabwele kwi shanji kwiulu, Aleluya!"
+      ],
+      [
+        "Yesu ye mukuzhi wetu, Aleluya!",
+        "Wapwishishe buzha bwetu, Aleluya!",
+        "Balwanyi Wibashinda, Aleluya!",
+        "Ne kilende nakyo wikishinda, Aleluya!"
+      ],
+      [
+        "Mfumu wetu waikala, Aleluya!",
+        "Ku kilujo kya kwa Lesa, Aleluya!",
+        "Witupwishisha jimo, Aleluya!",
+        "Kwa kwikal’atweba konka kwanji, Aleluya!"
+      ],
+      [
+        "Tumutote Nkambo yetu, Aleluya!",
+        "Tukasanguka atweba, Aleluya!",
+        "Byo akeya mukuzhi, Aleluya!",
+        "Tusakukaya nanji mwiulu, Aleluya!"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 79,
+    "title": "MALIYA watajilenga",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "MALIYA watajilenga",
+        "Mu kilende kya yesu,",
+        "Maliya watajilenga",
+        "Mu kilende kya yesu",
+        "Ye mwine wa kwitupulusha"
+      ],
+      ["Malaika waambile’mba", "Maliya ujila ka?", "Najila nkambo yami wepi?"],
+      ["Ne nkambo waambile’mba", "Inetu ujila ka?", "Najila nkambo yami wepi?"],
+      [
+        "Ne nkambo waambile’mba",
+        "Mukaye ku ngalilea",
+        "Konkakwa ko ko mukantana."
+      ],
+      [
+        "Ne nkambo waambile’mba",
+        "Nkeya jibiji ko muji",
+        "Ne kwimutwala konka kwami."
+      ]
+    ],
+    "chorus": [
+      "Wasanguka, wasanguka, aye wafwile,",
+      "Wasanguka, wasanguka, aye wafwile,",
+      "Wasanguka, wasanguka, aye wafwile,",
+      "ye mwine wa kwitupulusha"
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 80,
+    "title": "MONAI mu kilende ufwamo",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "MONAI mu kilende ufwamo",
+        "Wasanguka, wasanguka",
+        "Monai mu kilende ufwamo",
+        "Yesu Nkambo washinda lufu"
+      ],
+
+      [
+        "Maliya waji na bulanda",
+        "Pa kubula kumumona",
+        "Walangulukilenga mu muchima",
+        "Kampe balwanyi bamusenda"
+      ],
+      [
+        "Monai mu kilende ufwamo",
+        "Twamonamo bamalaika",
+        "Twibepuzha’mba Nkambo uji pi?",
+        "Ufwamo wasanguka mu bafu"
+      ],
+      [
+        "Maliya wamwene Yesu",
+        "Sa aimana ku kilende",
+        "Maliya waipwizhe’mba",
+        "Mbulai Ko bamufya"
+      ],
+      [
+        "Muye bonse ku Ngalilea",
+        "Ko Ko mukamutana",
+        "Wabuka, mu kilende kafwamo",
+        "Yesu Nkambo washinda lufu"
+      ]
+    ],
+    "chorus": [
+      "Monai mu kilende ufwamo",
+      "Kine Yesu ufwamo, tajishai",
+      "Yesu wabuka, kine wabuka",
+      "Mupulushi kine washinda"
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 81,
+    "title": "PA kuya lukelo",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "PA kuya lukelo",
+        "Talai malaika",
+        "Wafuma kwiulu",
+        "Ne kwalumuna jibwe"
+      ],
+
+      [
+        "Balama kilende",
+        "Bakwatwa na moyo",
+        "Ne kupona panshi",
+        "Nobe bapungila"
+      ],
+      [
+        "Kalupuke Nkambo",
+        "Monka mu kilende",
+        "Kafwako wamwene",
+        "By’abukile mu bafu"
+      ],
+      [
+        "Twi bana ba kyeya",
+        "Twasangulwa pamo",
+        "Tushe mu kilende",
+        "Bya kala ne bya lufu"
+      ]
+    ],
+    "chorus": [
+      "Mawi yenu sansulai bonse",
+      "Na kutota Nkambo",
+      "Wasanguka lelo"
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 82,
+    "title": "WALELE mu kyumbwe-Yesu",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["WALELE mu kyumbwe-Yesu", "Mukuzhi", "Sa ejipembela ja kubuka"],
+
+      ["Nangwa bashinkishe kilende kyanji", "Ne kusopa konka, byaji byatu"],
+      ["Washinjile lufu- Mukuzhi wami!", "Wilumwesha bumvu- Yesu Nkambo"]
+    ],
+    "chorus": [
+      "Yesu wasangukile",
+      "Mu kilende mo alajile",
+      "Washinjile balwanyi banji bonse",
+      "Pano ke wa bumi bwa myaka yonse",
+      "Wabuka! Wabuka!",
+      "Aleluya! Wabuka!"
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 83,
+    "title": "ALELUYA! ALELUYA! ALELUYA!",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "ALELUYA! ALELUYA! ALELUYA!",
+        "Wibashinda, ne bulwi bwapwa",
+        "Pano kashinde wibanyanta",
+        "Twimbe Lwimbo wa kumutota",
+        "Aleluya!"
+      ],
+      [
+        "Bena lufu bamukankalwa",
+        "Yesu wibasukyangizh’abo",
+        "Tumwimbishe na lusekelo",
+        "Aleluya!"
+      ],
+      [
+        "A bulanda apita kala",
+        "Yesu wasanguka ku bafu",
+        "Mfumu wetu atumbalale",
+        "Aleluya!"
+      ],
+      [
+        "Wachibile mfungwa ya bubi",
+        "Witushinkwila bya mwiulu",
+        "Twimbe ya kwibishinda kwanji",
+        "Aleluya!"
+      ],
+      [
+        "Lufu lo etumwenjile",
+        "Lwitupulusha ku lwa malwa",
+        "Teikalenga ba kwimwimbila",
+        "Aleluya!"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 84,
+    "title": "yesu kilishitu wabuka",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "yesu kilishitu wabuka",
+        "lufu lwamukankalwatu;",
+        "wabuka, twayukisha",
+        "washinda kilende nakyo.",
+        "aleluya!"
+      ],
+      [
+        "yesu kilishitu wabuka,",
+        "ye mfumu monka mwiulu,",
+        "ne atweba tukaya",
+        "ne kwikala na bufumu,",
+        "aleluya!"
+      ],
+      [
+        "yesu kilishitu wabuka,",
+        "witufwijile atweba;",
+        "nanchi tumwimbijile",
+        "mu kuba bya kine kine.",
+        "aleluya!"
+      ],
+      [
+        "yesu kilishitu wabuka,",
+        "ka pajiki ketwabayna",
+        "na butemwe bwa yesu,",
+        "nangwa ba lusa ba mfishi,",
+        "aleluya!"
+      ],
+      [
+        "yesu kilishitu wabuka,",
+        "pano lufu kyo kibelo",
+        "kya kutwela mu mweo,",
+        "nanchi twiluchine byepi?",
+        "aleluya!"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 85,
+    "title": "tajishai nkambo yetu",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "tajishai nkambo yetu",
+        "anweba bazhijkwa,",
+        "nangwa wamwene bya malwa",
+        "wakosejilemotu."
+      ],
+
+      [
+        "tajishai nkambo yetu",
+        "ko bamuopjile,",
+        "ku kalvali bamusula",
+        "yesu wazhindama."
+      ],
+      [
+        "ku mutwe wanji bantu",
+        "bamuvwikile munchinya",
+        "wa mibambangoma yatwa,",
+        "ne kumusebanyatu."
+      ],
+      [
+        "mwiulu waikala na",
+        "munchinya ya lukumo;",
+        "nangwa bantu bamusula",
+        "lesa wamwitabila."
+      ],
+      [
+        "bantu bonse bakakinka",
+        "manungo kuji yesu;",
+        "bakamutela’mba mfumu",
+        "ke lusekelo lwine."
+      ]
+    ],
+    "chorus": [
+      "itabai, popwelai",
+      "aye yesu witufwijile ;",
+      "nkambo yetu waikala",
+      "ku kuboko kwa ngovu."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 86,
+    "title": "umvwai byo bemba bamaleka",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "umvwai byo bemba bamaleka",
+        "pa kusekelela yesu wafika.",
+        "mfumu wa lukumo, mfumu wa lusa",
+        "yesu wakanjila, wabwela kwanj."
+      ],
+
+      [
+        "aye wipewile mu kwitufwila,",
+        "pano kwi bashanji bamunemeka.",
+        "ka ukumename, ka ukafwe ne,",
+        "yesu wakanjila, wabwela kwanj."
+      ],
+      [
+        "wikala mwawama, witulombela",
+        "sa etukambizha ndondelei ko nji.",
+        "witumwena kuntu kwa kwikal’atwe",
+        "ye wikala myaka, witutemwa pe."
+      ]
+    ],
+    "chorus": [
+      "byonsetu wapwisha, ke tumwimbile",
+      "yesu wakanjila, totai mfumu."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 87,
+    "title": "umvai lwimbo wa mwiulu",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "umvai lwimbo wa mwiulu",
+        "batumbijika lesa,",
+        "bamuto ne mwana lesa",
+        "ye mupulushi wetu."
+      ],
+
+      [
+        "waambile ku bantu banji,",
+        "amba nkaya kwiulu.",
+        "waambile amba nkabwela",
+        "kwiya na kwimulonda."
+      ],
+      [
+        "watumbalala ku bonsetu,",
+        "ye mwana wa lesa;",
+        "waambile amba nkabwela",
+        "kechi muzinaauke."
+      ]
+    ],
+    "chorus": [
+      "umvwai,",
+      "umvwai magengele, umvwai,",
+      "jiulu jatenkana, umvwai,",
+      "watumbalala, watumbalala,",
+      "konse, konse.",
+      "watumbalala, watumbalala,",
+      "konse, konse."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 88,
+    "title": "wavwajile kala miba",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "wavwajile kala miba",
+        "wavwala lukumo;",
+        "kashinde wavwala pano",
+        "munchinya wa lesa."
+      ],
+      [
+        "pa jitanda ja mwiulu",
+        "po panji bunketu,",
+        "ye mfumu wa bamfumu ne",
+        "nkambo wa bankambo."
+      ],
+      [
+        "usangajika ba panshi",
+        "ne baji mwiulu,",
+        "wibamwesha lusa lwanji,",
+        "bamutumbijika."
+      ],
+      [
+        "bamwena mu musalabu",
+        "bumvu ne bibusa,",
+        "batumbijikwa kikupu,",
+        "basekela myaka."
+      ],
+      [
+        "bamanama pano panshi,",
+        "baswana mwiulu,",
+        "butemwe bwangi bwibapa",
+        "lusekelo lwine."
+      ],
+      [
+        "musalabu ke wa lufu",
+        "kwi yesu mukuzhi,",
+        "ke wa bumi ne wa mweo",
+        "kwi bamwitabila."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 89,
+    "title": "au na mumakumbi",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "au na mumakumbi,",
+        "yesu wituftwijile,",
+        "bana banji beya nanji",
+        "na lwimbo wa kutota,",
+        "bamutota, bamutota,",
+        "mfumu wafika panshi."
+      ],
+      [
+        "bakamumona bonsetu",
+        "sa avwala buneme;",
+        "abo bamujimbulwile",
+        "nekumupopa pa kichi,",
+        "bakajila, bakajila,",
+        "pa kumumona yesu."
+      ],
+      [
+        "pano mukuzhi bwamweka",
+        "bo twatengela myaka ;",
+        "bana banji basujilwe",
+        "ke bamusambakane.",
+        "tumuto, tumutote,",
+        "pano juba jafika."
+      ],
+      [
+        "kine, bonse twimutota,",
+        "yenu mfumu wa myaka,",
+        "nkambo, muvwikwe lukumo,",
+        "mutambule bufumu.",
+        "bukijitu, bukijitu,",
+        "mwiye lesa wa myaka."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 90,
+    "title": "byo akeya, byo akeya",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "byo akeya, byo akeya",
+        "yesu mupulushi,",
+        "ukalonda bantu banji bamutengela.;",
+        "ukatwala bonsetu",
+        "monka mwanji mwiulu;",
+        "bakekala mwazhila",
+        "myaka ne myaka."
+      ],
+      [
+        "bashukwa bashukwa",
+        "bo asalulula ;",
+        "bakekala bakekala",
+        "ne mwine lesa; ",
+        "bulanda ne kujila",
+        "kechi bikekalako,",
+        "kujitu lusakelo",
+        "ne lusa lonse."
+      ],
+      [
+        "byo akeya, byo akeya",
+        "uketupimpula",
+        "mibiji ya bumvu bwetu",
+        "ke ya lukumo,",
+        "pamo biji ba kwanji",
+        "yenka uji mwiulu, ke ya myaka ne myaka",
+        "yabula kufwa."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 91,
+    "title": "mbunge byo ikatatama",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "mbunge byo ikatatama, ne byonse bikapita,",
+        "ne lukelo lwa lesa lukafika,",
+        "ba kwa kilishitu bakapwila mu muzhi wa kwa lesa,",
+        "nkatantama ne amiwa sa njiko"
+      ],
+
+      [
+        "aja juba japelako pa kusanguka bafu",
+        "ne kuvwala lukumo iwa kwa yesu, baitwa byo bakapwila mwabo monka mwiulu,",
+        "nkatantama ne amiwa sa njiko."
+      ],
+      [
+        "nanchi tumwingijilenga nkambo juba jonsetu,",
+        "twisambe pa mambo a lusa lwanji,",
+        "byonkabyo pa kupwisha mingilo yonsetu pano.",
+        "nkatantama ne amiwa sa njiko"
+      ]
+    ],
+    "chorus": [
+      "mbunge byo ikajilatu",
+      "mbunge byo ikajilatu",
+      "mbunge byo ijakilatu",
+      "nkatantama ne amiwa sa njiko."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 92,
+    "title": "tuji pa mutumba walepa",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "tuji pa mutumba walepa,",
+        "namba tumone yesu,",
+        "nanchi twatana mfishi ya bubi, itwabanya na lesa."
+      ],
+
+      [
+        "atweba tumupembelela,",
+        "tupembelela yesu,",
+        "inge twalanguluka bingi",
+        "bonse tukonaika"
+      ],
+      [
+        "mwitupulusha lesa wetu",
+        "mu mashi a mwanenu,",
+        "kwabula mashi anji tata",
+        "inge twafwa na mambo."
+      ],
+      [
+        "mwitupulusha lesa wetu,",
+        "pano mwituzhijike,",
+        "byambo byenu bikumbane,",
+        "bonse bemuyukishe."
+      ]
+    ],
+    "chorus": [
+      "ye ukeya pano",
+      "ukeya mu makumbi yesu,",
+      "aba babula kwitabila",
+      "bakajila mipolo ."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 93,
+    "title": "usakukeya yenka yesu mukuzhi",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "usakukeya yenka yesu mukuzhi,",
+        "kyo twayukisha nangwa twaluba juba;",
+        "ukeya kine mu lukumo lwanji,",
+        "ne kutambula bantu banji."
+      ],
+
+      [
+        "witulayile'mba, sa mutengelatu,",
+        "mambo bonse mwaluba juba jo nkeya",
+        "nanchi twingilenga no ufika lelo",
+        "ne kutwala bamutengela."
+      ],
+      [
+        "by'abanda kwiyawapembela bonsetu,",
+        "am a balapile ne kungitabila,",
+        "bamone mweo bakekale ba kwami,",
+        "nkebatambule byo nkabwela."
+      ],
+      [
+        "byo abanjisha, pano kajitu pepi,",
+        "tupelawizhe kukumbanya konsetu",
+        "mambo a yesu yenka aye ukeya,",
+        "bamone mwa kumwitabila."
+      ]
+    ],
+    "chorus": [
+      "yesu nkambo yetu,",
+      "mwiye twimupembelela,",
+      "yesu mwiye, yesu mwiye,",
+      "tusekele kine, tusekele kine."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 94,
+    "title": "anwe mupashi wazhila",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "anwe mupashi wazhila",
+        "kyea kyenu kyonka kinsamine.",
+        "pangai mfishi mu muchima",
+        "mwikale kyea kyasama sa!"
+      ],
+      [
+        "anwe mupashi wazhila",
+        "bulume bwenu bwantokesha to!",
+        "ngonawinai bubi bwami,",
+        "bwankasa miaka yavulatu."
+      ],
+      [
+        "anwe mupashi wazhila",
+        "musangajike na lusekelo.",
+        "mpwishishai binyenge byonse;",
+        "muchima wami asekele."
+      ],
+      [
+        "anwe mupashi wazhila",
+        "mwikajishe mu muchima wami.",
+        "kundulai milangwe ibi",
+        "mwikale ke mfumu wa kine."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 95,
+    "title": "anwe mupashi wazhila mweye",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "anwe mupashi wazhila mweye",
+        "mwituletele mujilo,",
+        "temeshai makala aji",
+        "mu michima yonsetu."
+      ],
+      [
+        "talai atweba tukalaba",
+        "sa tukaya na binchanti,",
+        "twankankalwa kukwatakanya",
+        "bya kine bya kwa lesa."
+      ],
+      [
+        "yo yatu nyimbo yetu yonsetu,",
+        "twakankalwa kwimulomba",
+        "butemwe bwetu bwakesha",
+        "bwa kwimutota kine."
+      ],
+      [
+        "tube byepi atwe bantu beno.",
+        "butemwe byo bwakesha?",
+        "anwe sa mwitutemwisha,",
+        "kine nkambo twazhatwa."
+      ],
+      [
+        "anwe mupashi wa lesa mweye,",
+        "mwituletele mujilo,",
+        "mwitupe butemwe bwa lesa,",
+        "tumutemwishe kine."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 96,
+    "title": "anwe mupashi",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "anwe mupashi,",
+        "ngyule mweo mupya,",
+        "ntemwe byonse byo mwatebwa,",
+        "ne kuba byo mwasaka."
+      ],
+      [
+        "anweba mupashi,",
+        "ntokeshaitu to,",
+        "poso twendela mumotu,",
+        "ne kuba byonse pam."
+      ],
+      [
+        "anweba mupashi,",
+        "ngikale wenu pe,",
+        "mubiji naye ateme",
+        "na mujilo wa lesa."
+      ],
+      [
+        "anweba mupashi,",
+        "munkanye ne kufwa,",
+        "ngikale nenu mwiulu",
+        "mu myaka yayayaya."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 97,
+    "title": "mupashi ntangi wetu mwikale ne atweba",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "mupashi ntangi wetu mwikale ne atweba ,",
+        "mwitukwate kuboko byo tuji pano panshi.",
+        "bakoka basekela pa kumvwa jiwi jenu",
+        "kasa mwibambila'mba iyai mundondele"
+      ],
+      [
+        "anweba muji kwipi,mwi nkwasho wa bonsetu",
+        "inge mwituleke ne, twakamona bya malwa,",
+        "pangai moyo yense, mwitwikazhe bulongo,",
+        "byo mwitwambila amba ,lyai konka kwami."
+      ],
+      [
+        "by'apwa mingilo yetu,tukatambulwa kwenu; tukasekela kine pa kufikako bonse,",
+        "tukabuka mukola,sa tumutela yesu,",
+        "tukomvwa jiwi janji amba, iyai bonse."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 98,
+    "title": "mupashi wa bibusa",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "mupashi wa bibusa",
+        "byetu bya pentekosta.",
+        "twasaka kyakijisha",
+        "butemwe bwenu."
+      ],
+      [
+        "butemwe buba lusa",
+        "butemwe butekanya",
+        "nangwa pa kumanyika ,",
+        "butemwe bwenu."
+      ],
+      [
+        "ke bwilundumika ne",
+        "nangwa kubakichima;",
+        "bushinda nangwa lufu",
+        "butemwe bwenu."
+      ],
+      [
+        "bangauzhi bakaleka",
+        "kusapwila bya kwenu,",
+        "pakuba kechi bupwa",
+        "butemwe bwenu."
+      ],
+      [
+        "lwitabiro, butemwe,",
+        "luketekele naalo,",
+        "kyakila mu byonsetu",
+        "butemwe bwenu."
+      ],
+      [
+        "mupashi twimwimbila.",
+        "mwikala mwiulu.",
+        "mwitupe, twasashila,",
+        "butemwe bwenu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 99,
+    "title": "mupashi wa bukine",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["samai mwi amiwa,", "yenu jiwi ne kye,", "mbushai, mundabishe."],
+      [
+        "mupashi wa butemwe",
+        "dambwila muchima,",
+        "nsakishe byawamisha,",
+        "nekane ami mwine."
+      ],
+
+      [
+        "mupashi wa mutende",
+        "ngikizhai muchima",
+        "wabamba na bya panshi;",
+        "ngyuzhai na mutende."
+      ],
+      [
+        "mupashi usekesha,",
+        "nsangajikai pano,",
+        "nkemba mu kisaleba,",
+        "sa ntoma mem'a mweo."
+      ]
+    ],
+    "chorus": [
+      "mupashi wa bulume,",
+      "nkoshesai amiwa,",
+      "ndwe bulongo na bubi",
+      "sa mwaikala mwami."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 101,
+    "title": "mwiye mupashi wa lusa",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "mwiye mupashi wa lusa,",
+        "ngikaleetu wa lusa,",
+        "byambo byami bya kukwasha,",
+        "bimeshe lua lwenu;",
+        "byubilo byami nabyo",
+        "bitumbijike yesu."
+      ],
+      [
+        "mwiye mupashi wa kine,",
+        "ngikaleetu wa kine,",
+        "ngikeletu na mana enu,",
+        "a kukwasha bakwetu,",
+        "byubilo bya butemwe",
+        "bimusapule kilishitu."
+      ],
+      [
+        "mwiye mupashi wakosa,",
+        "ngikaleetu wakosa,",
+        "nshinde satana na ngovu",
+        "yo babula ba panshi,",
+        "nachinchika kikupu,",
+        "pa kwimuketekele."
+      ],
+      [
+        "mwiye mupashi wazhila,",
+        "ngikaleetu wazhila,",
+        "nchine bubi, nsalulule",
+        "byonkatu byawamisha;",
+        "bintu byami byonsetu",
+        "bikale bya kwa yesu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 102,
+    "title": "nkambo yesu byo ayile",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "nkambo yesu byo ayile",
+        "kwi shanji mwiulu,",
+        "walayila nkwasho wa kutangijila."
+      ],
+      ["waishile bunkunda sa afuma mwiuli;", "waletere ne mutende ku bonsetu."],
+      ["waishile no mujilo kusoka byatama", "no mwela wabula kumweka, wakosa."],
+      [
+        "waishile na bibusa kufikila bwenyu",
+        "yense wa muchima waswa kumutemwa."
+      ],
+      [
+        "jiwi janji jitwambila no mwela wapela",
+        "mu kwitujimuna ne kwitukosesha."
+      ],
+      [
+        "aye yenka witukwasha kushinda",
+        "satana,",
+        "tulanguluke byawama, ne kwibyuba."
+      ],
+      [
+        "anwe mupashi wazhila mwitubile",
+        "lusa,",
+        "mwikajishe mu muchima tutoke mpe."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+
+  {
+    "id": 103,
+    "title": "anwe bantu bonse, iyai",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["anwe bantu bonse, iyai", "mumone", "kyea kyaiya mwi yesu."],
+      ["mwi yesu, mwi yesu, mwi yesu,", "mo mufuma bumi mwi yesu,"],
+      ["anwe bantu bonse, mukiji mu mfishi,", "kyea kyaiya ku bonse."],
+      ["bonse bamuyuka, bo bakapuluka,", "kechi baji mu mfishi ne."],
+      ["aye witukula, atweba bonse,", "ku mambo etu a bubi."]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+
+  {
+    "id": 104,
+    "title": "anwe bantu bonse mutale kwi yesu",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "anwe bantu bonse mutale kwi yesu",
+        "nge, nge,",
+        "mutale kwi yesu",
+        "mashi a yesu o atokesha.",
+        "nge, nge,",
+        "achilatu nge nge nge nge,",
+        "achilatu nge nge",
+        "mashi a yesu o atokesha."
+      ],
+      ["nangwa bafita mutale kwi yesu,"],
+      ["nangwa batoka mutale kwi yesu,"],
+      ["nangwa mwashamwa mutale kwi yesu."],
+      ["nangwa mwashukwa mutale kwi yesu."]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+
+  {
+    "id": 105,
+    "title": "awa muntu wa bunonshi",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "awa muntu wa bunonshi",
+        "witemenwe kukila",
+        "walekele lesa wanji",
+        "pa kuya na kufwa."
+      ],
+
+      [
+        "mu kalunga ka lufu",
+        "mo ajinga na kuyanda,",
+        "aye abulama ne mulanda",
+        "lazala mu lusekelo."
+      ],
+      [
+        "kikonkoji kya satana",
+        "kyankwachisha na ngovu;",
+        "buwame wa pano panshi",
+        "bwandetela ne lufu."
+      ],
+      [
+        "nangwa amiwa ne mulanda",
+        "namwitabile yesu,",
+        "mambo aye ye wa lusa.",
+        "namba akampulusha"
+      ],
+      [
+        "muntu wa kubula yesu",
+        "kechi akamone bumi;",
+        "bakamutaya pangye",
+        "amba amone bya malwa."
+      ],
+      [
+        "aba bamwitabila yesu",
+        "bakatwela mwazhila.",
+        "inge obeewa wa mwitabila",
+        "ukatwa nabos."
+      ]
+    ],
+    "chorus": [
+      "mpulushai, mpulushai,",
+      "mpulushai, mpulushai,",
+      "mpulusha, mpulushai,",
+      "nakafwa na jishamo."
+    ],
+    "addedChorus": []
+  },
+
+  {
+    "id": 106,
+    "title": "bi ka byo upembela?",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "bi ka byo upembela?",
+        "bikubanjisha byo bi ka?",
+        "nkambo upembela kukupa",
+        "pa kwikala ne ba kwanji."
+      ],
+
+      [
+        "byo ukipembelato,",
+        "ki ka kyo usakumona?",
+        "yenkaye yesu upulusha,",
+        "ka paji jishinda jingi."
+      ],
+      ["ka uji kumvwa jiwi", "ja kwambila mu muchima;", "utambule lupulukilo"],
+      [
+        "bi ka byo upembela?",
+        "nyemena konka kwi yesu",
+        "usaka ku kubila lusa,",
+        "itaba lelo, wakafwa."
+      ]
+    ],
+    "chorus": [
+      "itaba, itaba",
+      "mwitabe yesu bukiji,",
+      "itaba, itaba,",
+      "mwitabe yesu lelo."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 107,
+    "title": "bubi, bubi, bubi",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "bubi, bubi, bubi,",
+        "bubi, bubi, bubi,",
+        "bubi bwavujisha pano panshi,",
+        "bubi, bubi, bubi."
+      ],
+      [
+        "mashi, mashi, mashi,",
+        "mashi, mashi, mashi,",
+        "mashi a yesu etutokesha,",
+        "mashi, mashi, mashi."
+      ],
+      [
+        "bwela, bwela, bwela,",
+        "bwela, bwela, bwela,",
+        "bwela, wisolole kuji lesa",
+        "bwela, bwela, bwela."
+      ],
+      [
+        "fwensya, fwensya, fwensya,",
+        "fwensya, fwensya, fwensya,",
+        "fwensya, ku bwipi na lesa wetu,",
+        "fwensya, fwensya, fwensya."
+      ],
+      [
+        "twimbe, twimbe, twimbe,",
+        "twimbe, twimbe, twimbe,",
+        "twimbe, tupopwele lesa wetu,",
+        "twimbe, twimbe, twimbe."
+      ],
+      [
+        "yanga, yanga, yanga,",
+        "yanga, yanga, yanga,",
+        "yanga bulongo na lesa wetu,",
+        "yanga, yanga, yanga."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 108,
+    "title": "bufumu bwa mwiulu",
+    "subtitle": "bwapasha bukonde",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "bufumu bwa mwiulu",
+        "bwapasha bukonde",
+        "bo ba tata mu mema",
+        "bwa kukwata byavula."
+      ],
+      [
+        "byo kikekala",
+        "ku mpelesho ya ntanda",
+        "nkambo yesu ukabwela",
+        "kulonda bantu banji."
+      ],
+      [
+        "bafumya bukonde",
+        "baikala kungye",
+        "byonse byatama",
+        "bebitaya mu mujilo"
+      ],
+      [
+        "babula kwitabila",
+        "mu kalunga ka mujilo",
+        "muhekala majilo",
+        "ne kwisuma kwa meno"
+      ],
+      [
+        "atwe baitabila",
+        "tukakiluka ne kusekela",
+        "byo tukemba ‘aleluya’",
+        "ku kipona kya lesa."
+      ]
+    ],
+    "chorus": [
+      "byo kikekala",
+      "ku mpelesho ya ntanda",
+      "nkambo yesu ukabwela",
+      "kulonda bantu banji."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 109,
+    "title": "bwela mwana walubile",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "bwela mwana walubile,",
+        "bashobe bakwita,",
+        "leka kwenda mu bubi,",
+        "bashobe baakwita."
+      ],
+
+      [
+        "bwela mwana walubile,",
+        "yesu ye wakwita,",
+        "wakwita na mupashi’mba",
+        "twela muno mwami."
+      ],
+      [
+        "bwela mwana walubile,",
+        "umvwa byo bakwita,",
+        "mu lufu muji bya malwa,",
+        "umvwa byo bakwita."
+      ]
+    ],
+    "chorus": ["bwela ,bwela,bashobe bakwita,", "bwela ,bwela,bashobe bakwita"],
+    "addedChorus": []
+  },
+  {
+    "id": 110,
+    "title": "byanembelwe mu buku, mutotai",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "byambo byakila byonse;",
+        "bantu bonse umvwai",
+        "mupulushi ko aji, mutotai",
+        "itabilai mwi aye."
+      ],
+
+      [
+        "yesu witufwijile mutotai",
+        "bonse bamwitabila",
+        "bakatambula mweo,",
+        "kechi bonaike ne, mutotai",
+        "itabilai mwi aye."
+      ],
+      [
+        "by'afumine mu lufu, mutotai",
+        "yesu wibabingisha",
+        "bonse bamwitabila,",
+        "mambo abo apwile, mutotai",
+        "itabilai mwi yesu."
+      ],
+      [
+        "tukebabula bonse, mutotai",
+        "bantu bonse tambulai",
+        "mweo wa myaka yonse,",
+        "tukumbanye konse, mutotai",
+        "itabilai mwi yesu."
+      ]
+    ],
+    "chorus": [
+      "itabilai, itabilai, mumone mweo pe;",
+      "bino byambo bya lesa,",
+      "byatumwa kwi anwewa,",
+      "mumone mweo pe."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 111,
+    "title": "iya obewa washindwa",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["nkambo ye wa lusa;", "aye ukakushinjila", "bibi ne satana."],
+
+      [
+        "mambo yesu waichila",
+        "mashi anji onse,",
+        "sa owa monka, ayuka",
+        "kutokesha to."
+      ],
+      [
+        "kine yesu jo jishinda",
+        "ja kuya kwiulu,",
+        "umwitabile lelo jonka,",
+        "ukasekela."
+      ],
+      [
+        "sa wiya tupwile pamo",
+        "ne kuya kwiulu,",
+        "kwikala konka ko luji",
+        "lusekelo lonse."
+      ]
+    ],
+    "chorus": [
+      "ketekela, ketekela,",
+      "ketekel’aye,",
+      "aye waswa kupulusha",
+      "kukupulusha."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 112,
+    "title": "iyaipo",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["iyaipo, iyaipo, iyai kwi yesu", "pano iyai kwawama, iyai kwi yesu."],
+      ["aye ukemupulusha, ukemupulusha", "pano ukemupulusha, ukemupulusha."],
+      [
+        "ye wayuka kwimikwasha, wayuka kukwasha",
+        "pano yesu wayukisha kwibakwasha bonse."
+      ],
+      [
+        "aye waswa, aye waswa, aye waswa bonse",
+        "pano aye yesu waswa, aye waswa bonse."
+      ],
+      [
+        "mulombai, mulombai, mulombai yesu",
+        "pano mulombai yesu, mulombai yesu."
+      ],
+      [
+        "usakumvwa mawi enu, usakumvw'anweba",
+        "pano yesu usakumvwa, usakumvw'anweba."
+      ],
+      ["aye ukemulekela mambo enu onse", "pano ukemulekela mambo enu onse."],
+      [
+        "yesu ukemutokesha na mashi a kwinji",
+        "pano ukemuyokesha na mashi a kwinji."
+      ],
+      [
+        "wimutemwa, wimutemwa, yesu wimutemwa",
+        "pano kine wimutemwa, wimutemwa yesu."
+      ],
+      ["itabai, itabai, itabai yesu", "pano itabai yesu, itabai yesu."]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 113,
+    "title": "jiwi ja umo ubijika",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["jiwi ja umo ubijika", "mungyetu amba"],
+      ["nengezhai jimo jishinda ja", "nkambo", "ololai mashinda anji."],
+      ["bivwalo byanji byajinga boya", "bwa nyama ngamela"],
+      ["ne kajo kanji kajinga nzhiye", "ne buki bwa mungye."],
+      ["kapasa bekakungika kala", "ku mizhazhi ya bichi."],
+      ["byonkabyo pangai bipangwa", "byafwainwa lulapilo."],
+      ["amiwa kine nemubatiza mu mema", "a lubatizhilo lwe lulapilo."]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 114,
+    "title": "kana waya kala kuji mukuzhi",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "kana waya kala kuji mukuzhi,",
+        "amba ngowe mu mashi anji?",
+        "kana waitabila mwi yesu kilishitu",
+        "amba, antokeshe mu mashi?"
+      ],
+
+      [
+        "kana ubena kwenda na mukuzhi,",
+        "sa watoka mu mashi anji?",
+        "kana waketekela yenkaye yesu,",
+        "amba andekeleko mambo?"
+      ],
+      [
+        "byo akabwela yesu pano panshi,",
+        "ankantane watokatu to",
+        "kana waikala na kumutengele,",
+        "amba, antambula amiwa?"
+      ],
+      [
+        "uvule bivwalo byafitatu bwi",
+        "na bubi bwa pano pa ntanda;",
+        "owa monka mu mashi a mupulushi",
+        "ayuka kukutokesha to"
+      ]
+    ],
+    "chorus": [
+      "waowanyi?...mu mashi,",
+      "mashi a kwa yesu mukuzhi,",
+      "inge obewa waowamo, kine.",
+      "ukekala watokatu to."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 115,
+    "title": "kine wa lusa byo amfwijile",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "kine wa lusa byo amfwijile",
+        "ne kumbingisha ku mambo onse,",
+        "wamwitabil'aye mwana lesa",
+        "uji na mweo pe."
+      ],
+
+      [
+        "wasendele bubi bwami bonse",
+        "bonka mu mubiji wanji mwine",
+        "byo etufwijile pa kalvali",
+        "mu kwitupulusha."
+      ],
+      [
+        "aye waswisha bonse ba mambo,",
+        "wibatemwishe ne kwibasaka,",
+        "amba, bangitabile bekaale",
+        "na bumi wa myaka."
+      ],
+      [
+        "kechi ekaneangwa umo ne,",
+        "nangwa wabipa wakila bonse;",
+        "umvwa waswa kulapila, kine",
+        "ukekalanga pe."
+      ]
+    ],
+    "chorus": [
+      "kine, kine, yesu waamba,",
+      "kine, kine, mambo awama,",
+      "aye wamwitabila mwana",
+      "uji na mweo pe."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 116,
+    "title": "ko aji wakila bonse",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "ko aji wakila bonse,",
+        "ke ye lusa,",
+        "lwa mulongo lwakepesha,",
+        "ke ye lusa;",
+        "balunda ba pano panshi",
+        "kampe baketulekatu,",
+        "uno wa myaka ne myaka,",
+        "ke ye lusa."
+      ],
+      [
+        "kumuyuka kyo kibusa",
+        "ke ye lusa",
+        "talai ku bupe bwanji,",
+        "muno munshi witulonda,",
+        "mashi anji etukula",
+        "mu kwitufikizha kwanji,",
+        "ke ye lusa"
+      ],
+      [
+        "uno yesu mumuyuke,",
+        "ke ye lusa,",
+        "itekai konka kwanji,",
+        "ke ye lusa.",
+        "kwachishai bipya byonse,",
+        "mwibitaye bya mu nyuma,",
+        "mulondai aye pepi,",
+        "ke ya lusa."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 117,
+    "title": "kuji kibelo kya kyashi",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "kuji kibelo kya kyashi",
+        "konka ku musalabu,",
+        "ko bebashinkwila babi",
+        "kya kutwela mwiulu."
+      ],
+
+      [
+        "bebashinkwila bonsetu",
+        "amba bakebe mweo,",
+        "ne banonshi ne bayanji",
+        "kya bupe ne kya lusa."
+      ],
+      [
+        "tupelawizhe kutwela",
+        "sa bakyangye kushinka",
+        "kitutwala ku lukumo",
+        "lwabula ne bya bumvu."
+      ],
+      [
+        "bya malwa byetu bya pano,",
+        "tukebitula kine,",
+        "bibusa byetu ko baji",
+        "konka kwi nkambo yesu."
+      ]
+    ],
+    "chorus": [
+      "kino kibelo kya bupe",
+      "kyo betushila kya kyashi,",
+      "kyetu bonse,",
+      "kibelo kya mwiulu."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 118,
+    "title": "kukumya ne byo nemwambula",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      ["kukumya ne byo nemwambula", "musemwe jibiji lelo."],
+      ["itabilai mwi nkambo yesu", "musakupuluka."],
+      ["mambo enu nangwa achilatu nge,", "akekale ke atoka."],
+      ["umvwa muntu uji mwi kilishitu", "aye ke mulengwa mupya."],
+      ["bintu bya kala byapicijila", "byaaluka ke bipya."],
+      ["inge yesu wimukasulula,", "mwakasuluka kine."],
+      ["ikosheshaingatu mwi nkambo,", "mu bulume bwa ngovu yanji."],
+      ["fwenyai kwipi na lesa wetu.", "satana mukanyai."]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 119,
+    "title": "kwajinga muntu umo",
+    "subtitle": "",
+    "author": "",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "kwajinga muntu umo",
+        "kinemanga",
+        "watayile mweo wanji yense mu bya",
+        "bunonshi.",
+        "waambile amba pano nanonka,",
+        "muchima wami usekele."
+      ],
+      
+      [
+        "lelo jonka mweo obe ubena kukebewa.",
+        "pano bintu byonse byo wanengezha",
+        "bikekala bya kwa nanyi"
+      ],
+      [
+        "obewa mukwetu waitabila",
+        "kechi utaye mweo wob'e yense mu",
+        "bunonshi;",
+        "mambo bunonshi bonse bukashala",
+        "kwiulu ukayangatu."
+      ],
+      [
+        "obewa mukwetu walapilanyi",
+        "mambo mweo wob'e wapashe bwishi",
+        "bwa mujilo.",
+        "bu mweka pa kakimye kachechetu",
+        "ponkapotu bwazhimmangana."
+      ]
+    ],
+    "chorus": [
+      "lesa wamwambile'mba obe kilubi",
+      "uluke kwitota; nanchi",
+      "nsakukushikula ne kukutaya",
+      "mu mujilo."
+    ],
+    "addedChorus": []
+  },{
+    "id": 120,
+    "title": "lesa watumine nowa, amba",
+    "subtitle": "ukasongele bwato",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "lesa watumine nowa, amba",
+        "ukasongele bwato;",
+        "mikoka yonse ukabikemo",
+        "amwa monka mu bwato."
+      ],
+      
+      [
+        "nowa watumine kikwangala",
+        "na kumona mukyalo;",
+        "walabamine ne kubwela ne",
+        "na kuja byonka byafwile."
+      ],
+      [
+        "nowa watumineko nkunda",
+        "na kumona mu kyalo;",
+        "nkunda wabwelele sa asenda",
+        "na jibula ja mukuyu."
+      ],
+      [
+        "lesa watume yesu amba",
+        "akapulusha bantu;",
+        "aye waitabila mwi yesu",
+        "ye uji na bumi bwa pe."
+      ]
+    ],
+    "chorus":[
+      "beimwene mibiji, beimwena,",
+      "beimwene mibiji ya bafwa."
+    ],
+    "addedChorus":  [
+      "bamwene mubiji, bamwene, bamwena mubiji wa yesu."
+    ]
+  },{
+    "id": 121,
+    "title": "lupulukilo, lupulukilo",
+    "subtitle": "nsulo ntanda ya mashi anema",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "lupulukilo, lupulukilo,",
+        "nsulo ntanda ya mashi anema,",
+        "aichikile ntanda yonse",
+        "ku lubavu wa kilishitu."
+      ],
+     
+      [
+        "lupulukilo, lupulukilo",
+        "mashi a yesu kilishitu.",
+        "etutokeshatu to",
+        "ku bubi bwetu bonse."
+      ],
+      [
+        "lupulukilo, lupulukilo",
+        "lo waleta lupwaino",
+        "kwi atweba bapondoka",
+        "kwitupwanya ne mfumu wetu."
+      ]
+    ],
+    "chorus":  [
+      "lupulukilo, lupulukilo,",
+      "lupulukilo",
+      "lwa yehobo mfumu wetu",
+      "lwa yehobo mfumu wetu."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 122,
+    "title": "mambo ka kyo munyemena",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "mambo ka kyo munyemena",
+        "no mikoko anwebakwetu",
+        "ba bilubi kimufumya",
+        "ku butemwe bwanji ki ka"
+      ],
+      [
+        "ka paji wakila yesu,",
+        "ye kafunga wa lusa lonse.",
+        "aye witutemwishatu,",
+        "witwita mu kyenyii kyanji."
+      ],
+      [
+        "lusa lwa lesa lwabaya",
+        "nobe bukata bwa kalunga;",
+        "nangwa pa kwituzhachisha",
+        "kechi witushinjila ne."
+      ],
+      [
+        "wibasekelela babi",
+        "ne kwibobila banji biya,",
+        "nkambo ye wa lusa lwine,",
+        "mashi anji etubuka."
+      ],
+      [
+        "mashi anji etukula",
+        "atweba ku bubi bonsetu;",
+        "lumanamo lwanzwe yesu,",
+        "lwitumwena lusekelo."
+      ],
+      [
+        "mambo butemwe bwa lesa",
+        "bwabila byonse byo twayuka,",
+        "muchima wa kwa yehobo",
+        "ye wa lusa lwa kukumya."
+      ],
+      [
+        "inge twasekela kine",
+        "byo twayikala na yesu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 123,
+    "title": "muchima ubenekunkatazha",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "muchima ubenekunkatazha;",
+        "pa kwiya yesu kana nkoba byepi",
+        "lapila upuluke."
+      ],
+      
+      [
+        "umvwa obewa mulongo wami",
+        "wakana yesu watemwa satana,",
+        "lapila upuluke."
+      ],
+      [
+        "muno mu kyalo muji bulanda",
+        "misongo yonkatu ne mabingo,",
+        "lapila upuluke."
+      ],
+      [
+        "inge walapila lelo jonka",
+        "kulutwe na lwendo ukashukwa",
+        "kine ukasekela."
+      ]
+    ],
+    "chorus": [
+      "ulapile, ulapile, ulapile,",
+      "ulapili, lapila, upuluke."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 124,
+    "title": "mwine lesa witutemwa",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "mwine lesa witutemwa",
+        "atweba",
+        "witutemwa atweba."
+      ],
+      [
+        "watumine, watumine mwananji,",
+        "watumine mwananji."
+      ],
+      [
+        "witufwila mambo etu atweba",
+        "witufwila atweba."
+      ],
+      [
+        "wasanguka, wasanguka mu bafu,",
+        "wasanguka mu bafu."
+      ],
+      [
+        "wakanjila, wakanjila mwiulu,",
+        "wakanjila mwiulu."
+      ],
+      [
+        "watumine mupashi wanji wazhila,"
+      ],
+      [
+        "ukabwela ukabwela mukuzhi,",
+        "ukabwela mukuzhi."
+      ],
+      [
+        "ubenkwitha, ubenkwitha atweba,",
+        "ubenkwitha atweba."
+      ],
+      [
+        "waamba'mba, itabilai amiwa,",
+        "itabilai amiwa."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },{
+    "id": 125,
+    "title": "nkambo naleta matalenta",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "nkambo naleta matalenta",
+        "ami",
+        "o mwapele nkambo"
+      ],
+      [
+        "kalume wawama, wawama,",
+        "kalume wawama, wawama,",
+        "wamwenapo ne akwabo"
+      ],
+      [
+        "nkambo naleta jitalenta jami",
+        "jo nazhikile panshi.",
+        "kalume watama, watama,"
+      ],
+      [
+        "kalume watama, watama,",
+        "kwamba kobe kwimuzhachisha"
+      ],
+      [
+        "nayukile muchima wenu,",
+        "namba abo bashinta.",
+        "kalume watama, watama,"
+      ],
+      [
+        "kalume watama, watama,",
+        "mwangataye mupe mukwabo"
+      ],
+      [
+        "muntu wabula luketekelo",
+        "bakamutaya pangye.",
+        "kukela kujila, kujila,"
+      ],
+      [
+        "kukela kujila, kujila,",
+        "alo lufu lwa myaka.",
+        "kukela kujila, kujila,",
+        "kusheka meno, kujila,",
+        "alo lufu lwa myaka"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 126,
+    "title": "danga mwine uji kwipi",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "danga mwine uji kwipi",
+        "aye yesu wa lusa",
+        "usaka kwibapulusha",
+        "bantu boba bulanda."
+      ],
+      
+      [
+        "mambo obewa alekelwa",
+        "umvwa jiwi ja yesu,",
+        "yanga bulongo kwiulu,",
+        "mu kwikala ne yesu."
+      ],
+      [
+        "mupai lukumo lonse,",
+        "namwitabila yesu,",
+        "natemwa jizhina janji,",
+        "ja mupulushi wami."
+      ],
+      [
+        "iyai bakwetu bonse,",
+        "tutakaike yesu,",
+        "bainetu bonse pamo,",
+        "imbai mumwimbile."
+      ],
+      [
+        "ne banyike bonse pamo,",
+        "bacheche ne bakoma,",
+        "bayuka kumwitabila yesu.",
+        "ne kwingijila yesu"
+      ]
+    ],
+    "chorus":[
+      "kyambo kyakila byonse",
+      "byo mu nyimbo yo twimba,",
+      "jizhina jawamisha.",
+      "yesu, yesu, yesu."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 127,
+    "title": "pa jinga pa kijilo kya mfumu",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "pa jinga pa kijilo kya mfumu",
+        "belishaza,",
+        "batomenenga ne kuja byo kyanembwa"
+      ],
+      [
+        "mu buku;",
+        "paka chi ka bufuku mu kipango",
+        "kyawama"
+      ],
+      [
+        "pamwekela ne kimwisho, kuboko,",
+        "pa lubumbu."
+      ],
+      [
+        "minwe ya nkambo yanemba,",
+        "minwe ya nkambo yanemba,",
+        "obewa ukabinganyi"
+      ],
+      [
+        "inyi ukafwa nao",
+        "pa kumona byambo byanembwa."
+      ],
+      [
+        "tala muzha danyela waimene ku",
+        "meso",
+        "ne kukajipila mfumu mambo a",
+        "kutamisha;"
+      ],
+      [
+        "mwabo mu buyudea nangwa waji",
+        "mu buzha",
+        "waumvine byanembelwe kwi"
+      ],
+      [
+        "nkambo pa lubumbu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 128,
+    "title": "pita pitululukamo",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "pita pitululukamo,",
+        "byambo bya mweo pe,",
+        "mwesha bingi bya bulongo,"
+      ],
+      [
+        "byambo bya mweo pe;",
+        "byo bya bumi ne buya",
+        "bitubula bya mweo."
+      ],
+      
+      [
+        "kilishitu witupa atweba",
+        "byambo bya mweo pe,",
+        "ba mambo umvwai bino"
+      ],
+      [
+        "byambo bya mweo pe;",
+        "bonse baitabila",
+        "bakatwela mwiulu"
+      ],
+      [
+        "mwibabule bantu bonse",
+        "byambo bya mweo pe",
+        "mambo abo alekelwa,"
+      ],
+      [
+        "byambo bya mweo pe;",
+        "yesu ye mupulushi,",
+        "tumunemeke kine."
+      ]
+    ],
+    "chorus": [
+      "bingi bino, bingi bino,",
+      "byambo bya mweo pe."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 129,
+    "title": "sa mwijumva jiwi ja bibusa",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "sa mwijumva jiwi ja bibusa,",
+        "jibambila bonse ba mambo,",
+        "jamupasha lwimbo wa mwilu,"
+      ],
+      [
+        "jalaya bonse amba,"
+      ],
+      [
+        "aye wiya kwi ami,",
+        "aye wiya kwi ami,",
+        "aye wiya kwi ami",
+        "kechi namupange ne."
+      ],
+      
+      [
+        "wimwambil’anweba’mba."
+      ],
+      [
+        "anwe bonse mwaumvwa kilaka,",
+        "iyai ku mema a mweo,",
+        "tomaingapo na lwitabilo"
+      ],
+      [
+        "ne kilata kikapwa."
+      ],
+      [
+        "mwaumvwa ne nzala iyapo,",
+        "ne bamputa ne ba bulema,",
+        "aye wayuka kupwisha bonse,"
+      ],
+      [
+        "kumulengulula ne."
+      ],
+      [
+        "ne anweba mwabipisha bingi,",
+        "aye yesu kumuchina ne,",
+        "iyai mumone bupe bonse,"
+      ],
+      [
+        "mowe mu mashu anji."
+      ],
+      [
+        "sa mweya moba onse kwi yesu",
+        "mulombai na muchima yense,",
+        "byo musakukeya kwanje mwine,"
+      ],
+      [
+        "naye kwimukana ne."
+      ]
+    ],
+    "chorus": [
+      "anweba ba michima yanema,",
+      "musekele na mambo ano,",
+      "mupulushi waimana kwipi"
+    ],
+    "addedChorus": []
+  },{
+    "id": 130,
+    "title": "talai, yesu witwita, iyaipo!",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "talai, yesu witwita, iyaipo!",
+        "ami mupulushu wenu, iyaipo!",
+        "nkemushinjila satana,",
+        "ne byonse bintu byatama,",
+        "ne mwilulu nkemutwezhwa, iyaipo!"
+      ],
+      [
+        "talai, ubwenakwita, iyaipo!",
+        "iyaipo ko nji ami, iyaipo!",
+        "anwe bonse basulwila,",
+        "ne anweba banemwena",
+        "nemukokolosha bonse, iyaipo!"
+      ],
+      [
+        "ami uno wimufwila, iyaipo!",
+        "naichila mashi ami, iyaipo!",
+        "amiwa nkemupa bonse",
+        "bumi bwa kukila kupwa,",
+        "ne lukumo lwami lonse, iyaipo!"
+      ],
+      [
+        "mwikizhe michima yenu, iyaipo!",
+        "nemulungikila kuntu, iyaipo!",
+        "nkemulonda anwe bonse,",
+        "nkemutwale konka kwami,",
+        "mukekale mwa lukumo, iyaipo!"
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },{
+    "id": 131,
+    "title": "twimwambila bya bupe",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "babi wibatambula ,",
+        "yesu kilishitu wimuswa,",
+        "nangwa mwamukaine."
+      ],
+      
+      [
+        "ukemukokolosha",
+        "kana mwaiya kwanji;",
+        "ketekelai yesu",
+        "wibaswa batamisha."
+      ],
+      [
+        "amiwa bambingisha,",
+        "mambo azhimangana,",
+        "wantokesha ku byonse,",
+        "yenkaye wantemenwe."
+      ],
+      [
+        "yesu wibatambula",
+        "nangwa babipishatu,",
+        "wibawamisha amba,",
+        "ntwele nabo mwiulu."
+      ]
+    ],
+    "chorus": [
+      "imbai ……javulatu.",
+      "(imbai jibiji…..imbai jibiji )",
+      "babi wi …..batambula",
+      " (wibatambula……. wibatambula) ",
+      "bomvwishai ……ano mambo",
+      " (bomvwishai onse …… bomvwishai onse)",
+      "kilishitu wibatambula."
+    ],
+    "addedChorus": []
+  },
+  {
+    "id": 132,
+    "title": "twitabe kwi yesu",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "twitabe kwi yesu,",
+        "muntu witufwila,",
+        "nkambo yetu aye,",
+        "naye wituswa."
+      ],
+      [
+        "umvwe ka wayuka",
+        "ja kuya kwiulu,",
+        "lomba mwine yesu.",
+        "akakubule."
+      ],
+      [
+        "tumulonde yesu,",
+        "etutangijile,",
+        "mwishinda ja kuya",
+        "konka kwiulu."
+      ],
+      [
+        "umvwe muno munshi",
+        "twakokela yesu,",
+        "tukekala nanji",
+        "myaka mwiulu."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  },
+  {
+    "id": 133,
+    "title": "umvwa lelo'be mukwetu",
+    "subtitle": "",
+    "author": "unknown",
+    "meter": "",
+    "tuneName": "",
+    "verses": [
+      [
+        "umvwa lelo'be mukwetu,",
+        "obe walenga mambo",
+        "byambo byawama byaiya,",
+        "yesu ubenakukwita."
+      ],
+      [
+        "yesu ubenakupita,",
+        "kuno, lelo;",
+        "yesu ubenakupita,",
+        "ubenakukwita lelo."
+      ],
+      [
+        "kana uji na bisendwa,",
+        "leta byonse obewa,",
+        "kechi ubande mukwetu,",
+        "yesu ubenakwita."
+      ],
+      [
+        "kana obe wapelelwa,",
+        "kwingijila satana,",
+        "watambika ne maboko,",
+        "yesu akatambule"
+      ],
+      [
+        "kino kyo kine kyawama,",
+        "kya kwalula muchima,",
+        "kampe ja kesha ukomvwa",
+        "yesu wapita kala."
+      ]
+    ],
+    "chorus": [],
+    "addedChorus": []
+  }
   
+]
