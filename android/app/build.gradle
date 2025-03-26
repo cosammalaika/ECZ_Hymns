@@ -49,8 +49,8 @@ android {
     defaultConfig {
         applicationId "com.creative_solutions.hymnalive"
         minSdkVersion 21
-        targetSdkVersion 34 // Directly setting targetSdkVersion to 34
-        versionCode  26
+        targetSdkVersion 35 // Directly setting targetSdkVersion to 34
+        versionCode  27
         versionName "1.4.0" 
     }
 
