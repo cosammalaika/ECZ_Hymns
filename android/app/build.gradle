@@ -30,8 +30,9 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace "com.creative_solutions.hymnalive"
-    compileSdkVersion 34
+    compileSdkVersion 35
     ndkVersion flutter.ndkVersion
+    
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -50,7 +51,7 @@ android {
         applicationId "com.creative_solutions.hymnalive"
         minSdkVersion 21
         targetSdkVersion 35 // Directly setting targetSdkVersion to 34
-        versionCode  27
+        versionCode  29
         versionName "1.4.0" 
     }
 
@@ -63,9 +64,17 @@ android {
         }
     }
 
+    buildFeatures {
+        buildConfig true
+    }
+
     buildTypes {
-        release {
+       release {
             signingConfig signingConfigs.release
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField 'boolean', 'ENABLE_DEBUG_SYMBOLS', 'true'
         }
     }
 }
