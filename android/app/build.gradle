@@ -30,29 +30,27 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace "com.creative_solutions.hymnalive"
-    compileSdkVersion 35
-    ndkVersion flutter.ndkVersion
-    
+    // Bump to satisfy plugins requiring SDK 36
+    compileSdk 36
+
+
+    // Enable BuildConfig generation to allow custom buildConfigField usage
+    buildFeatures {
+        buildConfig true
+    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
-    }
+    kotlinOptions { jvmTarget = '1.8' }
 
     defaultConfig {
         applicationId "com.creative_solutions.hymnalive"
-        minSdkVersion 21
-        targetSdkVersion 35 // Directly setting targetSdkVersion to 34
-        versionCode  29
-        versionName "1.4.0" 
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 35  
+        versionCode 29
+        versionName "1.4.0"
     }
 
     signingConfigs {
@@ -64,15 +62,12 @@ android {
         }
     }
 
-    buildFeatures {
-        buildConfig true
-    }
-
     buildTypes {
-       release {
+        release {
             signingConfig signingConfigs.release
-            shrinkResources true
-            minifyEnabled true
+            // Temporarily disable to avoid R8-related white screen while debugging
+            shrinkResources false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField 'boolean', 'ENABLE_DEBUG_SYMBOLS', 'true'
         }
