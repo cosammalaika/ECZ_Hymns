@@ -30,10 +30,9 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace "com.creative_solutions.hymnalive"
-    compileSdkVersion 35
+    // Bump to satisfy plugins requiring SDK 36
+    compileSdk 36
 
-    
-    ndkVersion "28.0.13004108"
 
     // Enable BuildConfig generation to allow custom buildConfigField usage
     buildFeatures {
@@ -66,8 +65,9 @@ android {
     buildTypes {
         release {
             signingConfig signingConfigs.release
-            shrinkResources true
-            minifyEnabled true
+            // Temporarily disable to avoid R8-related white screen while debugging
+            shrinkResources false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField 'boolean', 'ENABLE_DEBUG_SYMBOLS', 'true'
         }

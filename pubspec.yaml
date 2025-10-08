@@ -50,12 +50,12 @@ flutter:
 
 flutter_native_splash:
   color: "#004d73"
-  image: assets/images/hymnSplash.png
-  image_dark: assets/images/hymnSplash.png
+  image: assets/images/HymnSplash.png
+  image_dark: assets/images/HymnSplash.png
 
   android_12:
     color: "#004d73"
-    image: assets/images/hymnSplash.png
-    image_dark: assets/images/hymnSplash.png
+    image: assets/images/HymnSplash.png
+    image_dark: assets/images/HymnSplash.png
 
   web: false
