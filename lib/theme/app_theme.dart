@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   static const Color primary = Color(0xFF0D4C63);
-  static const Color primaryDeep = Color(0xFF08384A);
-  static const Color background = Color(0xFFF7F9FB);
+  static const Color primaryDeep = Color(0xFF062F40);
+  static const Color background = Color(0xFFF3F6F8);
   static const Color surface = Color(0xFFFFFFFF);
-  static const Color accent = Color(0xFFE2C47B);
-  static const Color accentSoft = Color(0xFFF7F1DD);
-  static const Color accentCool = Color(0xFFEAF2F7);
-  static const Color outline = Color(0xFFE3EAF0);
+  static const Color accent = Color(0xFFD1A04B);
+  static const Color accentSoft = Color(0xFFF1E2BC);
+  static const Color accentCool = Color(0xFFDDEAF2);
+  static const Color outline = Color(0xFFC9D8E2);
   static const Color textPrimary = Color(0xFF163042);
-  static const Color textSecondary = Color(0xFF667788);
-  static const Color shadow = Color(0x140D4C63);
+  static const Color textSecondary = Color(0xFF50677A);
+  static const Color shadow = Color(0x1C0D4C63);
   static const Color success = Color(0xFF3D7D64);
 }
 
@@ -104,10 +104,10 @@ class HymnsTheme {
       appBarTheme: AppBarTheme(
         centerTitle: true,
         toolbarHeight: 60,
-        backgroundColor: AppColors.background.withOpacity(0.94),
+        backgroundColor: AppColors.surface,
         foregroundColor: AppColors.textPrimary,
         elevation: 0,
-        scrolledUnderElevation: 0.6,
+        scrolledUnderElevation: 1.2,
         surfaceTintColor: AppColors.surface,
         shadowColor: AppColors.shadow,
         titleTextStyle: textTheme.titleLarge,
@@ -121,7 +121,7 @@ class HymnsTheme {
         filled: true,
         fillColor: AppColors.surface,
         hintStyle: textTheme.bodyMedium?.copyWith(
-          color: AppColors.textSecondary.withOpacity(0.8),
+          color: AppColors.textSecondary,
         ),
         contentPadding: const EdgeInsets.symmetric(
           horizontal: 18,
@@ -129,11 +129,17 @@ class HymnsTheme {
         ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(24),
-          borderSide: BorderSide.none,
+          borderSide: const BorderSide(
+            color: AppColors.outline,
+            width: 1.1,
+          ),
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(24),
-          borderSide: BorderSide.none,
+          borderSide: const BorderSide(
+            color: AppColors.outline,
+            width: 1.1,
+          ),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(24),
@@ -164,12 +170,12 @@ class HymnsTheme {
           backgroundColor: MaterialStateProperty.resolveWith(
             (states) => states.contains(MaterialState.selected)
                 ? AppColors.primary
-                : AppColors.surface,
+                : AppColors.accentCool,
           ),
           foregroundColor: MaterialStateProperty.resolveWith(
             (states) => states.contains(MaterialState.selected)
                 ? Colors.white
-                : AppColors.textPrimary,
+                : AppColors.primaryDeep,
           ),
           shape: MaterialStatePropertyAll(
             RoundedRectangleBorder(

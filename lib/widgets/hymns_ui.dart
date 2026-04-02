@@ -4,14 +4,24 @@ import '../theme/app_theme.dart';
 
 class HymnsPageBackground extends StatelessWidget {
   final Widget child;
+  final Color? primaryColor;
+  final Color? accentColor;
+  final Color? accentCoolColor;
 
   const HymnsPageBackground({
     super.key,
     required this.child,
+    this.primaryColor,
+    this.accentColor,
+    this.accentCoolColor,
   });
 
   @override
   Widget build(BuildContext context) {
+    final Color resolvedPrimary = primaryColor ?? AppColors.primary;
+    final Color resolvedAccent = accentColor ?? AppColors.accent;
+    final Color resolvedAccentCool = accentCoolColor ?? AppColors.accentCool;
+
     return DecoratedBox(
       decoration: const BoxDecoration(
         color: AppColors.background,
@@ -25,8 +35,8 @@ class HymnsPageBackground extends StatelessWidget {
             child: _AmbientOrb(
               size: 280,
               colors: <Color>[
-                AppColors.accent.withOpacity(0.14),
-                AppColors.accent.withOpacity(0.02),
+                resolvedAccent.withOpacity(0.20),
+                resolvedAccent.withOpacity(0.03),
               ],
             ),
           ),
@@ -36,8 +46,8 @@ class HymnsPageBackground extends StatelessWidget {
             child: _AmbientOrb(
               size: 260,
               colors: <Color>[
-                AppColors.primary.withOpacity(0.08),
-                AppColors.primary.withOpacity(0.01),
+                resolvedPrimary.withOpacity(0.12),
+                resolvedPrimary.withOpacity(0.02),
               ],
             ),
           ),
@@ -47,8 +57,8 @@ class HymnsPageBackground extends StatelessWidget {
             child: _AmbientOrb(
               size: 240,
               colors: <Color>[
-                AppColors.accentCool.withOpacity(0.7),
-                AppColors.accentCool.withOpacity(0.0),
+                resolvedAccentCool.withOpacity(0.82),
+                resolvedAccentCool.withOpacity(0.0),
               ],
             ),
           ),
@@ -107,15 +117,15 @@ class _HymnsSurfaceCardState extends State<HymnsSurfaceCard> {
           borderRadius: borderRadius,
           border: Border.fromBorderSide(
             widget.borderSide ??
-                BorderSide(
-                  color: AppColors.outline.withOpacity(0.9),
+                const BorderSide(
+                  color: AppColors.outline,
                 ),
           ),
           boxShadow: const <BoxShadow>[
             BoxShadow(
               color: AppColors.shadow,
-              blurRadius: 26,
-              offset: Offset(0, 12),
+              blurRadius: 24,
+              offset: Offset(0, 10),
             ),
           ],
         ),

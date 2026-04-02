@@ -9,18 +9,19 @@ import 'package:flutter/rendering.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 
+import '../data/hymnal_catalog.dart';
 import '../models/hymn.dart';
 import '../theme/app_theme.dart';
 import '../widgets/hymns_ui.dart';
 
 class HymnDetailScreen extends StatefulWidget {
   final Hymn hymn;
-  final String hymnalTitle;
+  final HymnalCollection collection;
 
   const HymnDetailScreen({
     super.key,
     required this.hymn,
-    required this.hymnalTitle,
+    required this.collection,
   });
 
   @override
@@ -71,6 +72,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnalPalette palette = widget.collection.palette;
 
     return Scaffold(
       appBar: AppBar(
@@ -85,13 +87,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: AppColors.accentCool,
+                color: palette.accentCool,
                 borderRadius: BorderRadius.circular(999),
               ),
               child: Text(
                 '#${widget.hymn.id}',
                 style: textTheme.labelMedium?.copyWith(
-                  color: AppColors.primary,
+                  color: palette.primary,
                   fontWeight: FontWeight.w700,
                 ),
               ),
@@ -100,6 +102,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         ],
       ),
       body: HymnsPageBackground(
+        primaryColor: palette.primary,
+        accentColor: palette.accent,
+        accentCoolColor: palette.accentCool,
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           padding: const EdgeInsets.fromLTRB(20, 12, 20, 124),
@@ -111,18 +116,18 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 Container(
                   padding: const EdgeInsets.all(24),
                   decoration: BoxDecoration(
-                    gradient: const LinearGradient(
+                    gradient: LinearGradient(
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
                       colors: <Color>[
-                        AppColors.primary,
-                        AppColors.primaryDeep,
+                        palette.primary,
+                        palette.primaryDeep,
                       ],
                     ),
                     borderRadius: BorderRadius.circular(26),
-                    boxShadow: const <BoxShadow>[
+                    boxShadow: <BoxShadow>[
                       BoxShadow(
-                        color: AppColors.shadow,
+                        color: palette.shadow,
                         blurRadius: 26,
                         offset: Offset(0, 14),
                       ),
@@ -140,7 +145,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       ),
                       const SizedBox(height: 12),
                       Text(
-                        widget.hymnalTitle,
+                        '${widget.collection.title} • ${widget.collection.subtitle}',
                         style: textTheme.bodyMedium?.copyWith(
                           color: Colors.white.withOpacity(0.8),
                         ),
@@ -153,12 +158,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                     Widget>[
                   _buildVerseCard(
                     context,
+                    palette: palette,
                     label: 'Verse ${index + 1}',
                     lines: widget.hymn.verses[index],
                   ),
                   if (index == 0 && widget.hymn.chorus.isNotEmpty) ...<Widget>[
                     const SizedBox(height: 16),
-                    _buildChorusCard(context),
+                    _buildChorusCard(context, palette: palette),
                   ],
                   if (index != widget.hymn.verses.length - 1)
                     const SizedBox(height: 16),
@@ -211,6 +217,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               const SizedBox(width: 8),
               Expanded(
                 child: FilledButton.icon(
+                  style: FilledButton.styleFrom(
+                    backgroundColor: palette.primary,
+                    foregroundColor: Colors.white,
+                  ),
                   onPressed: _captureAndSharePng,
                   icon: const Icon(Icons.ios_share_rounded),
                   label: const Text('Share'),
@@ -225,6 +235,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
 
   Widget _buildVerseCard(
     BuildContext context, {
+    required HymnalPalette palette,
     required String label,
     required List<String> lines,
   }) {
@@ -236,8 +247,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         children: <Widget>[
           HymnsSectionPill(
             label: label,
-            backgroundColor: AppColors.accentCool,
-            textColor: AppColors.primary,
+            backgroundColor: palette.accentCool,
+            textColor: palette.primary,
           ),
           const SizedBox(height: 16),
           Text(
@@ -253,21 +264,24 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     );
   }
 
-  Widget _buildChorusCard(BuildContext context) {
+  Widget _buildChorusCard(
+    BuildContext context, {
+    required HymnalPalette palette,
+  }) {
     final TextTheme textTheme = Theme.of(context).textTheme;
 
     return HymnsSurfaceCard(
-      color: AppColors.accentSoft,
-      borderSide: const BorderSide(
-        color: Color(0xFFE8D9A8),
+      color: palette.accentSoft,
+      borderSide: BorderSide(
+        color: palette.accent.withOpacity(0.75),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          const HymnsSectionPill(
+          HymnsSectionPill(
             label: 'Chorus',
-            backgroundColor: Color(0xFFF0E4BC),
-            textColor: AppColors.primaryDeep,
+            backgroundColor: palette.accent.withOpacity(0.28),
+            textColor: palette.primaryDeep,
             icon: Icons.music_note_rounded,
           ),
           const SizedBox(height: 16),
@@ -275,7 +289,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             widget.hymn.chorus.join('\n'),
             style: textTheme.bodyLarge?.copyWith(
               fontSize: fontSize,
-              color: AppColors.primaryDeep,
+              color: palette.primaryDeep,
               fontStyle: FontStyle.italic,
               fontWeight: FontWeight.w600,
               height: 1.8,

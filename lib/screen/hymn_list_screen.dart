@@ -131,6 +131,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnalPalette palette = _selectedCollection.palette;
 
     return Scaffold(
       appBar: AppBar(
@@ -142,8 +143,9 @@ class _HymnListScreenState extends State<HymnListScreen> {
             icon: const Icon(Icons.menu_book_rounded),
           ),
         ),
-        title: const BrandWordmark(
+        title: BrandWordmark(
           size: 21,
+          color: palette.primaryDeep,
           textAlign: TextAlign.center,
         ),
         actions: <Widget>[
@@ -163,6 +165,9 @@ class _HymnListScreenState extends State<HymnListScreen> {
         ],
       ),
       body: HymnsPageBackground(
+        primaryColor: palette.primary,
+        accentColor: palette.accent,
+        accentCoolColor: palette.accentCool,
         child: ListView(
           physics: const BouncingScrollPhysics(),
           padding: const EdgeInsets.fromLTRB(20, 12, 20, 32),
@@ -226,8 +231,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
                           MaterialPageRoute<void>(
                             builder: (BuildContext context) => HymnDetailScreen(
                               hymn: hymn,
-                              hymnalTitle:
-                                  '${_selectedCollection.title} • ${_selectedCollection.subtitle}',
+                              collection: _selectedCollection,
                             ),
                           ),
                         );
@@ -240,7 +244,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
                             height: 46,
                             decoration: BoxDecoration(
                               color: _selectedCollection.accentColor
-                                  .withOpacity(0.1),
+                                  .withOpacity(0.16),
                               borderRadius: BorderRadius.circular(15),
                             ),
                             alignment: Alignment.center,
@@ -271,9 +275,9 @@ class _HymnListScreenState extends State<HymnListScreen> {
                             ),
                           ),
                           const SizedBox(width: 8),
-                          const Icon(
+                          Icon(
                             Icons.arrow_forward_ios_rounded,
-                            color: AppColors.textSecondary,
+                            color: palette.primaryDeep.withOpacity(0.55),
                             size: 16,
                           ),
                         ],
@@ -289,21 +293,23 @@ class _HymnListScreenState extends State<HymnListScreen> {
   }
 
   Widget _buildHeroHeader(BuildContext context, TextTheme textTheme) {
+    final HymnalPalette palette = _selectedCollection.palette;
+
     return Container(
       padding: const EdgeInsets.all(22),
       decoration: BoxDecoration(
-        gradient: const LinearGradient(
+        gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: <Color>[
-            AppColors.primary,
-            AppColors.primaryDeep,
+            palette.primary,
+            palette.primaryDeep,
           ],
         ),
         borderRadius: BorderRadius.circular(26),
-        boxShadow: const <BoxShadow>[
+        boxShadow: <BoxShadow>[
           BoxShadow(
-            color: AppColors.shadow,
+            color: palette.shadow,
             blurRadius: 28,
             offset: Offset(0, 14),
           ),
@@ -372,6 +378,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
     required String message,
   }) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnalPalette palette = _selectedCollection.palette;
 
     return HymnsSurfaceCard(
       child: Column(
@@ -380,12 +387,12 @@ class _HymnListScreenState extends State<HymnListScreen> {
             width: 62,
             height: 62,
             decoration: BoxDecoration(
-              color: AppColors.accentCool,
+              color: palette.accentCool,
               borderRadius: BorderRadius.circular(20),
             ),
             child: Icon(
               icon,
-              color: AppColors.primary,
+              color: palette.primary,
               size: 30,
             ),
           ),

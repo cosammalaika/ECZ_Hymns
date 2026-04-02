@@ -15,12 +15,23 @@ class HymnalSelectorScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnalCollection activeCollection =
+        hymnalCollectionForFile(selectedFileName);
+    final HymnalPalette palette = activeCollection.palette;
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Select Hymnal'),
+        title: Text(
+          'Select Hymnal',
+          style: textTheme.titleLarge?.copyWith(
+            color: palette.primaryDeep,
+          ),
+        ),
       ),
       body: HymnsPageBackground(
+        primaryColor: palette.primary,
+        accentColor: palette.accent,
+        accentCoolColor: palette.accentCool,
         child: ListView(
           padding: const EdgeInsets.fromLTRB(20, 12, 20, 32),
           children: <Widget>[
