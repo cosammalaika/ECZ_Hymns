@@ -4,7 +4,6 @@ import '../data/hymnal_catalog.dart';
 import '../database/database_helper.dart';
 import '../models/hymn.dart';
 import '../theme/app_theme.dart';
-import '../widgets/brand_wordmark.dart';
 import '../widgets/hymns_ui.dart';
 import 'about_screen.dart';
 import 'hymn_detail_screen.dart';
@@ -146,11 +145,6 @@ class _HymnListScreenState extends State<HymnListScreen> {
             onPressed: _openHymnalSelector,
             icon: const Icon(Icons.menu_book_rounded),
           ),
-        ),
-        title: BrandWordmark(
-          size: 21,
-          color: ui.textPrimary,
-          textAlign: TextAlign.center,
         ),
         actions: <Widget>[
           Padding(
