@@ -7,6 +7,7 @@ import 'package:share_plus/share_plus.dart';
 import '../theme/app_theme.dart';
 import '../widgets/brand_wordmark.dart';
 import '../widgets/hymns_ui.dart';
+import '../widgets/theme_mode_toggle_button.dart';
 
 class AboutScreen extends StatefulWidget {
   const AboutScreen({super.key});
@@ -50,6 +51,7 @@ class _AboutScreenState extends State<AboutScreen> {
         ),
         title: const Text('About'),
         actions: <Widget>[
+          const ThemeModeToggleButton(),
           Padding(
             padding: const EdgeInsets.only(right: 16),
             child: IconButton(

@@ -380,7 +380,8 @@ class _HymnListScreenState extends State<HymnListScreen> {
     final HymnalPalette palette = _selectedCollection.palette;
     final HymnsUiPalette ui = context.hymnsPalette;
     final Color stateIconBackground = ui.isDark
-        ? Color.alphaBlend(palette.primary.withOpacity(0.24), ui.surfaceSecondary)
+        ? Color.alphaBlend(
+            palette.primary.withOpacity(0.24), ui.surfaceSecondary)
         : palette.accentCool;
 
     return HymnsSurfaceCard(
