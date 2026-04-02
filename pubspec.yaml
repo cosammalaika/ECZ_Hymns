@@ -3,7 +3,7 @@ description: "A new Flutter project."
 
 
 
-version: 1.4.1+30 # Update version code to 3
+version: 1.4.1+31 # Update version code to 3
 
 environment:
   sdk: '>=3.2.5 <4.0.0'

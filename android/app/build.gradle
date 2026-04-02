@@ -1,81 +1,189 @@
-    plugins {
-        id "com.android.application"
-        id "kotlin-android"
-        id "dev.flutter.flutter-gradle-plugin"
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+List<String> parseAbiFilters(String rawValue) {
+    if (rawValue == null) {
+        return []
     }
 
-    def localProperties = new Properties()
-    def localPropertiesFile = rootProject.file('local.properties')
-    if (localPropertiesFile.exists()) {
-        localPropertiesFile.withReader('UTF-8') { reader ->
-            localProperties.load(reader)
+    return rawValue.split(',')
+            .collect { it.trim() }
+            .findAll { !it.isEmpty() }
+}
+
+def debugAbiFilters = parseAbiFilters(localProperties.getProperty('flutter.debugAbiFilters'))
+def profileAbiFilters = parseAbiFilters(localProperties.getProperty('flutter.profileAbiFilters'))
+if (profileAbiFilters.isEmpty()) {
+    profileAbiFilters = debugAbiFilters
+}
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+def firstNonBlank = { String... values ->
+    values.find { value -> value != null && !value.toString().trim().isEmpty() }
+}
+
+def resolveSigningValue = { String fileKey, String localKey, String gradleKey, String envKey ->
+    firstNonBlank(
+            keystoreProperties.getProperty(fileKey),
+            localProperties.getProperty(localKey),
+            project.findProperty(gradleKey)?.toString(),
+            System.getenv(envKey)
+    )
+}
+
+def releaseStoreFilePath = firstNonBlank(
+        keystoreProperties.getProperty('storeFile'),
+        localProperties.getProperty('android.releaseStoreFile'),
+        project.findProperty('androidReleaseStoreFile')?.toString(),
+        System.getenv('ANDROID_RELEASE_STORE_FILE'),
+        rootProject.file('app/upload-keystore.jks').exists() ? 'app/upload-keystore.jks' : null
+)
+def releaseStoreFile = releaseStoreFilePath ? rootProject.file(releaseStoreFilePath) : null
+def releaseStorePassword = resolveSigningValue(
+        'storePassword',
+        'android.releaseStorePassword',
+        'androidReleaseStorePassword',
+        'ANDROID_RELEASE_STORE_PASSWORD'
+)
+def releaseKeyAlias = resolveSigningValue(
+        'keyAlias',
+        'android.releaseKeyAlias',
+        'androidReleaseKeyAlias',
+        'ANDROID_RELEASE_KEY_ALIAS'
+)
+def releaseKeyPassword = resolveSigningValue(
+        'keyPassword',
+        'android.releaseKeyPassword',
+        'androidReleaseKeyPassword',
+        'ANDROID_RELEASE_KEY_PASSWORD'
+)
+def hasReleaseSigning =
+        releaseStoreFile != null &&
+        releaseStoreFile.exists() &&
+        releaseStorePassword &&
+        releaseKeyAlias &&
+        releaseKeyPassword
+def isReleaseBuildRequested = gradle.startParameter.taskNames.any { String taskName ->
+    final String normalizedTaskName = taskName.toLowerCase()
+    normalizedTaskName.contains('release') ||
+            normalizedTaskName.contains('bundle') ||
+            normalizedTaskName.contains('publish')
+}
+
+if (isReleaseBuildRequested && !hasReleaseSigning) {
+    def missingReleaseSigning = []
+    if (releaseStoreFile == null || !releaseStoreFile.exists()) {
+        missingReleaseSigning << 'storeFile'
+    }
+    if (!releaseStorePassword) {
+        missingReleaseSigning << 'storePassword'
+    }
+    if (!releaseKeyAlias) {
+        missingReleaseSigning << 'keyAlias'
+    }
+    if (!releaseKeyPassword) {
+        missingReleaseSigning << 'keyPassword'
+    }
+
+    throw new GradleException(
+            "Release signing is not configured. Missing: ${missingReleaseSigning.join(', ')}. " +
+                    'Provide signing values in android/key.properties, android/local.properties, ' +
+                    'Gradle properties, or ANDROID_RELEASE_* environment variables before building a release bundle.'
+    )
+}
+
+android {
+    namespace "com.creative_solutions.hymnalive"
+    // Bump to satisfy plugins requiring SDK 36
+    compileSdk 36
+    ndkVersion "26.3.11579264"
+
+    // Enable BuildConfig generation to allow custom buildConfigField usage
+    buildFeatures {
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions { jvmTarget = '17' }
+
+    defaultConfig {
+        applicationId "com.creative_solutions.hymnalive"
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 35
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    signingConfigs {
+        release {
+            keyAlias releaseKeyAlias
+            keyPassword releaseKeyPassword
+            storeFile releaseStoreFile
+            storePassword releaseStorePassword
         }
     }
 
-    def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
-    if (flutterVersionCode == null) {
-        flutterVersionCode = '1'
-    }
-
-    def flutterVersionName = localProperties.getProperty('flutter.versionName')
-    if (flutterVersionName == null) {
-        flutterVersionName = '1.0'
-    }
-
-    def keystoreProperties = new Properties()
-    def keystorePropertiesFile = rootProject.file('key.properties')
-    if (keystorePropertiesFile.exists()) {
-        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-    }
-
-    android {
-        namespace "com.creative_solutions.hymnalive"
-        // Bump to satisfy plugins requiring SDK 36
-        compileSdk 36
-        ndkVersion "26.3.11579264"
-
-        // Enable BuildConfig generation to allow custom buildConfigField usage
-        buildFeatures {
-            buildConfig true
-        }
-
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_8
-            targetCompatibility JavaVersion.VERSION_1_8
-        }
-        kotlinOptions { jvmTarget = '1.8' }
-
-        defaultConfig {
-            applicationId "com.creative_solutions.hymnalive"
-            minSdkVersion flutter.minSdkVersion
-            targetSdkVersion 35  
-            versionCode 30
-            versionName "1.4.1"
-        }
-
-        signingConfigs {
-            release {
-                keyAlias keystoreProperties['keyAlias']
-                keyPassword keystoreProperties['keyPassword']
-                storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-                storePassword keystoreProperties['storePassword']
+    buildTypes {
+        debug {
+            if (!debugAbiFilters.isEmpty()) {
+                ndk {
+                    abiFilters.clear()
+                    abiFilters.addAll(debugAbiFilters)
+                }
             }
         }
 
-        buildTypes {
-            release {
-                signingConfig signingConfigs.release
-                // Temporarily disable to avoid R8-related white screen while debugging
-                shrinkResources false
-                minifyEnabled false
-                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-                buildConfigField 'boolean', 'ENABLE_DEBUG_SYMBOLS', 'true'
+        profile {
+            if (!profileAbiFilters.isEmpty()) {
+                ndk {
+                    abiFilters.clear()
+                    abiFilters.addAll(profileAbiFilters)
+                }
             }
         }
-    }
 
-    flutter {
-        source '../..'
+        release {
+            signingConfig signingConfigs.release
+            // Temporarily disable to avoid R8-related white screen while debugging
+            shrinkResources false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField 'boolean', 'ENABLE_DEBUG_SYMBOLS', 'true'
+        }
     }
+}
 
-    dependencies {}
+flutter {
+    source '../..'
+}
+
+dependencies {}
