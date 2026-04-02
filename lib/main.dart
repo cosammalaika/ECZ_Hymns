@@ -24,6 +24,8 @@ class HymnBookApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Hymns Alive',
       theme: HymnsTheme.light(),
+      darkTheme: HymnsTheme.dark(),
+      themeMode: ThemeMode.system,
       home: const HymnListScreen(
         fileName: 'hymns',
       ),

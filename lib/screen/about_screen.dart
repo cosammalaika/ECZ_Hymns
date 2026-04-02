@@ -33,8 +33,12 @@ class _AboutScreenState extends State<AboutScreen> {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnsUiPalette ui = context.hymnsPalette;
+    final double topContentInset =
+        MediaQuery.of(context).padding.top + kToolbarHeight + 12;
 
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         leadingWidth: 72,
         leading: Padding(
@@ -65,7 +69,7 @@ class _AboutScreenState extends State<AboutScreen> {
 
             return ListView(
               physics: const BouncingScrollPhysics(),
-              padding: const EdgeInsets.fromLTRB(20, 12, 20, 32),
+              padding: EdgeInsets.fromLTRB(20, topContentInset, 20, 32),
               children: <Widget>[
                 HymnsSurfaceCard(
                   child: Column(
@@ -74,7 +78,7 @@ class _AboutScreenState extends State<AboutScreen> {
                         width: 94,
                         height: 94,
                         decoration: BoxDecoration(
-                          color: AppColors.accentCool,
+                          color: ui.surfaceSecondary,
                           borderRadius: BorderRadius.circular(28),
                         ),
                         child: Padding(
@@ -158,7 +162,7 @@ class _AboutScreenState extends State<AboutScreen> {
                       Text(
                         'Hymns Alive brings timeless hymns into a clean digital reading experience. It is designed for quiet reflection, worship moments, and dependable offline access wherever you are.',
                         style: textTheme.bodyMedium?.copyWith(
-                          color: AppColors.textPrimary,
+                          color: ui.textPrimary,
                           height: 1.75,
                         ),
                       ),
@@ -217,6 +221,7 @@ class _InfoRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnsUiPalette ui = context.hymnsPalette;
 
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -225,12 +230,12 @@ class _InfoRow extends StatelessWidget {
           width: 42,
           height: 42,
           decoration: BoxDecoration(
-            color: AppColors.accentCool,
+            color: ui.surfaceSecondary,
             borderRadius: BorderRadius.circular(14),
           ),
           child: Icon(
             icon,
-            color: AppColors.primary,
+            color: ui.textPrimary,
             size: 22,
           ),
         ),

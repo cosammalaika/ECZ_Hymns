@@ -72,9 +72,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnsUiPalette ui = context.hymnsPalette;
     final HymnalPalette palette = widget.collection.palette;
+    final double topContentInset =
+        MediaQuery.of(context).padding.top + kToolbarHeight + 12;
 
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         leadingWidth: 72,
         leading: IconButton(
@@ -87,13 +91,18 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: palette.accentCool,
+                color: ui.isDark
+                    ? Color.alphaBlend(
+                        palette.primary.withOpacity(0.26),
+                        ui.surfaceSecondary,
+                      )
+                    : palette.accentCool,
                 borderRadius: BorderRadius.circular(999),
               ),
               child: Text(
                 '#${widget.hymn.id}',
                 style: textTheme.labelMedium?.copyWith(
-                  color: palette.primary,
+                  color: ui.isDark ? Colors.white : palette.primary,
                   fontWeight: FontWeight.w700,
                 ),
               ),
@@ -107,7 +116,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         accentCoolColor: palette.accentCool,
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
-          padding: const EdgeInsets.fromLTRB(20, 12, 20, 124),
+          padding: EdgeInsets.fromLTRB(20, topContentInset, 20, 124),
           child: RepaintBoundary(
             key: _globalKey,
             child: Column(
@@ -147,7 +156,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       Text(
                         '${widget.collection.title} • ${widget.collection.subtitle}',
                         style: textTheme.bodyMedium?.copyWith(
-                          color: Colors.white.withOpacity(0.8),
+                          color: Colors.white.withOpacity(
+                            ui.isDark ? 0.86 : 0.8,
+                          ),
                         ),
                       ),
                     ],
@@ -159,12 +170,17 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   _buildVerseCard(
                     context,
                     palette: palette,
+                    ui: ui,
                     label: 'Verse ${index + 1}',
                     lines: widget.hymn.verses[index],
                   ),
                   if (index == 0 && widget.hymn.chorus.isNotEmpty) ...<Widget>[
                     const SizedBox(height: 16),
-                    _buildChorusCard(context, palette: palette),
+                    _buildChorusCard(
+                      context,
+                      palette: palette,
+                      ui: ui,
+                    ),
                   ],
                   if (index != widget.hymn.verses.length - 1)
                     const SizedBox(height: 16),
@@ -236,10 +252,17 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   Widget _buildVerseCard(
     BuildContext context, {
     required HymnalPalette palette,
+    required HymnsUiPalette ui,
     required String label,
     required List<String> lines,
   }) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final Color versePillBackground = ui.isDark
+        ? Color.alphaBlend(
+            palette.primary.withOpacity(0.24),
+            ui.surfaceSecondary,
+          )
+        : palette.accentCool;
 
     return HymnsSurfaceCard(
       child: Column(
@@ -247,15 +270,15 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         children: <Widget>[
           HymnsSectionPill(
             label: label,
-            backgroundColor: palette.accentCool,
-            textColor: palette.primary,
+            backgroundColor: versePillBackground,
+            textColor: ui.isDark ? Colors.white : palette.primary,
           ),
           const SizedBox(height: 16),
           Text(
             lines.join('\n'),
             style: textTheme.bodyLarge?.copyWith(
               fontSize: fontSize,
-              color: AppColors.textPrimary,
+              color: ui.textPrimary,
               height: 1.85,
             ),
           ),
@@ -267,21 +290,36 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   Widget _buildChorusCard(
     BuildContext context, {
     required HymnalPalette palette,
+    required HymnsUiPalette ui,
   }) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final Color chorusBackground = ui.isDark
+        ? Color.alphaBlend(palette.accent.withOpacity(0.12), ui.surface)
+        : palette.accentSoft;
+    final Color chorusBorder = ui.isDark
+        ? palette.accent.withOpacity(0.34)
+        : palette.accent.withOpacity(0.75);
+    final Color chorusPillBackground = ui.isDark
+        ? Color.alphaBlend(
+            palette.accent.withOpacity(0.18),
+            ui.surfaceSecondary,
+          )
+        : palette.accent.withOpacity(0.28);
+    final Color chorusTextColor =
+        ui.isDark ? palette.accentSoft : palette.primaryDeep;
 
     return HymnsSurfaceCard(
-      color: palette.accentSoft,
+      color: chorusBackground,
       borderSide: BorderSide(
-        color: palette.accent.withOpacity(0.75),
+        color: chorusBorder,
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           HymnsSectionPill(
             label: 'Chorus',
-            backgroundColor: palette.accent.withOpacity(0.28),
-            textColor: palette.primaryDeep,
+            backgroundColor: chorusPillBackground,
+            textColor: chorusTextColor,
             icon: Icons.music_note_rounded,
           ),
           const SizedBox(height: 16),
@@ -289,7 +327,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             widget.hymn.chorus.join('\n'),
             style: textTheme.bodyLarge?.copyWith(
               fontSize: fontSize,
-              color: palette.primaryDeep,
+              color: chorusTextColor,
               fontStyle: FontStyle.italic,
               fontWeight: FontWeight.w600,
               height: 1.8,

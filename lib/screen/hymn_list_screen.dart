@@ -131,9 +131,13 @@ class _HymnListScreenState extends State<HymnListScreen> {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnsUiPalette ui = context.hymnsPalette;
     final HymnalPalette palette = _selectedCollection.palette;
+    final double topContentInset =
+        MediaQuery.of(context).padding.top + kToolbarHeight + 12;
 
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         leadingWidth: 72,
         leading: Padding(
@@ -145,7 +149,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
         ),
         title: BrandWordmark(
           size: 21,
-          color: palette.primaryDeep,
+          color: ui.textPrimary,
           textAlign: TextAlign.center,
         ),
         actions: <Widget>[
@@ -170,7 +174,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
         accentCoolColor: palette.accentCool,
         child: ListView(
           physics: const BouncingScrollPhysics(),
-          padding: const EdgeInsets.fromLTRB(20, 12, 20, 32),
+          padding: EdgeInsets.fromLTRB(20, topContentInset, 20, 32),
           children: <Widget>[
             _buildHeroHeader(context, textTheme),
             const SizedBox(height: 18),
@@ -244,7 +248,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
                             height: 46,
                             decoration: BoxDecoration(
                               color: _selectedCollection.accentColor
-                                  .withOpacity(0.16),
+                                  .withOpacity(ui.isDark ? 0.24 : 0.16),
                               borderRadius: BorderRadius.circular(15),
                             ),
                             alignment: Alignment.center,
@@ -294,6 +298,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
 
   Widget _buildHeroHeader(BuildContext context, TextTheme textTheme) {
     final HymnalPalette palette = _selectedCollection.palette;
+    final HymnsUiPalette ui = context.hymnsPalette;
 
     return Container(
       padding: const EdgeInsets.all(22),
@@ -324,7 +329,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
                 width: 48,
                 height: 48,
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.14),
+                  color: Colors.white.withOpacity(ui.isDark ? 0.16 : 0.14),
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Icon(
@@ -379,6 +384,10 @@ class _HymnListScreenState extends State<HymnListScreen> {
   }) {
     final TextTheme textTheme = Theme.of(context).textTheme;
     final HymnalPalette palette = _selectedCollection.palette;
+    final HymnsUiPalette ui = context.hymnsPalette;
+    final Color stateIconBackground = ui.isDark
+        ? Color.alphaBlend(palette.primary.withOpacity(0.24), ui.surfaceSecondary)
+        : palette.accentCool;
 
     return HymnsSurfaceCard(
       child: Column(
@@ -387,7 +396,7 @@ class _HymnListScreenState extends State<HymnListScreen> {
             width: 62,
             height: 62,
             decoration: BoxDecoration(
-              color: palette.accentCool,
+              color: stateIconBackground,
               borderRadius: BorderRadius.circular(20),
             ),
             child: Icon(

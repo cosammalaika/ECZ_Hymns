@@ -15,16 +15,20 @@ class HymnalSelectorScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnsUiPalette ui = context.hymnsPalette;
     final HymnalCollection activeCollection =
         hymnalCollectionForFile(selectedFileName);
     final HymnalPalette palette = activeCollection.palette;
+    final double topContentInset =
+        MediaQuery.of(context).padding.top + kToolbarHeight + 12;
 
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: Text(
           'Select Hymnal',
           style: textTheme.titleLarge?.copyWith(
-            color: palette.primaryDeep,
+            color: ui.textPrimary,
           ),
         ),
       ),
@@ -33,7 +37,7 @@ class HymnalSelectorScreen extends StatelessWidget {
         accentColor: palette.accent,
         accentCoolColor: palette.accentCool,
         child: ListView(
-          padding: const EdgeInsets.fromLTRB(20, 12, 20, 32),
+          padding: EdgeInsets.fromLTRB(20, topContentInset, 20, 32),
           children: <Widget>[
             for (final HymnalCollection collection in hymnals) ...<Widget>[
               _HymnalOptionCard(
@@ -61,7 +65,16 @@ class _HymnalOptionCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+    final HymnsUiPalette ui = context.hymnsPalette;
     final bool isEnabled = collection.isAvailable;
+    final Color optionIconBackground = collection.accentColor.withOpacity(
+      ui.isDark ? 0.22 : 0.12,
+    );
+    final Color unavailablePillBackground = ui.isDark
+        ? Color.alphaBlend(collection.accentColor.withOpacity(0.18), ui.surfaceSecondary)
+        : collection.palette.accentSoft;
+    final Color unavailablePillText =
+        ui.isDark ? collection.palette.accentSoft : collection.palette.primaryDeep;
 
     return Opacity(
       opacity: isEnabled ? 1 : 0.7,
@@ -70,7 +83,7 @@ class _HymnalOptionCard extends StatelessWidget {
             ? () => Navigator.of(context).pop(collection.fileName)
             : null,
         borderSide: BorderSide(
-          color: isSelected ? collection.accentColor : AppColors.outline,
+          color: isSelected ? collection.accentColor : ui.outline,
           width: isSelected ? 1.5 : 1,
         ),
         child: Row(
@@ -79,7 +92,7 @@ class _HymnalOptionCard extends StatelessWidget {
               width: 54,
               height: 54,
               decoration: BoxDecoration(
-                color: collection.accentColor.withOpacity(0.12),
+                color: optionIconBackground,
                 borderRadius: BorderRadius.circular(18),
               ),
               child: Icon(
@@ -101,7 +114,7 @@ class _HymnalOptionCard extends StatelessWidget {
                   Text(
                     collection.subtitle,
                     style: textTheme.bodyMedium?.copyWith(
-                      color: AppColors.textSecondary,
+                      color: ui.textSecondary,
                     ),
                   ),
                 ],
@@ -109,10 +122,10 @@ class _HymnalOptionCard extends StatelessWidget {
             ),
             const SizedBox(width: 12),
             if (!isEnabled)
-              const HymnsSectionPill(
+              HymnsSectionPill(
                 label: 'Coming soon',
-                backgroundColor: AppColors.accentSoft,
-                textColor: AppColors.primaryDeep,
+                backgroundColor: unavailablePillBackground,
+                textColor: unavailablePillText,
               )
             else if (isSelected)
               Icon(
@@ -121,9 +134,9 @@ class _HymnalOptionCard extends StatelessWidget {
                 size: 24,
               )
             else
-              const Icon(
+              Icon(
                 Icons.chevron_right_rounded,
-                color: AppColors.textSecondary,
+                color: ui.textSecondary,
                 size: 24,
               ),
           ],
