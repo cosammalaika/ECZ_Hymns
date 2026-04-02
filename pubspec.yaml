@@ -3,7 +3,7 @@ description: "A new Flutter project."
 
 
 
-version: 2.1.1+1 # Update version code to 3
+version: 1.4.1+30 # Update version code to 3
 
 environment:
   sdk: '>=3.2.5 <4.0.0'
@@ -36,6 +36,8 @@ flutter_launcher_icons:
   android: true     
   ios: true
   image_path: "assets/images/hymns.png"
+  remove_alpha_ios: true
+  background_color_ios: "#004d73"
   adaptive_icon_background: "assets/images/hymns_background.png"
   adaptive_icon_foreground:  "assets/images/hymns_foreground.png"
 
@@ -52,6 +54,9 @@ flutter_native_splash:
   color: "#004d73"
   image: assets/images/HymnSplash.png
   image_dark: assets/images/HymnSplash.png
+  image_ios: assets/images/HymnSplashIOS.png
+  image_dark_ios: assets/images/HymnSplashIOS.png
+  ios_content_mode: center
 
   android_12:
     color: "#004d73"
