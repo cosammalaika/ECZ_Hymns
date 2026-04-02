@@ -1,8 +1,17 @@
-// main.dart
 import 'package:flutter/material.dart';
+
+import 'data/hymnal_catalog.dart';
+import 'database/database_helper.dart';
+import 'theme/app_theme.dart';
 import 'screen/hymn_list_screen.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await DatabaseHelper().warmUpCollections(
+    hymnals
+        .where((collection) => collection.isAvailable)
+        .map((collection) => collection.fileName),
+  );
   runApp(const HymnBookApp());
 }
 
@@ -14,13 +23,10 @@ class HymnBookApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Hymns Alive',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: HymnsTheme.light(),
       home: const HymnListScreen(
         fileName: 'hymns',
       ),
-      
     );
   }
 }

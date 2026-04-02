@@ -1,235 +1,405 @@
-import 'package:flutter/services.dart';
-import 'package:ecz_hynms/widgets/drawer_widget.dart';
 import 'package:flutter/material.dart';
+
+import '../data/hymnal_catalog.dart';
 import '../database/database_helper.dart';
 import '../models/hymn.dart';
+import '../theme/app_theme.dart';
+import '../widgets/brand_wordmark.dart';
+import '../widgets/hymns_ui.dart';
 import 'about_screen.dart';
 import 'hymn_detail_screen.dart';
-
-class TextOnlyInputFormatter extends TextInputFormatter {
-  @override
-  TextEditingValue formatEditUpdate(
-      TextEditingValue oldValue, TextEditingValue newValue) {
-    final newText = newValue.text.replaceAll(RegExp(r'[^\x00-\x7F]+'), '');
-    return newText == newValue.text
-        ? newValue
-        : newValue.copyWith(text: newText);
-  }
-}
+import 'hymnal_selector_screen.dart';
 
 class HymnListScreen extends StatefulWidget {
   final String fileName;
 
-  const HymnListScreen({Key? key, required this.fileName}) : super(key: key);
+  const HymnListScreen({super.key, required this.fileName});
 
   @override
-  // ignore: library_private_types_in_public_api
   _HymnListScreenState createState() => _HymnListScreenState();
 }
 
 class _HymnListScreenState extends State<HymnListScreen> {
+  final TextEditingController _searchController = TextEditingController();
   List<Hymn> _allHymns = [];
   List<Hymn> _displayedHymns = [];
+  bool _isLoading = true;
+  String? _errorMessage;
+  late HymnalCollection _selectedCollection;
 
   @override
   void initState() {
     super.initState();
-    _loadHymns(widget.fileName);
+    _selectedCollection = hymnalCollectionForFile(widget.fileName);
+    _loadHymns(_selectedCollection);
   }
 
-  Future<void> _loadHymns(String fileName) async {
-    final hymns = await DatabaseHelper().getHymnsFromJson(fileName);
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+
+  Future<void> _loadHymns(HymnalCollection collection) async {
+    final DatabaseHelper databaseHelper = DatabaseHelper();
+    final List<Hymn>? cachedHymns =
+        databaseHelper.getCachedHymns(collection.fileName);
+
+    if (cachedHymns != null) {
+      setState(() {
+        _selectedCollection = collection;
+        _allHymns = cachedHymns;
+        _displayedHymns =
+            _filterHymns(_searchController.text, source: cachedHymns);
+        _errorMessage = null;
+        _isLoading = false;
+      });
+      return;
+    }
+
     setState(() {
-      _allHymns = hymns;
-      _displayedHymns = hymns;
+      _selectedCollection = collection;
+      _isLoading = true;
+      _errorMessage = null;
     });
+
+    try {
+      final hymns = await databaseHelper.getHymnsFromJson(collection.fileName);
+      if (!mounted) {
+        return;
+      }
+
+      setState(() {
+        _allHymns = hymns;
+        _displayedHymns = _filterHymns(_searchController.text, source: hymns);
+        _isLoading = false;
+      });
+    } catch (_) {
+      if (!mounted) {
+        return;
+      }
+
+      setState(() {
+        _allHymns = <Hymn>[];
+        _displayedHymns = <Hymn>[];
+        _errorMessage =
+            'This hymnal is being prepared for a future release. Try another collection for now.';
+        _isLoading = false;
+      });
+    }
+  }
+
+  List<Hymn> _filterHymns(String query, {List<Hymn>? source}) {
+    final String normalizedQuery = query.trim().toLowerCase();
+    final List<Hymn> data = source ?? _allHymns;
+
+    if (normalizedQuery.isEmpty) {
+      return data;
+    }
+
+    return data.where((Hymn hymn) {
+      return hymn.id.toString().contains(normalizedQuery) ||
+          hymn.title.toLowerCase().contains(normalizedQuery);
+    }).toList();
   }
 
   void _searchHymns(String searchTerm) {
     setState(() {
-      _displayedHymns = _allHymns.where((hymn) {
-        // Check if the search term matches either the ID or title of the hymn
-        return hymn.id.toString().contains(searchTerm) ||
-            hymn.title.toLowerCase().contains(searchTerm.toLowerCase());
-      }).toList();
+      _displayedHymns = _filterHymns(searchTerm);
     });
+  }
+
+  Future<void> _openHymnalSelector() async {
+    final String? selectedFileName = await Navigator.of(context).push<String>(
+      MaterialPageRoute<String>(
+        builder: (BuildContext context) => HymnalSelectorScreen(
+          selectedFileName: _selectedCollection.fileName,
+        ),
+      ),
+    );
+
+    if (!mounted ||
+        selectedFileName == null ||
+        selectedFileName == _selectedCollection.fileName) {
+      return;
+    }
+
+    _searchController.clear();
+    await _loadHymns(hymnalCollectionForFile(selectedFileName));
   }
 
   @override
   Widget build(BuildContext context) {
+    final TextTheme textTheme = Theme.of(context).textTheme;
+
     return Scaffold(
       appBar: AppBar(
-        leading: Builder(
-          builder: (context) => IconButton(
-            onPressed: () {
-              Scaffold.of(context).openDrawer();
-            },
-            icon: SizedBox(
-              height: 25,
-              child: Image.asset(
-                'assets/icons/books.png',
-              ),
-            ),
+        leadingWidth: 72,
+        leading: Padding(
+          padding: const EdgeInsets.only(left: 16),
+          child: IconButton(
+            onPressed: _openHymnalSelector,
+            icon: const Icon(Icons.menu_book_rounded),
           ),
         ),
-        backgroundColor: const Color(0xFF004d73),
-        title: const Row(
-          children: [
-            Text(
-              'Hymns',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-                color: Color(0xFFFFFFFF),
-              ),
-            ),
-            Text(
-              ' Alive',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.w200,
-                color: Color(0xFFFFFFFF),
-              ),
-            ),
-          ],
+        title: const BrandWordmark(
+          size: 21,
+          textAlign: TextAlign.center,
         ),
-        actions: [
-          IconButton(
-            icon: SizedBox(
-              height: 25,
-              child: Image.asset(
-                'assets/icons/info.png',
-              ),
+        actions: <Widget>[
+          Padding(
+            padding: const EdgeInsets.only(right: 16),
+            child: IconButton(
+              icon: const Icon(Icons.info_outline_rounded),
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (BuildContext context) => const AboutScreen(),
+                  ),
+                );
+              },
             ),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => AboutScreen()),
-              );
-            },
           ),
         ],
       ),
-      drawer: const MyDrawer(),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Padding(
-            padding:
-                const EdgeInsets.symmetric(horizontal: 16.0, vertical: 10.0),
-            child: Container(
-              decoration: BoxDecoration(
-                color: const Color(0xFFe6edf1),
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 16.0,
+      body: HymnsPageBackground(
+        child: ListView(
+          physics: const BouncingScrollPhysics(),
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 32),
+          children: <Widget>[
+            _buildHeroHeader(context, textTheme),
+            const SizedBox(height: 18),
+            HymnsSurfaceCard(
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+              child: TextField(
+                controller: _searchController,
+                onChanged: _searchHymns,
+                style: textTheme.titleMedium?.copyWith(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
                 ),
-                child: Row(
-                  children: [
-                    const Icon(
-                      Icons.search,
-                      size: 16,
-                      color: Color(0xFF000046),
-                    ),
-                    const SizedBox(width: 8),
-                    Expanded(
-                      child: TextField(
-                        inputFormatters: [TextOnlyInputFormatter()],
-                        decoration: const InputDecoration(
-                          hintText: 'Search ...',
-                          border: InputBorder.none,
-                        ),
-                        onChanged: _searchHymns,
-                        style: const TextStyle(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w600,
-                          color: Color(0xFF000046),
-                        ),
-                      ),
-                    ),
-                  ],
+                decoration: const InputDecoration(
+                  hintText: 'Search by hymn number or title',
+                  prefixIcon: Icon(Icons.search_rounded),
                 ),
               ),
             ),
-          ),
-          Expanded(
-            child: _displayedHymns.isEmpty
-                ? const Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.computer,
-                          size: 50,
-                          color: Color(0xFF000046),
-                        ),
-                        SizedBox(height: 10),
-                        Text(
-                          "Coming soon",
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Color(0xFF000046),
+            const SizedBox(height: 22),
+            if (_isLoading)
+              _buildStateCard(
+                context,
+                icon: Icons.auto_stories_rounded,
+                title: 'Loading hymns',
+                message: 'Preparing your offline collection.',
+              )
+            else if (_errorMessage != null)
+              _buildStateCard(
+                context,
+                icon: Icons.hourglass_bottom_rounded,
+                title: 'Collection unavailable',
+                message: _errorMessage!,
+              )
+            else if (_displayedHymns.isEmpty)
+              _buildStateCard(
+                context,
+                icon: Icons.search_off_rounded,
+                title: 'No hymns found',
+                message:
+                    'Try a different hymn number, title, or switch to another hymnal.',
+              )
+            else
+              ...List<Widget>.generate(
+                _displayedHymns.length,
+                (int index) {
+                  final Hymn hymn = _displayedHymns[index];
+                  return Padding(
+                    padding: EdgeInsets.only(
+                      bottom: index == _displayedHymns.length - 1 ? 0 : 14,
+                    ),
+                    child: HymnsSurfaceCard(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 14,
+                      ),
+                      onTap: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute<void>(
+                            builder: (BuildContext context) => HymnDetailScreen(
+                              hymn: hymn,
+                              hymnalTitle:
+                                  '${_selectedCollection.title} • ${_selectedCollection.subtitle}',
+                            ),
                           ),
-                        ),
-                      ],
-                    ),
-                  )
-                : Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: const Color(0xFFe6edf1),
-                        borderRadius: BorderRadius.circular(15.0),
-                      ),
-                      child: ListView.builder(
-                        padding: EdgeInsets.zero,
-                        itemCount: _displayedHymns.length,
-                        itemBuilder: (context, index) {
-                          final hymn = _displayedHymns[index];
-                          return Container(
-                            decoration: const BoxDecoration(
-                              border: Border(
-                                bottom: BorderSide(
-                                  color: Color(0xFFd7dcde),
-                                  width: 1.0,
-                                ),
+                        );
+                      },
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Container(
+                            width: 46,
+                            height: 46,
+                            decoration: BoxDecoration(
+                              color: _selectedCollection.accentColor
+                                  .withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                            alignment: Alignment.center,
+                            child: Text(
+                              hymn.id.toString(),
+                              style: textTheme.titleMedium?.copyWith(
+                                fontSize: 16,
+                                color: _selectedCollection.accentColor,
+                                fontWeight: FontWeight.w800,
                               ),
                             ),
-                            child: ListTile(
-                              title: Text(
-                                '${hymn.id}. ${hymn.title}',
-                                style: const TextStyle(
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.w600,
-                                  color: Color(0xFF000046),
-                                ),
-                              ),
-                              onTap: () async {
-                                final resetDisplayedHymns =
-                                    await Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        HymnDetailScreen(hymn: hymn),
+                          ),
+                          const SizedBox(width: 14),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                Text(
+                                  hymn.title,
+                                  style: textTheme.titleMedium?.copyWith(
+                                    fontSize: 16,
                                   ),
-                                );
-
-                                if (resetDisplayedHymns == true) {
-                                  setState(
-                                    () {
-                                      _displayedHymns = _allHymns;
-                                    },
-                                  );
-                                }
-                              },
+                                  maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                              ],
                             ),
-                          );
-                        },
+                          ),
+                          const SizedBox(width: 8),
+                          const Icon(
+                            Icons.arrow_forward_ios_rounded,
+                            color: AppColors.textSecondary,
+                            size: 16,
+                          ),
+                        ],
                       ),
                     ),
+                  );
+                },
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHeroHeader(BuildContext context, TextTheme textTheme) {
+    return Container(
+      padding: const EdgeInsets.all(22),
+      decoration: BoxDecoration(
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: <Color>[
+            AppColors.primary,
+            AppColors.primaryDeep,
+          ],
+        ),
+        borderRadius: BorderRadius.circular(26),
+        boxShadow: const <BoxShadow>[
+          BoxShadow(
+            color: AppColors.shadow,
+            blurRadius: 28,
+            offset: Offset(0, 14),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Container(
+                width: 48,
+                height: 48,
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.14),
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: Icon(
+                  _selectedCollection.icon,
+                  color: Colors.white.withOpacity(0.96),
+                ),
+              ),
+              const Spacer(),
+              Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.12),
+                  borderRadius: BorderRadius.circular(999),
+                ),
+                child: Text(
+                  _isLoading ? 'Loading...' : '${_allHymns.length} hymns',
+                  style: textTheme.labelMedium?.copyWith(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700,
                   ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 22),
+          Text(
+            _selectedCollection.title,
+            style: textTheme.bodyMedium?.copyWith(
+              color: Colors.white.withOpacity(0.8),
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            _selectedCollection.subtitle,
+            style: textTheme.headlineMedium?.copyWith(
+              color: Colors.white,
+              fontSize: 28,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildStateCard(
+    BuildContext context, {
+    required IconData icon,
+    required String title,
+    required String message,
+  }) {
+    final TextTheme textTheme = Theme.of(context).textTheme;
+
+    return HymnsSurfaceCard(
+      child: Column(
+        children: <Widget>[
+          Container(
+            width: 62,
+            height: 62,
+            decoration: BoxDecoration(
+              color: AppColors.accentCool,
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: Icon(
+              icon,
+              color: AppColors.primary,
+              size: 30,
+            ),
+          ),
+          const SizedBox(height: 16),
+          Text(
+            title,
+            style: textTheme.titleLarge?.copyWith(fontSize: 20),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 8),
+          Text(
+            message,
+            style: textTheme.bodyMedium,
+            textAlign: TextAlign.center,
           ),
         ],
       ),
