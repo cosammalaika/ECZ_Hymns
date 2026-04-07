@@ -2,7 +2,7 @@ name: ecz_hynms
 description: "A new Flutter project."
 publish_to: 'none' 
 
-version: 1.4.1+32
+version: 1.4.1+35
 
 environment:
   sdk: '>=3.2.5 <4.0.0'

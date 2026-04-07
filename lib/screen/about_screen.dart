@@ -5,6 +5,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../theme/app_theme.dart';
+import '../utils/share_position_origin.dart';
 import '../widgets/brand_wordmark.dart';
 import '../widgets/hymns_ui.dart';
 import '../widgets/theme_mode_toggle_button.dart';
@@ -18,6 +19,8 @@ class AboutScreen extends StatefulWidget {
 
 class _AboutScreenState extends State<AboutScreen> {
   late final Future<PackageInfo> _packageInfoFuture;
+  final GlobalKey _appBarShareButtonKey = GlobalKey();
+  final GlobalKey _ctaShareButtonKey = GlobalKey();
 
   @override
   void initState() {
@@ -25,9 +28,16 @@ class _AboutScreenState extends State<AboutScreen> {
     _packageInfoFuture = PackageInfo.fromPlatform();
   }
 
-  void _shareApp() {
-    Share.share(
-      'Tap into the serenity of hymns! Get Hymns Alive on the App Store and Google Play now. Experience the peace and joy in every note. 🎶 #HymnsAlive #DownloadNow',
+  Future<void> _shareApp(GlobalKey triggerKey) {
+    return SharePlus.instance.share(
+      ShareParams(
+        text:
+            'Tap into the serenity of hymns! Get Hymns Alive on the App Store and Google Play now. Experience the peace and joy in every note. 🎶 #HymnsAlive #DownloadNow',
+        sharePositionOrigin: sharePositionOriginForContext(
+          context,
+          triggerKey: triggerKey,
+        ),
+      ),
     );
   }
 
@@ -55,8 +65,9 @@ class _AboutScreenState extends State<AboutScreen> {
           Padding(
             padding: const EdgeInsets.only(right: 16),
             child: IconButton(
+              key: _appBarShareButtonKey,
               icon: const Icon(Icons.share_outlined),
-              onPressed: _shareApp,
+              onPressed: () => _shareApp(_appBarShareButtonKey),
             ),
           ),
         ],
@@ -196,7 +207,8 @@ class _AboutScreenState extends State<AboutScreen> {
                 ),
                 const SizedBox(height: 18),
                 FilledButton.icon(
-                  onPressed: _shareApp,
+                  key: _ctaShareButtonKey,
+                  onPressed: () => _shareApp(_ctaShareButtonKey),
                   icon: const Icon(Icons.ios_share_rounded),
                   label: const Text('Share Hymns Alive'),
                 ),

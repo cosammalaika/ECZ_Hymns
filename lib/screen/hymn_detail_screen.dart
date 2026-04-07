@@ -7,13 +7,12 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:cross_file/cross_file.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:share_plus/share_plus.dart';
 
 import '../data/hymnal_catalog.dart';
 import '../models/hymn.dart';
 import '../theme/app_theme.dart';
+import '../utils/share_position_origin.dart';
 import '../widgets/hymns_ui.dart';
 
 class HymnDetailScreen extends StatefulWidget {
@@ -33,13 +32,19 @@ class HymnDetailScreen extends StatefulWidget {
 class _HymnDetailScreenState extends State<HymnDetailScreen> {
   double fontSize = 18;
   final GlobalKey _globalKey = GlobalKey();
+  final GlobalKey _shareButtonKey = GlobalKey();
 
   Future<void> _captureAndSharePng() async {
     try {
+      final Rect sharePositionOrigin = sharePositionOriginForContext(
+        context,
+        triggerKey: _shareButtonKey,
+      );
+
       await Future.delayed(const Duration(milliseconds: 100));
 
-      final RenderRepaintBoundary boundary =
-          _globalKey.currentContext!.findRenderObject() as RenderRepaintBoundary;
+      final RenderRepaintBoundary boundary = _globalKey.currentContext!
+          .findRenderObject() as RenderRepaintBoundary;
       final ui.Image image = await boundary.toImage(pixelRatio: 3.0);
       final ByteData? byteData =
           await image.toByteData(format: ui.ImageByteFormat.png);
@@ -54,9 +59,12 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
 
       await imgFile.writeAsBytes(pngBytes);
 
-      await Share.shareXFiles(
-        <XFile>[XFile(imgFile.path)],
-        text: 'Let this hymn inspire you: ${widget.hymn.title}.',
+      await SharePlus.instance.share(
+        ShareParams(
+          files: <XFile>[XFile(imgFile.path)],
+          text: 'Let this hymn inspire you: ${widget.hymn.title}.',
+          sharePositionOrigin: sharePositionOrigin,
+        ),
       );
     } catch (e) {
       if (!mounted) {
@@ -95,7 +103,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               decoration: BoxDecoration(
                 color: ui.isDark
                     ? Color.alphaBlend(
-                        palette.primary.withOpacity(0.26),
+                        palette.primary.withValues(alpha: 0.26),
                         ui.surfaceSecondary,
                       )
                     : palette.accentCool,
@@ -158,8 +166,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       Text(
                         '${widget.collection.title} • ${widget.collection.subtitle}',
                         style: textTheme.bodyMedium?.copyWith(
-                          color: Colors.white.withOpacity(
-                            ui.isDark ? 0.86 : 0.8,
+                          color: Colors.white.withValues(
+                            alpha: ui.isDark ? 0.86 : 0.8,
                           ),
                         ),
                       ),
@@ -167,8 +175,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   ),
                 ),
                 const SizedBox(height: 20),
-                for (int index = 0; index < widget.hymn.verses.length; index++) ...<
-                    Widget>[
+                for (int index = 0;
+                    index < widget.hymn.verses.length;
+                    index++) ...<Widget>[
                   _buildVerseCard(
                     context,
                     palette: palette,
@@ -235,6 +244,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               const SizedBox(width: 8),
               Expanded(
                 child: FilledButton.icon(
+                  key: _shareButtonKey,
                   style: FilledButton.styleFrom(
                     backgroundColor: palette.primary,
                     foregroundColor: Colors.white,
@@ -261,7 +271,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     final TextTheme textTheme = Theme.of(context).textTheme;
     final Color versePillBackground = ui.isDark
         ? Color.alphaBlend(
-            palette.primary.withOpacity(0.24),
+            palette.primary.withValues(alpha: 0.24),
             ui.surfaceSecondary,
           )
         : palette.accentCool;
@@ -296,17 +306,20 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }) {
     final TextTheme textTheme = Theme.of(context).textTheme;
     final Color chorusBackground = ui.isDark
-        ? Color.alphaBlend(palette.accent.withOpacity(0.12), ui.surface)
+        ? Color.alphaBlend(
+            palette.accent.withValues(alpha: 0.12),
+            ui.surface,
+          )
         : palette.accentSoft;
     final Color chorusBorder = ui.isDark
-        ? palette.accent.withOpacity(0.34)
-        : palette.accent.withOpacity(0.75);
+        ? palette.accent.withValues(alpha: 0.34)
+        : palette.accent.withValues(alpha: 0.75);
     final Color chorusPillBackground = ui.isDark
         ? Color.alphaBlend(
-            palette.accent.withOpacity(0.18),
+            palette.accent.withValues(alpha: 0.18),
             ui.surfaceSecondary,
           )
-        : palette.accent.withOpacity(0.28);
+        : palette.accent.withValues(alpha: 0.28);
     final Color chorusTextColor =
         ui.isDark ? palette.accentSoft : palette.primaryDeep;
 
@@ -358,4 +371,3 @@ class _ReaderControlButton extends StatelessWidget {
     );
   }
 }
-
