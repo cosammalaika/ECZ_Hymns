@@ -83,7 +83,7 @@ const List<HymnalCollection> hymnals = <HymnalCollection>[
       shadow: Color(0x1C68803D),
     ),
     icon: Icons.library_music_rounded,
-    isAvailable: false,
+    // isAvailable: false,
   ),
   HymnalCollection(
     fileName: 'luvale',
@@ -99,7 +99,6 @@ const List<HymnalCollection> hymnals = <HymnalCollection>[
       shadow: Color(0x1CA97334),
     ),
     icon: Icons.import_contacts_rounded,
-    isAvailable: false,
   ),
   HymnalCollection(
     fileName: 'bemba',
