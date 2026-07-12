@@ -67,14 +67,24 @@ class _HymnalOptionCard extends StatelessWidget {
     final TextTheme textTheme = Theme.of(context).textTheme;
     final HymnsUiPalette ui = context.hymnsPalette;
     final bool isEnabled = collection.isAvailable;
-    final Color optionIconBackground = collection.accentColor.withOpacity(
-      ui.isDark ? 0.22 : 0.12,
+    final Color selectedCardBackground = ui.isDark
+        ? Color.alphaBlend(
+            collection.palette.primary.withValues(alpha: 0.18),
+            ui.surfaceSecondary,
+          )
+        : ui.surfaceSecondary;
+    final Color optionIconBackground = collection.accentColor.withValues(
+      alpha: ui.isDark ? 0.22 : 0.12,
     );
     final Color unavailablePillBackground = ui.isDark
-        ? Color.alphaBlend(collection.accentColor.withOpacity(0.18), ui.surfaceSecondary)
+        ? Color.alphaBlend(
+            collection.accentColor.withValues(alpha: 0.18),
+            ui.surfaceSecondary,
+          )
         : collection.palette.accentSoft;
-    final Color unavailablePillText =
-        ui.isDark ? collection.palette.accentSoft : collection.palette.primaryDeep;
+    final Color unavailablePillText = ui.isDark
+        ? collection.palette.accentSoft
+        : collection.palette.primaryDeep;
 
     return Opacity(
       opacity: isEnabled ? 1 : 0.7,
@@ -82,9 +92,10 @@ class _HymnalOptionCard extends StatelessWidget {
         onTap: isEnabled
             ? () => Navigator.of(context).pop(collection.fileName)
             : null,
+        color: isSelected ? selectedCardBackground : null,
         borderSide: BorderSide(
-          color: isSelected ? collection.accentColor : ui.outline,
-          width: isSelected ? 1.5 : 1,
+          color: ui.outline,
+          width: 1,
         ),
         child: Row(
           children: <Widget>[
